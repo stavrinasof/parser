@@ -1,0 +1,1390 @@
+{:ok,
+ %{
+   "Incidents" => %{
+     "Incident" => [
+       %{
+         "description" => "Second half started",
+         "incident_id" => "101589900",
+         "inplay_period" => "second_half",
+         "inplay_period_mins" => "1",
+         "inplay_total_mins" => "46",
+         "time" => "2018-03-28T09:38:43",
+         "type" => "PBEG"
+       },
+       %{
+         "description" => "First half ended",
+         "incident_id" => "101589355",
+         "inplay_period" => "half_time",
+         "inplay_period_mins" => "46",
+         "inplay_total_mins" => "46",
+         "time" => "2018-03-28T09:22:02",
+         "type" => "PEND"
+       },
+       %{
+         "description" => "0-1 Oakleigh Cannons",
+         "incident_id" => "101588371",
+         "inplay_period" => "first_half",
+         "inplay_period_mins" => "17",
+         "inplay_total_mins" => "17",
+         "team_id" => "114960",
+         "time" => "2018-03-28T08:52:33",
+         "type" => "GOAL"
+       },
+       %{
+         "incident_id" => "101587939",
+         "inplay_period" => "first_half",
+         "inplay_period_mins" => "1",
+         "inplay_total_mins" => "1",
+         "time" => "2018-03-28T08:36:19",
+         "type" => "SYNC"
+       },
+       %{
+         "incident_id" => "101587932",
+         "inplay_period" => "first_half",
+         "inplay_period_mins" => "4",
+         "inplay_total_mins" => "4",
+         "time" => "2018-03-28T08:36:12",
+         "type" => "SYNC"
+       },
+       %{
+         "incident_id" => "101587790",
+         "inplay_period" => "first_half",
+         "inplay_period_mins" => "2",
+         "inplay_total_mins" => "2",
+         "time" => "2018-03-28T08:31:00",
+         "type" => "SYNC"
+       },
+       %{
+         "description" => "First half started",
+         "incident_id" => "101587759",
+         "inplay_period" => "first_half",
+         "inplay_period_mins" => "1",
+         "inplay_total_mins" => "1",
+         "time" => "2018-03-28T08:30:13",
+         "type" => "PBEG"
+       },
+       %{
+         "description" => "Match Started",
+         "incident_id" => "101587758",
+         "inplay_period" => "match_started",
+         "inplay_period_mins" => "1",
+         "inplay_total_mins" => "1",
+         "time" => "2018-03-28T08:30:13",
+         "type" => "EBEG"
+       }
+     ]
+   },
+   "Inplay" => %{
+     "Scores" => %{
+       "PeriodScore" => [
+         %{
+           "period" => "1",
+           "score_a" => "0",
+           "score_b" => "1",
+           "score_string" => "0-1"
+         },
+         %{
+           "period" => "2",
+           "score_a" => "0",
+           "score_b" => "1",
+           "score_string" => "0-1"
+         }
+       ]
+     },
+     "clock_mode" => "FORWARD",
+     "clock_status" => "TICKING",
+     "correct_at" => "2018-03-28T09:58:32",
+     "extra_period_length" => "900",
+     "inplay_period" => "second_half",
+     "inplay_period_finished" => "N",
+     "inplay_period_name" => "Second Half",
+     "inplay_period_name_short" => "PERIOD_second_half_SHORT",
+     "inplay_period_num" => "2",
+     "inplay_secs" => "3889",
+     "last_change" => "2018-03-28T09:51:11",
+     "num_extra_periods" => "2",
+     "num_periods" => "2",
+     "period_length" => "2700",
+     "score_a" => "0",
+     "score_b" => "1",
+     "score_string" => "0-1",
+     "scoring_system" => "match"
+   },
+   "InplayDetail" => %{
+     "period_length_mins" => "45",
+     "period_start" => "2018-03-28T09:38:43",
+     "period_stoppage_secs" => "0",
+     "score_team_A" => "0",
+     "score_team_B" => "1"
+   },
+   "Mkt" => [
+     %{
+       "Seln" => [
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2NzkzOjMzLzE6OjA",
+             "dec_prc" => "34.00",
+             "frac_prc" => "33/1",
+             "last_change" => "2018-03-28T09:56:47",
+             "prc_type" => "LP",
+             "us_prc" => "+3300"
+           },
+           "disporder" => "1",
+           "name" => "Eastern Lions",
+           "seln_id" => "484026793",
+           "seln_sort" => "H",
+           "status" => "A",
+           "team_id" => "118360"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2NzkyOjEzLzI6OjA",
+             "dec_prc" => "7.50",
+             "frac_prc" => "13/2",
+             "last_change" => "2018-03-28T09:56:47",
+             "prc_type" => "LP",
+             "us_prc" => "+650"
+           },
+           "disporder" => "3",
+           "name" => "Draw",
+           "seln_id" => "484026792",
+           "seln_sort" => "D",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2NzkxOjkvMTAwOjow",
+             "dec_prc" => "1.09",
+             "frac_prc" => "9/100",
+             "last_change" => "2018-03-28T09:56:47",
+             "prc_type" => "LP",
+             "us_prc" => "-1112"
+           },
+           "disporder" => "5",
+           "name" => "Oakleigh Cannons",
+           "seln_id" => "484026791",
+           "seln_sort" => "A",
+           "status" => "A",
+           "team_id" => "114960"
+         }
+       ],
+       "allow_cash_out" => "Y",
+       "allow_cash_out_inplay" => "Y",
+       "allow_cash_out_pre_ev" => "Y",
+       "displayed" => "Y",
+       "disporder" => "-9999",
+       "inplay_avail" => "Y",
+       "lp_avail" => "Y",
+       "mkt_id" => "98399030",
+       "mkt_sort" => "MRES",
+       "mkt_sort_name" => "Matches",
+       "name" => "Full Time Result",
+       "sp_avail" => "N",
+       "status" => "A"
+     },
+     %{
+       "Seln" => [
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MzQ1MjQwOjE3LzI6OjA",
+             "dec_prc" => "9.50",
+             "frac_prc" => "17/2",
+             "last_change" => "2018-03-28T09:58:07",
+             "prc_type" => "LP",
+             "us_prc" => "+850"
+           },
+           "disporder" => "0",
+           "name" => "Eastern Lions",
+           "seln_id" => "484345240",
+           "seln_sort" => "H",
+           "status" => "A",
+           "team_id" => "118360"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MzQ1MjM5OjEvMjU6OjA",
+             "dec_prc" => "1.04",
+             "frac_prc" => "1/25",
+             "last_change" => "2018-03-28T09:58:07",
+             "prc_type" => "LP",
+             "us_prc" => "-2500"
+           },
+           "disporder" => "1",
+           "name" => "Oakleigh Cannons",
+           "seln_id" => "484345239",
+           "seln_sort" => "A",
+           "status" => "A",
+           "team_id" => "114960"
+         }
+       ],
+       "allow_cash_out" => "Y",
+       "allow_cash_out_inplay" => "Y",
+       "allow_cash_out_pre_ev" => "Y",
+       "displayed" => "Y",
+       "disporder" => "-9966",
+       "inplay_avail" => "Y",
+       "lp_avail" => "Y",
+       "mkt_id" => "98487372",
+       "mkt_sort" => "QUAL",
+       "mkt_sort_name" => "To Qualify",
+       "name" => "To Qualify",
+       "sp_avail" => "N",
+       "status" => "A"
+     },
+     %{
+       "Seln" => [
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MzQ1MjQ3OjMzLzE6OjA",
+             "dec_prc" => "34.00",
+             "frac_prc" => "33/1",
+             "last_change" => "2018-03-28T09:56:47",
+             "prc_type" => "LP",
+             "us_prc" => "+3300"
+           },
+           "disporder" => "1",
+           "name" => "Eastern Lions in Normal Time",
+           "seln_id" => "484345247",
+           "seln_sort" => "HNT",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MzQ1MjQ0OjkvMTAwOjow",
+             "dec_prc" => "1.09",
+             "frac_prc" => "9/100",
+             "last_change" => "2018-03-28T09:56:47",
+             "prc_type" => "LP",
+             "us_prc" => "-1112"
+           },
+           "disporder" => "2",
+           "name" => "Oakleigh Cannons in Normal Time",
+           "seln_id" => "484345244",
+           "seln_sort" => "ANT",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MzQ1MjQ2OjMwLzE6OjA",
+             "dec_prc" => "31.00",
+             "frac_prc" => "30/1",
+             "last_change" => "2018-03-28T09:58:07",
+             "prc_type" => "LP",
+             "us_prc" => "+3000"
+           },
+           "disporder" => "3",
+           "name" => "Eastern Lions in Extra Time",
+           "seln_id" => "484345246",
+           "seln_sort" => "HET",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MzQ1MjQzOjM3LzI6OjA",
+             "dec_prc" => "19.50",
+             "frac_prc" => "37/2",
+             "last_change" => "2018-03-28T09:58:17",
+             "prc_type" => "LP",
+             "us_prc" => "+1850"
+           },
+           "disporder" => "4",
+           "name" => "Oakleigh Cannons in Extra Time",
+           "seln_id" => "484345243",
+           "seln_sort" => "AET",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MzQ1MjQ4OjUzLzI6OjA",
+             "dec_prc" => "27.50",
+             "frac_prc" => "53/2",
+             "last_change" => "2018-03-28T09:56:47",
+             "prc_type" => "LP",
+             "us_prc" => "+2650"
+           },
+           "disporder" => "5",
+           "name" => "Eastern Lions on Penalties",
+           "seln_id" => "484345248",
+           "seln_sort" => "HPE",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MzQ1MjQ1OjUzLzI6OjA",
+             "dec_prc" => "27.50",
+             "frac_prc" => "53/2",
+             "last_change" => "2018-03-28T09:56:47",
+             "prc_type" => "LP",
+             "us_prc" => "+2650"
+           },
+           "disporder" => "6",
+           "name" => "Oakleigh Cannons on Penalties",
+           "seln_id" => "484345245",
+           "seln_sort" => "APE",
+           "status" => "A"
+         }
+       ],
+       "allow_cash_out" => "Y",
+       "allow_cash_out_inplay" => "Y",
+       "allow_cash_out_pre_ev" => "Y",
+       "displayed" => "Y",
+       "disporder" => "-9965",
+       "inplay_avail" => "Y",
+       "lp_avail" => "Y",
+       "mkt_id" => "98487374",
+       "mkt_sort" => "MOFW",
+       "mkt_sort_name" => "MKT_SORT-MOFW",
+       "name" => "Method of Qualification",
+       "sp_avail" => "N",
+       "status" => "A"
+     },
+     %{
+       "Seln" => [
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MzQ1Mzk1OjMvMTA6Njow",
+             "dec_prc" => "1.30",
+             "frac_prc" => "3/10",
+             "last_change" => "2018-03-28T09:57:10",
+             "prc_type" => "LP",
+             "us_prc" => "-334"
+           },
+           "disporder" => "1",
+           "handicap" => "1.5",
+           "name" => "Over",
+           "seln_id" => "484345395",
+           "seln_sort" => "O",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MzQ1Mzk2OjQzLzIwOjY6MA",
+             "dec_prc" => "3.15",
+             "frac_prc" => "43/20",
+             "last_change" => "2018-03-28T09:58:23",
+             "prc_type" => "LP",
+             "us_prc" => "+215"
+           },
+           "disporder" => "2",
+           "handicap" => "1.5",
+           "name" => "Under",
+           "seln_id" => "484345396",
+           "seln_sort" => "U",
+           "status" => "A"
+         }
+       ],
+       "allow_cash_out" => "Y",
+       "allow_cash_out_inplay" => "Y",
+       "allow_cash_out_pre_ev" => "Y",
+       "displayed" => "Y",
+       "disporder" => "-9900",
+       "handicap" => "1.5",
+       "inplay_avail" => "Y",
+       "lp_avail" => "Y",
+       "mkt_id" => "98487424",
+       "mkt_sort" => "HCTG",
+       "mkt_sort_name" => "Handicap Total Goals",
+       "name" => "Under/Over Total Goals",
+       "sp_avail" => "N",
+       "status" => "A"
+     },
+     %{
+       "Seln" => [
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MzA3Njk0OjYvNDoxMDow",
+             "dec_prc" => "2.50",
+             "frac_prc" => "6/4",
+             "last_change" => "2018-03-28T09:58:23",
+             "prc_type" => "LP",
+             "us_prc" => "+150"
+           },
+           "disporder" => "1",
+           "handicap" => "2.5",
+           "name" => "Over",
+           "seln_id" => "484307694",
+           "seln_sort" => "O",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MzA3Njk1OjQ3LzEwMDoxMDow",
+             "dec_prc" => "1.47",
+             "frac_prc" => "47/100",
+             "last_change" => "2018-03-28T09:58:23",
+             "prc_type" => "LP",
+             "us_prc" => "-213"
+           },
+           "disporder" => "2",
+           "handicap" => "2.5",
+           "name" => "Under",
+           "seln_id" => "484307695",
+           "seln_sort" => "U",
+           "status" => "A"
+         }
+       ],
+       "allow_cash_out" => "Y",
+       "allow_cash_out_inplay" => "Y",
+       "allow_cash_out_pre_ev" => "Y",
+       "displayed" => "Y",
+       "disporder" => "-9900",
+       "handicap" => "2.5",
+       "inplay_avail" => "Y",
+       "lp_avail" => "Y",
+       "mkt_id" => "98476203",
+       "mkt_sort" => "HCTG",
+       "mkt_sort_name" => "Handicap Total Goals",
+       "name" => "Under/Over Total Goals",
+       "sp_avail" => "N",
+       "status" => "A"
+     },
+     %{
+       "Seln" => [
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MzQxODkxOjc3LzIwOjow",
+             "dec_prc" => "4.85",
+             "frac_prc" => "77/20",
+             "last_change" => "2018-03-28T09:58:13",
+             "prc_type" => "LP",
+             "us_prc" => "+385"
+           },
+           "disporder" => "1",
+           "name" => "Eastern Lions",
+           "seln_id" => "484341891",
+           "seln_sort" => "H",
+           "status" => "A",
+           "team_id" => "118360"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MzQxODkyOjQzLzIwOjow",
+             "dec_prc" => "3.15",
+             "frac_prc" => "43/20",
+             "last_change" => "2018-03-28T09:58:23",
+             "prc_type" => "LP",
+             "us_prc" => "+215"
+           },
+           "disporder" => "2",
+           "name" => "No Score",
+           "seln_id" => "484341892",
+           "seln_sort" => "N",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MzQxODkwOjcvMTA6OjA",
+             "dec_prc" => "1.70",
+             "frac_prc" => "7/10",
+             "last_change" => "2018-03-28T09:58:13",
+             "prc_type" => "LP",
+             "us_prc" => "-143"
+           },
+           "disporder" => "3",
+           "name" => "Oakleigh Cannons",
+           "seln_id" => "484341890",
+           "seln_sort" => "A",
+           "status" => "A",
+           "team_id" => "114960"
+         }
+       ],
+       "allow_cash_out" => "Y",
+       "allow_cash_out_inplay" => "Y",
+       "allow_cash_out_pre_ev" => "Y",
+       "displayed" => "Y",
+       "disporder" => "-9800",
+       "inplay_avail" => "Y",
+       "lp_avail" => "Y",
+       "mkt_extra" => "I002",
+       "mkt_id" => "98486208",
+       "mkt_sort" => "INTS",
+       "mkt_sort_name" => "Next Team to Score",
+       "name" => "Next Team to Score (Goal 2)",
+       "sp_avail" => "N",
+       "status" => "A"
+     },
+     %{
+       "Seln" => [
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODE2OjIzLzEwOjow",
+             "dec_prc" => "3.30",
+             "frac_prc" => "23/10",
+             "last_change" => "2018-03-28T09:58:07",
+             "prc_type" => "LP",
+             "us_prc" => "+230"
+           },
+           "disporder" => "1",
+           "name" => "Yes (GG)",
+           "seln_id" => "484026816",
+           "seln_sort" => "Y",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODE1OjIvNzo6MA",
+             "dec_prc" => "1.285",
+             "frac_prc" => "2/7",
+             "last_change" => "2018-03-28T09:58:07",
+             "prc_type" => "LP",
+             "us_prc" => "-350"
+           },
+           "disporder" => "2",
+           "name" => "No (NG)",
+           "seln_id" => "484026815",
+           "seln_sort" => "N",
+           "status" => "A"
+         }
+       ],
+       "allow_cash_out" => "Y",
+       "allow_cash_out_inplay" => "Y",
+       "allow_cash_out_pre_ev" => "Y",
+       "displayed" => "Y",
+       "disporder" => "-9300",
+       "inplay_avail" => "Y",
+       "lp_avail" => "Y",
+       "mkt_id" => "98399038",
+       "mkt_sort" => "BTSC",
+       "mkt_sort_name" => "Both Teams To Score In The Match",
+       "name" => "Both Teams to Score (Yes/No)",
+       "sp_avail" => "N",
+       "status" => "A"
+     },
+     %{
+       "Seln" => [
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2Nzg4OjIzLzQ6OjA",
+             "dec_prc" => "6.75",
+             "frac_prc" => "23/4",
+             "last_change" => "2018-03-28T09:58:07",
+             "prc_type" => "LP",
+             "us_prc" => "+575"
+           },
+           "disporder" => "0",
+           "name" => "1X",
+           "seln_id" => "484026788",
+           "seln_sort" => "HD",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2Nzg2OjEvMTI1Ojow",
+             "dec_prc" => "1.008",
+             "frac_prc" => "1/125",
+             "last_change" => "2018-03-28T09:58:07",
+             "prc_type" => "LP",
+             "us_prc" => "-12500"
+           },
+           "disporder" => "2",
+           "name" => "2X",
+           "seln_id" => "484026786",
+           "seln_sort" => "AD",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2Nzg3OjEvMTY6OjA",
+             "dec_prc" => "1.062",
+             "frac_prc" => "1/16",
+             "last_change" => "2018-03-28T09:58:07",
+             "prc_type" => "LP",
+             "us_prc" => "-1600"
+           },
+           "disporder" => "3",
+           "name" => "12",
+           "seln_id" => "484026787",
+           "seln_sort" => "HA",
+           "status" => "A"
+         }
+       ],
+       "allow_cash_out" => "Y",
+       "allow_cash_out_inplay" => "Y",
+       "allow_cash_out_pre_ev" => "Y",
+       "displayed" => "Y",
+       "disporder" => "-9200",
+       "inplay_avail" => "Y",
+       "lp_avail" => "Y",
+       "mkt_id" => "98399028",
+       "mkt_sort" => "DBLC",
+       "mkt_sort_name" => "Double Chance",
+       "name" => "Double Chance",
+       "sp_avail" => "N",
+       "status" => "A"
+     },
+     %{
+       "Seln" => [
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2NzkwOjEwLzE6OjA",
+             "dec_prc" => "11.00",
+             "frac_prc" => "10/1",
+             "last_change" => "2018-03-28T09:58:07",
+             "prc_type" => "LP",
+             "us_prc" => "+1000"
+           },
+           "disporder" => "0",
+           "name" => "Eastern Lions",
+           "seln_id" => "484026790",
+           "seln_sort" => "H",
+           "status" => "A",
+           "team_id" => "118360"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2Nzg5OjEvMTI1Ojow",
+             "dec_prc" => "1.008",
+             "frac_prc" => "1/125",
+             "last_change" => "2018-03-28T09:58:17",
+             "prc_type" => "LP",
+             "us_prc" => "-12500"
+           },
+           "disporder" => "1",
+           "name" => "Oakleigh Cannons",
+           "seln_id" => "484026789",
+           "seln_sort" => "A",
+           "status" => "A",
+           "team_id" => "114960"
+         }
+       ],
+       "allow_cash_out" => "N",
+       "allow_cash_out_inplay" => "N",
+       "allow_cash_out_pre_ev" => "N",
+       "displayed" => "Y",
+       "disporder" => "-9100",
+       "inplay_avail" => "Y",
+       "lp_avail" => "Y",
+       "mkt_id" => "98399029",
+       "mkt_sort" => "DNOB",
+       "mkt_sort_name" => "Draw No Bet",
+       "name" => "Draw No Bet",
+       "sp_avail" => "N",
+       "status" => "A"
+     },
+     %{
+       "Seln" => [
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODU3OjUwLzE6OjA",
+             "dec_prc" => "51.00",
+             "frac_prc" => "50/1",
+             "last_change" => "2018-03-28T09:58:07",
+             "prc_type" => "LP",
+             "us_prc" => "+5000"
+           },
+           "disporder" => "21",
+           "name" => "2-1",
+           "seln_id" => "484026857",
+           "seln_sort" => "2-1",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODY4OjI1MC8xOjow",
+             "dec_prc" => "251.00",
+             "frac_prc" => "250/1",
+             "last_change" => "2018-03-28T09:58:07",
+             "prc_type" => "LP",
+             "us_prc" => "+25000"
+           },
+           "disporder" => "31",
+           "name" => "3-1",
+           "seln_id" => "484026868",
+           "seln_sort" => "3-1",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODY5OjMwMC8xOjow",
+             "dec_prc" => "301.00",
+             "frac_prc" => "300/1",
+             "last_change" => "2018-03-28T09:58:23",
+             "prc_type" => "LP",
+             "us_prc" => "+30000"
+           },
+           "disporder" => "32",
+           "name" => "3-2",
+           "seln_id" => "484026869",
+           "seln_sort" => "3-2",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODQ2OjgvMTo6MA",
+             "dec_prc" => "9.00",
+             "frac_prc" => "8/1",
+             "last_change" => "2018-03-28T09:57:20",
+             "prc_type" => "LP",
+             "us_prc" => "+800"
+           },
+           "disporder" => "1011",
+           "name" => "1-1",
+           "seln_id" => "484026846",
+           "seln_sort" => "1-1",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODU4OjUwLzE6OjA",
+             "dec_prc" => "51.00",
+             "frac_prc" => "50/1",
+             "last_change" => "2018-03-28T09:58:07",
+             "prc_type" => "LP",
+             "us_prc" => "+5000"
+           },
+           "disporder" => "1022",
+           "name" => "2-2",
+           "seln_id" => "484026858",
+           "seln_sort" => "2-2",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODcwOjM1MC8xOjow",
+             "dec_prc" => "351.00",
+             "frac_prc" => "350/1",
+             "last_change" => "2018-03-28T09:56:17",
+             "prc_type" => "LP",
+             "us_prc" => "+35000"
+           },
+           "disporder" => "1033",
+           "name" => "3-3",
+           "seln_id" => "484026870",
+           "seln_sort" => "3-3",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODM1OjQzLzIwOjow",
+             "dec_prc" => "3.15",
+             "frac_prc" => "43/20",
+             "last_change" => "2018-03-28T09:58:23",
+             "prc_type" => "LP",
+             "us_prc" => "+215"
+           },
+           "disporder" => "2010",
+           "name" => "0-1",
+           "seln_id" => "484026835",
+           "seln_sort" => "0-1",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODM2OjIvMTo6MA",
+             "dec_prc" => "3.00",
+             "frac_prc" => "2/1",
+             "last_change" => "2018-03-28T09:58:23",
+             "prc_type" => "LP",
+             "us_prc" => "+200"
+           },
+           "disporder" => "2020",
+           "name" => "0-2",
+           "seln_id" => "484026836",
+           "seln_sort" => "0-2",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODQ3OjgvMTo6MA",
+             "dec_prc" => "9.00",
+             "frac_prc" => "8/1",
+             "last_change" => "2018-03-28T09:56:47",
+             "prc_type" => "LP",
+             "us_prc" => "+800"
+           },
+           "disporder" => "2021",
+           "name" => "1-2",
+           "seln_id" => "484026847",
+           "seln_sort" => "1-2",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODM3Ojk3LzIwOjow",
+             "dec_prc" => "5.85",
+             "frac_prc" => "97/20",
+             "last_change" => "2018-03-28T09:58:17",
+             "prc_type" => "LP",
+             "us_prc" => "+485"
+           },
+           "disporder" => "2030",
+           "name" => "0-3",
+           "seln_id" => "484026837",
+           "seln_sort" => "0-3",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODQ4OjMzLzI6OjA",
+             "dec_prc" => "17.50",
+             "frac_prc" => "33/2",
+             "last_change" => "2018-03-28T09:58:17",
+             "prc_type" => "LP",
+             "us_prc" => "+1650"
+           },
+           "disporder" => "2031",
+           "name" => "1-3",
+           "seln_id" => "484026848",
+           "seln_sort" => "1-3",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODU5OjkwLzE6OjA",
+             "dec_prc" => "91.00",
+             "frac_prc" => "90/1",
+             "last_change" => "2018-03-28T09:58:07",
+             "prc_type" => "LP",
+             "us_prc" => "+9000"
+           },
+           "disporder" => "2032",
+           "name" => "2-3",
+           "seln_id" => "484026859",
+           "seln_sort" => "2-3",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODM4OjYzLzQ6OjA",
+             "dec_prc" => "16.75",
+             "frac_prc" => "63/4",
+             "last_change" => "2018-03-28T09:58:17",
+             "prc_type" => "LP",
+             "us_prc" => "+1575"
+           },
+           "disporder" => "2040",
+           "name" => "0-4",
+           "seln_id" => "484026838",
+           "seln_sort" => "0-4",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODQ5OjUwLzE6OjA",
+             "dec_prc" => "51.00",
+             "frac_prc" => "50/1",
+             "last_change" => "2018-03-28T09:58:23",
+             "prc_type" => "LP",
+             "us_prc" => "+5000"
+           },
+           "disporder" => "2041",
+           "name" => "1-4",
+           "seln_id" => "484026849",
+           "seln_sort" => "1-4",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODYwOjIwMC8xOjow",
+             "dec_prc" => "201.00",
+             "frac_prc" => "200/1",
+             "last_change" => "2018-03-28T09:56:47",
+             "prc_type" => "LP",
+             "us_prc" => "+20000"
+           },
+           "disporder" => "2042",
+           "name" => "2-4",
+           "seln_id" => "484026860",
+           "seln_sort" => "2-4",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODcxOjQ1MC8xOjow",
+             "dec_prc" => "451.00",
+             "frac_prc" => "450/1",
+             "last_change" => "2018-03-28T09:56:17",
+             "prc_type" => "LP",
+             "us_prc" => "+45000"
+           },
+           "disporder" => "2043",
+           "name" => "3-4",
+           "seln_id" => "484026871",
+           "seln_sort" => "3-4",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODM5OjYwLzE6OjA",
+             "dec_prc" => "61.00",
+             "frac_prc" => "60/1",
+             "last_change" => "2018-03-28T09:58:17",
+             "prc_type" => "LP",
+             "us_prc" => "+6000"
+           },
+           "disporder" => "2050",
+           "name" => "0-5",
+           "seln_id" => "484026839",
+           "seln_sort" => "0-5",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODUwOjE1MC8xOjow",
+             "dec_prc" => "151.00",
+             "frac_prc" => "150/1",
+             "last_change" => "2018-03-28T09:58:17",
+             "prc_type" => "LP",
+             "us_prc" => "+15000"
+           },
+           "disporder" => "2051",
+           "name" => "1-5",
+           "seln_id" => "484026850",
+           "seln_sort" => "1-5",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODYxOjQwMC8xOjow",
+             "dec_prc" => "401.00",
+             "frac_prc" => "400/1",
+             "last_change" => "2018-03-28T09:58:23",
+             "prc_type" => "LP",
+             "us_prc" => "+40000"
+           },
+           "disporder" => "2052",
+           "name" => "2-5",
+           "seln_id" => "484026861",
+           "seln_sort" => "2-5",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODQwOjIwMC8xOjow",
+             "dec_prc" => "201.00",
+             "frac_prc" => "200/1",
+             "last_change" => "2018-03-28T09:57:10",
+             "prc_type" => "LP",
+             "us_prc" => "+20000"
+           },
+           "disporder" => "2060",
+           "name" => "0-6",
+           "seln_id" => "484026840",
+           "seln_sort" => "0-6",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODUxOjM1MC8xOjow",
+             "dec_prc" => "351.00",
+             "frac_prc" => "350/1",
+             "last_change" => "2018-03-28T09:56:17",
+             "prc_type" => "LP",
+             "us_prc" => "+35000"
+           },
+           "disporder" => "2061",
+           "name" => "1-6",
+           "seln_id" => "484026851",
+           "seln_sort" => "1-6",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODQxOjQwMC8xOjow",
+             "dec_prc" => "401.00",
+             "frac_prc" => "400/1",
+             "last_change" => "2018-03-28T09:56:17",
+             "prc_type" => "LP",
+             "us_prc" => "+40000"
+           },
+           "disporder" => "2070",
+           "name" => "0-7",
+           "seln_id" => "484026841",
+           "seln_sort" => "0-7",
+           "status" => "A"
+         }
+       ],
+       "allow_cash_out" => "Y",
+       "allow_cash_out_inplay" => "Y",
+       "allow_cash_out_pre_ev" => "Y",
+       "displayed" => "Y",
+       "disporder" => "-8900",
+       "inplay_avail" => "Y",
+       "lp_avail" => "Y",
+       "mkt_id" => "98399043",
+       "mkt_sort" => "CSFT",
+       "mkt_sort_name" => "Correct Score",
+       "name" => "Correct Score",
+       "sp_avail" => "N",
+       "status" => "A"
+     },
+     %{
+       "Seln" => [
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MzIxMTU3OjkzLzEwMDo4OjA",
+             "dec_prc" => "1.93",
+             "frac_prc" => "93/100",
+             "last_change" => "2018-03-28T09:58:23",
+             "prc_type" => "LP",
+             "us_prc" => "-108"
+           },
+           "disporder" => "-100",
+           "handicap" => "+2",
+           "name" => "Eastern Lions",
+           "seln_id" => "484321157",
+           "seln_sort" => "1",
+           "status" => "A",
+           "team_id" => "118360"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MzIxMTU5OjM3LzIwOjg6MA",
+             "dec_prc" => "2.85",
+             "frac_prc" => "37/20",
+             "last_change" => "2018-03-28T09:57:31",
+             "prc_type" => "LP",
+             "us_prc" => "+185"
+           },
+           "disporder" => "1",
+           "handicap" => "+2",
+           "name" => "Tie On Handicap",
+           "seln_id" => "484321159",
+           "seln_sort" => "T",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MzIxMTU4OjYzLzIwOjg6MA",
+             "dec_prc" => "4.15",
+             "frac_prc" => "63/20",
+             "last_change" => "2018-03-28T09:58:23",
+             "prc_type" => "LP",
+             "us_prc" => "+315"
+           },
+           "disporder" => "100",
+           "handicap" => "-2",
+           "name" => "Oakleigh Cannons",
+           "seln_id" => "484321158",
+           "seln_sort" => "2",
+           "status" => "A",
+           "team_id" => "114960"
+         }
+       ],
+       "allow_cash_out" => "Y",
+       "allow_cash_out_inplay" => "Y",
+       "allow_cash_out_pre_ev" => "Y",
+       "displayed" => "Y",
+       "disporder" => "-8800",
+       "handicap" => "+2",
+       "inplay_avail" => "Y",
+       "lp_avail" => "Y",
+       "mkt_id" => "98479774",
+       "mkt_sort" => "HCMR",
+       "mkt_sort_name" => "Handicap Match Result",
+       "name" => "Handicap Match Result",
+       "sp_avail" => "N",
+       "status" => "A"
+     },
+     %{
+       "Seln" => [
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODA4OjQzLzIwOjow",
+             "dec_prc" => "3.15",
+             "frac_prc" => "43/20",
+             "last_change" => "2018-03-28T09:58:23",
+             "prc_type" => "LP",
+             "us_prc" => "+215"
+           },
+           "disporder" => "0",
+           "name" => "0-1",
+           "seln_id" => "484026808",
+           "seln_sort" => "0-1",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODA5OjMvNTo6MA",
+             "dec_prc" => "1.60",
+             "frac_prc" => "3/5",
+             "last_change" => "2018-03-28T09:51:13",
+             "prc_type" => "LP",
+             "us_prc" => "-167"
+           },
+           "disporder" => "2",
+           "name" => "2-3",
+           "seln_id" => "484026809",
+           "seln_sort" => "2-3",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODEwOjk3LzIwOjow",
+             "dec_prc" => "5.85",
+             "frac_prc" => "97/20",
+             "last_change" => "2018-03-28T09:58:17",
+             "prc_type" => "LP",
+             "us_prc" => "+485"
+           },
+           "disporder" => "4",
+           "name" => "4-6",
+           "seln_id" => "484026810",
+           "seln_sort" => "4-6",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODExOjkwLzE6OjA",
+             "dec_prc" => "91.00",
+             "frac_prc" => "90/1",
+             "last_change" => "2018-03-28T09:56:58",
+             "prc_type" => "LP",
+             "us_prc" => "+9000"
+           },
+           "disporder" => "7",
+           "name" => "7+",
+           "seln_id" => "484026811",
+           "seln_sort" => "7-",
+           "status" => "A"
+         }
+       ],
+       "allow_cash_out" => "Y",
+       "allow_cash_out_inplay" => "Y",
+       "allow_cash_out_pre_ev" => "Y",
+       "displayed" => "Y",
+       "disporder" => "-7500",
+       "inplay_avail" => "Y",
+       "lp_avail" => "Y",
+       "mkt_id" => "98399036",
+       "mkt_sort" => "TOTG",
+       "mkt_sort_name" => "Total Goals",
+       "name" => "Total Goals",
+       "sp_avail" => "N",
+       "status" => "A"
+     },
+     %{
+       "Seln" => [
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MzIzNTc2OjIzLzEwOjI6MA",
+             "dec_prc" => "3.30",
+             "frac_prc" => "23/10",
+             "last_change" => "2018-03-28T09:58:07",
+             "prc_type" => "LP",
+             "us_prc" => "+230"
+           },
+           "disporder" => "1",
+           "handicap" => "0.5",
+           "name" => "Over",
+           "seln_id" => "484323576",
+           "seln_sort" => "O",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MzIzNTc3OjIvNzoyOjA",
+             "dec_prc" => "1.285",
+             "frac_prc" => "2/7",
+             "last_change" => "2018-03-28T09:58:07",
+             "prc_type" => "LP",
+             "us_prc" => "-350"
+           },
+           "disporder" => "2",
+           "handicap" => "0.5",
+           "name" => "Under",
+           "seln_id" => "484323577",
+           "seln_sort" => "U",
+           "status" => "A"
+         }
+       ],
+       "allow_cash_out" => "Y",
+       "allow_cash_out_inplay" => "Y",
+       "allow_cash_out_pre_ev" => "Y",
+       "displayed" => "Y",
+       "disporder" => "-7400",
+       "handicap" => "0.5",
+       "inplay_avail" => "Y",
+       "lp_avail" => "Y",
+       "mkt_id" => "98480735",
+       "mkt_sort" => "OUHG",
+       "mkt_sort_name" => "Over/Under Home Total Goals",
+       "name" => "Eastern Lions Under/Over Total Goals",
+       "sp_avail" => "N",
+       "status" => "A"
+     },
+     %{
+       "Seln" => [
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MzU1MDc0OjEvMjo2OjA",
+             "dec_prc" => "1.50",
+             "frac_prc" => "1/2",
+             "last_change" => "2018-03-28T09:58:13",
+             "prc_type" => "LP",
+             "us_prc" => "-200"
+           },
+           "disporder" => "-3",
+           "handicap" => "1.5",
+           "name" => "Over",
+           "seln_id" => "484355074",
+           "seln_sort" => "O",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MzU1MDc1OjcvNTo2OjA",
+             "dec_prc" => "2.40",
+             "frac_prc" => "7/5",
+             "last_change" => "2018-03-28T09:58:17",
+             "prc_type" => "LP",
+             "us_prc" => "+140"
+           },
+           "disporder" => "1",
+           "handicap" => "1.5",
+           "name" => "Under",
+           "seln_id" => "484355075",
+           "seln_sort" => "U",
+           "status" => "A"
+         }
+       ],
+       "allow_cash_out" => "Y",
+       "allow_cash_out_inplay" => "Y",
+       "allow_cash_out_pre_ev" => "Y",
+       "displayed" => "Y",
+       "disporder" => "-6901",
+       "handicap" => "1.5",
+       "inplay_avail" => "Y",
+       "lp_avail" => "Y",
+       "mkt_id" => "98490466",
+       "mkt_sort" => "OUAG",
+       "mkt_sort_name" => "Over/Under Away Total Goals",
+       "name" => "Oakleigh Cannons Under/Over Total Goals",
+       "sp_avail" => "N",
+       "status" => "A"
+     },
+     %{
+       "Seln" => [
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODA0OjgvMTE6OjA",
+             "dec_prc" => "1.727",
+             "frac_prc" => "8/11",
+             "last_change" => "2018-03-28T09:58:13",
+             "prc_type" => "LP",
+             "us_prc" => "-138"
+           },
+           "disporder" => "0",
+           "name" => "Odd",
+           "seln_id" => "484026804",
+           "seln_sort" => "O",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MDI2ODAzOjEvMTo6MA",
+             "dec_prc" => "2.00",
+             "frac_prc" => "1/1",
+             "last_change" => "2018-03-28T09:58:13",
+             "prc_type" => "LP",
+             "us_prc" => "+100"
+           },
+           "disporder" => "1",
+           "name" => "Even",
+           "seln_id" => "484026803",
+           "seln_sort" => "E",
+           "status" => "A"
+         }
+       ],
+       "allow_cash_out" => "Y",
+       "allow_cash_out_inplay" => "Y",
+       "allow_cash_out_pre_ev" => "Y",
+       "displayed" => "Y",
+       "disporder" => "-4600",
+       "inplay_avail" => "Y",
+       "lp_avail" => "Y",
+       "mkt_id" => "98399034",
+       "mkt_sort" => "ODEV",
+       "mkt_sort_name" => "Total Goals Odd/Even",
+       "name" => "Total Goals Odd/Even",
+       "sp_avail" => "N",
+       "status" => "A"
+     },
+     %{
+       "Seln" => [
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MzQ1MjQyOjQ3LzQ6OjA",
+             "dec_prc" => "12.75",
+             "frac_prc" => "47/4",
+             "last_change" => "2018-03-28T09:58:17",
+             "prc_type" => "LP",
+             "us_prc" => "+1175"
+           },
+           "disporder" => "-10",
+           "name" => "Yes",
+           "seln_id" => "484345242",
+           "seln_sort" => "Y",
+           "status" => "A"
+         },
+         %{
+           "Price" => %{
+             "bet_ref" => "NDg0MzQ1MjQxOjEvNDA6OjA",
+             "dec_prc" => "1.025",
+             "frac_prc" => "1/40",
+             "last_change" => "2018-03-28T09:56:47",
+             "prc_type" => "LP",
+             "us_prc" => "-4000"
+           },
+           "disporder" => "0",
+           "name" => "No",
+           "seln_id" => "484345241",
+           "seln_sort" => "N",
+           "status" => "A"
+         }
+       ],
+       "allow_cash_out" => "N",
+       "allow_cash_out_inplay" => "N",
+       "allow_cash_out_pre_ev" => "N",
+       "displayed" => "Y",
+       "disporder" => "-2200",
+       "inplay_avail" => "Y",
+       "lp_avail" => "Y",
+       "mkt_id" => "98487373",
+       "mkt_sort" => "MGTP",
+       "mkt_sort_name" => "Match to go to Penalties",
+       "name" => "Match to go to Penalties",
+       "sp_avail" => "N",
+       "status" => "A"
+     }
+   ],
+   "Stats" => %{
+     "Stat" => %{
+       "away" => "1",
+       "home" => "0",
+       "name" => "EV_STAT_GOAL",
+       "stat_type" => "GOAL",
+       "title" => "TEAM_STAT_GOAL",
+       "type" => "team"
+     }
+   },
+   "Teams" => %{
+     "Team" => [
+       %{
+         "name" => "Eastern Lions",
+         "short_name" => "Eastern Lions",
+         "team_id" => "118360",
+         "team_order" => "0"
+       },
+       %{
+         "name" => "Oakleigh Cannons",
+         "short_name" => "Oakleigh Cannons",
+         "team_id" => "114960",
+         "team_order" => "1"
+       }
+     ]
+   },
+   "allow_cash_out" => "Y",
+   "allow_cash_out_inplay" => "Y",
+   "allow_cash_out_pre_ev" => "Y",
+   "disporder" => "-12200",
+   "ev_id" => "1679643",
+   "ev_timezone" => "Europe/London",
+   "inplay_allowed" => "Y",
+   "inplay_now" => "Y",
+   "mkt_count" => "16",
+   "name" => "Eastern Lions v Oakleigh Cannons",
+   "start_time" => "2018-03-28T08:30:00",
+   "status" => "A",
+   "virtual" => "N"
+ }}

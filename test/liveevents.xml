@@ -1,0 +1,369 @@
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODAyOTQxMDc2OjQ6ZW4=" version="1.0" request="get_inplay_schedule">
+<Sport sport_code="FOOT" allow_cash_out="Y" name="Soccer" disporder="1">
+<SBClass sb_class_id="11321" disporder="-1" name="Australia">
+<SBType sb_type_id="17964" name="Brisbane Premier League Reserves" disporder="0">
+<Ev inplay_allowed="Y" status="A" name="Centenary Stormers II v Virginia United II" allow_cash_out="Y" start_time="2018-03-28T08:30:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="Y" inplay_now="Y" mkt_count="23" ev_id="1681569" disporder="-12200">
+<Inplay inplay_period_num="1" inplay_period_name_short="PERIOD_first_half_SHORT" clock_status="TICKING" period_length="2700" correct_at="2018-03-28T08:34:12" inplay_period_finished="N" extra_period_length="900" score_a="0" score_b="0" inplay_period_name="First Half" num_periods="2" clock_mode="FORWARD" inplay_period="first_half" num_extra_periods="2" score_string="0-0" scoring_system="match" last_change="2018-03-27T17:38:00" inplay_secs="31"/>
+<Teams>
+<Team team_id="1910567" team_order="0" name="Centenary Stormers II" short_name="Centenary Stormers II"/>
+<Team team_id="1914837" team_order="1" name="Virginia United II" short_name="Virginia United II"/>
+</Teams>
+<Mkt status="A" name="Full Time Result" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98449485" inplay_avail="Y" disporder="-9999" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="MRES" lp_avail="Y" mkt_sort_name="Matches">
+<Seln status="A" name="Centenary Stormers II" seln_id="484216535" team_id="1910567" disporder="1" seln_sort="H">
+<Price prc_type="LP" dec_prc="1.95" bet_ref="NDg0MjE2NTM1OjE5LzIwOjow" frac_prc="19/20" us_prc="-106" last_change="2018-03-28T08:34:07"/>
+</Seln>
+<Seln status="A" seln_id="484216534" seln_sort="D" name="Draw" disporder="3">
+<Price prc_type="LP" dec_prc="4.35" bet_ref="NDg0MjE2NTM0OjY3LzIwOjow" frac_prc="67/20" us_prc="+335" last_change="2018-03-28T08:33:47"/>
+</Seln>
+<Seln status="A" name="Virginia United II" seln_id="484216533" team_id="1914837" disporder="5" seln_sort="A">
+<Price prc_type="LP" dec_prc="2.95" bet_ref="NDg0MjE2NTMzOjM5LzIwOjow" frac_prc="39/20" us_prc="+195" last_change="2018-03-28T08:34:07"/>
+</Seln>
+</Mkt>
+</Ev>
+</SBType>
+<SBType sb_type_id="185678" name="FFA Cup - Preliminary Rounds" disporder="0">
+<Ev inplay_allowed="Y" status="A" name="Eastern Lions v Oakleigh Cannons" allow_cash_out="Y" start_time="2018-03-28T08:30:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="Y" inplay_now="Y" mkt_count="23" ev_id="1679643" disporder="-12200">
+<Inplay inplay_period_num="1" inplay_period_name_short="PERIOD_first_half_SHORT" clock_status="TICKING" period_length="2700" correct_at="2018-03-28T08:34:12" inplay_period_finished="N" extra_period_length="900" score_a="0" score_b="0" inplay_period_name="First Half" num_periods="2" clock_mode="FORWARD" inplay_period="first_half" num_extra_periods="2" score_string="0-0" scoring_system="match" last_change="2018-03-27T07:12:48" inplay_secs="252"/>
+<Teams>
+<Team team_id="118360" team_order="0" name="Eastern Lions" short_name="Eastern Lions"/>
+<Team team_id="114960" team_order="1" name="Oakleigh Cannons" short_name="Oakleigh Cannons"/>
+</Teams>
+<Mkt status="A" name="Full Time Result" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98399030" inplay_avail="Y" disporder="-9999" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="MRES" lp_avail="Y" mkt_sort_name="Matches">
+<Seln status="A" name="Eastern Lions" seln_id="484026793" team_id="118360" disporder="1" seln_sort="H">
+<Price prc_type="LP" dec_prc="6.20" bet_ref="NDg0MDI2NzkzOjI2LzU6OjA" frac_prc="26/5" us_prc="+520" last_change="2018-03-28T08:33:37"/>
+</Seln>
+<Seln status="A" seln_id="484026792" seln_sort="D" name="Draw" disporder="3">
+<Price prc_type="LP" dec_prc="5.40" bet_ref="NDg0MDI2NzkyOjIyLzU6OjA" frac_prc="22/5" us_prc="+440" last_change="2018-03-28T08:31:57"/>
+</Seln>
+<Seln status="A" name="Oakleigh Cannons" seln_id="484026791" team_id="114960" disporder="5" seln_sort="A">
+<Price prc_type="LP" dec_prc="1.363" bet_ref="NDg0MDI2NzkxOjQvMTE6OjA" frac_prc="4/11" us_prc="-275" last_change="2018-03-28T08:33:37"/>
+</Seln>
+</Mkt>
+</Ev>
+</SBType>
+<SBType sb_type_id="188071" name="NPL New South Wales (W)" disporder="0">
+<Ev inplay_allowed="Y" status="A" name="NSW Institute (W) v North West Sydney Koalas (W)" allow_cash_out="Y" start_time="2018-03-28T08:30:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="Y" inplay_now="Y" mkt_count="16" ev_id="1681570" disporder="-12100">
+<Inplay inplay_period_num="1" inplay_period_name_short="PERIOD_first_half_SHORT" clock_status="TICKING" period_length="2700" correct_at="2018-03-28T08:34:12" inplay_period_finished="N" extra_period_length="900" score_a="0" score_b="0" inplay_period_name="First Half" num_periods="2" clock_mode="FORWARD" inplay_period="first_half" num_extra_periods="2" score_string="0-0" scoring_system="match" last_change="2018-03-27T17:38:49" inplay_secs="253"/>
+<Teams>
+<Team team_id="1912399" team_order="0" name="NSW Institute (W)" short_name="NSW Institute (W)"/>
+<Team team_id="1905264" team_order="1" name="North West Sydney Koalas (W)" short_name="North West Sydney Koalas (W)"/>
+</Teams>
+<Mkt status="A" name="Full Time Result" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98449548" inplay_avail="Y" disporder="-9999" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="MRES" lp_avail="Y" mkt_sort_name="Matches">
+<Seln status="A" name="NSW Institute (W)" seln_id="484216810" team_id="1912399" disporder="1" seln_sort="H">
+<Price prc_type="LP" dec_prc="2.875" bet_ref="NDg0MjE2ODEwOjE1Lzg6OjA" frac_prc="15/8" us_prc="+187" last_change="2018-03-28T08:33:27"/>
+</Seln>
+<Seln status="A" seln_id="484216809" seln_sort="D" name="Draw" disporder="3">
+<Price prc_type="LP" dec_prc="4.00" bet_ref="NDg0MjE2ODA5OjMvMTo6MA" frac_prc="3/1" us_prc="+300" last_change="2018-03-28T08:31:07"/>
+</Seln>
+<Seln status="A" name="North West Sydney Koalas (W)" seln_id="484216808" team_id="1905264" disporder="5" seln_sort="A">
+<Price prc_type="LP" dec_prc="2.08" bet_ref="NDg0MjE2ODA4OjI3LzI1Ojow" frac_prc="27/25" us_prc="+108" last_change="2018-03-28T08:32:47"/>
+</Seln>
+</Mkt>
+</Ev>
+</SBType>
+</SBClass>
+</Sport>
+<Sport sport_code="BASK" allow_cash_out="Y" name="Basketball" disporder="2">
+<SBClass sb_class_id="10059" disporder="-1100" name="Russia">
+<SBType sb_type_id="184893" name="Superleague 1 - Women" disporder="-15">
+<Ev inplay_allowed="Y" status="A" name="Dynamo Novosibirsk B Women v Spartak St Petersburg Women" allow_cash_out="Y" start_time="2018-03-28T07:00:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="Y" inplay_now="Y" mkt_count="16" ev_id="1681703" disporder="-498">
+<EvDetail br_match_id="13880269"/>
+<Inplay inplay_period_num="4" inplay_period_name_short="Q4" clock_status="TICKING" period_length="600" correct_at="2018-03-28T08:34:12" inplay_period_finished="N" extra_period_length="300" score_a="43" score_b="59" inplay_period_name="4th Quarter" num_periods="4" clock_mode="BACKWARD" inplay_period="4_quarter" num_extra_periods="5" score_string="43-59" scoring_system="match" last_change="2018-03-28T08:33:12" inplay_secs="2084"/>
+<Teams>
+<Team team_id="1918010" team_order="0" name="Dynamo Novosibirsk B Women" short_name="Dynamo Novosibirsk B Women"/>
+<Team team_id="1915449" team_order="1" name="Spartak St Petersburg Women" short_name="Spartak St Petersburg Women"/>
+</Teams>
+<Mkt status="A" name="Handicap Match Result (including Overtime)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98483620" handicap="+14.5" inplay_avail="Y" disporder="-450" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FHOT" lp_avail="Y" mkt_sort_name="Alternate Handicap">
+<Seln status="A" name="Dynamo Novosibirsk B Women" handicap="+14.5" seln_id="484333092" team_id="1918010" disporder="0" seln_sort="1">
+<Price prc_type="LP" dec_prc="1.90" bet_ref="NDg0MzMzMDkyOjkvMTA6NTg6MA" frac_prc="9/10" us_prc="-112" last_change="2018-03-28T08:33:37"/>
+</Seln>
+<Seln status="A" name="Spartak St Petersburg Women" handicap="-14.5" seln_id="484333093" team_id="1915449" disporder="1" seln_sort="2">
+<Price prc_type="LP" dec_prc="1.80" bet_ref="NDg0MzMzMDkzOjQvNTo1ODow" frac_prc="4/5" us_prc="-125" last_change="2018-03-28T08:33:37"/>
+</Seln>
+</Mkt>
+</Ev>
+<Ev inplay_allowed="Y" status="A" name="Enisey Krasnoyarsk B' Women v Chevakata Women" allow_cash_out="Y" start_time="2018-03-28T08:00:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="Y" inplay_now="Y" mkt_count="11" ev_id="1681707" disporder="-498">
+<EvDetail br_match_id="14101391"/>
+<Inplay inplay_period_num="2" inplay_period_name_short="Q2" clock_status="TICKING" period_length="600" correct_at="2018-03-28T08:34:12" inplay_period_finished="N" extra_period_length="300" score_a="17" score_b="41" inplay_period_name="2nd Quarter" num_periods="4" clock_mode="BACKWARD" inplay_period="2_quarter" num_extra_periods="5" score_string="17-41" scoring_system="match" last_change="2018-03-28T08:33:59" inplay_secs="1037"/>
+<Teams>
+<Team team_id="1891027" team_order="0" name="Enisey Krasnoyarsk B' Women" short_name="Enisey Krasnoyarsk B' Women"/>
+<Team team_id="1888605" team_order="1" name="Chevakata Women" short_name="Chevakata Women"/>
+</Teams>
+<Mkt status="A" name="Handicap Match Result (including Overtime)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98484344" handicap="+34.5" inplay_avail="Y" disporder="-450" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FHOT" lp_avail="Y" mkt_sort_name="Alternate Handicap">
+<Seln status="A" name="Enisey Krasnoyarsk B' Women" handicap="+34.5" seln_id="484334876" team_id="1891027" disporder="0" seln_sort="1">
+<Price prc_type="LP" dec_prc="1.909" bet_ref="NDg0MzM0ODc2OjEwLzExOjEzODow" frac_prc="10/11" us_prc="-110" last_change="2018-03-28T08:34:06"/>
+</Seln>
+<Seln status="A" name="Chevakata Women" handicap="-34.5" seln_id="484334877" team_id="1888605" disporder="1" seln_sort="2">
+<Price prc_type="LP" dec_prc="1.80" bet_ref="NDg0MzM0ODc3OjQvNToxMzg6MA" frac_prc="4/5" us_prc="-125" last_change="2018-03-28T08:34:02"/>
+</Seln>
+</Mkt>
+</Ev>
+</SBType>
+</SBClass>
+<SBClass sb_class_id="188600" disporder="-1100" name="Georgia">
+<SBType sb_type_id="183093" name="Super League" disporder="-100">
+<Ev inplay_allowed="Y" status="A" name="BC Delta Marneuli v Energy Invest Rustavi" allow_cash_out="Y" start_time="2018-03-28T08:00:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="Y" inplay_now="Y" mkt_count="14" ev_id="1681706" disporder="-498">
+<EvDetail br_match_id="13704217"/>
+<Inplay inplay_period_num="2" inplay_period_name_short="Q2" clock_status="STOPPED" period_length="600" correct_at="2018-03-28T08:34:12" inplay_period_finished="N" extra_period_length="300" score_a="40" score_b="38" inplay_period_name="2nd Quarter" num_periods="4" clock_mode="BACKWARD" inplay_period="2_quarter" num_extra_periods="5" score_string="40-38" scoring_system="match" last_change="2018-03-28T08:31:13" inplay_secs="1031"/>
+<Teams>
+<Team team_id="1916171" team_order="0" name="BC Delta Marneuli" short_name="BC Delta Marneuli"/>
+<Team team_id="1892459" team_order="1" name="Energy Invest Rustavi" short_name="Energy Invest Rustavi"/>
+</Teams>
+<Mkt status="A" name="Head to Head" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98454024" inplay_avail="Y" disporder="-500" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="H2HT" lp_avail="Y" mkt_sort_name="Head to head">
+<Seln status="A" name="BC Delta Marneuli" seln_id="484232029" team_id="1916171" disporder="0" seln_sort="P1">
+<Price prc_type="LP" dec_prc="1.26" bet_ref="NDg0MjMyMDI5OjEzLzUwOjow" frac_prc="13/50" us_prc="-385" last_change="2018-03-28T08:33:42"/>
+</Seln>
+<Seln status="A" name="Energy Invest Rustavi" seln_id="484232030" team_id="1892459" disporder="1" seln_sort="P2">
+<Price prc_type="LP" dec_prc="3.60" bet_ref="NDg0MjMyMDMwOjEzLzU6OjA" frac_prc="13/5" us_prc="+260" last_change="2018-03-28T08:33:42"/>
+</Seln>
+</Mkt>
+</Ev>
+</SBType>
+</SBClass>
+</Sport>
+<Sport sport_code="TENN" allow_cash_out="Y" name="Tennis" disporder="3">
+<SBClass sb_class_id="10009" disporder="0" name="ITF Men">
+<SBType sb_type_id="17918" name="Turkey" disporder="0">
+<Ev inplay_allowed="Y" status="S" name="Peter Heller v Juan Pablo Paz" allow_cash_out="Y" start_time="2018-03-28T07:30:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="UTC" allow_cash_out_inplay="Y" inplay_now="Y" mkt_count="23" ev_id="1677337" disporder="4">
+<EvDetail br_match_id="14181991"/>
+<Inplay tennis_sets="3" inplay_period_num="2" inplay_period_name_short="PERIOD_live_SHORT" clock_status="TICKING" correct_at="2018-03-28T08:34:12" inplay_period_finished="N" score_a="1" score_b="0" inplay_period_name="Live" num_periods="3" clock_mode="FORWARD" inplay_period="live" score_string="1-0" scoring_system="game-set-match" last_change="2018-03-28T08:30:16" inplay_secs="3080"/>
+<Participant name="Peter Heller" full_name="Peter Heller">
+<Player player_id="1005679" first_name="Peter" last_name="Heller" name="Peter Heller" number="1"/>
+<MatchStats>
+<MatchStat name="current_game_score" value="0"/>
+<MatchStat name="current_set_games_won" value="0"/>
+<MatchStat name="sets_won" value="1"/>
+<MatchStat name="is_server" value="Y"/>
+<MatchStat name="set_1_games" value="6"/>
+</MatchStats>
+</Participant>
+<Participant name="Juan Pablo Paz" full_name="Juan Pablo Paz">
+<Player player_id="18894744" first_name="Juan Pablo" last_name="Paz" name="Juan Pablo Paz" number="2"/>
+<MatchStats>
+<MatchStat name="current_game_score" value="0"/>
+<MatchStat name="current_set_games_won" value="0"/>
+<MatchStat name="sets_won" value="0"/>
+<MatchStat name="is_server" value="N"/>
+<MatchStat name="set_1_games" value="3"/>
+</MatchStats>
+</Participant>
+<Mkt status="A" name="Match Head to Head" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98359823" inplay_avail="Y" disporder="1" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HTOH" lp_avail="Y" mkt_sort_name="Head to head">
+<Seln status="A" name="Peter Heller" seln_id="483896909" disporder="10" player_id="1005679" seln_sort="P1">
+<Price prc_type="LP" dec_prc="1.15" bet_ref="NDgzODk2OTA5OjMvMjA6OjA" frac_prc="3/20" us_prc="-667" last_change="2018-03-28T08:32:01"/>
+</Seln>
+<Seln status="A" name="Juan Pablo Paz" seln_id="483896910" disporder="20" player_id="18894744" seln_sort="P2">
+<Price prc_type="LP" dec_prc="5.00" bet_ref="NDgzODk2OTEwOjQvMTo6MA" frac_prc="4/1" us_prc="+400" last_change="2018-03-28T08:32:01"/>
+</Seln>
+</Mkt>
+</Ev>
+</SBType>
+<SBType sb_type_id="183721" name="Japan, Doubles" disporder="0">
+<Ev inplay_allowed="Y" status="A" name="Shimizu Y / Watanuki Y v Moritani S / Takeuchi K" allow_cash_out="Y" start_time="2018-03-28T07:10:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="Y" inplay_now="Y" mkt_count="1" ev_id="1680473" disporder="5">
+<EvDetail br_match_id="14184455"/>
+<Inplay tennis_sets="3" inplay_period_num="3" inplay_period_name_short="PERIOD_live_SHORT" clock_status="TICKING" correct_at="2018-03-28T08:34:12" inplay_period_finished="N" score_a="1" score_b="1" inplay_period_name="Live" num_periods="3" clock_mode="FORWARD" inplay_period="live" score_string="1-1" scoring_system="game-set-match" last_change="2018-03-28T08:27:45" inplay_secs="4564"/>
+<Participant name="Shimizu Y / Watanuki Y" full_name="Shimizu Y / Watanuki Y">
+<Player first_name="Shimizu Y" last_name=" Watanuki Y" name="Shimizu Y / Watanuki Y" number="1" player_id="18949542" initials="S"/>
+<MatchStats>
+<MatchStat name="current_game_score" value="1"/>
+<MatchStat name="current_set_games_won" value="0"/>
+<MatchStat name="sets_won" value="1"/>
+<MatchStat name="is_server" value="Y"/>
+<MatchStat name="set_1_games" value="6"/>
+<MatchStat name="set_2_games" value="3"/>
+</MatchStats>
+</Participant>
+<Participant name="Moritani S / Takeuchi K" full_name="Moritani S / Takeuchi K">
+<Player player_id="18923071" last_name="Moritani S / Takeuchi K" name="Moritani S / Takeuchi K" number="2"/>
+<MatchStats>
+<MatchStat name="current_game_score" value="4"/>
+<MatchStat name="current_set_games_won" value="0"/>
+<MatchStat name="sets_won" value="1"/>
+<MatchStat name="is_server" value="N"/>
+<MatchStat name="set_1_games" value="4"/>
+<MatchStat name="set_2_games" value="6"/>
+</MatchStats>
+</Participant>
+<Mkt status="A" name="Match Head to Head" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98417141" inplay_avail="Y" disporder="1" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HTOH" lp_avail="Y" mkt_sort_name="Head to head">
+<Seln status="A" name="Shimizu Y / Watanuki Y" seln_id="484107113" disporder="10" player_id="18949542" seln_sort="P1">
+<Price prc_type="LP" dec_prc="4.45" bet_ref="NDg0MTA3MTEzOjY5LzIwOjow" frac_prc="69/20" us_prc="+345" last_change="2018-03-28T08:34:02"/>
+</Seln>
+<Seln status="A" name="Moritani S / Takeuchi K" seln_id="484107114" disporder="20" player_id="18923071" seln_sort="P2">
+<Price prc_type="LP" dec_prc="1.181" bet_ref="NDg0MTA3MTE0OjIvMTE6OjA" frac_prc="2/11" us_prc="-550" last_change="2018-03-28T08:34:02"/>
+</Seln>
+</Mkt>
+</Ev>
+</SBType>
+</SBClass>
+<SBClass sb_class_id="11400" disporder="0" name="ITF Women">
+<SBType sb_type_id="17696" name="Greece" disporder="-1">
+<Ev inplay_allowed="Y" status="A" name="Lisa Ponomar v Francesca Dorothea Ciutescu" allow_cash_out="Y" start_time="2018-03-28T06:00:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="UTC" allow_cash_out_inplay="Y" inplay_now="Y" mkt_count="12" ev_id="1677180" disporder="4">
+<EvDetail br_match_id="14182025"/>
+<Inplay tennis_sets="3" inplay_period_num="3" inplay_period_name_short="PERIOD_live_SHORT" clock_status="TICKING" correct_at="2018-03-28T08:34:12" inplay_period_finished="N" score_a="1" score_b="1" inplay_period_name="Live" num_periods="3" clock_mode="FORWARD" inplay_period="live" score_string="1-1" scoring_system="game-set-match" last_change="2018-03-28T08:09:19" inplay_secs="8416"/>
+<Participant name="Lisa Ponomar" full_name="Lisa Ponomar">
+<Player player_id="18895556" first_name="Lisa" last_name="Ponomar" name="Lisa Ponomar" number="1"/>
+<MatchStats>
+<MatchStat name="current_game_score" value="40"/>
+<MatchStat name="current_set_games_won" value="1"/>
+<MatchStat name="sets_won" value="1"/>
+<MatchStat name="is_server" value="N"/>
+<MatchStat name="set_1_games" value="5"/>
+<MatchStat name="set_2_games" value="6"/>
+</MatchStats>
+</Participant>
+<Participant name="Francesca Dorothea Ciutescu" full_name="Francesca Dorothea Ciutescu">
+<Player player_id="18906082" first_name="Francesca Dorothea" last_name="Ciutescu" name="Francesca Dorothea Ciutescu" number="2"/>
+<MatchStats>
+<MatchStat name="current_game_score" value="40"/>
+<MatchStat name="current_set_games_won" value="1"/>
+<MatchStat name="sets_won" value="1"/>
+<MatchStat name="is_server" value="Y"/>
+<MatchStat name="set_1_games" value="7"/>
+<MatchStat name="set_2_games" value="4"/>
+</MatchStats>
+</Participant>
+<Mkt status="A" name="Match Head to Head" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98353451" inplay_avail="Y" disporder="1" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HTOH" lp_avail="Y" mkt_sort_name="Head to head">
+<Seln status="A" name="Lisa Ponomar" seln_id="483874062" disporder="10" player_id="18895556" seln_sort="P1">
+<Price prc_type="LP" dec_prc="1.44" bet_ref="NDgzODc0MDYyOjExLzI1Ojow" frac_prc="11/25" us_prc="-228" last_change="2018-03-28T08:33:42"/>
+</Seln>
+<Seln status="A" name="Francesca Dorothea Ciutescu" seln_id="483874063" disporder="20" player_id="18906082" seln_sort="P2">
+<Price prc_type="LP" dec_prc="2.65" bet_ref="NDgzODc0MDYzOjMzLzIwOjow" frac_prc="33/20" us_prc="+165" last_change="2018-03-28T08:33:42"/>
+</Seln>
+</Mkt>
+</Ev>
+<Ev inplay_allowed="Y" status="A" name="Rita Maria Bentes De Oliveira Pinto v Ylena In-Albon" allow_cash_out="Y" start_time="2018-03-28T07:45:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="UTC" allow_cash_out_inplay="Y" inplay_now="Y" mkt_count="6" ev_id="1677181" disporder="4">
+<EvDetail br_match_id="14182017"/>
+<Inplay tennis_sets="3" inplay_period_num="2" inplay_period_name_short="PERIOD_live_SHORT" clock_status="TICKING" correct_at="2018-03-28T08:34:12" inplay_period_finished="N" score_a="0" score_b="1" inplay_period_name="Live" num_periods="3" clock_mode="FORWARD" inplay_period="live" score_string="0-1" scoring_system="game-set-match" last_change="2018-03-28T08:19:14" inplay_secs="2296"/>
+<Participant name="Rita Maria Bentes De Oliveira Pinto" full_name="Rita Maria Bentes De Oliveira Pinto">
+<Player player_id="18925049" first_name="Rita Maria" last_name="Bentes De Oliveira Pinto" name="Rita Maria Bentes De Oliveira Pinto" number="1"/>
+<MatchStats>
+<MatchStat name="current_game_score" value="0"/>
+<MatchStat name="current_set_games_won" value="0"/>
+<MatchStat name="sets_won" value="0"/>
+<MatchStat name="is_server" value="Y"/>
+<MatchStat name="set_1_games" value="0"/>
+</MatchStats>
+</Participant>
+<Participant name="Ylena In-Albon" full_name="Ylena In-Albon">
+<Player player_id="18897953" first_name="Ylena" last_name="In-Albon" name="Ylena In-Albon" number="2"/>
+<MatchStats>
+<MatchStat name="current_game_score" value="15"/>
+<MatchStat name="current_set_games_won" value="4"/>
+<MatchStat name="sets_won" value="1"/>
+<MatchStat name="is_server" value="N"/>
+<MatchStat name="set_1_games" value="6"/>
+</MatchStats>
+</Participant>
+<Mkt status="A" mkt_extra="S03" name="Set Race to 3 Games (Set 3)" allow_cash_out="N" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98482558" inplay_avail="Y" disporder="10" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="STR3" lp_avail="Y" mkt_sort_name="Set Race to 3 Games">
+<Seln status="A" name="Rita Maria Bentes De Oliveira Pinto" seln_id="484329614" disporder="10" player_id="18925049" seln_sort="P1">
+<Price prc_type="LP" dec_prc="8.00" bet_ref="NDg0MzI5NjE0OjcvMTo6MA" frac_prc="7/1" us_prc="+700" last_change="2018-03-28T08:23:21"/>
+</Seln>
+<Seln status="A" name="Ylena In-Albon" seln_id="484329615" disporder="20" player_id="18897953" seln_sort="P2">
+<Price prc_type="LP" dec_prc="1.05" bet_ref="NDg0MzI5NjE1OjEvMjA6OjA" frac_prc="1/20" us_prc="-2000" last_change="2018-03-28T08:23:21"/>
+</Seln>
+</Mkt>
+</Ev>
+</SBType>
+</SBClass>
+</Sport>
+<Sport sport_code="VOLL" allow_cash_out="Y" name="Volleyball" disporder="5">
+<SBClass sb_class_id="10005" disporder="-500" name="International">
+<SBType sb_type_id="183674" name="African Club Championship" disporder="0">
+<Ev inplay_allowed="Y" status="A" name="University v Police Club" allow_cash_out="Y" start_time="2018-03-28T08:00:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="Y" inplay_now="Y" mkt_count="19" ev_id="1681701" disporder="-999">
+<EvDetail br_match_id="14185627"/>
+<Inplay inplay_period_num="2" inplay_period_name_short="PERIOD_live_SHORT" clock_status="TICKING" correct_at="2018-03-28T08:34:12" inplay_period_finished="N" score_a="1" score_b="0" inplay_period_name="Live" num_periods="5" clock_mode="FORWARD" inplay_period="live" score_string="1-0" scoring_system="set-match" last_change="2018-03-28T08:24:14" inplay_secs="599"/>
+<Teams>
+<Team team_id="1921743" team_order="0" name="University" short_name="University"/>
+<Team team_id="1883363" team_order="1" name="Police Club" short_name="Police Club"/>
+</Teams>
+<Mkt status="A" name="Match Winner" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98453797" inplay_avail="Y" disporder="-100" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="H2HT" lp_avail="Y" mkt_sort_name="Head to head">
+<Seln status="A" name="University" seln_id="484231413" team_id="1921743" disporder="-1" seln_sort="P1">
+<Price prc_type="LP" dec_prc="1.10" bet_ref="NDg0MjMxNDEzOjEvMTA6OjA" frac_prc="1/10" us_prc="-1000" last_change="2018-03-28T08:34:01"/>
+</Seln>
+<Seln status="A" name="Police Club" seln_id="484231414" team_id="1883363" disporder="0" seln_sort="P2">
+<Price prc_type="LP" dec_prc="6.25" bet_ref="NDg0MjMxNDE0OjIxLzQ6OjA" frac_prc="21/4" us_prc="+525" last_change="2018-03-28T08:34:01"/>
+</Seln>
+</Mkt>
+</Ev>
+</SBType>
+</SBClass>
+</Sport>
+<Sport sport_code="ICEH" allow_cash_out="Y" name="Ice Hockey" disporder="22">
+<SBClass sb_class_id="11523" disporder="-1000" name="International">
+<SBType sb_type_id="189872" name="Asia Challenge Cup" disporder="0">
+<Ev inplay_allowed="Y" status="A" name="India v Macau" allow_cash_out="Y" start_time="2018-03-28T06:30:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="Y" inplay_now="Y" mkt_count="13" ev_id="1681683" disporder="-99">
+<EvDetail br_match_id="14184421"/>
+<Inplay inplay_period_num="3" inplay_period_name_short="Delayed" clock_status="STOPPED" period_length="1200" correct_at="2018-03-28T08:34:12" inplay_period_finished="N" extra_period_length="300" score_a="2" score_b="2" inplay_period_name="Delayed" num_periods="3" clock_mode="FORWARD" inplay_period="delay" num_extra_periods="1" score_string="2-2" scoring_system="match" last_change="2018-03-28T08:21:05" inplay_secs="3248"/>
+<Teams>
+<Team team_id="1918505" team_order="0" name="India" short_name="India"/>
+<Team team_id="1921641" team_order="1" name="Macau" short_name="Macau"/>
+</Teams>
+<Mkt status="A" name="Match Result (Team based)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98453681" inplay_avail="Y" disporder="-9999" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="MRES" lp_avail="Y" mkt_sort_name="Matches">
+<Seln status="A" name="India" seln_id="484230980" team_id="1918505" disporder="0" seln_sort="H">
+<Price prc_type="LP" dec_prc="6.20" bet_ref="NDg0MjMwOTgwOjI2LzU6OjA" frac_prc="26/5" us_prc="+520" last_change="2018-03-28T08:33:49"/>
+</Seln>
+<Seln status="A" seln_id="484230981" seln_sort="D" name="Draw" disporder="1">
+<Price prc_type="LP" dec_prc="1.40" bet_ref="NDg0MjMwOTgxOjIvNTo6MA" frac_prc="2/5" us_prc="-250" last_change="2018-03-28T08:33:37"/>
+</Seln>
+<Seln status="A" name="Macau" seln_id="484230982" team_id="1921641" disporder="2" seln_sort="A">
+<Price prc_type="LP" dec_prc="5.00" bet_ref="NDg0MjMwOTgyOjQvMTo6MA" frac_prc="4/1" us_prc="+400" last_change="2018-03-28T08:33:49"/>
+</Seln>
+</Mkt>
+</Ev>
+</SBType>
+</SBClass>
+</Sport>
+<Sport sport_code="HAND" allow_cash_out="Y" name="Handball" disporder="40">
+<SBClass sb_class_id="188589" disporder="0" name="Ukraine">
+<SBType sb_type_id="183007" name="Superleague" disporder="0">
+<Ev inplay_allowed="Y" status="A" name="Energetik-Naek Netishyn v Motor Zaporozhye" allow_cash_out="Y" start_time="2018-03-28T08:00:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="Y" inplay_now="Y" mkt_count="11" ev_id="1681700" disporder="1">
+<EvDetail br_match_id="12434032"/>
+<Inplay inplay_period_num="1" inplay_period_name_short="Intermission" clock_status="STOPPED" period_length="1800" correct_at="2018-03-28T08:34:12" inplay_period_finished="Y" extra_period_length="300" score_a="11" score_b="30" inplay_period_name="Intermission" num_periods="2" clock_mode="FORWARD" inplay_period="intermission" num_extra_periods="2" score_string="11-30" scoring_system="match" last_change="2018-03-28T08:30:46" inplay_secs="1800"/>
+<Teams>
+<Team team_id="1900768" team_order="0" name="Energetik-Naek Netishyn" short_name="Energetik-Naek Netishyn"/>
+<Team team_id="1881793" team_order="1" name="Motor Zaporozhye" short_name="Motor Zaporozhye"/>
+</Teams>
+<Mkt status="A" name="Under/Over Total Goals" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98483544" handicap="72.5" inplay_avail="Y" disporder="-980" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HCTG" lp_avail="Y" mkt_sort_name="Handicap Total Goals">
+<Seln status="A" name="Over" handicap="72.5" seln_id="484332844" disporder="-10" seln_sort="O">
+<Price prc_type="LP" dec_prc="1.533" bet_ref="NDg0MzMyODQ0OjgvMTU6MjkwOjA" frac_prc="8/15" us_prc="-188" last_change="2018-03-28T08:32:25"/>
+</Seln>
+<Seln status="A" name="Under" handicap="72.5" seln_id="484332843" disporder="0" seln_sort="U">
+<Price prc_type="LP" dec_prc="2.40" bet_ref="NDg0MzMyODQzOjcvNToyOTA6MA" frac_prc="7/5" us_prc="+140" last_change="2018-03-28T08:32:25"/>
+</Seln>
+</Mkt>
+</Ev>
+</SBType>
+</SBClass>
+</Sport>
+<Sport sport_code="TABL" allow_cash_out="N" name="Table Tennis" disporder="80">
+<SBClass sb_class_id="188527" disporder="1" name="International">
+<SBType sb_type_id="186626" name="Challenger Series" disporder="-10">
+<Ev inplay_allowed="Y" status="A" name="Gustavo Yokota v Hibiki Tazoe" allow_cash_out="N" start_time="2018-03-28T08:30:00" allow_cash_out_pre_ev="N" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="N" inplay_now="Y" mkt_count="14" ev_id="1681103" disporder="0">
+<EvDetail br_match_id="14145627"/>
+<Inplay inplay_period_num="2" inplay_period_name_short="PERIOD_live_SHORT" clock_status="TICKING" correct_at="2018-03-28T08:34:12" inplay_period_finished="N" score_a="0" score_b="0" inplay_period_name="Live" clock_mode="FORWARD" inplay_period="live" score_string="0-0" scoring_system="match" last_change="2018-03-27T17:47:20" inplay_secs="244"/>
+<Mkt status="A" name="Match Head to Head" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="98433845" inplay_avail="Y" disporder="-100" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="HTOH" lp_avail="Y" mkt_sort_name="Head to head">
+<Seln status="A" name="Gustavo Yokota" seln_id="484163540" disporder="0" player_id="18900114" seln_sort="P1">
+<Price prc_type="LP" dec_prc="3.70" bet_ref="NDg0MTYzNTQwOjI3LzEwOjow" frac_prc="27/10" us_prc="+270" last_change="2018-03-28T08:34:05"/>
+</Seln>
+<Seln status="A" name="Hibiki Tazoe" seln_id="484163541" disporder="1" player_id="18949548" seln_sort="P2">
+<Price prc_type="LP" dec_prc="1.25" bet_ref="NDg0MTYzNTQxOjEvNDo6MA" frac_prc="1/4" us_prc="-400" last_change="2018-03-28T08:34:05"/>
+</Seln>
+</Mkt>
+</Ev>
+</SBType>
+<SBType sb_type_id="189896" name="ITTF Challenge Spanish Open U21" disporder="0">
+<Ev inplay_allowed="Y" status="A" name="Soria Javier v Jon Ander Guerricabeitia" allow_cash_out="N" start_time="2018-03-28T08:05:00" allow_cash_out_pre_ev="N" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="N" inplay_now="Y" mkt_count="7" ev_id="1681782" disporder="0">
+<EvDetail br_match_id="14185969"/>
+<Inplay inplay_period_num="2" inplay_period_name_short="PERIOD_live_SHORT" clock_status="TICKING" correct_at="2018-03-28T08:34:12" inplay_period_finished="N" score_a="2" score_b="1" inplay_period_name="Live" clock_mode="FORWARD" inplay_period="live" score_string="2-1" scoring_system="match" last_change="2018-03-28T08:24:09" inplay_secs="1736"/>
+<Mkt status="A" name="Match Head to Head" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="98456207" inplay_avail="Y" disporder="-100" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="HTOH" lp_avail="Y" mkt_sort_name="Head to head">
+<Seln status="A" name="Soria Javier" seln_id="484239548" disporder="0" player_id="18942908" seln_sort="P1">
+<Price prc_type="LP" dec_prc="1.166" bet_ref="NDg0MjM5NTQ4OjEvNjo6MA" frac_prc="1/6" us_prc="-600" last_change="2018-03-28T08:33:55"/>
+</Seln>
+<Seln status="A" name="Jon Ander Guerricabeitia" seln_id="484239549" disporder="1" player_id="18949566" seln_sort="P2">
+<Price prc_type="LP" dec_prc="4.75" bet_ref="NDg0MjM5NTQ5OjE1LzQ6OjA" frac_prc="15/4" us_prc="+375" last_change="2018-03-28T08:33:55"/>
+</Seln>
+</Mkt>
+</Ev>
+</SBType>
+</SBClass>
+</Sport>
+</ContentAPI>

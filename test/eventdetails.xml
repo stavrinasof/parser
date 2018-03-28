@@ -1,0 +1,252 @@
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODAyOTc4NTY0OjQ6ZW4=" version="1.0" request="get_inplay_event_detail">
+<Sport sport_code="FOOT" allow_cash_out="Y" name="Soccer" disporder="1">
+<SBClass sb_class_id="11321" disporder="-1" name="Australia">
+<SBType sb_type_id="185678" name="FFA Cup - Preliminary Rounds" disporder="0">
+<Ev inplay_allowed="Y" status="A" name="Eastern Lions v Oakleigh Cannons" allow_cash_out="Y" start_time="2018-03-28T08:30:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="Y" inplay_now="Y" mkt_count="16" ev_id="1679643" disporder="-12200">
+<Inplay inplay_period_num="2" inplay_period_name_short="PERIOD_second_half_SHORT" clock_status="TICKING" period_length="2700" correct_at="2018-03-28T09:58:32" inplay_period_finished="N" extra_period_length="900" score_a="0" score_b="1" inplay_period_name="Second Half" num_periods="2" clock_mode="FORWARD" inplay_period="second_half" num_extra_periods="2" score_string="0-1" scoring_system="match" last_change="2018-03-28T09:51:11" inplay_secs="3889">
+<Scores>
+<PeriodScore score_a="0" score_b="1" score_string="0-1" period="1"/>
+<PeriodScore score_a="0" score_b="1" score_string="0-1" period="2"/>
+</Scores>
+</Inplay>
+<InplayDetail period_length_mins="45" period_start="2018-03-28T09:38:43" period_stoppage_secs="0" score_team_B="1" score_team_A="0"/>
+<Stats>
+<Stat name="EV_STAT_GOAL" title="TEAM_STAT_GOAL" type="team" away="1" home="0" stat_type="GOAL"/>
+</Stats>
+<Incidents>
+<Incident incident_id="101589900" description="Second half started" inplay_period_mins="1" inplay_total_mins="46" time="2018-03-28T09:38:43" inplay_period="second_half" type="PBEG"/>
+<Incident incident_id="101589355" description="First half ended" inplay_period_mins="46" inplay_total_mins="46" time="2018-03-28T09:22:02" inplay_period="half_time" type="PEND"/>
+<Incident incident_id="101588371" description="0-1 Oakleigh Cannons" inplay_period_mins="17" team_id="114960" inplay_total_mins="17" time="2018-03-28T08:52:33" inplay_period="first_half" type="GOAL"/>
+<Incident incident_id="101587939" inplay_period_mins="1" inplay_total_mins="1" time="2018-03-28T08:36:19" inplay_period="first_half" type="SYNC"/>
+<Incident incident_id="101587932" inplay_period_mins="4" inplay_total_mins="4" time="2018-03-28T08:36:12" inplay_period="first_half" type="SYNC"/>
+<Incident incident_id="101587790" inplay_period_mins="2" inplay_total_mins="2" time="2018-03-28T08:31:00" inplay_period="first_half" type="SYNC"/>
+<Incident incident_id="101587759" description="First half started" inplay_period_mins="1" inplay_total_mins="1" time="2018-03-28T08:30:13" inplay_period="first_half" type="PBEG"/>
+<Incident incident_id="101587758" description="Match Started" inplay_period_mins="1" inplay_total_mins="1" time="2018-03-28T08:30:13" inplay_period="match_started" type="EBEG"/>
+</Incidents>
+<Teams>
+<Team team_id="118360" team_order="0" name="Eastern Lions" short_name="Eastern Lions"/>
+<Team team_id="114960" team_order="1" name="Oakleigh Cannons" short_name="Oakleigh Cannons"/>
+</Teams>
+<Mkt status="A" name="Full Time Result" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98399030" inplay_avail="Y" disporder="-9999" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="MRES" lp_avail="Y" mkt_sort_name="Matches">
+<Seln status="A" name="Eastern Lions" seln_id="484026793" team_id="118360" disporder="1" seln_sort="H">
+<Price prc_type="LP" dec_prc="34.00" bet_ref="NDg0MDI2NzkzOjMzLzE6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-03-28T09:56:47"/>
+</Seln>
+<Seln status="A" seln_id="484026792" seln_sort="D" name="Draw" disporder="3">
+<Price prc_type="LP" dec_prc="7.50" bet_ref="NDg0MDI2NzkyOjEzLzI6OjA" frac_prc="13/2" us_prc="+650" last_change="2018-03-28T09:56:47"/>
+</Seln>
+<Seln status="A" name="Oakleigh Cannons" seln_id="484026791" team_id="114960" disporder="5" seln_sort="A">
+<Price prc_type="LP" dec_prc="1.09" bet_ref="NDg0MDI2NzkxOjkvMTAwOjow" frac_prc="9/100" us_prc="-1112" last_change="2018-03-28T09:56:47"/>
+</Seln>
+</Mkt>
+<Mkt status="A" name="To Qualify" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98487372" inplay_avail="Y" disporder="-9966" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="QUAL" lp_avail="Y" mkt_sort_name="To Qualify">
+<Seln status="A" name="Eastern Lions" seln_id="484345240" team_id="118360" disporder="0" seln_sort="H">
+<Price prc_type="LP" dec_prc="9.50" bet_ref="NDg0MzQ1MjQwOjE3LzI6OjA" frac_prc="17/2" us_prc="+850" last_change="2018-03-28T09:58:07"/>
+</Seln>
+<Seln status="A" name="Oakleigh Cannons" seln_id="484345239" team_id="114960" disporder="1" seln_sort="A">
+<Price prc_type="LP" dec_prc="1.04" bet_ref="NDg0MzQ1MjM5OjEvMjU6OjA" frac_prc="1/25" us_prc="-2500" last_change="2018-03-28T09:58:07"/>
+</Seln>
+</Mkt>
+<Mkt status="A" name="Method of Qualification" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98487374" inplay_avail="Y" disporder="-9965" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="MOFW" lp_avail="Y" mkt_sort_name="MKT_SORT-MOFW">
+<Seln status="A" seln_id="484345247" seln_sort="HNT" name="Eastern Lions in Normal Time" disporder="1">
+<Price prc_type="LP" dec_prc="34.00" bet_ref="NDg0MzQ1MjQ3OjMzLzE6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-03-28T09:56:47"/>
+</Seln>
+<Seln status="A" seln_id="484345244" seln_sort="ANT" name="Oakleigh Cannons in Normal Time" disporder="2">
+<Price prc_type="LP" dec_prc="1.09" bet_ref="NDg0MzQ1MjQ0OjkvMTAwOjow" frac_prc="9/100" us_prc="-1112" last_change="2018-03-28T09:56:47"/>
+</Seln>
+<Seln status="A" seln_id="484345246" seln_sort="HET" name="Eastern Lions in Extra Time" disporder="3">
+<Price prc_type="LP" dec_prc="31.00" bet_ref="NDg0MzQ1MjQ2OjMwLzE6OjA" frac_prc="30/1" us_prc="+3000" last_change="2018-03-28T09:58:07"/>
+</Seln>
+<Seln status="A" seln_id="484345243" seln_sort="AET" name="Oakleigh Cannons in Extra Time" disporder="4">
+<Price prc_type="LP" dec_prc="19.50" bet_ref="NDg0MzQ1MjQzOjM3LzI6OjA" frac_prc="37/2" us_prc="+1850" last_change="2018-03-28T09:58:17"/>
+</Seln>
+<Seln status="A" seln_id="484345248" seln_sort="HPE" name="Eastern Lions on Penalties" disporder="5">
+<Price prc_type="LP" dec_prc="27.50" bet_ref="NDg0MzQ1MjQ4OjUzLzI6OjA" frac_prc="53/2" us_prc="+2650" last_change="2018-03-28T09:56:47"/>
+</Seln>
+<Seln status="A" seln_id="484345245" seln_sort="APE" name="Oakleigh Cannons on Penalties" disporder="6">
+<Price prc_type="LP" dec_prc="27.50" bet_ref="NDg0MzQ1MjQ1OjUzLzI6OjA" frac_prc="53/2" us_prc="+2650" last_change="2018-03-28T09:56:47"/>
+</Seln>
+</Mkt>
+<Mkt status="A" name="Under/Over Total Goals" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98487424" handicap="1.5" inplay_avail="Y" disporder="-9900" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HCTG" lp_avail="Y" mkt_sort_name="Handicap Total Goals">
+<Seln status="A" name="Over" handicap="1.5" seln_id="484345395" disporder="1" seln_sort="O">
+<Price prc_type="LP" dec_prc="1.30" bet_ref="NDg0MzQ1Mzk1OjMvMTA6Njow" frac_prc="3/10" us_prc="-334" last_change="2018-03-28T09:57:10"/>
+</Seln>
+<Seln status="A" name="Under" handicap="1.5" seln_id="484345396" disporder="2" seln_sort="U">
+<Price prc_type="LP" dec_prc="3.15" bet_ref="NDg0MzQ1Mzk2OjQzLzIwOjY6MA" frac_prc="43/20" us_prc="+215" last_change="2018-03-28T09:58:23"/>
+</Seln>
+</Mkt>
+<Mkt status="A" name="Under/Over Total Goals" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98476203" handicap="2.5" inplay_avail="Y" disporder="-9900" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HCTG" lp_avail="Y" mkt_sort_name="Handicap Total Goals">
+<Seln status="A" name="Over" handicap="2.5" seln_id="484307694" disporder="1" seln_sort="O">
+<Price prc_type="LP" dec_prc="2.50" bet_ref="NDg0MzA3Njk0OjYvNDoxMDow" frac_prc="6/4" us_prc="+150" last_change="2018-03-28T09:58:23"/>
+</Seln>
+<Seln status="A" name="Under" handicap="2.5" seln_id="484307695" disporder="2" seln_sort="U">
+<Price prc_type="LP" dec_prc="1.47" bet_ref="NDg0MzA3Njk1OjQ3LzEwMDoxMDow" frac_prc="47/100" us_prc="-213" last_change="2018-03-28T09:58:23"/>
+</Seln>
+</Mkt>
+<Mkt status="A" mkt_extra="I002" name="Next Team to Score (Goal 2)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98486208" inplay_avail="Y" disporder="-9800" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="INTS" lp_avail="Y" mkt_sort_name="Next Team to Score">
+<Seln status="A" name="Eastern Lions" seln_id="484341891" team_id="118360" disporder="1" seln_sort="H">
+<Price prc_type="LP" dec_prc="4.85" bet_ref="NDg0MzQxODkxOjc3LzIwOjow" frac_prc="77/20" us_prc="+385" last_change="2018-03-28T09:58:13"/>
+</Seln>
+<Seln status="A" seln_id="484341892" seln_sort="N" name="No Score" disporder="2">
+<Price prc_type="LP" dec_prc="3.15" bet_ref="NDg0MzQxODkyOjQzLzIwOjow" frac_prc="43/20" us_prc="+215" last_change="2018-03-28T09:58:23"/>
+</Seln>
+<Seln status="A" name="Oakleigh Cannons" seln_id="484341890" team_id="114960" disporder="3" seln_sort="A">
+<Price prc_type="LP" dec_prc="1.70" bet_ref="NDg0MzQxODkwOjcvMTA6OjA" frac_prc="7/10" us_prc="-143" last_change="2018-03-28T09:58:13"/>
+</Seln>
+</Mkt>
+<Mkt status="A" name="Both Teams to Score (Yes/No)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98399038" inplay_avail="Y" disporder="-9300" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="BTSC" lp_avail="Y" mkt_sort_name="Both Teams To Score In The Match">
+<Seln status="A" seln_id="484026816" seln_sort="Y" name="Yes (GG)" disporder="1">
+<Price prc_type="LP" dec_prc="3.30" bet_ref="NDg0MDI2ODE2OjIzLzEwOjow" frac_prc="23/10" us_prc="+230" last_change="2018-03-28T09:58:07"/>
+</Seln>
+<Seln status="A" seln_id="484026815" seln_sort="N" name="No (NG)" disporder="2">
+<Price prc_type="LP" dec_prc="1.285" bet_ref="NDg0MDI2ODE1OjIvNzo6MA" frac_prc="2/7" us_prc="-350" last_change="2018-03-28T09:58:07"/>
+</Seln>
+</Mkt>
+<Mkt status="A" name="Double Chance" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98399028" inplay_avail="Y" disporder="-9200" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="DBLC" lp_avail="Y" mkt_sort_name="Double Chance">
+<Seln status="A" seln_id="484026788" seln_sort="HD" name="1X" disporder="0">
+<Price prc_type="LP" dec_prc="6.75" bet_ref="NDg0MDI2Nzg4OjIzLzQ6OjA" frac_prc="23/4" us_prc="+575" last_change="2018-03-28T09:58:07"/>
+</Seln>
+<Seln status="A" seln_id="484026786" seln_sort="AD" name="2X" disporder="2">
+<Price prc_type="LP" dec_prc="1.008" bet_ref="NDg0MDI2Nzg2OjEvMTI1Ojow" frac_prc="1/125" us_prc="-12500" last_change="2018-03-28T09:58:07"/>
+</Seln>
+<Seln status="A" seln_id="484026787" seln_sort="HA" name="12" disporder="3">
+<Price prc_type="LP" dec_prc="1.062" bet_ref="NDg0MDI2Nzg3OjEvMTY6OjA" frac_prc="1/16" us_prc="-1600" last_change="2018-03-28T09:58:07"/>
+</Seln>
+</Mkt>
+<Mkt status="A" name="Draw No Bet" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="98399029" inplay_avail="Y" disporder="-9100" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="DNOB" lp_avail="Y" mkt_sort_name="Draw No Bet">
+<Seln status="A" name="Eastern Lions" seln_id="484026790" team_id="118360" disporder="0" seln_sort="H">
+<Price prc_type="LP" dec_prc="11.00" bet_ref="NDg0MDI2NzkwOjEwLzE6OjA" frac_prc="10/1" us_prc="+1000" last_change="2018-03-28T09:58:07"/>
+</Seln>
+<Seln status="A" name="Oakleigh Cannons" seln_id="484026789" team_id="114960" disporder="1" seln_sort="A">
+<Price prc_type="LP" dec_prc="1.008" bet_ref="NDg0MDI2Nzg5OjEvMTI1Ojow" frac_prc="1/125" us_prc="-12500" last_change="2018-03-28T09:58:17"/>
+</Seln>
+</Mkt>
+<Mkt status="A" name="Correct Score" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98399043" inplay_avail="Y" disporder="-8900" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="CSFT" lp_avail="Y" mkt_sort_name="Correct Score">
+<Seln status="A" seln_id="484026857" seln_sort="2-1" name="2-1" disporder="21">
+<Price prc_type="LP" dec_prc="51.00" bet_ref="NDg0MDI2ODU3OjUwLzE6OjA" frac_prc="50/1" us_prc="+5000" last_change="2018-03-28T09:58:07"/>
+</Seln>
+<Seln status="A" seln_id="484026868" seln_sort="3-1" name="3-1" disporder="31">
+<Price prc_type="LP" dec_prc="251.00" bet_ref="NDg0MDI2ODY4OjI1MC8xOjow" frac_prc="250/1" us_prc="+25000" last_change="2018-03-28T09:58:07"/>
+</Seln>
+<Seln status="A" seln_id="484026869" seln_sort="3-2" name="3-2" disporder="32">
+<Price prc_type="LP" dec_prc="301.00" bet_ref="NDg0MDI2ODY5OjMwMC8xOjow" frac_prc="300/1" us_prc="+30000" last_change="2018-03-28T09:58:23"/>
+</Seln>
+<Seln status="A" seln_id="484026846" seln_sort="1-1" name="1-1" disporder="1011">
+<Price prc_type="LP" dec_prc="9.00" bet_ref="NDg0MDI2ODQ2OjgvMTo6MA" frac_prc="8/1" us_prc="+800" last_change="2018-03-28T09:57:20"/>
+</Seln>
+<Seln status="A" seln_id="484026858" seln_sort="2-2" name="2-2" disporder="1022">
+<Price prc_type="LP" dec_prc="51.00" bet_ref="NDg0MDI2ODU4OjUwLzE6OjA" frac_prc="50/1" us_prc="+5000" last_change="2018-03-28T09:58:07"/>
+</Seln>
+<Seln status="A" seln_id="484026870" seln_sort="3-3" name="3-3" disporder="1033">
+<Price prc_type="LP" dec_prc="351.00" bet_ref="NDg0MDI2ODcwOjM1MC8xOjow" frac_prc="350/1" us_prc="+35000" last_change="2018-03-28T09:56:17"/>
+</Seln>
+<Seln status="A" seln_id="484026835" seln_sort="0-1" name="0-1" disporder="2010">
+<Price prc_type="LP" dec_prc="3.15" bet_ref="NDg0MDI2ODM1OjQzLzIwOjow" frac_prc="43/20" us_prc="+215" last_change="2018-03-28T09:58:23"/>
+</Seln>
+<Seln status="A" seln_id="484026836" seln_sort="0-2" name="0-2" disporder="2020">
+<Price prc_type="LP" dec_prc="3.00" bet_ref="NDg0MDI2ODM2OjIvMTo6MA" frac_prc="2/1" us_prc="+200" last_change="2018-03-28T09:58:23"/>
+</Seln>
+<Seln status="A" seln_id="484026847" seln_sort="1-2" name="1-2" disporder="2021">
+<Price prc_type="LP" dec_prc="9.00" bet_ref="NDg0MDI2ODQ3OjgvMTo6MA" frac_prc="8/1" us_prc="+800" last_change="2018-03-28T09:56:47"/>
+</Seln>
+<Seln status="A" seln_id="484026837" seln_sort="0-3" name="0-3" disporder="2030">
+<Price prc_type="LP" dec_prc="5.85" bet_ref="NDg0MDI2ODM3Ojk3LzIwOjow" frac_prc="97/20" us_prc="+485" last_change="2018-03-28T09:58:17"/>
+</Seln>
+<Seln status="A" seln_id="484026848" seln_sort="1-3" name="1-3" disporder="2031">
+<Price prc_type="LP" dec_prc="17.50" bet_ref="NDg0MDI2ODQ4OjMzLzI6OjA" frac_prc="33/2" us_prc="+1650" last_change="2018-03-28T09:58:17"/>
+</Seln>
+<Seln status="A" seln_id="484026859" seln_sort="2-3" name="2-3" disporder="2032">
+<Price prc_type="LP" dec_prc="91.00" bet_ref="NDg0MDI2ODU5OjkwLzE6OjA" frac_prc="90/1" us_prc="+9000" last_change="2018-03-28T09:58:07"/>
+</Seln>
+<Seln status="A" seln_id="484026838" seln_sort="0-4" name="0-4" disporder="2040">
+<Price prc_type="LP" dec_prc="16.75" bet_ref="NDg0MDI2ODM4OjYzLzQ6OjA" frac_prc="63/4" us_prc="+1575" last_change="2018-03-28T09:58:17"/>
+</Seln>
+<Seln status="A" seln_id="484026849" seln_sort="1-4" name="1-4" disporder="2041">
+<Price prc_type="LP" dec_prc="51.00" bet_ref="NDg0MDI2ODQ5OjUwLzE6OjA" frac_prc="50/1" us_prc="+5000" last_change="2018-03-28T09:58:23"/>
+</Seln>
+<Seln status="A" seln_id="484026860" seln_sort="2-4" name="2-4" disporder="2042">
+<Price prc_type="LP" dec_prc="201.00" bet_ref="NDg0MDI2ODYwOjIwMC8xOjow" frac_prc="200/1" us_prc="+20000" last_change="2018-03-28T09:56:47"/>
+</Seln>
+<Seln status="A" seln_id="484026871" seln_sort="3-4" name="3-4" disporder="2043">
+<Price prc_type="LP" dec_prc="451.00" bet_ref="NDg0MDI2ODcxOjQ1MC8xOjow" frac_prc="450/1" us_prc="+45000" last_change="2018-03-28T09:56:17"/>
+</Seln>
+<Seln status="A" seln_id="484026839" seln_sort="0-5" name="0-5" disporder="2050">
+<Price prc_type="LP" dec_prc="61.00" bet_ref="NDg0MDI2ODM5OjYwLzE6OjA" frac_prc="60/1" us_prc="+6000" last_change="2018-03-28T09:58:17"/>
+</Seln>
+<Seln status="A" seln_id="484026850" seln_sort="1-5" name="1-5" disporder="2051">
+<Price prc_type="LP" dec_prc="151.00" bet_ref="NDg0MDI2ODUwOjE1MC8xOjow" frac_prc="150/1" us_prc="+15000" last_change="2018-03-28T09:58:17"/>
+</Seln>
+<Seln status="A" seln_id="484026861" seln_sort="2-5" name="2-5" disporder="2052">
+<Price prc_type="LP" dec_prc="401.00" bet_ref="NDg0MDI2ODYxOjQwMC8xOjow" frac_prc="400/1" us_prc="+40000" last_change="2018-03-28T09:58:23"/>
+</Seln>
+<Seln status="A" seln_id="484026840" seln_sort="0-6" name="0-6" disporder="2060">
+<Price prc_type="LP" dec_prc="201.00" bet_ref="NDg0MDI2ODQwOjIwMC8xOjow" frac_prc="200/1" us_prc="+20000" last_change="2018-03-28T09:57:10"/>
+</Seln>
+<Seln status="A" seln_id="484026851" seln_sort="1-6" name="1-6" disporder="2061">
+<Price prc_type="LP" dec_prc="351.00" bet_ref="NDg0MDI2ODUxOjM1MC8xOjow" frac_prc="350/1" us_prc="+35000" last_change="2018-03-28T09:56:17"/>
+</Seln>
+<Seln status="A" seln_id="484026841" seln_sort="0-7" name="0-7" disporder="2070">
+<Price prc_type="LP" dec_prc="401.00" bet_ref="NDg0MDI2ODQxOjQwMC8xOjow" frac_prc="400/1" us_prc="+40000" last_change="2018-03-28T09:56:17"/>
+</Seln>
+</Mkt>
+<Mkt status="A" name="Handicap Match Result" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98479774" handicap="+2" inplay_avail="Y" disporder="-8800" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HCMR" lp_avail="Y" mkt_sort_name="Handicap Match Result">
+<Seln status="A" name="Eastern Lions" handicap="+2" seln_id="484321157" team_id="118360" disporder="-100" seln_sort="1">
+<Price prc_type="LP" dec_prc="1.93" bet_ref="NDg0MzIxMTU3OjkzLzEwMDo4OjA" frac_prc="93/100" us_prc="-108" last_change="2018-03-28T09:58:23"/>
+</Seln>
+<Seln status="A" name="Tie On Handicap" handicap="+2" seln_id="484321159" disporder="1" seln_sort="T">
+<Price prc_type="LP" dec_prc="2.85" bet_ref="NDg0MzIxMTU5OjM3LzIwOjg6MA" frac_prc="37/20" us_prc="+185" last_change="2018-03-28T09:57:31"/>
+</Seln>
+<Seln status="A" name="Oakleigh Cannons" handicap="-2" seln_id="484321158" team_id="114960" disporder="100" seln_sort="2">
+<Price prc_type="LP" dec_prc="4.15" bet_ref="NDg0MzIxMTU4OjYzLzIwOjg6MA" frac_prc="63/20" us_prc="+315" last_change="2018-03-28T09:58:23"/>
+</Seln>
+</Mkt>
+<Mkt status="A" name="Total Goals" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98399036" inplay_avail="Y" disporder="-7500" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="TOTG" lp_avail="Y" mkt_sort_name="Total Goals">
+<Seln status="A" seln_id="484026808" seln_sort="0-1" name="0-1" disporder="0">
+<Price prc_type="LP" dec_prc="3.15" bet_ref="NDg0MDI2ODA4OjQzLzIwOjow" frac_prc="43/20" us_prc="+215" last_change="2018-03-28T09:58:23"/>
+</Seln>
+<Seln status="A" seln_id="484026809" seln_sort="2-3" name="2-3" disporder="2">
+<Price prc_type="LP" dec_prc="1.60" bet_ref="NDg0MDI2ODA5OjMvNTo6MA" frac_prc="3/5" us_prc="-167" last_change="2018-03-28T09:51:13"/>
+</Seln>
+<Seln status="A" seln_id="484026810" seln_sort="4-6" name="4-6" disporder="4">
+<Price prc_type="LP" dec_prc="5.85" bet_ref="NDg0MDI2ODEwOjk3LzIwOjow" frac_prc="97/20" us_prc="+485" last_change="2018-03-28T09:58:17"/>
+</Seln>
+<Seln status="A" seln_id="484026811" seln_sort="7-" name="7+" disporder="7">
+<Price prc_type="LP" dec_prc="91.00" bet_ref="NDg0MDI2ODExOjkwLzE6OjA" frac_prc="90/1" us_prc="+9000" last_change="2018-03-28T09:56:58"/>
+</Seln>
+</Mkt>
+<Mkt status="A" name="Eastern Lions Under/Over Total Goals" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98480735" handicap="0.5" inplay_avail="Y" disporder="-7400" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUHG" lp_avail="Y" mkt_sort_name="Over/Under Home Total Goals">
+<Seln status="A" name="Over" handicap="0.5" seln_id="484323576" disporder="1" seln_sort="O">
+<Price prc_type="LP" dec_prc="3.30" bet_ref="NDg0MzIzNTc2OjIzLzEwOjI6MA" frac_prc="23/10" us_prc="+230" last_change="2018-03-28T09:58:07"/>
+</Seln>
+<Seln status="A" name="Under" handicap="0.5" seln_id="484323577" disporder="2" seln_sort="U">
+<Price prc_type="LP" dec_prc="1.285" bet_ref="NDg0MzIzNTc3OjIvNzoyOjA" frac_prc="2/7" us_prc="-350" last_change="2018-03-28T09:58:07"/>
+</Seln>
+</Mkt>
+<Mkt status="A" name="Oakleigh Cannons Under/Over Total Goals" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98490466" handicap="1.5" inplay_avail="Y" disporder="-6901" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUAG" lp_avail="Y" mkt_sort_name="Over/Under Away Total Goals">
+<Seln status="A" name="Over" handicap="1.5" seln_id="484355074" disporder="-3" seln_sort="O">
+<Price prc_type="LP" dec_prc="1.50" bet_ref="NDg0MzU1MDc0OjEvMjo2OjA" frac_prc="1/2" us_prc="-200" last_change="2018-03-28T09:58:13"/>
+</Seln>
+<Seln status="A" name="Under" handicap="1.5" seln_id="484355075" disporder="1" seln_sort="U">
+<Price prc_type="LP" dec_prc="2.40" bet_ref="NDg0MzU1MDc1OjcvNTo2OjA" frac_prc="7/5" us_prc="+140" last_change="2018-03-28T09:58:17"/>
+</Seln>
+</Mkt>
+<Mkt status="A" name="Total Goals Odd/Even" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98399034" inplay_avail="Y" disporder="-4600" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="ODEV" lp_avail="Y" mkt_sort_name="Total Goals Odd/Even">
+<Seln status="A" seln_id="484026804" seln_sort="O" name="Odd" disporder="0">
+<Price prc_type="LP" dec_prc="1.727" bet_ref="NDg0MDI2ODA0OjgvMTE6OjA" frac_prc="8/11" us_prc="-138" last_change="2018-03-28T09:58:13"/>
+</Seln>
+<Seln status="A" seln_id="484026803" seln_sort="E" name="Even" disporder="1">
+<Price prc_type="LP" dec_prc="2.00" bet_ref="NDg0MDI2ODAzOjEvMTo6MA" frac_prc="1/1" us_prc="+100" last_change="2018-03-28T09:58:13"/>
+</Seln>
+</Mkt>
+<Mkt status="A" name="Match to go to Penalties" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="98487373" inplay_avail="Y" disporder="-2200" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="MGTP" lp_avail="Y" mkt_sort_name="Match to go to Penalties">
+<Seln status="A" seln_id="484345242" seln_sort="Y" name="Yes" disporder="-10">
+<Price prc_type="LP" dec_prc="12.75" bet_ref="NDg0MzQ1MjQyOjQ3LzQ6OjA" frac_prc="47/4" us_prc="+1175" last_change="2018-03-28T09:58:17"/>
+</Seln>
+<Seln status="A" seln_id="484345241" seln_sort="N" name="No" disporder="0">
+<Price prc_type="LP" dec_prc="1.025" bet_ref="NDg0MzQ1MjQxOjEvNDA6OjA" frac_prc="1/40" us_prc="-4000" last_change="2018-03-28T09:56:47"/>
+</Seln>
+</Mkt>
+</Ev>
+</SBType>
+</SBClass>
+</Sport>
+</ContentAPI>
