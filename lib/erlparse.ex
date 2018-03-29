@@ -54,8 +54,8 @@ defmodule Erlparse do
   def do_parse(_,acc) ,do: acc
 
   def with_xmltomap do
-    file = File.read! "test/eventdetails.xml"
-    map = XmlToMaps.naive_map(file)
+    file = File.read! "test/tennisevent.xml"
+    map = ToMap.naive_map(file)
 
     #Meta einai lista apo maps pou mporoume na diatrexoume kai na exoume ola ta key-value pairs analogws pws mas volevei
 

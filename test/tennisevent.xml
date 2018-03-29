@@ -1,0 +1,220 @@
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODAzOTM2NzgyOjQ6ZW4=" version="1.0" request="get_inplay_event_detail">
+<Sport sport_code="TENN" allow_cash_out="Y" name="Tennis" disporder="3">
+<SBClass sb_class_id="10009" disporder="0" name="ITF Men">
+<SBType sb_type_id="17632" name="Greece" disporder="-1">
+<Ev inplay_allowed="Y" status="A" name="Y.Jankovits v Domagoj Biljesko" allow_cash_out="Y" start_time="2018-03-29T07:30:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="UTC" allow_cash_out_inplay="Y" inplay_now="Y" mkt_count="10" ev_id="1680638" disporder="4">
+<EvDetail br_match_id="14196963"/>
+<Inplay tennis_sets="3" inplay_period_num="3" inplay_period_name_short="PERIOD_live_SHORT" clock_status="TICKING" correct_at="2018-03-29T09:33:10" inplay_period_finished="N" score_a="1" score_b="1" inplay_period_name="Live" num_periods="3" clock_mode="FORWARD" inplay_period="live" score_string="1-1" scoring_system="game-set-match" last_change="2018-03-29T08:51:07" inplay_secs="6915">
+<Scores>
+<Score score_a="A" score_b="40" name="current_game_score"/>
+<Score score_a="2" score_b="6" name="set_1_games"/>
+<Score score_a="6" score_b="1" name="set_2_games"/>
+<Score score_a="1" score_b="1" name="sets_won"/>
+<Score score_a="Y" score_b="N" name="is_server"/>
+<Score score_a="4" score_b="4" name="current_set_games_won"/>
+</Scores>
+<MatchStatus player_id="1005838" status_code="TSFA" status_text="MATCH_STATUS_TSFA" extra_info="0"/>
+</Inplay>
+<InplayDetail tennis_sets="3" period_stoppage_secs="0" score_team_B="1" score_team_A="1" tennis_log_level="game" period_start="2018-03-29T07:37:55"/>
+<Incidents>
+<Incident incident_id="101688367" description="Game 24 Started, Jankovits Serving" player1_id="1005838" inplay_total_mins="111" time="2018-03-29T09:28:15" inplay_period="live" type="GSRT"/>
+<Incident incident_id="101688366" description="Game 23 - Biljesko holds to 40" player1_id="18895595" inplay_total_mins="111" time="2018-03-29T09:28:15" inplay_period="intermission" type="GWIN"/>
+<Incident incident_id="101688189" description="Game 23 Started, Biljesko Serving" player1_id="18895595" inplay_total_mins="106" time="2018-03-29T09:22:57" inplay_period="live" type="GSRT"/>
+<Incident incident_id="101688188" description="Game 22 - Jankovits holds to 40" player1_id="1005838" inplay_total_mins="106" time="2018-03-29T09:22:57" inplay_period="intermission" type="GWIN"/>
+<Incident incident_id="101688051" description="Game 22 Started, Jankovits Serving" player1_id="1005838" inplay_total_mins="101" time="2018-03-29T09:18:47" inplay_period="live" type="GSRT"/>
+<Incident incident_id="101688050" description="Game 21 - Biljesko holds to 40" player1_id="18895595" inplay_total_mins="101" time="2018-03-29T09:18:47" inplay_period="intermission" type="GWIN"/>
+<Incident incident_id="101687685" description="Game 21 Started, Biljesko Serving" player1_id="18895595" inplay_total_mins="93" time="2018-03-29T09:10:36" inplay_period="live" type="GSRT"/>
+<Incident incident_id="101687684" description="Game 20 - Jankovits holds to love" player1_id="1005838" inplay_total_mins="93" time="2018-03-29T09:10:36" inplay_period="intermission" type="GWIN"/>
+<Incident incident_id="101687613" description="Game 20 Started, Jankovits Serving" player1_id="1005838" inplay_total_mins="91" time="2018-03-29T09:08:11" inplay_period="live" type="GSRT"/>
+<Incident incident_id="101687612" description="Game 19 - Biljesko holds to 40" player1_id="18895595" inplay_total_mins="91" time="2018-03-29T09:08:11" inplay_period="intermission" type="GWIN"/>
+<Incident incident_id="101687411" description="Game 19 Started, Biljesko Serving" player1_id="18895595" inplay_total_mins="86" time="2018-03-29T09:02:55" inplay_period="live" type="GSRT"/>
+<Incident incident_id="101687410" description="Game 18 - Jankovits holds to 15" player1_id="1005838" inplay_total_mins="86" time="2018-03-29T09:02:55" inplay_period="intermission" type="GWIN"/>
+<Incident incident_id="101687325" description="Game 18 Started, Jankovits Serving" player1_id="1005838" inplay_total_mins="82" time="2018-03-29T08:59:46" inplay_period="live" type="GSRT"/>
+<Incident incident_id="101687324" description="Game 17 - Biljesko holds to 40" player1_id="18895595" inplay_total_mins="82" time="2018-03-29T08:59:46" inplay_period="intermission" type="GWIN"/>
+<Incident incident_id="101687195" description="Game 17 Started, Biljesko Serving" player1_id="18895595" inplay_total_mins="77" time="2018-03-29T08:54:41" inplay_period="live" type="GSRT"/>
+<Incident incident_id="101687194" description="Game 16 - Jankovits holds to 15" player1_id="1005838" inplay_total_mins="77" time="2018-03-29T08:54:41" inplay_period="intermission" type="GWIN"/>
+<Incident incident_id="101687103" description="Game 16 Started, Jankovits Serving" player1_id="1005838" inplay_total_mins="74" time="2018-03-29T08:51:07" inplay_period="live" type="GSRT"/>
+<Incident incident_id="101687102" description="Set 3 Started" player1_id="1005838" inplay_total_mins="74" time="2018-03-29T08:51:07" inplay_period="intermission" type="SSRT"/>
+<Incident incident_id="101687101" description="Set Won by Jankovits" player1_id="1005838" inplay_total_mins="74" time="2018-03-29T08:51:07" inplay_period="intermission" type="SWIN"/>
+<Incident incident_id="101687100" description="Game 15 - Jankovits breaks to 30" player1_id="1005838" inplay_total_mins="74" time="2018-03-29T08:51:07" inplay_period="intermission" type="GWIN"/>
+<Incident incident_id="101687007" description="Game 14 - Jankovits holds to love" player1_id="1005838" inplay_total_mins="70" time="2018-03-29T08:47:06" inplay_period="intermission" type="GWIN"/>
+<Incident incident_id="101686947" description="Game 13 - Jankovits breaks to 30" player1_id="1005838" inplay_total_mins="67" time="2018-03-29T08:44:11" inplay_period="intermission" type="GWIN"/>
+<Incident incident_id="101686846" description="Game 12 - Jankovits holds to 30" player1_id="1005838" inplay_total_mins="62" time="2018-03-29T08:39:52" inplay_period="intermission" type="GWIN"/>
+<Incident incident_id="101686738" description="Game 11 - Biljesko holds to 40" player1_id="18895595" inplay_total_mins="58" time="2018-03-29T08:35:35" inplay_period="intermission" type="GWIN"/>
+<Incident incident_id="101686485" description="Game 10 - Jankovits holds to love" player1_id="1005838" inplay_total_mins="49" time="2018-03-29T08:26:33" inplay_period="intermission" type="GWIN"/>
+<Incident incident_id="101686421" description="Game 9 - Jankovits breaks to 30" player1_id="1005838" inplay_total_mins="47" time="2018-03-29T08:24:15" inplay_period="intermission" type="GWIN"/>
+<Incident incident_id="101686267" description="Set Won by Biljesko" player1_id="18895595" inplay_total_mins="41" time="2018-03-29T08:18:40" inplay_period="intermission" type="SWIN"/>
+<Incident incident_id="101686266" description="Game 8 - Biljesko breaks to 40" player1_id="18895595" inplay_total_mins="41" time="2018-03-29T08:18:40" inplay_period="intermission" type="GWIN"/>
+<Incident incident_id="101686153" description="Game 7 - Biljesko holds to 40" player1_id="18895595" inplay_total_mins="38" time="2018-03-29T08:14:55" inplay_period="intermission" type="GWIN"/>
+<Incident incident_id="101686031" description="Game 6 - Jankovits holds to love" player1_id="1005838" inplay_total_mins="33" time="2018-03-29T08:10:37" inplay_period="intermission" type="GWIN"/>
+<Incident incident_id="101685925" description="Game 5 - Biljesko holds to 40" player1_id="18895595" inplay_total_mins="30" time="2018-03-29T08:07:11" inplay_period="intermission" type="GWIN"/>
+<Incident incident_id="101685826" description="Game 4 - Jankovits holds to 15" player1_id="1005838" inplay_total_mins="25" time="2018-03-29T08:02:45" inplay_period="intermission" type="GWIN"/>
+<Incident incident_id="101685718" description="Game 3 - Biljesko holds to 40" player1_id="18895595" inplay_total_mins="22" time="2018-03-29T07:58:58" inplay_period="intermission" type="GWIN"/>
+<Incident incident_id="101685616" description="Game 2 - Biljesko breaks to 40" player1_id="18895595" inplay_total_mins="17" time="2018-03-29T07:54:49" inplay_period="intermission" type="GWIN"/>
+<Incident incident_id="101685333" description="Game 1 - Biljesko holds to 40" player1_id="18895595" inplay_total_mins="9" time="2018-03-29T07:46:43" inplay_period="intermission" type="GWIN"/>
+<Incident incident_id="101685090" description="Match Started" player1_id="18895595" inplay_total_mins="1" time="2018-03-29T07:37:55" inplay_period="match_started" type="EBEG"/>
+</Incidents>
+<Participant name="Y.Jankovits" full_name="Y.Jankovits">
+<Player player_id="1005838" first_name="Yannick" last_name="Jankovits" name="Y.Jankovits" number="1"/>
+<MatchStats>
+<MatchStat name="current_game_score" value="A"/>
+<MatchStat name="current_set_games_won" value="4"/>
+<MatchStat name="sets_won" value="1"/>
+<MatchStat name="is_server" value="Y"/>
+<MatchStat name="set_1_games" value="2"/>
+<MatchStat name="set_2_games" value="6"/>
+</MatchStats>
+</Participant>
+<Participant name="Domagoj Biljesko" full_name="Domagoj Biljesko">
+<Player player_id="18895595" first_name="Domagoj" last_name="Biljesko" name="Domagoj Biljesko" number="2"/>
+<MatchStats>
+<MatchStat name="current_game_score" value="40"/>
+<MatchStat name="current_set_games_won" value="4"/>
+<MatchStat name="sets_won" value="1"/>
+<MatchStat name="is_server" value="N"/>
+<MatchStat name="set_1_games" value="6"/>
+<MatchStat name="set_2_games" value="1"/>
+</MatchStats>
+</Participant>
+<Mkt status="A" name="Match Head to Head" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98420880" inplay_avail="Y" disporder="1" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HTOH" lp_avail="Y" mkt_sort_name="Head to head">
+<Seln status="A" name="Y.Jankovits" seln_id="484121714" disporder="10" player_id="1005838" seln_sort="P1">
+<Price prc_type="LP" dec_prc="1.285" bet_ref="NDg0MTIxNzE0OjIvNzo6MA" frac_prc="2/7" us_prc="-350" last_change="2018-03-29T09:33:03"/>
+</Seln>
+<Seln status="A" name="Domagoj Biljesko" seln_id="484121715" disporder="20" player_id="18895595" seln_sort="P2">
+<Price prc_type="LP" dec_prc="3.50" bet_ref="NDg0MTIxNzE1OjUvMjo6MA" frac_prc="5/2" us_prc="+250" last_change="2018-03-29T09:33:03"/>
+</Seln>
+</Mkt>
+<Mkt status="A" name="Total Games" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98578752" handicap="25.5" inplay_avail="Y" disporder="3" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FTGO" lp_avail="Y" mkt_sort_name="Total Games (Over/Under)">
+<Seln status="A" name="Over" handicap="25.5" seln_id="484700689" disporder="-1" seln_sort="O">
+<Price prc_type="LP" dec_prc="1.55" bet_ref="NDg0NzAwNjg5OjExLzIwOjEwMjow" frac_prc="11/20" us_prc="-182" last_change="2018-03-29T09:33:03"/>
+</Seln>
+<Seln status="A" name="Under" handicap="25.5" seln_id="484700690" disporder="0" seln_sort="U">
+<Price prc_type="LP" dec_prc="2.35" bet_ref="NDg0NzAwNjkwOjI3LzIwOjEwMjow" frac_prc="27/20" us_prc="+135" last_change="2018-03-29T09:33:03"/>
+</Seln>
+</Mkt>
+<Mkt status="A" name="Handicap Total Games" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98577679" handicap="-2.5" inplay_avail="Y" disporder="4" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="TGHC" lp_avail="Y" mkt_sort_name="Handicap Total Games">
+<Seln status="A" name="Y.Jankovits" handicap="-2.5" seln_id="484697283" disporder="10" player_id="1005838" seln_sort="1">
+<Price prc_type="LP" dec_prc="1.833" bet_ref="NDg0Njk3MjgzOjUvNjotMTA6MA" frac_prc="5/6" us_prc="-120" last_change="2018-03-29T09:33:03"/>
+</Seln>
+<Seln status="A" name="Domagoj Biljesko" handicap="+2.5" seln_id="484697284" disporder="20" player_id="18895595" seln_sort="2">
+<Price prc_type="LP" dec_prc="1.909" bet_ref="NDg0Njk3Mjg0OjEwLzExOi0xMDow" frac_prc="10/11" us_prc="-110" last_change="2018-03-29T09:33:03"/>
+</Seln>
+</Mkt>
+<Mkt status="A" mkt_extra="S03" name="Set Total Games (Set 3)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98576590" handicap="10.5" inplay_avail="Y" disporder="9" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FSTO" lp_avail="Y" mkt_sort_name="Set Total Games (Over/Under)">
+<Seln status="A" name="Over" handicap="10.5" seln_id="484691847" disporder="-1" seln_sort="O">
+<Price prc_type="LP" dec_prc="1.55" bet_ref="NDg0NjkxODQ3OjExLzIwOjQyOjA" frac_prc="11/20" us_prc="-182" last_change="2018-03-29T09:33:03"/>
+</Seln>
+<Seln status="A" name="Under" handicap="10.5" seln_id="484691848" disporder="0" seln_sort="U">
+<Price prc_type="LP" dec_prc="2.35" bet_ref="NDg0NjkxODQ4OjI3LzIwOjQyOjA" frac_prc="27/20" us_prc="+135" last_change="2018-03-29T09:33:03"/>
+</Seln>
+</Mkt>
+<Mkt status="A" mkt_extra="S03" name="Set to go to Tiebreak (Set 3)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98576600" inplay_avail="Y" disporder="10" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="STTB" lp_avail="Y" mkt_sort_name="Set to go to Tie Break">
+<Seln status="A" seln_id="484691867" seln_sort="N" name="No" disporder="0">
+<Price prc_type="LP" dec_prc="1.50" bet_ref="NDg0NjkxODY3OjEvMjo6MA" frac_prc="1/2" us_prc="-200" last_change="2018-03-29T09:33:03"/>
+</Seln>
+<Seln status="A" seln_id="484691868" seln_sort="Y" name="Yes" disporder="0">
+<Price prc_type="LP" dec_prc="2.50" bet_ref="NDg0NjkxODY4OjYvNDo6MA" frac_prc="6/4" us_prc="+150" last_change="2018-03-29T09:33:03"/>
+</Seln>
+</Mkt>
+<Mkt status="A" mkt_extra="S03" name="Set Games Odd/Even (Set 3)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98576594" inplay_avail="Y" disporder="13" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="STOE" lp_avail="Y" mkt_sort_name="Set Games Odd/Even">
+<Seln status="A" seln_id="484691855" seln_sort="E" name="Even" disporder="0">
+<Price prc_type="LP" dec_prc="1.50" bet_ref="NDg0NjkxODU1OjEvMjo6MA" frac_prc="1/2" us_prc="-200" last_change="2018-03-29T09:33:03"/>
+</Seln>
+<Seln status="A" seln_id="484691856" seln_sort="O" name="Odd" disporder="0">
+<Price prc_type="LP" dec_prc="2.50" bet_ref="NDg0NjkxODU2OjYvNDo6MA" frac_prc="6/4" us_prc="+150" last_change="2018-03-29T09:33:03"/>
+</Seln>
+</Mkt>
+<Mkt status="S" mkt_extra="S03" name="Tiebreak Score (Set 3)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98576580" inplay_avail="Y" disporder="13" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="TBSC" lp_avail="Y" mkt_sort_name="MKT_SORT-TBSC">
+<Seln status="A" seln_id="484691801" seln_sort="0-7" name="0-7" disporder="0">
+<Price prc_type="LP" dec_prc="61.00" bet_ref="NDg0NjkxODAxOjYwLzE6OjA" frac_prc="60/1" us_prc="+6000" last_change="2018-03-29T09:29:43"/>
+</Seln>
+<Seln status="A" seln_id="484691802" seln_sort="1-7" name="1-7" disporder="1">
+<Price prc_type="LP" dec_prc="41.00" bet_ref="NDg0NjkxODAyOjQwLzE6OjA" frac_prc="40/1" us_prc="+4000" last_change="2018-03-29T09:30:41"/>
+</Seln>
+<Seln status="A" seln_id="484691803" seln_sort="2-7" name="2-7" disporder="2">
+<Price prc_type="LP" dec_prc="23.00" bet_ref="NDg0NjkxODAzOjIyLzE6OjA" frac_prc="22/1" us_prc="+2200" last_change="2018-03-29T09:30:41"/>
+</Seln>
+<Seln status="A" seln_id="484691804" seln_sort="3-7" name="3-7" disporder="3">
+<Price prc_type="LP" dec_prc="11.75" bet_ref="NDg0NjkxODA0OjQzLzQ6OjA" frac_prc="43/4" us_prc="+1075" last_change="2018-03-29T09:32:33"/>
+</Seln>
+<Seln status="A" seln_id="484691805" seln_sort="4-7" name="4-7" disporder="4">
+<Price prc_type="LP" dec_prc="8.50" bet_ref="NDg0NjkxODA1OjE1LzI6OjA" frac_prc="15/2" us_prc="+750" last_change="2018-03-29T09:30:41"/>
+</Seln>
+<Seln status="A" seln_id="484691806" seln_sort="5-7" name="5-7" disporder="5">
+<Price prc_type="LP" dec_prc="10.00" bet_ref="NDg0NjkxODA2OjkvMTo6MA" frac_prc="9/1" us_prc="+900" last_change="2018-03-29T09:30:41"/>
+</Seln>
+<Seln status="A" seln_id="484691807" seln_sort="7-0" name="7-0" disporder="6">
+<Price prc_type="LP" dec_prc="41.00" bet_ref="NDg0NjkxODA3OjQwLzE6OjA" frac_prc="40/1" us_prc="+4000" last_change="2018-03-29T09:31:58"/>
+</Seln>
+<Seln status="A" seln_id="484691808" seln_sort="7-1" name="7-1" disporder="7">
+<Price prc_type="LP" dec_prc="15.00" bet_ref="NDg0NjkxODA4OjE0LzE6OjA" frac_prc="14/1" us_prc="+1400" last_change="2018-03-29T09:32:33"/>
+</Seln>
+<Seln status="A" seln_id="484691809" seln_sort="7-2" name="7-2" disporder="8">
+<Price prc_type="LP" dec_prc="8.00" bet_ref="NDg0NjkxODA5OjcvMTo6MA" frac_prc="7/1" us_prc="+700" last_change="2018-03-29T09:30:41"/>
+</Seln>
+<Seln status="A" seln_id="484691810" seln_sort="7-3" name="7-3" disporder="9">
+<Price prc_type="LP" dec_prc="8.00" bet_ref="NDg0NjkxODEwOjcvMTo6MA" frac_prc="7/1" us_prc="+700" last_change="2018-03-29T09:24:49"/>
+</Seln>
+<Seln status="A" seln_id="484691811" seln_sort="7-4" name="7-4" disporder="10">
+<Price prc_type="LP" dec_prc="7.25" bet_ref="NDg0NjkxODExOjI1LzQ6OjA" frac_prc="25/4" us_prc="+625" last_change="2018-03-29T09:31:58"/>
+</Seln>
+<Seln status="A" seln_id="484691812" seln_sort="7-5" name="7-5" disporder="11">
+<Price prc_type="LP" dec_prc="5.20" bet_ref="NDg0NjkxODEyOjIxLzU6OjA" frac_prc="21/5" us_prc="+420" last_change="2018-03-29T09:30:41"/>
+</Seln>
+<Seln status="A" seln_id="484691813" seln_sort="P1+" name="Y.Jankovits to win by any other score" disporder="12">
+<Price prc_type="LP" dec_prc="6.20" bet_ref="NDg0NjkxODEzOjI2LzU6OjA" frac_prc="26/5" us_prc="+520" last_change="2018-03-29T08:51:09"/>
+</Seln>
+<Seln status="A" seln_id="484691814" seln_sort="P2+" name="Domagoj Biljesko to win by any other score" disporder="13">
+<Price prc_type="LP" dec_prc="8.50" bet_ref="NDg0NjkxODE0OjE1LzI6OjA" frac_prc="15/2" us_prc="+750" last_change="2018-03-29T09:26:51"/>
+</Seln>
+</Mkt>
+<Mkt status="S" mkt_extra="S03" name="Tie Break Winner (Set 3)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98576582" inplay_avail="Y" disporder="13" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="TBWI" lp_avail="Y" mkt_sort_name="MKT_SORT-TBWI">
+<Seln status="A" seln_id="484691818" seln_sort="P1" name="Y.Jankovits" disporder="0">
+<Price prc_type="LP" dec_prc="3.85" bet_ref="NDg0NjkxODE4OjU3LzIwOjow" frac_prc="57/20" us_prc="+285" last_change="2018-03-29T09:33:03"/>
+</Seln>
+<Seln status="A" seln_id="484691819" seln_sort="P2" name="Domagoj Biljesko" disporder="1">
+<Price prc_type="LP" dec_prc="6.50" bet_ref="NDg0NjkxODE5OjExLzI6OjA" frac_prc="11/2" us_prc="+550" last_change="2018-03-29T09:33:03"/>
+</Seln>
+<Seln status="A" seln_id="484691820" seln_sort="N" name="No Tiebreak" disporder="2">
+<Price prc_type="LP" dec_prc="1.50" bet_ref="NDg0NjkxODIwOjEvMjo6MA" frac_prc="1/2" us_prc="-200" last_change="2018-03-29T09:33:03"/>
+</Seln>
+</Mkt>
+<Mkt status="A" mkt_extra="S03G10" name="Game Winner (Set 3, Game 10)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98584616" inplay_avail="Y" disporder="100" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="SGMW" lp_avail="Y" mkt_sort_name="Game Winner">
+<Seln status="A" name="Y.Jankovits" seln_id="484721537" disporder="10" player_id="1005838" seln_sort="P1">
+<Price prc_type="LP" dec_prc="2.50" bet_ref="NDg0NzIxNTM3OjYvNDo6MA" frac_prc="6/4" us_prc="+150" last_change="2018-03-29T09:32:33"/>
+</Seln>
+<Seln status="A" name="Domagoj Biljesko" seln_id="484721538" disporder="20" player_id="18895595" seln_sort="P2">
+<Price prc_type="LP" dec_prc="1.50" bet_ref="NDg0NzIxNTM4OjEvMjo6MA" frac_prc="1/2" us_prc="-200" last_change="2018-03-29T09:32:33"/>
+</Seln>
+</Mkt>
+<Mkt status="A" mkt_extra="S03G10" name="Game Score (Set 3, Game 10)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98584615" inplay_avail="Y" disporder="110" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="SGSC" lp_avail="Y" mkt_sort_name="MKT_SORT-SGSC">
+<Seln status="A" name="Y.Jankovits to win to 0" seln_id="484721529" disporder="0" player_id="1005838" seln_sort="P1:0">
+<Price prc_type="LP" dec_prc="18.50" bet_ref="NDg0NzIxNTI5OjM1LzI6OjA" frac_prc="35/2" us_prc="+1750" last_change="2018-03-29T09:32:33"/>
+</Seln>
+<Seln status="A" name="Y.Jankovits to win to 15" seln_id="484721530" disporder="5" player_id="1005838" seln_sort="P1:15">
+<Price prc_type="LP" dec_prc="9.00" bet_ref="NDg0NzIxNTMwOjgvMTo6MA" frac_prc="8/1" us_prc="+800" last_change="2018-03-29T09:32:33"/>
+</Seln>
+<Seln status="A" name="Y.Jankovits to win to 30" seln_id="484721531" disporder="10" player_id="1005838" seln_sort="P1:30">
+<Price prc_type="LP" dec_prc="6.75" bet_ref="NDg0NzIxNTMxOjIzLzQ6OjA" frac_prc="23/4" us_prc="+575" last_change="2018-03-29T09:32:33"/>
+</Seln>
+<Seln status="A" name="Y.Jankovits to win to 40" seln_id="484721532" disporder="15" player_id="1005838" seln_sort="P1:40">
+<Price prc_type="LP" dec_prc="7.00" bet_ref="NDg0NzIxNTMyOjYvMTo6MA" frac_prc="6/1" us_prc="+600" last_change="2018-03-29T09:32:33"/>
+</Seln>
+<Seln status="A" name="Domagoj Biljesko to win to 0" seln_id="484721533" disporder="20" player_id="18895595" seln_sort="P2:0">
+<Price prc_type="LP" dec_prc="8.50" bet_ref="NDg0NzIxNTMzOjE1LzI6OjA" frac_prc="15/2" us_prc="+750" last_change="2018-03-29T09:32:33"/>
+</Seln>
+<Seln status="A" name="Domagoj Biljesko to win to 15" seln_id="484721534" disporder="25" player_id="18895595" seln_sort="P2:15">
+<Price prc_type="LP" dec_prc="5.00" bet_ref="NDg0NzIxNTM0OjQvMTo6MA" frac_prc="4/1" us_prc="+400" last_change="2018-03-29T09:28:17"/>
+</Seln>
+<Seln status="A" name="Domagoj Biljesko to win to 30" seln_id="484721535" disporder="30" player_id="18895595" seln_sort="P2:30">
+<Price prc_type="LP" dec_prc="4.75" bet_ref="NDg0NzIxNTM1OjE1LzQ6OjA" frac_prc="15/4" us_prc="+375" last_change="2018-03-29T09:32:33"/>
+</Seln>
+<Seln status="A" name="Domagoj Biljesko to win to 40" seln_id="484721536" disporder="35" player_id="18895595" seln_sort="P2:40">
+<Price prc_type="LP" dec_prc="4.60" bet_ref="NDg0NzIxNTM2OjE4LzU6OjA" frac_prc="18/5" us_prc="+360" last_change="2018-03-29T09:28:17"/>
+</Seln>
+</Mkt>
+</Ev>
+</SBType>
+</SBClass>
+</Sport>
+</ContentAPI>

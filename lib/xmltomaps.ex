@@ -18,14 +18,14 @@ defmodule XmlToMaps do
   def parse({name, [],content}) do
     parsed_content = parse(content)
     key=find_id_from_attributes(name,[])
-    %{key => parsed_content}
+    |>IO.inspect
+    %{key => parsed_content} |>IO.inspect
   end
 
   def parse({name, attr, []}) do
     key= find_id_from_attributes(name,attr)
     #IO.inspect name
     map =%{key => attr_map(attr)}
-    #IO.inspect map
   end
 
   def parse({name, attr, content}) do
@@ -40,16 +40,16 @@ defmodule XmlToMaps do
   end
 
   def parse(list) when is_list(list) do
-    #parsed_list = Enum.map list, &({to_string(elem(&1,0)), parse(&1)})
-    parsed_list = Enum.map list, &( parse(&1))
+    parsed_list = Enum.map list, &({to_string(elem(&1,0)), parse(&1)})
+    #parsed_list = Enum.map list, &( parse(&1))
     #IO.inspect parsed_list ,label: "Incidents"
-    # Enum.reduce parsed_list, %{}, fn {,v}, acc ->
-    #   case Map.get(acc, k) do
-    #     nil -> Map.put_new(acc, k, v[k])
-    #     [h|t] -> Map.put(acc, k, [h|t] ++ [v[k]])
-    #     prev -> Map.put(acc, k, [prev] ++ [v[k]])
-    #   end
-    # end
+     Enum.reduce parsed_list, %{}, fn {k,v}, acc ->
+       case Map.get(acc, k) do
+         nil -> Map.put_new(acc, k, v[k])
+         [h|t] -> Map.put(acc, k, [h|t] ++ [v[k]])
+         prev -> Map.put(acc, k, [prev] ++ [v[k]])
+       end
+     end
   end
 
   defp attr_map(list) do
@@ -59,6 +59,7 @@ defmodule XmlToMaps do
   defp find_id_from_attributes(tagname, []) do
     {to_string(tagname)}
   end
+
   defp find_id_from_attributes(tagname, list) do
     results =
       list |> Enum.filter(fn {attrname,attrvalue} -> attrname in @ids end)
