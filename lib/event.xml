@@ -1,0 +1,7 @@
+<Ev inplay_allowed="N" status="A" name="Olympiacos v AEK Athens" start_time="2018-04-01T16:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="99" ev_id="1669941" disporder="-500">
+                    <EvDetail br_match_id="12438692"/>
+                    <Teams>
+                        <Team team_id="114158" team_order="0" name="Olympiacos" short_name="Olympiacos"/>
+                        <Team team_id="116981" team_order="1" name="AEK Athens" short_name="AEK Athens"/>
+                    </Teams>                    
+</Ev>

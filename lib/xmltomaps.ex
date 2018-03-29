@@ -73,4 +73,5 @@ defmodule XmlToMaps do
 
     {to_string(tagname), attrvalue}
   end
+  
 end

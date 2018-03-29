@@ -53,7 +53,7 @@ defmodule Erlparse do
   end
   def do_parse(_,acc) ,do: acc
 
-  def with_xmltomap do
+  def with_xmltomap(file) do
     # file = File.read! "test/tennisevent.xml"
     file = File.read! "test/liveevents.xml"
     map = ToMap_V2.naive_map(file)
@@ -61,4 +61,16 @@ defmodule Erlparse do
     #Meta einai lista apo maps pou mporoume na diatrexoume kai na exoume ola ta key-value pairs analogws pws mas volevei
 
   end
+
+  def get_lives do
+    %HTTPoison.Response{status_code: stat, headers: head, body: xml} = HTTPoison.get!("http://varnishcontapi.stoiximan.eu/content_api?key=get_inplay_schedule&lang=en&is_inplay=Y")
+    xml
+  end
+
+  def get_events_for_sport(sport) do
+    %HTTPoison.Response{status_code: stat, headers: head, body: xml} = HTTPoison.get!("http://varnishcontapi.stoiximan.eu/content_api?key=get_events_for_sport&sport_code="<>sport)
+    xml
+  end
+
+
 end

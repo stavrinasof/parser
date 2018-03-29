@@ -1,0 +1,1363 @@
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODAyMTU3MjkzOjQ6ZW4=" version="1.0" request="get_events_for_sport">
+    <Sport sport_code="BASK" name="Basketball" disporder="2">
+        <SBClass sb_class_id="189038" disporder="-99999" name="Enhanced Odds">
+            <SBType sb_type_id="189061" name="Enhanced Odds" disporder="0">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="Enhanced Odds Accumulators - New Orleans Pelicans, Los Angeles Clippers" start_time="2018-03-28T04:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="1" ev_id="1679564" disporder="40"/>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="10021" disporder="-9950" name="Greece">
+            <SBType sb_type_id="11472" name="Stoiximan.gr Basket League" disporder="-1000">
+                <Ev inplay_allowed="N" status="A" name="Olympiacos v AEK Athens" start_time="2018-04-01T16:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="99" ev_id="1669941" disporder="-500">
+                    <EvDetail br_match_id="12438692"/>
+                    <Teams>
+                        <Team team_id="114158" team_order="0" name="Olympiacos" short_name="Olympiacos"/>
+                        <Team team_id="116981" team_order="1" name="AEK Athens" short_name="AEK Athens"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Faros GSL 2017 v Kolossos Rhodes" start_time="2018-03-31T13:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="70" ev_id="1669935" disporder="-499">
+                    <EvDetail br_match_id="12438684"/>
+                    <Teams>
+                        <Team team_id="1915095" team_order="0" name="Faros GSL 2017" short_name="Faros GSL 2017"/>
+                        <Team team_id="115234" team_order="1" name="Kolossos Rhodes" short_name="Kolossos Rhodes"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="PAOK v Koroivos Amaliadas" start_time="2018-03-31T13:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="70" ev_id="1669936" disporder="-499">
+                    <EvDetail br_match_id="12438688"/>
+                    <Teams>
+                        <Team team_id="114207" team_order="0" name="PAOK" short_name="PAOK"/>
+                        <Team team_id="115505" team_order="1" name="Koroivos Amaliadas" short_name="Koroivos Amaliadas"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="G.S. Kymis v Trikala" start_time="2018-03-31T13:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="70" ev_id="1669937" disporder="-499">
+                    <EvDetail br_match_id="12438708"/>
+                    <Teams>
+                        <Team team_id="1899724" team_order="0" name="G.S. Kymis" short_name="G.S. Kymis"/>
+                        <Team team_id="115498" team_order="1" name="Trikala" short_name="Trikala"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Panionios v Lavrio" start_time="2018-03-31T15:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="70" ev_id="1669938" disporder="-499">
+                    <EvDetail br_match_id="12438696"/>
+                    <Teams>
+                        <Team team_id="115049" team_order="0" name="Panionios" short_name="Panionios"/>
+                        <Team team_id="115495" team_order="1" name="Lavrio" short_name="Lavrio"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="ASP Promitheas v AGO Rethymno" start_time="2018-04-01T14:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="71" ev_id="1669939" disporder="-499">
+                    <EvDetail br_match_id="12438700"/>
+                    <Teams>
+                        <Team team_id="1895999" team_order="0" name="ASP Promitheas" short_name="ASP Promitheas"/>
+                        <Team team_id="115368" team_order="1" name="AGO Rethymno" short_name="AGO Rethymno"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Panathinaikos v Aris" start_time="2018-04-01T14:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="69" ev_id="1669940" disporder="-499">
+                    <EvDetail br_match_id="12438704"/>
+                    <Teams>
+                        <Team team_id="114157" team_order="0" name="Panathinaikos" short_name="Panathinaikos"/>
+                        <Team team_id="114206" team_order="1" name="Aris" short_name="Aris"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+            <SBType sb_type_id="17463" name="Stoiximan.gr Basket League - Outright Winner" disporder="-970">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="Stoiximan.gr Basket League - Outright Winner 2017/18" start_time="2018-06-10T20:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="1" ev_id="981496" disporder="40"/>
+            </SBType>
+            <SBType sb_type_id="188785" name="Stoiximan.gr Basket League - Bottom 2" disporder="-199">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="Stoiximan.gr Basket League 2017/18 - Bottom 2" start_time="2018-04-30T16:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="2" ev_id="1074719" disporder="40"/>
+            </SBType>
+            <SBType sb_type_id="184859" name="A2 - Outright Winner" disporder="-148">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="A2 - Outright Winner 2017/18" start_time="2018-05-05T17:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="1" ev_id="1074666" disporder="40"/>
+            </SBType>
+            <SBType sb_type_id="188861" name="A2 - To enter playoffs" disporder="-147">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="A2 2017/18 - To enter playoffs" start_time="2018-05-05T16:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="1" ev_id="1086849" disporder="40">
+                    <Notes>Market Winners are teams that will finish at 2-5 places in regular season</Notes>
+                </Ev>
+            </SBType>
+            <SBType sb_type_id="188836" name="B Ethniki - Outright Winner - North" disporder="-130">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="B Ethniki - North - Outright Winner 2017/18" start_time="2018-05-12T16:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="1" ev_id="1082693" disporder="40"/>
+            </SBType>
+            <SBType sb_type_id="188837" name="B Ethniki - Outright Winner - South" disporder="-125">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="B Ethniki - South - Outright Winner 2017/18" start_time="2018-05-12T16:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="1" ev_id="1082694" disporder="40"/>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="10666" disporder="-9900" name="Euroleague">
+            <SBType sb_type_id="16717" name="Euroleague" disporder="-1000">
+                <Ev inplay_allowed="N" status="A" name="Khimki v Fenerbahce" start_time="2018-03-29T15:45:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="105" ev_id="1660491" disporder="-500">
+                    <EvDetail br_match_id="11994886"/>
+                    <Teams>
+                        <Team team_id="114939" team_order="0" name="Khimki" short_name="Khimki"/>
+                        <Team team_id="114937" team_order="1" name="Fenerbahce" short_name="Fenerbahce"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Efes v FC Barcelona Lassa" start_time="2018-03-29T17:45:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="105" ev_id="1660492" disporder="-500">
+                    <EvDetail br_match_id="11994884"/>
+                    <Teams>
+                        <Team team_id="114146" team_order="0" name="Efes" short_name="Efes"/>
+                        <Team team_id="1882889" team_order="1" name="FC Barcelona Lassa" short_name="FC Barcelona Lassa"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Brose Bamberg v Milano" start_time="2018-03-29T18:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="105" ev_id="1660493" disporder="-500">
+                    <EvDetail br_match_id="11994880"/>
+                    <Teams>
+                        <Team team_id="114890" team_order="0" name="Brose Bamberg" short_name="Brose Bamberg"/>
+                        <Team team_id="114908" team_order="1" name="Milano" short_name="Milano"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Baskonia v Maccabi Tel Aviv" start_time="2018-03-29T19:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="105" ev_id="1660494" disporder="-500">
+                    <EvDetail br_match_id="11994882"/>
+                    <Teams>
+                        <Team team_id="114160" team_order="0" name="Baskonia" short_name="Baskonia"/>
+                        <Team team_id="114938" team_order="1" name="Maccabi Tel Aviv" short_name="Maccabi Tel Aviv"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Unicaja v Olympiacos" start_time="2018-03-30T16:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="105" ev_id="1660495" disporder="-500">
+                    <EvDetail br_match_id="11994888"/>
+                    <Teams>
+                        <Team team_id="114870" team_order="0" name="Unicaja" short_name="Unicaja"/>
+                        <Team team_id="114158" team_order="1" name="Olympiacos" short_name="Olympiacos"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Crvena Zvezda mts v Real Madrid" start_time="2018-03-30T17:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="105" ev_id="1660503" disporder="-500">
+                    <EvDetail br_match_id="11994892"/>
+                    <Teams>
+                        <Team team_id="114272" team_order="0" name="Crvena Zvezda mts" short_name="Crvena Zvezda mts"/>
+                        <Team team_id="114159" team_order="1" name="Real Madrid" short_name="Real Madrid"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Zalgiris Kaunas v CSKA Moscow" start_time="2018-03-30T17:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="105" ev_id="1660504" disporder="-500">
+                    <EvDetail br_match_id="11994894"/>
+                    <Teams>
+                        <Team team_id="114189" team_order="0" name="Zalgiris Kaunas" short_name="Zalgiris Kaunas"/>
+                        <Team team_id="114936" team_order="1" name="CSKA Moscow" short_name="CSKA Moscow"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Panathinaikos v Valencia Basket Club" start_time="2018-03-30T18:15:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="105" ev_id="1660505" disporder="-500">
+                    <EvDetail br_match_id="11994890"/>
+                    <Teams>
+                        <Team team_id="114157" team_order="0" name="Panathinaikos" short_name="Panathinaikos"/>
+                        <Team team_id="114162" team_order="1" name="Valencia Basket Club" short_name="Valencia Basket Club"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+            <SBType sb_type_id="17435" name="Euroleague - Outright Winner" disporder="-900">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="Euroleague 2017/18 - Outright Winner" start_time="2018-05-20T20:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="7" ev_id="967960" disporder="40"/>
+            </SBType>
+            <SBType sb_type_id="16713" name="Final Four - Team Specials" disporder="-500">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="Final Four 2018 - Team Specials" start_time="2018-04-26T20:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="3" ev_id="1064356" disporder="40"/>
+            </SBType>
+            <SBType sb_type_id="18046" name="Final Four - Qualification" disporder="-300">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="Final Four 2018 - Qualification" start_time="2018-03-30T18:15:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="9" ev_id="1003104" disporder="40"/>
+            </SBType>
+            <SBType sb_type_id="186802" name="Top 8  - Qualification" disporder="-250">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="Euroleague 2017/18 - Top 8 - Qualification" start_time="2018-04-06T20:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="2" ev_id="1003115" disporder="40"/>
+            </SBType>
+            <SBType sb_type_id="185490" name="Euroleague - To reach Final" disporder="-100">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="Euroleague 2017/18 - To reach Final" start_time="2018-03-30T18:15:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="9" ev_id="1064414" disporder="40"/>
+            </SBType>
+            <SBType sb_type_id="18045" name="Euroleague - Player Specials" disporder="-20">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="Euroleague 2017/18 - Player Specials" start_time="2018-03-30T20:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="1" ev_id="1003118" disporder="40">
+                    <Notes>Others upon request</Notes>
+                </Ev>
+            </SBType>
+            <SBType sb_type_id="186788" name="Euroleague - Team Specials" disporder="-10">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="Euroleague 2017/18 - Top 4 - Regular season" start_time="2018-03-30T18:15:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="4" ev_id="1003119" disporder="40"/>
+                <Ev inplay_allowed="N" status="A" outright="Y" name="Euroleague 2017/18 - Total Season Wins - Regular season" start_time="2018-03-30T18:15:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="1" ev_id="1066735" disporder="40"/>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="11326" disporder="-9895" name="USA">
+            <SBType sb_type_id="17106" name="NBA" disporder="-9000">
+                <Ev inplay_allowed="Y" status="A" name="Washington Wizards v San Antonio Spurs" start_time="2018-03-27T23:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="90" ev_id="1644902" disporder="-490">
+                    <EvDetail br_match_id="12234768"/>
+                    <Teams>
+                        <Team team_id="114759" team_order="0" name="Washington Wizards" short_name="Washington Wizards"/>
+                        <Team team_id="114195" team_order="1" name="San Antonio Spurs" short_name="San Antonio Spurs"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="Y" status="A" name="Toronto Raptors v Denver Nuggets" start_time="2018-03-27T23:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="92" ev_id="1644903" disporder="-490">
+                    <EvDetail br_match_id="12234770"/>
+                    <Teams>
+                        <Team team_id="114734" team_order="0" name="Toronto Raptors" short_name="Toronto Raptors"/>
+                        <Team team_id="114737" team_order="1" name="Denver Nuggets" short_name="Denver Nuggets"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="Y" status="A" name="Miami Heat v Cleveland Cavaliers" start_time="2018-03-28T00:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="38" ev_id="1644904" disporder="-490">
+                    <EvDetail br_match_id="12234772"/>
+                    <Teams>
+                        <Team team_id="114155" team_order="0" name="Miami Heat" short_name="Miami Heat"/>
+                        <Team team_id="114740" team_order="1" name="Cleveland Cavaliers" short_name="Cleveland Cavaliers"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="Y" status="A" name="New Orleans Pelicans v Portland Trail Blazers" start_time="2018-03-28T00:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="85" ev_id="1644906" disporder="-490">
+                    <EvDetail br_match_id="12234776"/>
+                    <Teams>
+                        <Team team_id="118261" team_order="0" name="New Orleans Pelicans" short_name="New Orleans Pelicans"/>
+                        <Team team_id="114744" team_order="1" name="Portland Trail Blazers" short_name="Portland Trail Blazers"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="Y" status="A" name="Houston Rockets v Chicago Bulls" start_time="2018-03-28T00:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="75" ev_id="1644905" disporder="-490">
+                    <EvDetail br_match_id="12234774"/>
+                    <Teams>
+                        <Team team_id="114723" team_order="0" name="Houston Rockets" short_name="Houston Rockets"/>
+                        <Team team_id="114736" team_order="1" name="Chicago Bulls" short_name="Chicago Bulls"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="Y" status="A" name="Sacramento Kings v Dallas Mavericks" start_time="2018-03-28T02:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="23" ev_id="1644907" disporder="-490">
+                    <EvDetail br_match_id="12234778"/>
+                    <Teams>
+                        <Team team_id="114760" team_order="0" name="Sacramento Kings" short_name="Sacramento Kings"/>
+                        <Team team_id="114719" team_order="1" name="Dallas Mavericks" short_name="Dallas Mavericks"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="Y" status="A" name="Los Angeles Clippers v Milwaukee Bucks" start_time="2018-03-28T02:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="99" ev_id="1644909" disporder="-490">
+                    <EvDetail br_match_id="12234782"/>
+                    <Teams>
+                        <Team team_id="114683" team_order="0" name="Los Angeles Clippers" short_name="Los Angeles Clippers"/>
+                        <Team team_id="114751" team_order="1" name="Milwaukee Bucks" short_name="Milwaukee Bucks"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="Y" status="A" name="Golden State Warriors v Indiana Pacers" start_time="2018-03-28T02:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="20" ev_id="1644908" disporder="-490">
+                    <EvDetail br_match_id="12234780"/>
+                    <Teams>
+                        <Team team_id="114754" team_order="0" name="Golden State Warriors" short_name="Golden State Warriors"/>
+                        <Team team_id="114746" team_order="1" name="Indiana Pacers" short_name="Indiana Pacers"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="Y" status="A" name="Charlotte Hornets v Cleveland Cavaliers" start_time="2018-03-28T23:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="2" ev_id="1644910" disporder="-490">
+                    <EvDetail br_match_id="12234784"/>
+                    <Teams>
+                        <Team team_id="1885965" team_order="0" name="Charlotte Hornets" short_name="Charlotte Hornets"/>
+                        <Team team_id="114740" team_order="1" name="Cleveland Cavaliers" short_name="Cleveland Cavaliers"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="Y" status="A" name="Orlando Magic v Brooklyn Nets" start_time="2018-03-28T23:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="2" ev_id="1644911" disporder="-490">
+                    <EvDetail br_match_id="12234786"/>
+                    <Teams>
+                        <Team team_id="114757" team_order="0" name="Orlando Magic" short_name="Orlando Magic"/>
+                        <Team team_id="114722" team_order="1" name="Brooklyn Nets" short_name="Brooklyn Nets"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="Y" status="A" name="Memphis Grizzlies v Portland Trail Blazers" start_time="2018-03-29T00:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="2" ev_id="1644913" disporder="-490">
+                    <EvDetail br_match_id="12234790"/>
+                    <Teams>
+                        <Team team_id="114728" team_order="0" name="Memphis Grizzlies" short_name="Memphis Grizzlies"/>
+                        <Team team_id="114744" team_order="1" name="Portland Trail Blazers" short_name="Portland Trail Blazers"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="Y" status="A" name="Minnesota Timberwolves v Atlanta Hawks" start_time="2018-03-29T00:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="2" ev_id="1644914" disporder="-490">
+                    <EvDetail br_match_id="12234792"/>
+                    <Teams>
+                        <Team team_id="114741" team_order="0" name="Minnesota Timberwolves" short_name="Minnesota Timberwolves"/>
+                        <Team team_id="114753" team_order="1" name="Atlanta Hawks" short_name="Atlanta Hawks"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="Y" status="A" name="Utah Jazz v Boston Celtics" start_time="2018-03-29T01:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="2" ev_id="1644915" disporder="-490">
+                    <EvDetail br_match_id="12234794"/>
+                    <Teams>
+                        <Team team_id="114752" team_order="0" name="Utah Jazz" short_name="Utah Jazz"/>
+                        <Team team_id="114153" team_order="1" name="Boston Celtics" short_name="Boston Celtics"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="Y" status="A" name="Phoenix Suns v Los Angeles Clippers" start_time="2018-03-29T02:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="2" ev_id="1644916" disporder="-490">
+                    <EvDetail br_match_id="12234796"/>
+                    <Teams>
+                        <Team team_id="114758" team_order="0" name="Phoenix Suns" short_name="Phoenix Suns"/>
+                        <Team team_id="114683" team_order="1" name="Los Angeles Clippers" short_name="Los Angeles Clippers"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="Y" status="A" name="Los Angeles Lakers v Dallas Mavericks" start_time="2018-03-29T02:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="2" ev_id="1644932" disporder="-490">
+                    <EvDetail br_match_id="12234798"/>
+                    <Teams>
+                        <Team team_id="114756" team_order="0" name="Los Angeles Lakers" short_name="Los Angeles Lakers"/>
+                        <Team team_id="114719" team_order="1" name="Dallas Mavericks" short_name="Dallas Mavericks"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+            <SBType sb_type_id="17351" name="NBA - Outright Winner" disporder="-5006">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="NBA - 2017/18 Outright Winner" start_time="2018-06-13T03:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="1" ev_id="981211" disporder="40"/>
+            </SBType>
+            <SBType sb_type_id="17659" name="NBA - Conference Winner" disporder="-5005">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="NBA 2017/18 - Eastern Conference" start_time="2018-05-31T04:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="2" ev_id="992463" disporder="40"/>
+                <Ev inplay_allowed="N" status="A" outright="Y" name="NBA 2017/18 - Western Conference" start_time="2018-05-31T23:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="2" ev_id="992466" disporder="40"/>
+            </SBType>
+            <SBType sb_type_id="17658" name="NBA - Division Winner" disporder="-4004">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="NBA - Division Winner (Regular season) 2017/18" start_time="2018-04-03T04:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="4" ev_id="992474" disporder="40"/>
+            </SBType>
+            <SBType sb_type_id="17660" name="NBA - Players Specials" disporder="-4003">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="MVP - Regular season 2017-18" start_time="2018-06-10T00:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="2" ev_id="1033187" disporder="10"/>
+                <Ev inplay_allowed="N" status="A" outright="Y" name="Rookie of the Year 2017/2018" start_time="2018-06-23T23:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="1" ev_id="990152" disporder="20"/>
+                <Ev inplay_allowed="N" status="A" outright="Y" name="Defensive Player of the Year 2017/18" start_time="2018-04-18T04:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="1" ev_id="1088832" disporder="25">
+                    <Notes>Others upon request</Notes>
+                </Ev>
+            </SBType>
+            <SBType sb_type_id="17661" name="NBA - Team Specials" disporder="-4002">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="NBA 2017/18 - Coach of the Year" start_time="2018-04-18T04:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="1" ev_id="1088837" disporder="60"/>
+            </SBType>
+            <SBType sb_type_id="18077" name="NBA - Specials" disporder="-4001">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="NBA 2017/18 - Specials incl. Playoffs" start_time="2018-06-10T04:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="1" ev_id="992489" disporder="40"/>
+            </SBType>
+            <SBType sb_type_id="181800" name="NCAA" disporder="-3950">
+                <Ev inplay_allowed="N" status="A" name="Liberty v Illinois Chicago" start_time="2018-03-28T23:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="5" ev_id="1673758" disporder="7">
+                    <Teams>
+                        <Team team_id="1889039" team_order="0" name="Liberty" short_name="Liberty"/>
+                        <Team team_id="1889064" team_order="1" name="Illinois Chicago" short_name="Illinois Chicago"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Northern Colorado Bears v Sam Houston State Bearkats" start_time="2018-03-29T01:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="5" ev_id="1673759" disporder="7">
+                    <Teams>
+                        <Team team_id="1884267" team_order="0" name="Northern Colorado Bears" short_name="Northern Colorado Bears"/>
+                        <Team team_id="1884167" team_order="1" name="Sam Houston State Bearkats" short_name="Sam Houston State Bearkats"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Michigan Wolverines v Loyola Ramblers" start_time="2018-03-31T22:09:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="5" ev_id="1675715" disporder="7">
+                    <Teams>
+                        <Team team_id="116881" team_order="0" name="Michigan Wolverines" short_name="Michigan Wolverines"/>
+                        <Team team_id="1884191" team_order="1" name="Loyola Ramblers" short_name="Loyola Ramblers"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Villanova Wildcats v Kansas Jayhawks" start_time="2018-04-01T00:45:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="3" ev_id="1678349" disporder="7">
+                    <Teams>
+                        <Team team_id="116886" team_order="0" name="Villanova Wildcats" short_name="Villanova Wildcats"/>
+                        <Team team_id="116878" team_order="1" name="Kansas Jayhawks" short_name="Kansas Jayhawks"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+            <SBType sb_type_id="189820" name="NCAA NIT" disporder="-3920">
+                <Ev inplay_allowed="N" status="A" name="Utah Utes v Western Kentucky Hilltoppers" start_time="2018-03-27T23:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1661011" disporder="-498">
+                    <EvDetail br_match_id="14142631"/>
+                    <Teams>
+                        <Team team_id="1884298" team_order="0" name="Utah Utes" short_name="Utah"/>
+                        <Team team_id="1884139" team_order="1" name="Western Kentucky Hilltoppers" short_name="Western Kentucky Hilltoppers"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="Y" status="A" name="Mississippi State v Penn State Nittany Lions" start_time="2018-03-28T01:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1661013" disporder="-498">
+                    <EvDetail br_match_id="14141427"/>
+                    <Teams>
+                        <Team team_id="1884316" team_order="0" name="Mississippi State" short_name="Mississippi State"/>
+                        <Team team_id="1884108" team_order="1" name="Penn State Nittany Lions" short_name="Penn State Nittany Lions"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+            <SBType sb_type_id="18025" name="NCAA - Outright Winner" disporder="-3900">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="NCAA - Outright Winner 2017/2018" start_time="2018-04-02T01:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="1" ev_id="929154" disporder="40">
+                    <Notes>Others upon request</Notes>
+                </Ev>
+            </SBType>
+            <SBType sb_type_id="18193" name="WNBA - Outright Winner" disporder="-2999">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="WNBA 2018 - Outright Winner" start_time="2018-09-30T00:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="1" ev_id="1520324" disporder="40"/>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="10020" disporder="-9890" name="Spain">
+            <SBType sb_type_id="17479" name="Liga Endesa - Outright Winner" disporder="-2500">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="Liga Endesa 2017/2018" start_time="2018-06-23T20:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="1" ev_id="989316" disporder="40"/>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="188821" disporder="-9785" name="Champions League">
+            <SBType sb_type_id="186158" name="Champions League" disporder="-200">
+                <Ev inplay_allowed="Y" status="A" name="MHP Riesen Ludwigsburg v Medi Bayreuth" start_time="2018-03-27T18:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="79" ev_id="1660190" disporder="-498">
+                    <Notes>Quarterfinal (First leg)</Notes>
+                    <EvDetail br_match_id="14076069"/>
+                    <Teams>
+                        <Team team_id="114905" team_order="0" name="MHP Riesen Ludwigsburg" short_name="MHP Riesen Ludwigsburg"/>
+                        <Team team_id="1916275" team_order="1" name="Medi Bayreuth" short_name="Medi Bayreuth"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="Y" status="A" name="Karsiyaka v Murcia" start_time="2018-03-27T18:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="81" ev_id="1660189" disporder="-498">
+                    <Notes>Quarterfinal (First leg)</Notes>
+                    <EvDetail br_match_id="14076051"/>
+                    <Teams>
+                        <Team team_id="115392" team_order="0" name="Karsiyaka" short_name="Karsiyaka"/>
+                        <Team team_id="114876" team_order="1" name="Murcia" short_name="Murcia"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="AEK Athens v Strasbourg" start_time="2018-03-28T16:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="55" ev_id="1660192" disporder="-498">
+                    <Notes>Quarterfinal (First leg)</Notes>
+                    <EvDetail br_match_id="14076175"/>
+                    <Teams>
+                        <Team team_id="116981" team_order="0" name="AEK Athens" short_name="AEK Athens"/>
+                        <Team team_id="114928" team_order="1" name="Strasbourg" short_name="Strasbourg"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Banvit v Monaco" start_time="2018-03-28T16:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="54" ev_id="1660191" disporder="-498">
+                    <Notes>Quarterfinal (First leg)</Notes>
+                    <EvDetail br_match_id="14076043"/>
+                    <Teams>
+                        <Team team_id="114147" team_order="0" name="Banvit" short_name="Banvit"/>
+                        <Team team_id="1887537" team_order="1" name="Monaco" short_name="Monaco"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+            <SBType sb_type_id="187350" name="Champions League - Qualification" disporder="-170">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="Champions League 2017/18 - Final Four - Qualification" start_time="2018-04-04T19:30:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="4" ev_id="1660574" disporder="40"/>
+            </SBType>
+            <SBType sb_type_id="186159" name="Champions League - Outright Winner" disporder="-150">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="Champions League 2017/2018" start_time="2018-04-30T18:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="1" ev_id="982347" disporder="40"/>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="11458" disporder="-9780" name="Eurocup">
+            <SBType sb_type_id="17599" name="Eurocup" disporder="-150">
+                <Ev inplay_allowed="N" status="A" name="Lokomotiv-Kuban v Darussafaka" start_time="2018-04-10T17:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="100" ev_id="1669055" disporder="-500">
+                    <Notes>Final (Game 1, Best of 3)</Notes>
+                    <EvDetail br_match_id="14165585"/>
+                    <Teams>
+                        <Team team_id="115243" team_order="0" name="Lokomotiv-Kuban" short_name="Lokomotiv-Kuban"/>
+                        <Team team_id="1886632" team_order="1" name="Darussafaka" short_name="Darussafaka"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+            <SBType sb_type_id="187575" name="Finals - Series Correct Score" disporder="-140">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="Eurocup 2017/2018 Finals - Series Correct Score" start_time="2018-04-13T17:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="1" ev_id="1669057" disporder="40"/>
+            </SBType>
+            <SBType sb_type_id="189873" name="Finals - Undefeated at Home" disporder="-135">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="Eurocup 2017/2018 Finals - Undefeated at Home" start_time="2018-04-10T15:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="2" ev_id="1669107" disporder="40"/>
+            </SBType>
+            <SBType sb_type_id="17851" name="Eurocup - Outright Winner" disporder="-50">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="Eurocup - Outright Winner - 2017/2018" start_time="2018-04-05T18:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="1" ev_id="982251" disporder="40"/>
+            </SBType>
+            <SBType sb_type_id="183187" name="Eurocup - Women" disporder="0">
+                <Ev inplay_allowed="N" status="A" name="Perfumerias Avenida Women v Galatasaray Women" start_time="2018-03-28T18:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="2" ev_id="1680146" disporder="-498">
+                    <EvDetail br_match_id="14012069"/>
+                    <Teams>
+                        <Team team_id="1888799" team_order="0" name="Perfumerias Avenida Women" short_name="Perfumerias Avenida Women"/>
+                        <Team team_id="1889608" team_order="1" name="Galatasaray Women" short_name="Galatasaray Women"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Venezia Women v Hatay BSB Women" start_time="2018-03-29T18:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="2" ev_id="1680147" disporder="-498">
+                    <EvDetail br_match_id="14012067"/>
+                    <Teams>
+                        <Team team_id="1890405" team_order="0" name="Venezia Women" short_name="Venezia Women"/>
+                        <Team team_id="1900584" team_order="1" name="Hatay BSB Women" short_name="Hatay BSB Women"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="188721" disporder="-9750" name="Europe Cup">
+            <SBType sb_type_id="184867" name="Europe Cup" disporder="-100">
+                <Ev inplay_allowed="N" status="A" name="Le Portel v Bakken Bears" start_time="2018-03-27T18:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="48" ev_id="1675695" disporder="-498">
+                    <Notes>2nd leg. 1st leg result 62-76</Notes>
+                    <EvDetail br_match_id="14075969"/>
+                    <Teams>
+                        <Team team_id="1881405" team_order="0" name="Le Portel" short_name="Le Portel"/>
+                        <Team team_id="117148" team_order="1" name="Bakken Bears" short_name="Bakken Bears"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Nizhny Novgorod v Umana Venezia" start_time="2018-03-28T16:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="49" ev_id="1676487" disporder="-498">
+                    <EvDetail br_match_id="14075993"/>
+                    <Teams>
+                        <Team team_id="115238" team_order="0" name="Nizhny Novgorod" short_name="Nizhny Novgorod"/>
+                        <Team team_id="114144" team_order="1" name="Umana Venezia" short_name="Umana Venezia"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Donar Groningen v Mornar Bar" start_time="2018-03-28T17:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="49" ev_id="1676489" disporder="-498">
+                    <EvDetail br_match_id="14075989"/>
+                    <Teams>
+                        <Team team_id="1915504" team_order="0" name="Donar Groningen" short_name="Donar Groningen"/>
+                        <Team team_id="1890874" team_order="1" name="Mornar Bar" short_name="Mornar Bar"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Avellino v Juventus Utena" start_time="2018-03-28T18:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="49" ev_id="1676488" disporder="-498">
+                    <EvDetail br_match_id="14075975"/>
+                    <Teams>
+                        <Team team_id="114913" team_order="0" name="Avellino" short_name="Avellino"/>
+                        <Team team_id="1882090" team_order="1" name="Juventus Utena" short_name="Juventus Utena"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="10023" disporder="-9650" name="Germany">
+            <SBType sb_type_id="17478" name="BBL - Outright Winner" disporder="-1300">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="BBL 2017/2018" start_time="2018-06-30T20:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="1" ev_id="1037283" disporder="40"/>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="10022" disporder="-9600" name="Italy">
+            <SBType sb_type_id="17480" name="Serie A - Outright Winner" disporder="-2400">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="Serie A - Outright Winner 2017/2018" start_time="2018-06-15T20:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="1" ev_id="992688" disporder="40"/>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="10024" disporder="-9550" name="Turkey">
+            <SBType sb_type_id="17482" name="TBSL - Outright Winner" disporder="-1400">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="TBSL 2017/18- Outright Winner" start_time="2018-06-08T19:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="1" ev_id="1046898" disporder="40"/>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="10045" disporder="-9400" name="France">
+            <SBType sb_type_id="17489" name="Pro A - Outright Winner" disporder="-2400">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="LNB Pro A 2017/18" start_time="2018-06-10T20:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="1" ev_id="1024171" disporder="40"/>
+            </SBType>
+            <SBType sb_type_id="17613" name="Pro B" disporder="-1700">
+                <Ev inplay_allowed="N" status="A" name="Blois v Caen Basket Calvados" start_time="2018-03-27T18:00:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="27" ev_id="1557707" disporder="-498">
+                    <EvDetail br_match_id="12680932"/>
+                    <Teams>
+                        <Team team_id="1887225" team_order="0" name="Blois" short_name="Blois"/>
+                        <Team team_id="1887052" team_order="1" name="Caen Basket Calvados" short_name="Caen Basket Calvados"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Evreux v Denain" start_time="2018-03-27T18:00:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="27" ev_id="1557708" disporder="-498">
+                    <EvDetail br_match_id="12680934"/>
+                    <Teams>
+                        <Team team_id="1881417" team_order="0" name="Evreux" short_name="Evreux"/>
+                        <Team team_id="1881408" team_order="1" name="Denain" short_name="Denain"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Le Havre v Aix-Maurienne" start_time="2018-03-27T18:00:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="27" ev_id="1557709" disporder="-498">
+                    <EvDetail br_match_id="12680936"/>
+                    <Teams>
+                        <Team team_id="114926" team_order="0" name="Le Havre" short_name="Le Havre"/>
+                        <Team team_id="1881404" team_order="1" name="Aix-Maurienne" short_name="Aix-Maurienne"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Saint-Chamond v Nantes" start_time="2018-03-27T18:00:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="27" ev_id="1557714" disporder="-498">
+                    <EvDetail br_match_id="12680948"/>
+                    <Teams>
+                        <Team team_id="1897018" team_order="0" name="Saint-Chamond" short_name="Saint-Chamond"/>
+                        <Team team_id="1881423" team_order="1" name="Nantes" short_name="Nantes"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Nancy v Ujap Quimper 29" start_time="2018-03-27T18:00:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="27" ev_id="1557711" disporder="-498">
+                    <EvDetail br_match_id="12680940"/>
+                    <Teams>
+                        <Team team_id="114930" team_order="0" name="Nancy" short_name="Nancy"/>
+                        <Team team_id="1905788" team_order="1" name="Ujap Quimper 29" short_name="Ujap Quimper 29"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Fos Ouest Provence v Vichy-Clermont" start_time="2018-03-27T18:00:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="27" ev_id="1557712" disporder="-498">
+                    <EvDetail br_match_id="12680942"/>
+                    <Teams>
+                        <Team team_id="1915243" team_order="0" name="Fos Ouest Provence" short_name="Fos Ouest Provence"/>
+                        <Team team_id="1897060" team_order="1" name="Vichy-Clermont" short_name="Vichy-Clermont"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="Y" status="A" name="Lille v Orleans" start_time="2018-03-27T18:00:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="27" ev_id="1557710" disporder="-498">
+                    <EvDetail br_match_id="12680938"/>
+                    <Teams>
+                        <Team team_id="1881416" team_order="0" name="Lille" short_name="Lille"/>
+                        <Team team_id="114204" team_order="1" name="Orleans" short_name="Orleans"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Rouen v Charleville-Mezieres" start_time="2018-03-27T18:30:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="27" ev_id="1557824" disporder="-498">
+                    <EvDetail br_match_id="12680946"/>
+                    <Teams>
+                        <Team team_id="1881421" team_order="0" name="Rouen" short_name="Rouen"/>
+                        <Team team_id="1887524" team_order="1" name="Charleville-Mezieres" short_name="Charleville-Mezieres"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+            <SBType sb_type_id="184965" name="Nationale 1" disporder="-1500">
+                <Ev inplay_allowed="N" status="A" name="Orchesien v Saint Vallier" start_time="2018-03-27T18:00:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="27" ev_id="1440596" disporder="-498">
+                    <Teams>
+                        <Team team_id="1918661" team_order="0" name="Orchesien" short_name="Orchesien"/>
+                        <Team team_id="1881419" team_order="1" name="Saint Vallier" short_name="Saint Vallier"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+            <SBType sb_type_id="188895" name="LNB Espoirs U21" disporder="-1250">
+                <Ev inplay_allowed="N" status="A" name="Le Portel U21 v Gravelines U21" start_time="2018-03-27T15:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1679822" disporder="-498">
+                    <Teams>
+                        <Team team_id="1916375" team_order="0" name="Le Portel U21" short_name="Le Portel U21"/>
+                        <Team team_id="1916507" team_order="1" name="Gravelines U21" short_name="Gravelines U21"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="11459" disporder="-9200" name="VTB League">
+            <SBType sb_type_id="17605" name="VTB - Outright Winner" disporder="-1400">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="VTB 2017/18 - Outright Winner" start_time="2018-06-01T18:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="1" ev_id="1038194" disporder="40"/>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="11452" disporder="-9100" name="Adriatic League">
+            <SBType sb_type_id="17560" name="ABA League" disporder="-99">
+                <Ev inplay_allowed="N" status="A" name="Buducnost v Cedevita" start_time="2018-04-01T16:00:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="1" ev_id="1674191" disporder="-499">
+                    <EvDetail br_match_id="14172631"/>
+                    <Teams>
+                        <Team team_id="115248" team_order="0" name="Buducnost" short_name="Buducnost"/>
+                        <Team team_id="114942" team_order="1" name="Cedevita" short_name="Cedevita"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+            <SBType sb_type_id="188907" name="Division 2" disporder="-30">
+                <Ev inplay_allowed="N" status="A" name="KK Primorska v Ohrid" start_time="2018-03-27T18:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="5" ev_id="1679818" disporder="-495">
+                    <Teams>
+                        <Team team_id="1916372" team_order="0" name="KK Primorska" short_name="KK Primorska"/>
+                        <Team team_id="1908236" team_order="1" name="Ohrid" short_name="Ohrid"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="188468" disporder="-9100" name="Baltic League">
+            <SBType sb_type_id="181626" name="Baltic League" disporder="-10">
+                <Ev inplay_allowed="N" status="A" name="Tartu Ulikool v BC Siauliai" start_time="2018-03-28T15:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="49" ev_id="1677122" disporder="-498">
+                    <EvDetail br_match_id="14140671"/>
+                    <Teams>
+                        <Team team_id="1915290" team_order="0" name="Tartu Ulikool" short_name="Tartu Ulikool"/>
+                        <Team team_id="1881938" team_order="1" name="BC Siauliai" short_name="BC Siauliai"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Jurmala/Fenikss v Pieno Zvaigzdes" start_time="2018-03-28T16:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="49" ev_id="1676514" disporder="-498">
+                    <EvDetail br_match_id="14140669" br_has_stats="Y"/>
+                    <Teams>
+                        <Team team_id="1881936" team_order="0" name="Jurmala/Fenikss" short_name="Jurmala/Fenikss"/>
+                        <Team team_id="1881961" team_order="1" name="Pieno Zvaigzdes" short_name="Pieno Zvaigzdes"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="11465" disporder="-2200" name="Balkan League">
+            <SBType sb_type_id="17641" name="Balkan League" disporder="0">
+                <Ev inplay_allowed="Y" status="A" name="SK Tirana v Levski Sofia" start_time="2018-03-27T16:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="30" ev_id="1679627" disporder="-498">
+                    <Notes>1st leg</Notes>
+                    <EvDetail br_match_id="14075543"/>
+                    <Teams>
+                        <Team team_id="1906409" team_order="0" name="SK Tirana" short_name="SK Tirana"/>
+                        <Team team_id="115545" team_order="1" name="Levski Sofia" short_name="Levski Sofia"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="10060" disporder="-1500" name="Lithuania">
+            <SBType sb_type_id="181915" name="LKL - Outright Winner" disporder="-899">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="LKL - Outright Winner 2017/18" start_time="2018-06-01T18:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="1" ev_id="1013503" disporder="40"/>
+            </SBType>
+            <SBType sb_type_id="182076" name="ΝKL" disporder="-599">
+                <Ev inplay_allowed="N" status="A" name="Mazeikiai v Nafta-Universitetas Klaipeda" start_time="2018-03-27T15:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1679945" disporder="-498">
+                    <Teams>
+                        <Team team_id="1887172" team_order="0" name="Mazeikiai" short_name="Mazeikiai"/>
+                        <Team team_id="1887931" team_order="1" name="Nafta-Universitetas Klaipeda" short_name="Nafta-Universitetas Klaipeda"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="Y" status="A" name="Zalgiris II v Silute" start_time="2018-03-27T15:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1677733" disporder="-498">
+                    <EvDetail br_match_id="14133379"/>
+                    <Teams>
+                        <Team team_id="1898559" team_order="0" name="Zalgiris II" short_name="Zalgiris II"/>
+                        <Team team_id="1888168" team_order="1" name="Silute" short_name="Silute"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="10505" disporder="-1500" name="Poland">
+            <SBType sb_type_id="17174" name="PLK" disporder="-1500">
+                <Ev inplay_allowed="N" status="A" name="King Szczecin v Polski Cukier Torun" start_time="2018-03-28T16:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="69" ev_id="1676512" disporder="-499">
+                    <EvDetail br_match_id="12606596" br_has_stats="Y"/>
+                    <Teams>
+                        <Team team_id="1906257" team_order="0" name="King Szczecin" short_name="King Szczecin"/>
+                        <Team team_id="1887208" team_order="1" name="Polski Cukier Torun" short_name="Polski Cukier Torun"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Rosa Radom v Polpharma Starogard Gdanski" start_time="2018-03-28T16:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="69" ev_id="1676513" disporder="-499">
+                    <EvDetail br_match_id="12606142" br_has_stats="Y"/>
+                    <Teams>
+                        <Team team_id="1882157" team_order="0" name="Rosa Radom" short_name="Rosa Radom"/>
+                        <Team team_id="1906226" team_order="1" name="Polpharma Starogard Gdanski" short_name="Polpharma Starogard Gdanski"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Slam Stal Ostrow Wielkopolski v GTK Fluor Gliwice" start_time="2018-03-28T17:30:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="70" ev_id="1635146" disporder="-499">
+                    <EvDetail br_match_id="12606502" br_has_stats="Y"/>
+                    <Teams>
+                        <Team team_id="1888644" team_order="0" name="Slam Stal Ostrow Wielkopolski" short_name="Slam Stal Ostrow Wielkopolski"/>
+                        <Team team_id="1889308" team_order="1" name="GTK Fluor Gliwice" short_name="GTK Fluor Gliwice"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Zielona Gora v TBV Start Lublin" start_time="2018-03-31T15:00:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="1" ev_id="1677895" disporder="-499">
+                    <EvDetail br_match_id="12606542" br_has_stats="Y"/>
+                    <Teams>
+                        <Team team_id="115048" team_order="0" name="Zielona Gora" short_name="Zielona Gora"/>
+                        <Team team_id="1906256" team_order="1" name="TBV Start Lublin" short_name="TBV Start Lublin"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="MKS Dabrowa Gornicza v Legia Warszawa" start_time="2018-03-31T16:00:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="1" ev_id="1677893" disporder="-499">
+                    <EvDetail br_match_id="12606552" br_has_stats="Y"/>
+                    <Teams>
+                        <Team team_id="1887005" team_order="0" name="MKS Dabrowa Gornicza" short_name="MKS Dabrowa Gornicza"/>
+                        <Team team_id="1889507" team_order="1" name="Legia Warszawa" short_name="Legia Warszawa"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Mosir Krosno v PGE Turow Zgorzelec" start_time="2018-03-31T16:00:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="1" ev_id="1677894" disporder="-499">
+                    <EvDetail br_match_id="12606546" br_has_stats="Y"/>
+                    <Teams>
+                        <Team team_id="1890846" team_order="0" name="Mosir Krosno" short_name="Mosir Krosno"/>
+                        <Team team_id="115253" team_order="1" name="PGE Turow Zgorzelec" short_name="PGE Turow Zgorzelec"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+            <SBType sb_type_id="182247" name="PLK - Outright Winner" disporder="-1400">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="PLK 2017/18 - Outright Winner" start_time="2018-06-01T19:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="1" ev_id="1046910" disporder="40"/>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="10506" disporder="-1500" name="Slovenia">
+            <SBType sb_type_id="188938" name="2. SKL" disporder="-11">
+                <Ev inplay_allowed="N" status="A" name="Ljubljana v Konjice" start_time="2018-03-27T16:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="6" ev_id="1679942" disporder="-495">
+                    <Teams>
+                        <Team team_id="1912826" team_order="0" name="Ljubljana" short_name="Ljubljana"/>
+                        <Team team_id="1916945" team_order="1" name="Konjice" short_name="Konjice"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+            <SBType sb_type_id="14125" name="Liga Nova KBM - Relegation-Promotion" disporder="0">
+                <Ev inplay_allowed="N" status="A" name="Terme Olimia Podcetrtek v Zlatorog Lasko" start_time="2018-03-27T17:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1675702" disporder="-498">
+                    <EvDetail br_match_id="13817625"/>
+                    <Teams>
+                        <Team team_id="1905979" team_order="0" name="Terme Olimia Podcetrtek" short_name="Terme Olimia Podcetrtek"/>
+                        <Team team_id="117167" team_order="1" name="Zlatorog Lasko" short_name="Zlatorog Lasko"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="10507" disporder="-1500" name="Sweden">
+            <SBType sb_type_id="11703" name="Basketligan" disporder="-10">
+                <Ev inplay_allowed="N" status="A" name="Boras Basket v Jamtland Basket" start_time="2018-03-27T17:04:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1675704" disporder="-498">
+                    <EvDetail br_match_id="12718538"/>
+                    <Teams>
+                        <Team team_id="1881948" team_order="0" name="Boras Basket" short_name="Boras Basket"/>
+                        <Team team_id="1881956" team_order="1" name="Jamtland Basket" short_name="Jamtland Basket"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Umea BSKT v Sodertalje Kings" start_time="2018-03-27T17:04:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1675705" disporder="-498">
+                    <EvDetail br_match_id="12718540"/>
+                    <Teams>
+                        <Team team_id="1887536" team_order="0" name="Umea BSKT" short_name="Umea BSKT"/>
+                        <Team team_id="115727" team_order="1" name="Sodertalje Kings" short_name="Sodertalje Kings"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="KFUM Nassjo v BC Lulea" start_time="2018-03-27T17:04:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1675703" disporder="-498">
+                    <EvDetail br_match_id="12718536"/>
+                    <Teams>
+                        <Team team_id="1882086" team_order="0" name="KFUM Nassjo" short_name="KFUM Nassjo"/>
+                        <Team team_id="1892286" team_order="1" name="BC Lulea" short_name="BC Lulea"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Uppsala Basket v Norrkoping Dolphins" start_time="2018-03-27T17:04:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1675706" disporder="-498">
+                    <EvDetail br_match_id="12718542"/>
+                    <Teams>
+                        <Team team_id="1881946" team_order="0" name="Uppsala Basket" short_name="Uppsala Basket"/>
+                        <Team team_id="115729" team_order="1" name="Norrkoping Dolphins" short_name="Norrkoping Dolphins"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="11460" disporder="-1500" name="Israel">
+            <SBType sb_type_id="17830" name="National League" disporder="-750">
+                <Ev inplay_allowed="N" status="A" name="Hapoel Ramat Gan v Maccabi Kiryat Motzkin" start_time="2018-03-27T16:00:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="27" ev_id="1663901" disporder="-498">
+                    <Teams>
+                        <Team team_id="1896256" team_order="0" name="Hapoel Ramat Gan" short_name="Hapoel Ramat Gan"/>
+                        <Team team_id="1915868" team_order="1" name="Maccabi Kiryat Motzkin" short_name="Maccabi Kiryat Motzkin"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Hapoel Be'er Sheva v Ironi Kiryat Ata" start_time="2018-03-27T16:00:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="27" ev_id="1679743" disporder="-498">
+                    <Teams>
+                        <Team team_id="1896257" team_order="0" name="Hapoel Be'er Sheva" short_name="Hapoel Be'er Sheva"/>
+                        <Team team_id="1890265" team_order="1" name="Ironi Kiryat Ata" short_name="Ironi Kiryat Ata"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="Y" status="A" name="Hapoel Kfar Saba v Maccabi Rehovot" start_time="2018-03-27T16:00:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="27" ev_id="1663900" disporder="-498">
+                    <EvDetail br_match_id="13530095"/>
+                    <Teams>
+                        <Team team_id="1886695" team_order="0" name="Hapoel Kfar Saba" short_name="Hapoel Kfar Saba"/>
+                        <Team team_id="1905858" team_order="1" name="Maccabi Rehovot" short_name="Maccabi Rehovot"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="Y" status="A" name="Hapoel Haifa v Elitzur Yavne" start_time="2018-03-27T16:00:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="27" ev_id="1668507" disporder="-498">
+                    <EvDetail br_match_id="13530099"/>
+                    <Teams>
+                        <Team team_id="1906272" team_order="0" name="Hapoel Haifa" short_name="Hapoel Haifa"/>
+                        <Team team_id="1886744" team_order="1" name="Elitzur Yavne" short_name="Elitzur Yavne"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Hapoel Migdal Haemek v Hapoel Afula" start_time="2018-03-27T16:30:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="27" ev_id="1668508" disporder="-498">
+                    <Teams>
+                        <Team team_id="1888549" team_order="0" name="Hapoel Migdal Haemek" short_name="Hapoel Migdal Haemek"/>
+                        <Team team_id="1887201" team_order="1" name="Hapoel Afula" short_name="Hapoel Afula"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Maccabi Hod Hasharon v Maccabi Kiryat Gat" start_time="2018-03-27T16:30:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="27" ev_id="1679747" disporder="-498">
+                    <Teams>
+                        <Team team_id="1883440" team_order="0" name="Maccabi Hod Hasharon" short_name="Maccabi Hod Hasharon"/>
+                        <Team team_id="1890120" team_order="1" name="Maccabi Kiryat Gat" short_name="Maccabi Kiryat Gat"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="188503" disporder="-1400" name="Romania">
+            <SBType sb_type_id="182005" name="Liga Nationala" disporder="-100">
+                <Ev inplay_allowed="N" status="A" name="BCM U Pitesti v Atlassib Sibiu" start_time="2018-03-27T15:15:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="69" ev_id="1679947" disporder="-499">
+                    <EvDetail br_match_id="14178097"/>
+                    <Teams>
+                        <Team team_id="115734" team_order="0" name="BCM U Pitesti" short_name="BCM U Pitesti"/>
+                        <Team team_id="1889959" team_order="1" name="Atlassib Sibiu" short_name="Atlassib Sibiu"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Steaua CSM Eximbank v U-Banca Transilvania Cluj" start_time="2018-03-27T17:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="69" ev_id="1679949" disporder="-499">
+                    <EvDetail br_match_id="14178099"/>
+                    <Teams>
+                        <Team team_id="1884454" team_order="0" name="Steaua CSM Eximbank" short_name="Steaua CSM Eximbank"/>
+                        <Team team_id="1889884" team_order="1" name="U-Banca Transilvania Cluj" short_name="U-Banca Transilvania Cluj"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+            <SBType sb_type_id="182187" name="Liga Nationala - Women" disporder="-50">
+                <Ev inplay_allowed="N" status="A" name="Icim Arad Women v Olimpia CSU Brasov Women" start_time="2018-03-27T15:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="6" ev_id="1679976" disporder="-495">
+                    <Teams>
+                        <Team team_id="1884871" team_order="0" name="Icim Arad Women" short_name="Icim Arad Women"/>
+                        <Team team_id="1891198" team_order="1" name="Olimpia CSU Brasov Women" short_name="Olimpia CSU Brasov Women"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Timisoara Women v CSM Satu Mare Women" start_time="2018-03-27T16:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="6" ev_id="1679977" disporder="-495">
+                    <Teams>
+                        <Team team_id="1911766" team_order="0" name="Timisoara Women" short_name="Timisoara Women"/>
+                        <Team team_id="1891183" team_order="1" name="CSM Satu Mare Women" short_name="CSM Satu Mare Women"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="CSBT Alexandria Women v U Trustul Cre Cluj-Napoca Women" start_time="2018-03-27T17:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="6" ev_id="1679978" disporder="-495">
+                    <Teams>
+                        <Team team_id="1891248" team_order="0" name="CSBT Alexandria Women" short_name="CSBT Alexandria Women"/>
+                        <Team team_id="1906597" team_order="1" name="U Trustul Cre Cluj-Napoca Women" short_name="U Trustul Cre Cluj-Napoca Women"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="10500" disporder="-1200" name="Austria">
+            <SBType sb_type_id="11679" name="ABL" disporder="-99">
+                <Ev inplay_allowed="N" status="A" name="Hallmann Vienna v Swans Gmunden" start_time="2018-03-29T17:00:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="1" ev_id="1565145" disporder="-498">
+                    <EvDetail br_match_id="13236820" br_has_stats="Y"/>
+                    <Teams>
+                        <Team team_id="1905980" team_order="0" name="Hallmann Vienna" short_name="Hallmann Vienna"/>
+                        <Team team_id="116954" team_order="1" name="Swans Gmunden" short_name="Swans Gmunden"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="BSC Raiffeisen Panthers Furstenfeld v Kapfenberg Bulls" start_time="2018-03-30T17:30:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="1" ev_id="1569325" disporder="-498">
+                    <EvDetail br_match_id="13236676" br_has_stats="Y"/>
+                    <Teams>
+                        <Team team_id="1881723" team_order="0" name="BSC Raiffeisen Panthers Furstenfeld" short_name="BSC Raiffeisen Panthers Furstenfeld"/>
+                        <Team team_id="1914752" team_order="1" name="Kapfenberg Bulls" short_name="Kapfenberg Bulls"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Ubsc Graz v Oberwart Gunners" start_time="2018-03-31T16:00:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="1" ev_id="1573359" disporder="-498">
+                    <EvDetail br_match_id="13236850" br_has_stats="Y"/>
+                    <Teams>
+                        <Team team_id="115438" team_order="0" name="Ubsc Graz" short_name="Ubsc Graz"/>
+                        <Team team_id="116131" team_order="1" name="Oberwart Gunners" short_name="Oberwart Gunners"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Klosterneuburg Dukes v Arkadia Traiskirchen Lions" start_time="2018-03-31T16:00:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="1" ev_id="1573360" disporder="-498">
+                    <EvDetail br_match_id="13236596" br_has_stats="Y"/>
+                    <Teams>
+                        <Team team_id="116130" team_order="0" name="Klosterneuburg Dukes" short_name="Klosterneuburg Dukes"/>
+                        <Team team_id="115437" team_order="1" name="Arkadia Traiskirchen Lions" short_name="Arkadia Traiskirchen Lions"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="10504" disporder="-1200" name="Finland">
+            <SBType sb_type_id="184722" name="Korisliiga - Outright Winner" disporder="-30">
+                <Ev inplay_allowed="N" status="A" outright="Y" name="Korisliiga - Outright Winner 2017/18" start_time="2018-05-15T16:00:00" virtual="N" ev_timezone="Europe/London" inplay_now="N" mkt_count="1" ev_id="1076235" disporder="40"/>
+            </SBType>
+            <SBType sb_type_id="188842" name="Division 1A" disporder="-10">
+                <Ev inplay_allowed="N" status="A" name="HBA Marsky v Turun NMKY" start_time="2018-03-27T15:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1679811" disporder="-498">
+                    <Teams>
+                        <Team team_id="1915964" team_order="0" name="HBA Marsky" short_name="HBA Marsky"/>
+                        <Team team_id="1920557" team_order="1" name="Turun NMKY" short_name="Turun NMKY"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+            <SBType sb_type_id="189162" name="Division 1B" disporder="-5">
+                <Ev inplay_allowed="N" status="A" name="HNMKY Helsinki v Munkkiniemen Kisapojat" start_time="2018-03-27T15:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1679810" disporder="-498">
+                    <Teams>
+                        <Team team_id="1917772" team_order="0" name="HNMKY Helsinki" short_name="HNMKY Helsinki"/>
+                        <Team team_id="1917769" team_order="1" name="Munkkiniemen Kisapojat" short_name="Munkkiniemen Kisapojat"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="10630" disporder="-1200" name="Denmark">
+            <SBType sb_type_id="12083" name="Basketligaen" disporder="-99">
+                <Ev inplay_allowed="N" status="A" name="Randers Cimbria v Horsholm 79ers" start_time="2018-03-29T13:05:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="1" ev_id="1676058" disporder="-498">
+                    <EvDetail br_match_id="14146943"/>
+                    <Teams>
+                        <Team team_id="1881776" team_order="0" name="Randers Cimbria" short_name="Randers Cimbria"/>
+                        <Team team_id="1881766" team_order="1" name="Horsholm 79ers" short_name="Horsholm 79ers"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+            <SBType sb_type_id="14126" name="Dameligaen - Women" disporder="-20">
+                <Ev inplay_allowed="N" status="A" name="Stevnsgade SuperWomen v Virum Women" start_time="2018-03-27T16:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1679886" disporder="-498">
+                    <Teams>
+                        <Team team_id="1901437" team_order="0" name="Stevnsgade SuperWomen" short_name="Stevnsgade SuperWomen"/>
+                        <Team team_id="1901982" team_order="1" name="Virum Women" short_name="Virum Women"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="10059" disporder="-1100" name="Russia">
+            <SBType sb_type_id="181972" name="Superleague - Women" disporder="-20">
+                <Ev inplay_allowed="N" status="A" name="Dinamo Kursk B Women v Rostov Nad Donou Women" start_time="2018-03-27T13:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="26" ev_id="1679820" disporder="-498">
+                    <Teams>
+                        <Team team_id="1896430" team_order="0" name="Dinamo Kursk B Women" short_name="Dinamo Kursk B Women"/>
+                        <Team team_id="1884462" team_order="1" name="Rostov Nad Donou Women" short_name="Rostov Nad Donou Women"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Politeh Samara Women v Nika Siktivkar Women" start_time="2018-03-27T14:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1679821" disporder="-498">
+                    <Teams>
+                        <Team team_id="1887526" team_order="0" name="Politeh Samara Women" short_name="Politeh Samara Women"/>
+                        <Team team_id="1897852" team_order="1" name="Nika Siktivkar Women" short_name="Nika Siktivkar Women"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+            <SBType sb_type_id="184893" name="Superleague 1 - Women" disporder="-15">
+                <Ev inplay_allowed="Y" status="A" name="Inventa Kursk II Women v Dynamo Moscow II Women" start_time="2018-03-27T10:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="Y" mkt_count="13" ev_id="1677711" disporder="-498">
+                    <EvDetail br_match_id="13880271"/>
+                    <Inplay inplay_period_num="2" inplay_period_name_short="None" clock_status="STOPPED" correct_at="2018-03-27T10:53:17" inplay_period_name="None" score_string="31-20" last_change="2018-03-27T10:42:41" inplay_secs="1200"/>
+                    <Teams>
+                        <Team team_id="1917370" team_order="0" name="Inventa Kursk II Women" short_name="Inventa Kursk II Women"/>
+                        <Team team_id="1897247" team_order="1" name="Dynamo Moscow II Women" short_name="Dynamo Moscow II Women"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="10061" disporder="-1100" name="Latvia">
+            <SBType sb_type_id="15063" name="LBL" disporder="0">
+                <Ev inplay_allowed="N" status="A" name="Latvijas Universitate v VEF" start_time="2018-03-28T16:30:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="27" ev_id="1560423" disporder="-498">
+                    <EvDetail br_match_id="13529125"/>
+                    <Teams>
+                        <Team team_id="1883119" team_order="0" name="Latvijas Universitate" short_name="Latvijas Universitate"/>
+                        <Team team_id="115748" team_order="1" name="VEF" short_name="VEF"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Liepajas Lauvas v BK Jekabpils" start_time="2018-03-28T16:30:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="27" ev_id="1561342" disporder="-498">
+                    <EvDetail br_match_id="13529127"/>
+                    <Teams>
+                        <Team team_id="1881937" team_order="0" name="Liepajas Lauvas" short_name="Liepajas Lauvas"/>
+                        <Team team_id="1881944" team_order="1" name="BK Jekabpils" short_name="BK Jekabpils"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="10502" disporder="-1100" name="Czech Republic">
+            <SBType sb_type_id="16022" name="NBL" disporder="-99">
+                <Ev inplay_allowed="N" status="A" name="Basketbal Svitavy v BK Decin" start_time="2018-03-27T16:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1675699" disporder="-498">
+                    <EvDetail br_match_id="13804537"/>
+                    <Teams>
+                        <Team team_id="1882279" team_order="0" name="Basketbal Svitavy" short_name="Basketbal Svitavy"/>
+                        <Team team_id="1882278" team_order="1" name="BK Decin" short_name="BK Decin"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="BK Olomoucko Prostejov v Syntesia Pardubice" start_time="2018-03-28T15:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="1" ev_id="1679606" disporder="-498">
+                    <EvDetail br_match_id="13804541"/>
+                    <Teams>
+                        <Team team_id="1916300" team_order="0" name="BK Olomoucko Prostejov" short_name="BK Olomoucko Prostejov"/>
+                        <Team team_id="1908815" team_order="1" name="Syntesia Pardubice" short_name="Syntesia Pardubice"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="BC Kolin v BK Lions Jindrichuv Hradec" start_time="2018-03-28T15:45:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="1" ev_id="1679607" disporder="-498">
+                    <EvDetail br_match_id="13804647"/>
+                    <Teams>
+                        <Team team_id="1882275" team_order="0" name="BC Kolin" short_name="BC Kolin"/>
+                        <Team team_id="1882276" team_order="1" name="BK Lions Jindrichuv Hradec" short_name="BK Lions Jindrichuv Hradec"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Usti Nad Labem v NH Ostrava" start_time="2018-03-28T16:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="1" ev_id="1679608" disporder="-498">
+                    <EvDetail br_match_id="13804645"/>
+                    <Teams>
+                        <Team team_id="1882274" team_order="0" name="Usti Nad Labem" short_name="Usti Nad Labem"/>
+                        <Team team_id="115448" team_order="1" name="NH Ostrava" short_name="NH Ostrava"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="JBC Mmcite Brno v USK Praha" start_time="2018-03-28T18:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="1" ev_id="1679611" disporder="-498">
+                    <EvDetail br_match_id="13804649"/>
+                    <Teams>
+                        <Team team_id="1891190" team_order="0" name="JBC Mmcite Brno" short_name="JBC Mmcite Brno"/>
+                        <Team team_id="115449" team_order="1" name="USK Praha" short_name="USK Praha"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+            <SBType sb_type_id="181602" name="ZBL - Women" disporder="-69">
+                <Ev inplay_allowed="Y" status="A" name="Valosun KP Brno (W) v Zabiny Brno (W)" start_time="2018-03-27T15:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="1" ev_id="1675692" disporder="-498">
+                    <EvDetail br_match_id="14099981"/>
+                    <Teams>
+                        <Team team_id="1890558" team_order="0" name="Valosun KP Brno (W)" short_name="Valosun KP Brno (W)"/>
+                        <Team team_id="1915118" team_order="1" name="Zabiny Brno (W)" short_name="Zabiny Brno (W)"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Sokol Hradec Kralove Women v Slavia Praha Women" start_time="2018-03-27T16:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="1" ev_id="1675701" disporder="-498">
+                    <EvDetail br_match_id="14099983"/>
+                    <Teams>
+                        <Team team_id="1887136" team_order="0" name="Sokol Hradec Kralove Women" short_name="Sokol Hradec Kralove Women"/>
+                        <Team team_id="1890994" team_order="1" name="Slavia Praha Women" short_name="Slavia Praha Women"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Kara Trutnov Women v U19 Chance Strakonice Women" start_time="2018-03-27T16:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1680161" disporder="-498">
+                    <EvDetail br_match_id="14099999" br_has_stats="Y"/>
+                    <Teams>
+                        <Team team_id="1887137" team_order="0" name="Kara Trutnov Women" short_name="Kara Trutnov Women"/>
+                        <Team team_id="1896845" team_order="1" name="U19 Chance Strakonice Women" short_name="U19 Chance Strakonice Women"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="SBS Ostrava Women v MK Technic Brno (W)" start_time="2018-03-27T17:15:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1675707" disporder="-498">
+                    <EvDetail br_match_id="14100001"/>
+                    <Teams>
+                        <Team team_id="1889293" team_order="0" name="SBS Ostrava Women" short_name="SBS Ostrava Women"/>
+                        <Team team_id="116840" team_order="1" name="MK Technic Brno (W)" short_name="MK Technic Brno (W)"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="11130" disporder="-1100" name="Estonia">
+            <SBType sb_type_id="15067" name="KML" disporder="-500">
+                <Ev inplay_allowed="Y" status="A" name="Kalev v KK Parnu" start_time="2018-03-27T16:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1677739" disporder="-498">
+                    <EvDetail br_match_id="13544433"/>
+                    <Teams>
+                        <Team team_id="117380" team_order="0" name="Kalev" short_name="Kalev"/>
+                        <Team team_id="1882006" team_order="1" name="KK Parnu" short_name="KK Parnu"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="188467" disporder="-1100" name="Slovakia">
+            <SBType sb_type_id="181616" name="Extraliga" disporder="-99">
+                <Ev inplay_allowed="N" status="A" name="BK Iskra Svit v KB Kosice" start_time="2018-03-28T16:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="1" ev_id="1680142" disporder="-495">
+                    <EvDetail br_match_id="14123751"/>
+                    <Teams>
+                        <Team team_id="1882052" team_order="0" name="BK Iskra Svit" short_name="BK Iskra Svit"/>
+                        <Team team_id="1896089" team_order="1" name="KB Kosice" short_name="KB Kosice"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="MBK Rieker Com Therm Komarno v BC Prievidza" start_time="2018-03-28T16:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="1" ev_id="1680143" disporder="-495">
+                    <EvDetail br_match_id="14123753"/>
+                    <Teams>
+                        <Team team_id="1882113" team_order="0" name="MBK Rieker Com Therm Komarno" short_name="MBK Rieker Com Therm Komarno"/>
+                        <Team team_id="1888170" team_order="1" name="BC Prievidza" short_name="BC Prievidza"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="MBK Handlova v BK Inter Bratislava" start_time="2018-03-28T16:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="1" ev_id="1680144" disporder="-495">
+                    <EvDetail br_match_id="14123757"/>
+                    <Teams>
+                        <Team team_id="1882026" team_order="0" name="MBK Handlova" short_name="MBK Handlova"/>
+                        <Team team_id="1892093" team_order="1" name="BK Inter Bratislava" short_name="BK Inter Bratislava"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="VSEMvs Karlovka Bratislava v Levice" start_time="2018-03-28T17:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="1" ev_id="1680145" disporder="-495">
+                    <EvDetail br_match_id="14123755"/>
+                    <Teams>
+                        <Team team_id="1887510" team_order="0" name="VSEMvs Karlovka Bratislava" short_name="VSEMvs Karlovka Bratislava"/>
+                        <Team team_id="1915535" team_order="1" name="Levice" short_name="Levice"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="188470" disporder="-1100" name="Netherlands">
+            <SBType sb_type_id="181632" name="DBL" disporder="-99">
+                <Ev inplay_allowed="N" status="A" name="Eiffeltowers Den Bosch v Landstede Basketball Zwolle" start_time="2018-03-27T18:00:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="27" ev_id="1679470" disporder="-498">
+                    <EvDetail br_match_id="14183895"/>
+                    <Teams>
+                        <Team team_id="1882137" team_order="0" name="Eiffeltowers Den Bosch" short_name="Eiffeltowers Den Bosch"/>
+                        <Team team_id="1882141" team_order="1" name="Landstede Basketball Zwolle" short_name="Landstede Basketball Zwolle"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="188598" disporder="-1100" name="Belarus">
+            <SBType sb_type_id="183081" name="Premier League" disporder="0">
+                <Ev inplay_allowed="N" status="A" name="BC Grodno 93 v Impuls-BGUIR" start_time="2018-03-27T14:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="5" ev_id="1679971" disporder="-495">
+                    <Teams>
+                        <Team team_id="1889279" team_order="0" name="BC Grodno 93" short_name="BC Grodno 93"/>
+                        <Team team_id="1888661" team_order="1" name="Impuls-BGUIR" short_name="Impuls-BGUIR"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Rubon Vitebsk v Tsmoki Minsk" start_time="2018-03-27T15:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="5" ev_id="1679972" disporder="-495">
+                    <Teams>
+                        <Team team_id="1888400" team_order="0" name="Rubon Vitebsk" short_name="Rubon Vitebsk"/>
+                        <Team team_id="1920841" team_order="1" name="Tsmoki Minsk" short_name="Tsmoki Minsk"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Brest v Prinemanye Grodno" start_time="2018-03-27T15:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="6" ev_id="1679973" disporder="-495">
+                    <Teams>
+                        <Team team_id="1907749" team_order="0" name="Brest" short_name="Brest"/>
+                        <Team team_id="1888922" team_order="1" name="Prinemanye Grodno" short_name="Prinemanye Grodno"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="RSCOP Tsmoki v Tsmoki Minsk B" start_time="2018-03-27T15:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="5" ev_id="1679975" disporder="-495">
+                    <Teams>
+                        <Team team_id="1917283" team_order="0" name="RSCOP Tsmoki" short_name="RSCOP Tsmoki"/>
+                        <Team team_id="1917385" team_order="1" name="Tsmoki Minsk B" short_name="Tsmoki Minsk B"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="10665" disporder="-900" name="Australia">
+            <SBType sb_type_id="12338" name="NBL" disporder="-990">
+                <Ev inplay_allowed="N" status="A" name="Melbourne Uni v Adelaide 36ers" start_time="2018-03-31T07:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="69" ev_id="1672077" disporder="-499">
+                    <Notes>Final</Notes>
+                    <EvDetail br_match_id="14170451"/>
+                    <Teams>
+                        <Team team_id="1888278" team_order="0" name="Melbourne Uni" short_name="Melbourne Uni"/>
+                        <Team team_id="1882191" team_order="1" name="Adelaide 36ers" short_name="Adelaide 36ers"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="10669" disporder="-840" name="Philippines">
+            <SBType sb_type_id="183024" name="PBA Cup" disporder="0">
+                <Ev inplay_allowed="N" status="A" name="San Miguel Beermen v Star Hotshots" start_time="2018-04-01T10:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="4" ev_id="1679855" disporder="-200">
+                    <EvDetail br_match_id="14132059" br_has_stats="Y"/>
+                    <Teams>
+                        <Team team_id="1888214" team_order="0" name="San Miguel Beermen" short_name="San Miguel Beermen"/>
+                        <Team team_id="1888215" team_order="1" name="Star Hotshots" short_name="Star Hotshots"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="188464" disporder="-830" name="Japan">
+            <SBType sb_type_id="181606" name="B League 1" disporder="-99">
+                <Ev inplay_allowed="N" status="A" name="Kyoto Hannaryz v Nishinomiya Storks" start_time="2018-03-28T10:05:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1679603" disporder="-498">
+                    <EvDetail br_match_id="13300677"/>
+                    <Teams>
+                        <Team team_id="1908817" team_order="0" name="Kyoto Hannaryz" short_name="Kyoto Hannaryz"/>
+                        <Team team_id="1917056" team_order="1" name="Nishinomiya Storks" short_name="Nishinomiya Storks"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Toshiba Brave Thunders Kanagawa v Chiba Jets" start_time="2018-03-28T10:05:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1679599" disporder="-498">
+                    <EvDetail br_match_id="13300301"/>
+                    <Teams>
+                        <Team team_id="1881922" team_order="0" name="Toshiba Brave Thunders Kanagawa" short_name="Toshiba Brave Thunders Kanagawa"/>
+                        <Team team_id="1881917" team_order="1" name="Chiba Jets" short_name="Chiba Jets"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Levanga Hokkaido v Hitachi Sunrockers Tokyo" start_time="2018-03-28T10:05:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1679598" disporder="-498">
+                    <EvDetail br_match_id="13300205"/>
+                    <Teams>
+                        <Team team_id="1881921" team_order="0" name="Levanga Hokkaido" short_name="Levanga Hokkaido"/>
+                        <Team team_id="1881918" team_order="1" name="Hitachi Sunrockers Tokyo" short_name="Hitachi Sunrockers Tokyo"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Osaka Evessa v Ryukyu Golden Kings" start_time="2018-03-28T10:05:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1679601" disporder="-498">
+                    <EvDetail br_match_id="13300613"/>
+                    <Teams>
+                        <Team team_id="1882078" team_order="0" name="Osaka Evessa" short_name="Osaka Evessa"/>
+                        <Team team_id="1882069" team_order="1" name="Ryukyu Golden Kings" short_name="Ryukyu Golden Kings"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Shimane Susanoo Magic v Shiga Lake Stars" start_time="2018-03-28T10:05:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1679596" disporder="-498">
+                    <EvDetail br_match_id="13300157"/>
+                    <Teams>
+                        <Team team_id="1882080" team_order="0" name="Shimane Susanoo Magic" short_name="Shimane Susanoo Magic"/>
+                        <Team team_id="1882081" team_order="1" name="Shiga Lake Stars" short_name="Shiga Lake Stars"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Aisin Seahorses Mikawa v Mitsubishi Diamond Dolphins" start_time="2018-03-28T10:05:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1679597" disporder="-498">
+                    <EvDetail br_match_id="13300179"/>
+                    <Teams>
+                        <Team team_id="1882365" team_order="0" name="Aisin Seahorses Mikawa" short_name="Aisin Seahorses Mikawa"/>
+                        <Team team_id="1891104" team_order="1" name="Mitsubishi Diamond Dolphins" short_name="Mitsubishi Diamond Dolphins"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Toyama Grouses v Niigata Albirex BB" start_time="2018-03-28T10:05:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1679602" disporder="-498">
+                    <EvDetail br_match_id="13300671"/>
+                    <Teams>
+                        <Team team_id="1882313" team_order="0" name="Toyama Grouses" short_name="Toyama Grouses"/>
+                        <Team team_id="1882074" team_order="1" name="Niigata Albirex BB" short_name="Niigata Albirex BB"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Yokohama B-Corsairs v Sanen NeoPhoenix" start_time="2018-03-28T10:05:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1679600" disporder="-498">
+                    <EvDetail br_match_id="13300445"/>
+                    <Teams>
+                        <Team team_id="1900657" team_order="0" name="Yokohama B-Corsairs" short_name="Yokohama B-Corsairs"/>
+                        <Team team_id="1908818" team_order="1" name="Sanen NeoPhoenix" short_name="Sanen NeoPhoenix"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Toyota Alvark Tokyo v Link Tochigi Brex" start_time="2018-03-28T10:35:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1679604" disporder="-498">
+                    <EvDetail br_match_id="13300269"/>
+                    <Teams>
+                        <Team team_id="1881923" team_order="0" name="Toyota Alvark Tokyo" short_name="Toyota Alvark Tokyo"/>
+                        <Team team_id="1881924" team_order="1" name="Link Tochigi Brex" short_name="Link Tochigi Brex"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+            <SBType sb_type_id="181619" name="B League 2" disporder="-89">
+                <Ev inplay_allowed="N" status="A" name="Yamagata Wyverns v Fukushima Fire Bonds" start_time="2018-03-28T09:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="1" ev_id="1679571" disporder="-498">
+                    <EvDetail br_match_id="12686504"/>
+                    <Teams>
+                        <Team team_id="1906057" team_order="0" name="Yamagata Wyverns" short_name="Yamagata Wyverns"/>
+                        <Team team_id="1887558" team_order="1" name="Fukushima Fire Bonds" short_name="Fukushima Fire Bonds"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Rizing Fukuoka BB v Takamatsu Five Arrows" start_time="2018-03-28T10:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="1" ev_id="1679595" disporder="-498">
+                    <EvDetail br_match_id="12686516"/>
+                    <Teams>
+                        <Team team_id="1882083" team_order="0" name="Rizing Fukuoka BB" short_name="Rizing Fukuoka BB"/>
+                        <Team team_id="1882082" team_order="1" name="Takamatsu Five Arrows" short_name="Takamatsu Five Arrows"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Fighting Eagles Nagoya v Shinshu Brave Warriors" start_time="2018-03-28T10:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="1" ev_id="1679592" disporder="-498">
+                    <EvDetail br_match_id="12686510"/>
+                    <Teams>
+                        <Team team_id="1906043" team_order="0" name="Fighting Eagles Nagoya" short_name="Fighting Eagles Nagoya"/>
+                        <Team team_id="1882316" team_order="1" name="Shinshu Brave Warriors" short_name="Shinshu Brave Warriors"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="188615" disporder="-800" name="Qatar">
+            <SBType sb_type_id="183812" name="Emir Cup" disporder="0">
+                <Ev inplay_allowed="N" status="A" name="Qatar SC v Al Wakrah" start_time="2018-03-27T16:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1679815" disporder="-498">
+                    <Teams>
+                        <Team team_id="1889398" team_order="0" name="Qatar SC" short_name="Qatar SC"/>
+                        <Team team_id="1889405" team_order="1" name="Al Wakrah" short_name="Al Wakrah"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="188663" disporder="-800" name="Hong Kong">
+            <SBType sb_type_id="189890" name="Cup" disporder="0">
+                <Ev inplay_allowed="N" status="A" name="Tycoon v Eastern" start_time="2018-03-27T12:40:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="6" ev_id="1679812" disporder="-495">
+                    <Teams>
+                        <Team team_id="1921740" team_order="0" name="Tycoon" short_name="Tycoon"/>
+                        <Team team_id="1901276" team_order="1" name="Eastern" short_name="Eastern"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="188764" disporder="-800" name="Lebanon">
+            <SBType sb_type_id="185247" name="FLB" disporder="0">
+                <Ev inplay_allowed="N" status="A" name="Al-Riyadi v CS Sagesse" start_time="2018-03-27T17:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1679813" disporder="-498">
+                    <Teams>
+                        <Team team_id="1900544" team_order="0" name="Al-Riyadi" short_name="Al-Riyadi"/>
+                        <Team team_id="1889455" team_order="1" name="CS Sagesse" short_name="CS Sagesse"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Beirut Club v Homenetmen" start_time="2018-03-27T17:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1679814" disporder="-498">
+                    <Teams>
+                        <Team team_id="1915443" team_order="0" name="Beirut Club" short_name="Beirut Club"/>
+                        <Team team_id="1899011" team_order="1" name="Homenetmen" short_name="Homenetmen"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="11525" disporder="-790" name="Argentina">
+            <SBType sb_type_id="181793" name="Liga Nacional" disporder="-100">
+                <Ev inplay_allowed="N" status="A" name="Club Atletico Quilmes v Club de Regatas Corrientes" start_time="2018-03-28T00:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1679414" disporder="-498">
+                    <EvDetail br_match_id="13818197"/>
+                    <Teams>
+                        <Team team_id="1882232" team_order="0" name="Club Atletico Quilmes" short_name="Club Atletico Quilmes"/>
+                        <Team team_id="1882228" team_order="1" name="Club de Regatas Corrientes" short_name="Club de Regatas Corrientes"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="Y" status="A" name="Club Atletico Argentino de Junin v Instituto Atletico Central Cordoba" start_time="2018-03-28T00:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1677765" disporder="-498">
+                    <EvDetail br_match_id="13818215"/>
+                    <Teams>
+                        <Team team_id="1900347" team_order="0" name="Club Atletico Argentino de Junin" short_name="Club Atletico Argentino de Junin"/>
+                        <Team team_id="1892584" team_order="1" name="Instituto Atletico Central Cordoba" short_name="Instituto Atletico Central Cordoba"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+            <SBType sb_type_id="189709" name="LA LIGA" disporder="-85">
+                <Ev inplay_allowed="N" status="A" name="Temperley v Club Atletico Platense" start_time="2018-03-28T00:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1679943" disporder="-498">
+                    <Teams>
+                        <Team team_id="1902740" team_order="0" name="Temperley" short_name="Temperley"/>
+                        <Team team_id="1899662" team_order="1" name="Club Atletico Platense" short_name="Club Atletico Platense"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Asociacion Mitre v Obera Tenis Club" start_time="2018-03-28T01:00:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1679944" disporder="-498">
+                    <Teams>
+                        <Team team_id="1907187" team_order="0" name="Asociacion Mitre" short_name="Asociacion Mitre"/>
+                        <Team team_id="1907186" team_order="1" name="Obera Tenis Club" short_name="Obera Tenis Club"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="11487" disporder="-780" name="Brazil">
+            <SBType sb_type_id="17775" name="NBB" disporder="-400">
+                <Ev inplay_allowed="N" status="A" name="Bauru v SC Vasco da Gama" start_time="2018-03-27T22:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1677118" disporder="-498">
+                    <EvDetail br_match_id="12808508"/>
+                    <Teams>
+                        <Team team_id="1882815" team_order="0" name="Bauru" short_name="Bauru"/>
+                        <Team team_id="1883650" team_order="1" name="SC Vasco da Gama" short_name="SC Vasco da Gama"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Flamengo v Vitoria" start_time="2018-03-27T22:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1677119" disporder="-498">
+                    <EvDetail br_match_id="12808512"/>
+                    <Teams>
+                        <Team team_id="115926" team_order="0" name="Flamengo" short_name="Flamengo"/>
+                        <Team team_id="1898080" team_order="1" name="Vitoria" short_name="Vitoria"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Joinville v Campo Mourao" start_time="2018-03-27T22:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1677120" disporder="-498">
+                    <EvDetail br_match_id="12808514"/>
+                    <Teams>
+                        <Team team_id="1913569" team_order="0" name="Joinville" short_name="Joinville"/>
+                        <Team team_id="1907250" team_order="1" name="Campo Mourao" short_name="Campo Mourao"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Caxias Do Sul v Paulistano" start_time="2018-03-27T22:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1677121" disporder="-498">
+                    <EvDetail br_match_id="12808516"/>
+                    <Teams>
+                        <Team team_id="1897276" team_order="0" name="Caxias Do Sul" short_name="Caxias Do Sul"/>
+                        <Team team_id="116027" team_order="1" name="Paulistano" short_name="Paulistano"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Minas v Basquete Cearense" start_time="2018-03-27T22:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1677123" disporder="-498">
+                    <EvDetail br_match_id="12808510" br_has_stats="Y"/>
+                    <Teams>
+                        <Team team_id="1882895" team_order="0" name="Minas" short_name="Minas"/>
+                        <Team team_id="1882819" team_order="1" name="Basquete Cearense" short_name="Basquete Cearense"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="Y" status="A" name="Franca v Botafogo" start_time="2018-03-27T22:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1677117" disporder="-498">
+                    <EvDetail br_match_id="12808506"/>
+                    <Teams>
+                        <Team team_id="1914559" team_order="0" name="Franca" short_name="Franca"/>
+                        <Team team_id="1910386" team_order="1" name="Botafogo" short_name="Botafogo"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="Y" status="A" name="Pinheiros v Liga Sorocabana" start_time="2018-03-27T22:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1677199" disporder="-498">
+                    <EvDetail br_match_id="12808518"/>
+                    <Teams>
+                        <Team team_id="116028" team_order="0" name="Pinheiros" short_name="Pinheiros"/>
+                        <Team team_id="1882818" team_order="1" name="Liga Sorocabana" short_name="Liga Sorocabana"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="188463" disporder="-700" name="Mexico">
+            <SBType sb_type_id="181599" name="LNBP" disporder="0">
+                <Ev inplay_allowed="N" status="A" name="Soles De Mexicali v Aguacateros De Michoacan" start_time="2018-03-29T02:15:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="1" ev_id="1669333" disporder="-498">
+                    <EvDetail br_match_id="14163233"/>
+                    <Teams>
+                        <Team team_id="1881824" team_order="0" name="Soles De Mexicali" short_name="Soles De Mexicali"/>
+                        <Team team_id="1916965" team_order="1" name="Aguacateros De Michoacan" short_name="Aguacateros De Michoacan"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="188685" disporder="-700" name="El Salvador">
+            <SBType sb_type_id="184884" name="Mayor Basketball League" disporder="-90">
+                <Ev inplay_allowed="N" status="A" name="Lobos Chalchuapa v MC El Brasil Santa Ana" start_time="2018-03-28T01:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1679890" disporder="-498">
+                    <Teams>
+                        <Team team_id="1897892" team_order="0" name="Lobos Chalchuapa" short_name="Lobos Chalchuapa"/>
+                        <Team team_id="1900760" team_order="1" name="MC El Brasil Santa Ana" short_name="MC El Brasil Santa Ana"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Brujos Izalco v Santiagueno" start_time="2018-03-28T01:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="27" ev_id="1679891" disporder="-498">
+                    <Teams>
+                        <Team team_id="1901781" team_order="0" name="Brujos Izalco" short_name="Brujos Izalco"/>
+                        <Team team_id="1913640" team_order="1" name="Santiagueno" short_name="Santiagueno"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="Santa Tecla BC v Giants" start_time="2018-03-28T01:30:00" ev_timezone="Europe/London" virtual="N" inplay_now="N" mkt_count="24" ev_id="1679893" disporder="-498">
+                    <Teams>
+                        <Team team_id="1900894" team_order="0" name="Santa Tecla BC" short_name="Santa Tecla BC"/>
+                        <Team team_id="1900672" team_order="1" name="Giants" short_name="Giants"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+        <SBClass sb_class_id="188869" disporder="-600" name="Tunisia">
+            <SBType sb_type_id="186867" name="Division 1" disporder="0">
+                <Ev inplay_allowed="N" status="A" name="Stade Nabeulien v AS Hammamet" start_time="2018-03-27T17:00:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="27" ev_id="1651473" disporder="-498">
+                    <Teams>
+                        <Team team_id="1919159" team_order="0" name="Stade Nabeulien" short_name="Stade Nabeulien"/>
+                        <Team team_id="1906015" team_order="1" name="AS Hammamet" short_name="AS Hammamet"/>
+                    </Teams>
+                </Ev>
+                <Ev inplay_allowed="N" status="A" name="AS Marsa v Al Ansar" start_time="2018-03-27T17:00:00" ev_timezone="UTC" virtual="N" inplay_now="N" mkt_count="27" ev_id="1651475" disporder="-498">
+                    <Teams>
+                        <Team team_id="1919046" team_order="0" name="AS Marsa" short_name="AS Marsa"/>
+                        <Team team_id="1909180" team_order="1" name="Al Ansar" short_name="Al Ansar"/>
+                    </Teams>
+                </Ev>
+            </SBType>
+        </SBClass>
+    </Sport>
+</ContentAPI>

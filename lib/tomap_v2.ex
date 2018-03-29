@@ -5,9 +5,12 @@ defmodule ToMap_V2 do
     #can't handle xmlns
     xml = String.replace(xml, ~r/\sxmlns=\".*\"/, "")
     {:ok, tuples, _} = :erlsom.simple_form(xml)
-    # IO.inspect tuples
-    parse(tuples)
+    
+     parse(tuples)
+     
   end
+
+
 
   def parse( {name, [], content} ) do
     key =find_id_from_attributes(name, [])
@@ -24,6 +27,8 @@ defmodule ToMap_V2 do
 
     %{key =>do_parse_content(content,[]) |> Map.merge(attr_map(attributes))}
   end
+
+   def parse(note), do: {"Notes", note}  #added to 'fix' <Notes> error 
 
   # def do_parse_content([],maps) ,do: Enum.reduce(maps,%{},fn m,acc -> Map.merge(m,acc) end)
   def do_parse_content([],maps) ,do: Enum.reduce(maps,%{}, &dynamic_merge(&1, &2))
