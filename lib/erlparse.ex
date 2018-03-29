@@ -41,7 +41,7 @@ defmodule Erlparse do
 
   def hello do
     {:ok,xml} =  :file.read_file("test/liveevents.xml")
-    {:ok,events,[]} = :erlsom.parse_sax(xml,[],fn(xmline, acc) ->  do_parse(xmline,acc)end)
+    {:ok,events,[]} = :erlsom.parse_sax(xml,[],fn(xmline, acc) ->  do_parse(xmline,acc) end)
     events
   end
 
@@ -54,8 +54,9 @@ defmodule Erlparse do
   def do_parse(_,acc) ,do: acc
 
   def with_xmltomap do
-    file = File.read! "test/tennisevent.xml"
-    map = ToMap.naive_map(file)
+    # file = File.read! "test/tennisevent.xml"
+    file = File.read! "test/liveevents.xml"
+    map = ToMap_V2.naive_map(file)
 
     #Meta einai lista apo maps pou mporoume na diatrexoume kai na exoume ola ta key-value pairs analogws pws mas volevei
 
