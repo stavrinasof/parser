@@ -1,0 +1,52 @@
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODA0ODIxNDg5OjQ6ZW4=" version="1.0" request="get_inplay_event_detail">
+<Sport sport_code="BOXI" allow_cash_out="N" name="Boxing" disporder="90">
+<SBClass sb_class_id="188459" disporder="0" name="Boxing">
+<SBType sb_type_id="181564" name="Matchups" disporder="0">
+<Ev inplay_allowed="N" status="A" name="Nadjib Mohammedi v Hadillah Mohoumadi" allow_cash_out="N" start_time="2018-03-30T18:00:00" allow_cash_out_pre_ev="N" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="N" inplay_now="N" mkt_count="4" ev_id="1691494" disporder="0">
+<Players/>
+<Mkt status="A" name="Head to Head (Player based)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="98688785" inplay_avail="N" disporder="0" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="HTOH" lp_avail="Y" mkt_sort_name="Head to head">
+<Seln status="A" name="Nadjib Mohammedi" seln_id="485118171" disporder="0" player_id="18949618" seln_sort="P1">
+<Price prc_type="LP" dec_prc="2.15" bet_ref="NDg1MTE4MTcxOjExNTAvMTAwMDo6MA" frac_prc="23/20" us_prc="+115" last_change="2018-03-30T08:19:35"/>
+</Seln>
+<Seln status="A" name="Hadillah Mohoumadi" seln_id="485118172" disporder="1" player_id="18949619" seln_sort="P2">
+<Price prc_type="LP" dec_prc="1.65" bet_ref="NDg1MTE4MTcyOjY1MC8xMDAwOjow" frac_prc="13/20" us_prc="-154" last_change="2018-03-30T08:19:35"/>
+</Seln>
+</Mkt>
+<Mkt status="A" name="Total Rounds" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="98690472" handicap="9.5" inplay_avail="N" disporder="10" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="OVUN" lp_avail="Y" mkt_sort_name="Over/Under">
+<Seln status="A" name="Over" handicap="9.5" seln_id="485124072" disporder="-10" seln_sort="O">
+<Price prc_type="LP" dec_prc="1.45" bet_ref="NDg1MTI0MDcyOjQ1MC8xMDAwOjM4OjA" frac_prc="4/9" us_prc="-225" last_change="2018-03-30T06:26:48"/>
+</Seln>
+<Seln status="A" name="Under" handicap="9.5" seln_id="485124071" disporder="0" seln_sort="U">
+<Price prc_type="LP" dec_prc="2.65" bet_ref="NDg1MTI0MDcxOjE2NTAvMTAwMDozODow" frac_prc="33/20" us_prc="+165" last_change="2018-03-30T06:26:48"/>
+</Seln>
+</Mkt>
+<Mkt status="A" name="Method Of Victory" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="98690470" inplay_avail="N" disporder="20" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="X119" lp_avail="Y" mkt_sort_name="MKT_SORT-X119">
+<Seln status="A" name="Nadjib Mohammedi by KO, TKO, Disqualification or Submission" seln_id="485124064" disporder="-2" player_id="18949618" seln_sort="H">
+<Price prc_type="LP" dec_prc="5.00" bet_ref="NDg1MTI0MDY0OjQwMDAvMTAwMDo6MA" frac_prc="4/1" us_prc="+400" last_change="2018-03-30T08:19:56"/>
+</Seln>
+<Seln status="A" name="Nadjib Mohammedi by Decision or Tech. Desicion" seln_id="485124065" disporder="-1" player_id="18949618" seln_sort="T">
+<Price prc_type="LP" dec_prc="3.75" bet_ref="NDg1MTI0MDY1OjI3NTAvMTAwMDo6MA" frac_prc="11/4" us_prc="+275" last_change="2018-03-30T08:19:56"/>
+</Seln>
+<Seln status="A" name="Hadillah Mohoumadi by KO, TKO, Disqualification or Submission" seln_id="485124067" disporder="1" player_id="18949619" seln_sort="A">
+<Price prc_type="LP" dec_prc="3.25" bet_ref="NDg1MTI0MDY3OjIyNTAvMTAwMDo6MA" frac_prc="9/4" us_prc="+225" last_change="2018-03-30T08:19:56"/>
+</Seln>
+<Seln status="A" name="Hadillah Mohoumadi by Decision or Tech. Decision" seln_id="485124068" disporder="2" player_id="18949619" seln_sort="W">
+<Price prc_type="LP" dec_prc="3.25" bet_ref="NDg1MTI0MDY4OjIyNTAvMTAwMDo6MA" frac_prc="9/4" us_prc="+225" last_change="2018-03-30T08:19:56"/>
+</Seln>
+<Seln status="A" seln_id="485124066" seln_sort="R" name="Draw" disporder="10">
+<Price prc_type="LP" dec_prc="20.00" bet_ref="NDg1MTI0MDY2OjE5MDAwLzEwMDA6OjA" frac_prc="19/1" us_prc="+1900" last_change="2018-03-30T06:26:48"/>
+</Seln>
+</Mkt>
+<Mkt status="A" name="Will Fight go the Distance?" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="98690471" inplay_avail="N" disporder="40" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="X305" lp_avail="Y" mkt_sort_name="MKT_SORT-X305">
+<Seln status="A" seln_id="485124069" seln_sort="Y" name="Yes" disporder="0">
+<Price prc_type="LP" dec_prc="1.75" bet_ref="NDg1MTI0MDY5Ojc1MC8xMDAwOjow" frac_prc="3/4" us_prc="-134" last_change="2018-03-30T06:26:52"/>
+</Seln>
+<Seln status="A" seln_id="485124070" seln_sort="N" name="No" disporder="1">
+<Price prc_type="LP" dec_prc="2.00" bet_ref="NDg1MTI0MDcwOjEwMDAvMTAwMDo6MA" frac_prc="1/1" us_prc="+100" last_change="2018-03-30T06:26:52"/>
+</Seln>
+</Mkt>
+</Ev>
+</SBType>
+</SBClass>
+</Sport>
+</ContentAPI>

@@ -1,9 +1,9 @@
-defmodule Erlparse.MixProject do
+defmodule XmlParser.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :erlparse,
+      app: :xmlparser,
       version: "0.1.0",
       elixir: "~> 1.6",
       start_permanent: Mix.env() == :prod,
@@ -14,7 +14,7 @@ defmodule Erlparse.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      extra_applications: [:logger ,:erlsom, :httpoison]
+      extra_applications: [:logger, :erlsom, :httpoison]
     ]
   end
 

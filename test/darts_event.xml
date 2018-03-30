@@ -1,0 +1,105 @@
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODA0ODIzMTcyOjQ6ZW4=" version="1.0" request="get_inplay_event_detail">
+<Sport sport_code="DART" allow_cash_out="N" name="Darts" disporder="120">
+<SBClass sb_class_id="188639" disporder="0" name="Premier League">
+<SBType sb_type_id="183582" name="Premier League" disporder="0">
+<Ev inplay_allowed="N" status="A" name="Simon Whitlock v Gerwyn Price" allow_cash_out="N" start_time="2018-04-05T20:35:00" allow_cash_out_pre_ev="N" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="N" inplay_now="N" mkt_count="6" ev_id="1690783" disporder="1">
+<EvDetail br_match_id="13965521"/>
+<Stats>
+<Stat name="EV_STAT_180S" title="PLAYER_STAT_180S" stat_type="180S" value="0" player_id="18898508" type="player"/>
+<Stat name="EV_STAT_180S" title="PLAYER_STAT_180S" stat_type="180S" value="0" player_id="18902059" type="player"/>
+</Stats>
+<Participant name="Simon Whitlock" full_name="Simon Whitlock">
+<Player first_name="Simon" last_name="Whitlock" name="Simon Whitlock" number="1" player_id="18898508" initials="S"/>
+</Participant>
+<Participant name="Gerwyn Price" full_name="Gerwyn Price">
+<Player first_name="Gerwyn" last_name="Odds" name="Gerwyn Price" number="2" player_id="18902059" initials="G"/>
+</Participant>
+<Mkt status="A" name="Head to Head (Player based)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="98679925" inplay_avail="Y" disporder="-9999" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="HTOH" lp_avail="Y" mkt_sort_name="Head to head">
+<Seln status="A" name="Simon Whitlock" seln_id="485087878" disporder="0" player_id="18898508" seln_sort="P1">
+<Price prc_type="LP" dec_prc="1.444" bet_ref="NDg1MDg3ODc4OjQvOTo6MA" frac_prc="4/9" us_prc="-225" last_change="2018-03-29T23:46:12"/>
+</Seln>
+<Seln status="A" name="Gerwyn Price" seln_id="485087879" disporder="1" player_id="18902059" seln_sort="P2">
+<Price prc_type="LP" dec_prc="2.70" bet_ref="NDg1MDg3ODc5OjE3LzEwOjow" frac_prc="17/10" us_prc="+170" last_change="2018-03-29T23:46:12"/>
+</Seln>
+</Mkt>
+<Mkt status="A" name="Match Result" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="98679926" inplay_avail="Y" disporder="-9999" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="MREP" lp_avail="Y" mkt_sort_name="Matches">
+<Seln status="A" name="Simon Whitlock" seln_id="485087880" disporder="0" player_id="18898508" seln_sort="H">
+<Price prc_type="LP" dec_prc="1.833" bet_ref="NDg1MDg3ODgwOjUvNjo6MA" frac_prc="5/6" us_prc="-120" last_change="2018-03-29T23:46:12"/>
+</Seln>
+<Seln status="A" seln_id="485087881" seln_sort="D" name="Draw" disporder="1">
+<Price prc_type="LP" dec_prc="4.333" bet_ref="NDg1MDg3ODgxOjEwLzM6OjA" frac_prc="10/3" us_prc="+333" last_change="2018-03-29T23:46:12"/>
+</Seln>
+<Seln status="A" name="Gerwyn Price" seln_id="485087882" disporder="2" player_id="18902059" seln_sort="A">
+<Price prc_type="LP" dec_prc="3.40" bet_ref="NDg1MDg3ODgyOjEyLzU6OjA" frac_prc="12/5" us_prc="+240" last_change="2018-03-29T23:46:12"/>
+</Seln>
+</Mkt>
+<Mkt status="A" name="Total Legs" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="98679928" handicap="+9.5" inplay_avail="Y" disporder="-9000" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="TLEG" lp_avail="Y" mkt_sort_name="MKT_SORT-TLEG" mkt_close_at="2018-04-05T20:25:00">
+<Seln status="A" name="Over" handicap="+9.5" seln_id="485087898" disporder="0" seln_sort="O">
+<Price prc_type="LP" dec_prc="1.20" bet_ref="NDg1MDg3ODk4OjEvNTozODow" frac_prc="1/5" us_prc="-500" last_change="2018-03-29T23:46:12"/>
+</Seln>
+<Seln status="A" name="Under" handicap="+9.5" seln_id="485087899" disporder="1" seln_sort="U">
+<Price prc_type="LP" dec_prc="4.20" bet_ref="NDg1MDg3ODk5OjE2LzU6Mzg6MA" frac_prc="16/5" us_prc="+320" last_change="2018-03-29T23:46:12"/>
+</Seln>
+</Mkt>
+<Mkt status="A" name="Total Legs" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="98679929" handicap="+10.5" inplay_avail="Y" disporder="-9000" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="TLEG" lp_avail="Y" mkt_sort_name="MKT_SORT-TLEG" mkt_close_at="2018-04-05T20:25:00">
+<Seln status="A" name="Over" handicap="+10.5" seln_id="485087900" disporder="0" seln_sort="O">
+<Price prc_type="LP" dec_prc="1.50" bet_ref="NDg1MDg3OTAwOjEvMjo0Mjow" frac_prc="1/2" us_prc="-200" last_change="2018-03-29T23:46:12"/>
+</Seln>
+<Seln status="A" name="Under" handicap="+10.5" seln_id="485087901" disporder="1" seln_sort="U">
+<Price prc_type="LP" dec_prc="2.45" bet_ref="NDg1MDg3OTAxOjI5LzIwOjQyOjA" frac_prc="29/20" us_prc="+145" last_change="2018-03-29T23:46:12"/>
+</Seln>
+</Mkt>
+<Mkt status="A" name="Total Legs" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="98679930" handicap="+11.5" inplay_avail="Y" disporder="-9000" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="TLEG" lp_avail="Y" mkt_sort_name="MKT_SORT-TLEG" mkt_close_at="2018-04-05T20:25:00">
+<Seln status="A" name="Over" handicap="+11.5" seln_id="485087902" disporder="0" seln_sort="O">
+<Price prc_type="LP" dec_prc="2.20" bet_ref="NDg1MDg3OTAyOjYvNTo0Njow" frac_prc="6/5" us_prc="+120" last_change="2018-03-29T23:46:12"/>
+</Seln>
+<Seln status="A" name="Under" handicap="+11.5" seln_id="485087903" disporder="1" seln_sort="U">
+<Price prc_type="LP" dec_prc="1.615" bet_ref="NDg1MDg3OTAzOjgvMTM6NDY6MA" frac_prc="8/13" us_prc="-163" last_change="2018-03-29T23:46:12"/>
+</Seln>
+</Mkt>
+<Mkt status="A" mkt_extra="S01" name="Set Score (Set 1)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="98679927" inplay_avail="Y" disporder="-8800" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="STSC" lp_avail="Y" mkt_sort_name="Set Score">
+<Seln status="A" seln_id="485087885" seln_sort="0-7" name="0 - 7" disporder="7">
+<Price prc_type="LP" dec_prc="101.00" bet_ref="NDg1MDg3ODg1OjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-03-29T23:46:12"/>
+</Seln>
+<Seln status="A" seln_id="485087887" seln_sort="1-7" name="1 - 7" disporder="107">
+<Price prc_type="LP" dec_prc="41.00" bet_ref="NDg1MDg3ODg3OjQwLzE6OjA" frac_prc="40/1" us_prc="+4000" last_change="2018-03-29T23:46:12"/>
+</Seln>
+<Seln status="A" seln_id="485087889" seln_sort="2-7" name="2 - 7" disporder="207">
+<Price prc_type="LP" dec_prc="21.50" bet_ref="NDg1MDg3ODg5OjQxLzI6OjA" frac_prc="41/2" us_prc="+2050" last_change="2018-03-29T23:46:12"/>
+</Seln>
+<Seln status="A" seln_id="485087891" seln_sort="3-7" name="3 - 7" disporder="307">
+<Price prc_type="LP" dec_prc="14.40" bet_ref="NDg1MDg3ODkxOjY3LzU6OjA" frac_prc="67/5" us_prc="+1340" last_change="2018-03-29T23:46:12"/>
+</Seln>
+<Seln status="A" seln_id="485087893" seln_sort="4-7" name="4 - 7" disporder="407">
+<Price prc_type="LP" dec_prc="10.00" bet_ref="NDg1MDg3ODkzOjkvMTo6MA" frac_prc="9/1" us_prc="+900" last_change="2018-03-29T23:46:12"/>
+</Seln>
+<Seln status="A" seln_id="485087895" seln_sort="5-7" name="5 - 7" disporder="507">
+<Price prc_type="LP" dec_prc="9.50" bet_ref="NDg1MDg3ODk1OjE3LzI6OjA" frac_prc="17/2" us_prc="+850" last_change="2018-03-29T23:46:12"/>
+</Seln>
+<Seln status="A" seln_id="485087883" seln_sort="6-6" name="6 - 6" disporder="606">
+<Price prc_type="LP" dec_prc="4.333" bet_ref="NDg1MDg3ODgzOjEwLzM6OjA" frac_prc="10/3" us_prc="+333" last_change="2018-03-29T23:46:12"/>
+</Seln>
+<Seln status="A" seln_id="485087884" seln_sort="7-0" name="7 - 0" disporder="700">
+<Price prc_type="LP" dec_prc="41.00" bet_ref="NDg1MDg3ODg0OjQwLzE6OjA" frac_prc="40/1" us_prc="+4000" last_change="2018-03-29T23:46:12"/>
+</Seln>
+<Seln status="A" seln_id="485087886" seln_sort="7-1" name="7 - 1" disporder="701">
+<Price prc_type="LP" dec_prc="16.50" bet_ref="NDg1MDg3ODg2OjMxLzI6OjA" frac_prc="31/2" us_prc="+1550" last_change="2018-03-29T23:46:12"/>
+</Seln>
+<Seln status="A" seln_id="485087888" seln_sort="7-2" name="7 - 2" disporder="702">
+<Price prc_type="LP" dec_prc="9.50" bet_ref="NDg1MDg3ODg4OjE3LzI6OjA" frac_prc="17/2" us_prc="+850" last_change="2018-03-29T23:46:12"/>
+</Seln>
+<Seln status="A" seln_id="485087890" seln_sort="7-3" name="7 - 3" disporder="703">
+<Price prc_type="LP" dec_prc="7.50" bet_ref="NDg1MDg3ODkwOjEzLzI6OjA" frac_prc="13/2" us_prc="+650" last_change="2018-03-29T23:46:12"/>
+</Seln>
+<Seln status="A" seln_id="485087892" seln_sort="7-4" name="7 - 4" disporder="704">
+<Price prc_type="LP" dec_prc="6.50" bet_ref="NDg1MDg3ODkyOjExLzI6OjA" frac_prc="11/2" us_prc="+550" last_change="2018-03-29T23:46:12"/>
+</Seln>
+<Seln status="A" seln_id="485087894" seln_sort="7-5" name="7 - 5" disporder="705">
+<Price prc_type="LP" dec_prc="6.75" bet_ref="NDg1MDg3ODk0OjIzLzQ6OjA" frac_prc="23/4" us_prc="+575" last_change="2018-03-29T23:46:12"/>
+</Seln>
+</Mkt>
+</Ev>
+</SBType>
+</SBClass>
+</Sport>
+</ContentAPI>

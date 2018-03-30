@@ -1,4 +1,4 @@
-defmodule Erlparse do
+defmodule XmlParser do
   #  import SweetXml
   #   require Record
   #   import Record, only: [defrecord: 2, extract: 2]
@@ -20,7 +20,6 @@ defmodule Erlparse do
   #    schema_url, client, options)
   #  File.write!(Path.join(__DIR__, "current_observation.xsd"), schema_body)
 
-
   # def erlsom_transform(data = current_observation()), do:
   #   Enum.into(current_observation(data), Map.new, &_transform_value/1)
   # def erlsom_transform(data = [first | _rest]) when is_integer(first), do:
@@ -30,7 +29,6 @@ defmodule Erlparse do
 
   # defp _transform_value({k, v}), do: {k, erlsom_transform(v)}
 
-
   # def handle_body do
   #   # {:ok, data, _rest} = :erlsom.scan(body, @xsdModel)
 
@@ -39,26 +37,27 @@ defmodule Erlparse do
   #   erlsom_transform(se)
   # end
 
-  def hello do
-    {:ok,xml} =  :file.read_file("test/liveevents.xml")
-    {:ok,events,[]} = :erlsom.parse_sax(xml,[],fn(xmline, acc) ->  do_parse(xmline,acc) end)
+  def get_event_ids do
+    {:ok, xml} = :file.read_file("test/liveevents.xml")
+    {:ok, events, []} = :erlsom.parse_sax(xml, [], fn xmline, acc -> do_get_event_ids(xmline, acc) end)
     events
   end
 
-
-  def do_parse({:startElement, _, 'Ev', _,list},acc) do
-    list |> IO.inspect
-    {_,'ev_id',_,_,evid} = Enum.at(list,1)
-    [evid |acc]
+  def do_get_event_ids({:startElement, _, 'Ev', _, list}, acc) do
+    {_, 'ev_id', _, _, evid} = Enum.at(list, 1)
+    [evid | acc]
   end
-  def do_parse(_,acc) ,do: acc
+
+  def do_get_event_ids(_, acc), do: acc
 
   def with_xmltomap do
     # file = File.read! "test/tennisevent.xml"
-    file = File.read! "test/liveevents.xml"
-    map = ToMap_V2.naive_map(file)
+    # file = File.read!("test/liveevents.xml")
+    # file = File.read!("test/politics_event.xml")
 
-    #Meta einai lista apo maps pou mporoume na diatrexoume kai na exoume ola ta key-value pairs analogws pws mas volevei
+    File.read!("test/small.xml")
+    |> XmlToMap.naive_map
 
+    # Meta einai lista apo maps pou mporoume na diatrexoume kai na exoume ola ta key-value pairs analogws pws mas volevei
   end
 end

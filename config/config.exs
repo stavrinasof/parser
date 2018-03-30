@@ -10,11 +10,11 @@ use Mix.Config
 
 # You can configure your application as:
 #
-#     config :erlparse, key: :value
+#     config :xmlparser, key: :value
 #
 # and access this configuration in your application as:
 #
-#     Application.get_env(:erlparse, :key)
+#     Application.get_env(:xmlparser, :key)
 #
 # You can also configure a 3rd-party app:
 #

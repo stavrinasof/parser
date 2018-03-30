@@ -1,0 +1,265 @@
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODA0ODAzNzY5OjQ6ZW4=" version="1.0" request="get_inplay_event_detail">
+<Sport sport_code="PLTC" allow_cash_out="N" name="Politics" disporder="2000">
+<SBClass sb_class_id="11446" disporder="0" name="USA">
+<SBType sb_type_id="187801" name="Presidential Elections" disporder="-1">
+<Ev inplay_allowed="N" status="A" outright="Y" name="Presidential Election 2020" allow_cash_out="N" start_time="2020-01-01T10:00:00" allow_cash_out_pre_ev="N" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="N" inplay_now="N" mkt_count="1" ev_id="963507" disporder="-5">
+<Mkt status="A" name="Next President" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="70932875" inplay_avail="N" disporder="-99" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="OUTR" lp_avail="Y" mkt_sort_name="MKT_SORT-OUTR">
+<Notes>Others upon request</Notes>
+<Seln status="A" seln_id="387156913" disporder="0" name="Donald Trump">
+<Price prc_type="LP" dec_prc="2.80" bet_ref="Mzg3MTU2OTEzOjE4MDAvMTAwMDo6MA" frac_prc="9/5" us_prc="+180" last_change="2018-03-19T09:03:00"/>
+</Seln>
+<Seln status="A" seln_id="387159920" disporder="0" name="Elizabeth Warren">
+<Price prc_type="LP" dec_prc="10.00" bet_ref="Mzg3MTU5OTIwOjkwMDAvMTAwMDo6MA" frac_prc="9/1" us_prc="+900" last_change="2018-03-26T12:02:57"/>
+</Seln>
+<Seln status="A" seln_id="387156917" disporder="0" name="Bernie Sanders">
+<Price prc_type="LP" dec_prc="15.00" bet_ref="Mzg3MTU2OTE3OjE0MDAwLzEwMDA6OjA" frac_prc="14/1" us_prc="+1400" last_change="2018-03-26T12:02:40"/>
+</Seln>
+<Seln status="A" seln_id="387156934" disporder="0" name="Kamala Harris">
+<Price prc_type="LP" dec_prc="15.00" bet_ref="Mzg3MTU2OTM0OjE0MDAwLzEwMDA6OjA" frac_prc="14/1" us_prc="+1400" last_change="2018-01-21T16:49:20"/>
+</Seln>
+<Seln status="A" seln_id="387156945" disporder="0" name="Mike Pence">
+<Price prc_type="LP" dec_prc="15.00" bet_ref="Mzg3MTU2OTQ1OjE0MDAwLzEwMDA6OjA" frac_prc="14/1" us_prc="+1400" last_change="2018-03-26T12:02:32"/>
+</Seln>
+<Seln status="A" seln_id="387156914" disporder="0" name="Michelle Obama">
+<Price prc_type="LP" dec_prc="25.00" bet_ref="Mzg3MTU2OTE0OjI0MDAwLzEwMDA6OjA" frac_prc="24/1" us_prc="+2400" last_change="2018-01-21T16:50:23"/>
+</Seln>
+<Seln status="A" seln_id="387156916" disporder="0" name="Catherine Cortez Masto">
+<Price prc_type="LP" dec_prc="25.00" bet_ref="Mzg3MTU2OTE2OjI0MDAwLzEwMDA6OjA" frac_prc="24/1" us_prc="+2400" last_change="2017-05-17T17:56:42"/>
+</Seln>
+<Seln status="A" seln_id="387156923" disporder="0" name="Oprah Winfrey">
+<Price prc_type="LP" dec_prc="25.00" bet_ref="Mzg3MTU2OTIzOjI0MDAwLzEwMDA6OjA" frac_prc="24/1" us_prc="+2400" last_change="2018-03-26T12:04:02"/>
+</Seln>
+<Seln status="A" seln_id="387156942" disporder="0" name="Joe Kennedy III">
+<Price prc_type="LP" dec_prc="25.00" bet_ref="Mzg3MTU2OTQyOjI0MDAwLzEwMDA6OjA" frac_prc="24/1" us_prc="+2400" last_change="2018-03-26T12:00:32"/>
+</Seln>
+<Seln status="A" seln_id="387159113" disporder="0" name="Dwayne Johnson">
+<Price prc_type="LP" dec_prc="25.00" bet_ref="Mzg3MTU5MTEzOjI0MDAwLzEwMDA6OjA" frac_prc="24/1" us_prc="+2400" last_change="2017-11-21T10:09:18"/>
+</Seln>
+<Seln status="A" seln_id="387156918" disporder="0" name="Cory Booker">
+<Price prc_type="LP" dec_prc="30.00" bet_ref="Mzg3MTU2OTE4OjI5MDAwLzEwMDA6OjA" frac_prc="28/1" us_prc="+2800" last_change="2017-05-17T17:56:42"/>
+</Seln>
+<Seln status="A" seln_id="387156919" disporder="0" name="Paul Ryan">
+<Price prc_type="LP" dec_prc="30.00" bet_ref="Mzg3MTU2OTE5OjI5MDAwLzEwMDA6OjA" frac_prc="28/1" us_prc="+2800" last_change="2017-05-17T17:56:42"/>
+</Seln>
+<Seln status="A" seln_id="387156920" disporder="0" name="Joe Biden">
+<Price prc_type="LP" dec_prc="30.00" bet_ref="Mzg3MTU2OTIwOjI5MDAwLzEwMDA6OjA" frac_prc="28/1" us_prc="+2800" last_change="2017-05-17T17:56:42"/>
+</Seln>
+<Seln status="A" seln_id="387156922" disporder="0" name="Mark Zuckerberg">
+<Price prc_type="LP" dec_prc="30.00" bet_ref="Mzg3MTU2OTIyOjI5MDAwLzEwMDA6OjA" frac_prc="28/1" us_prc="+2800" last_change="2018-01-21T16:50:23"/>
+</Seln>
+<Seln status="A" seln_id="399457516" disporder="0" name="Caroline Kennedy">
+<Price prc_type="LP" dec_prc="30.00" bet_ref="Mzk5NDU3NTE2OjI5MDAwLzEwMDA6OjA" frac_prc="28/1" us_prc="+2800" last_change="2017-07-17T22:31:54"/>
+</Seln>
+<Seln status="A" seln_id="387156921" disporder="0" name="Andrew Cuomo">
+<Price prc_type="LP" dec_prc="40.00" bet_ref="Mzg3MTU2OTIxOjM5MDAwLzEwMDA6OjA" frac_prc="33/1" us_prc="+3300" last_change="2017-05-17T17:56:42"/>
+</Seln>
+<Seln status="A" seln_id="387156926" disporder="0" name="Marco Rubio">
+<Price prc_type="LP" dec_prc="40.00" bet_ref="Mzg3MTU2OTI2OjM5MDAwLzEwMDA6OjA" frac_prc="33/1" us_prc="+3300" last_change="2017-05-17T17:56:42"/>
+</Seln>
+<Seln status="A" seln_id="387156927" disporder="0" name="Julian Castro">
+<Price prc_type="LP" dec_prc="40.00" bet_ref="Mzg3MTU2OTI3OjM5MDAwLzEwMDA6OjA" frac_prc="33/1" us_prc="+3300" last_change="2017-05-17T17:56:42"/>
+</Seln>
+<Seln status="A" seln_id="387156928" disporder="0" name="Jospeh P Kennedy">
+<Price prc_type="LP" dec_prc="40.00" bet_ref="Mzg3MTU2OTI4OjM5MDAwLzEwMDA6OjA" frac_prc="33/1" us_prc="+3300" last_change="2017-05-17T17:56:42"/>
+</Seln>
+<Seln status="A" seln_id="387156915" disporder="0" name="Hillary Clinton">
+<Price prc_type="LP" dec_prc="50.00" bet_ref="Mzg3MTU2OTE1OjQ5MDAwLzEwMDA6OjA" frac_prc="45/1" us_prc="+4500" last_change="2018-03-26T12:00:18"/>
+</Seln>
+<Seln status="A" seln_id="387156924" disporder="0" name="Amy Klobuchar">
+<Price prc_type="LP" dec_prc="50.00" bet_ref="Mzg3MTU2OTI0OjQ5MDAwLzEwMDA6OjA" frac_prc="45/1" us_prc="+4500" last_change="2017-05-17T17:56:42"/>
+</Seln>
+<Seln status="A" seln_id="387156925" disporder="0" name="Michael Bloomberg">
+<Price prc_type="LP" dec_prc="50.00" bet_ref="Mzg3MTU2OTI1OjQ5MDAwLzEwMDA6OjA" frac_prc="45/1" us_prc="+4500" last_change="2017-05-17T17:56:42"/>
+</Seln>
+<Seln status="A" seln_id="387156929" disporder="0" name="Jesse Ventura">
+<Price prc_type="LP" dec_prc="50.00" bet_ref="Mzg3MTU2OTI5OjQ5MDAwLzEwMDA6OjA" frac_prc="45/1" us_prc="+4500" last_change="2017-05-17T17:56:42"/>
+</Seln>
+<Seln status="A" seln_id="387156930" disporder="0" name="Keith Ellison">
+<Price prc_type="LP" dec_prc="50.00" bet_ref="Mzg3MTU2OTMwOjQ5MDAwLzEwMDA6OjA" frac_prc="45/1" us_prc="+4500" last_change="2017-05-17T17:56:42"/>
+</Seln>
+<Seln status="A" seln_id="387156931" disporder="0" name="Kirsten Gillibrand">
+<Price prc_type="LP" dec_prc="50.00" bet_ref="Mzg3MTU2OTMxOjQ5MDAwLzEwMDA6OjA" frac_prc="45/1" us_prc="+4500" last_change="2017-05-17T17:56:42"/>
+</Seln>
+<Seln status="A" seln_id="387156932" disporder="0" name="Orrin Hatch">
+<Price prc_type="LP" dec_prc="50.00" bet_ref="Mzg3MTU2OTMyOjQ5MDAwLzEwMDA6OjA" frac_prc="45/1" us_prc="+4500" last_change="2017-05-17T17:56:42"/>
+</Seln>
+<Seln status="A" seln_id="387156933" disporder="0" name="Sherrod Brown">
+<Price prc_type="LP" dec_prc="50.00" bet_ref="Mzg3MTU2OTMzOjQ5MDAwLzEwMDA6OjA" frac_prc="45/1" us_prc="+4500" last_change="2017-05-17T17:56:42"/>
+</Seln>
+<Seln status="A" seln_id="387156935" disporder="0" name="Tim Kaine">
+<Price prc_type="LP" dec_prc="50.00" bet_ref="Mzg3MTU2OTM1OjQ5MDAwLzEwMDA6OjA" frac_prc="45/1" us_prc="+4500" last_change="2017-05-17T17:56:42"/>
+</Seln>
+<Seln status="A" seln_id="387159111" disporder="0" name="John Hickenlooper">
+<Price prc_type="LP" dec_prc="50.00" bet_ref="Mzg3MTU5MTExOjQ5MDAwLzEwMDA6OjA" frac_prc="45/1" us_prc="+4500" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159112" disporder="0" name="Ted Cruz">
+<Price prc_type="LP" dec_prc="50.00" bet_ref="Mzg3MTU5MTEyOjQ5MDAwLzEwMDA6OjA" frac_prc="45/1" us_prc="+4500" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159114" disporder="0" name="Nikki Haley">
+<Price prc_type="LP" dec_prc="50.00" bet_ref="Mzg3MTU5MTE0OjQ5MDAwLzEwMDA6OjA" frac_prc="45/1" us_prc="+4500" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387156936" disporder="0" name="Mark Cuban">
+<Price prc_type="LP" dec_prc="75.00" bet_ref="Mzg3MTU2OTM2Ojc0MDAwLzEwMDA6OjA" frac_prc="70/1" us_prc="+7000" last_change="2017-05-17T17:56:42"/>
+</Seln>
+<Seln status="A" seln_id="387156937" disporder="0" name="Al Gore">
+<Price prc_type="LP" dec_prc="75.00" bet_ref="Mzg3MTU2OTM3Ojc0MDAwLzEwMDA6OjA" frac_prc="70/1" us_prc="+7000" last_change="2017-05-17T17:56:42"/>
+</Seln>
+<Seln status="A" seln_id="387156938" disporder="0" name="Bill de Blasio">
+<Price prc_type="LP" dec_prc="75.00" bet_ref="Mzg3MTU2OTM4Ojc0MDAwLzEwMDA6OjA" frac_prc="70/1" us_prc="+7000" last_change="2017-05-17T17:56:42"/>
+</Seln>
+<Seln status="A" seln_id="387156939" disporder="0" name="Mitt Romney">
+<Price prc_type="LP" dec_prc="75.00" bet_ref="Mzg3MTU2OTM5Ojc0MDAwLzEwMDA6OjA" frac_prc="70/1" us_prc="+7000" last_change="2017-05-17T17:56:42"/>
+</Seln>
+<Seln status="A" seln_id="387156940" disporder="0" name="Tulsi Gabbard">
+<Price prc_type="LP" dec_prc="75.00" bet_ref="Mzg3MTU2OTQwOjc0MDAwLzEwMDA6OjA" frac_prc="70/1" us_prc="+7000" last_change="2017-05-17T17:56:42"/>
+</Seln>
+<Seln status="A" seln_id="387159110" disporder="0" name="John Kasich">
+<Price prc_type="LP" dec_prc="75.00" bet_ref="Mzg3MTU5MTEwOjc0MDAwLzEwMDA6OjA" frac_prc="70/1" us_prc="+7000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159655" disporder="0" name="Scott Walker">
+<Price prc_type="LP" dec_prc="75.00" bet_ref="Mzg3MTU5NjU1Ojc0MDAwLzEwMDA6OjA" frac_prc="70/1" us_prc="+7000" last_change="2017-05-17T18:08:34"/>
+</Seln>
+<Seln status="A" seln_id="387159651" disporder="0" name="George Clooney">
+<Price prc_type="LP" dec_prc="80.00" bet_ref="Mzg3MTU5NjUxOjc5MDAwLzEwMDA6OjA" frac_prc="75/1" us_prc="+7500" last_change="2017-08-28T06:42:59"/>
+</Seln>
+<Seln status="A" seln_id="387156941" disporder="0" name="Al Franken">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU2OTQxOjk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T17:56:42"/>
+</Seln>
+<Seln status="A" seln_id="387156943" disporder="0" name="Rand Paul">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU2OTQzOjk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T17:56:42"/>
+</Seln>
+<Seln status="A" seln_id="387156944" disporder="0" name="Tim Scott">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU2OTQ0Ojk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T17:56:42"/>
+</Seln>
+<Seln status="A" seln_id="387159115" disporder="0" name="Trey Gowdy">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5MTE1Ojk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159116" disporder="0" name="Newt Gingrich">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5MTE2Ojk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159117" disporder="0" name="Andrew Basiago">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5MTE3Ojk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159118" disporder="0" name="Ben Carson">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5MTE4Ojk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159119" disporder="0" name="Ben Sasse">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5MTE5Ojk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159120" disporder="0" name="Carly Fiorina">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5MTIwOjk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159121" disporder="0" name="Chris Christie">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5MTIxOjk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159122" disporder="0" name="Chris Murphy">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5MTIyOjk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159123" disporder="0" name="Evan McMullin">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5MTIzOjk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159124" disporder="0" name="Gavin Newsom">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5MTI0Ojk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159125" disporder="0" name="James Mattis">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5MTI1Ojk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159126" disporder="0" name="Jason Kander">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5MTI2Ojk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159127" disporder="0" name="Jon Stewart">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5MTI3Ojk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159128" disporder="0" name="Lindsey Graham">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5MTI4Ojk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159129" disporder="0" name="Martin OMalley">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5MTI5Ojk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159130" disporder="0" name="Marty Walsh">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5MTMwOjk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159131" disporder="0" name="Michael Flynn">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5MTMxOjk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159132" disporder="0" name="Rick Santorum">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5MTMyOjk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159133" disporder="0" name="Rick Perry">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5MTMzOjk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159134" disporder="0" name="Rob Portman">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5MTM0Ojk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159135" disporder="0" name="Rudy Giuliani">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5MTM1Ojk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159136" disporder="0" name="Sally Yates">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5MTM2Ojk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159137" disporder="0" name="Steve Bannon">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5MTM3Ojk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159138" disporder="0" name="Tammy Duckworth">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5MTM4Ojk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159139" disporder="0" name="Terry McAuliffe">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5MTM5Ojk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159140" disporder="0" name="Tom Brady">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5MTQwOjk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159141" disporder="0" name="Tom Cotton">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5MTQxOjk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:05:40"/>
+</Seln>
+<Seln status="A" seln_id="387159648" disporder="0" name="Sarah Palin">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5NjQ4Ojk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:08:34"/>
+</Seln>
+<Seln status="A" seln_id="387159650" disporder="0" name="Chelsea Clinton">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5NjUwOjk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:08:34"/>
+</Seln>
+<Seln status="A" seln_id="387159652" disporder="0" name="Jeb Bush">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5NjUyOjk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:08:34"/>
+</Seln>
+<Seln status="A" seln_id="387159657" disporder="0" name="Gary Johnson">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="Mzg3MTU5NjU3Ojk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-05-17T18:08:34"/>
+</Seln>
+<Seln status="A" seln_id="456519675" disporder="0" name="Ivanka Trump">
+<Price prc_type="LP" dec_prc="100.00" bet_ref="NDU2NTE5Njc1Ojk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2018-01-15T13:48:49"/>
+</Seln>
+<Seln status="A" seln_id="387159649" disporder="0" name="Bill Gates">
+<Price prc_type="LP" dec_prc="200.00" bet_ref="Mzg3MTU5NjQ5OjE5OTAwMC8xMDAwOjow" frac_prc="175/1" us_prc="+17500" last_change="2017-06-04T14:36:32"/>
+</Seln>
+<Seln status="A" seln_id="387159654" disporder="0" name="Ron Perlman">
+<Price prc_type="LP" dec_prc="200.00" bet_ref="Mzg3MTU5NjU0OjE5OTAwMC8xMDAwOjow" frac_prc="175/1" us_prc="+17500" last_change="2017-05-17T18:08:34"/>
+</Seln>
+<Seln status="A" seln_id="387159660" disporder="0" name="Kanye West">
+<Price prc_type="LP" dec_prc="300.00" bet_ref="Mzg3MTU5NjYwOjI5OTAwMC8xMDAwOjow" frac_prc="250/1" us_prc="+25000" last_change="2017-06-04T14:37:15"/>
+</Seln>
+<Seln status="A" seln_id="387159658" disporder="0" name="Kevin Spacey">
+<Price prc_type="LP" dec_prc="500.00" bet_ref="Mzg3MTU5NjU4OjQ5OTAwMC8xMDAwOjow" frac_prc="450/1" us_prc="+45000" last_change="2017-05-25T20:13:45"/>
+</Seln>
+<Seln status="A" seln_id="387159659" disporder="0" name="Tim Cook">
+<Price prc_type="LP" dec_prc="500.00" bet_ref="Mzg3MTU5NjU5OjQ5OTAwMC8xMDAwOjow" frac_prc="450/1" us_prc="+45000" last_change="2017-05-25T20:13:45"/>
+</Seln>
+<Seln status="A" seln_id="387159653" disporder="0" name="Leonardo DiCaprio">
+<Price prc_type="LP" dec_prc="1000.00" bet_ref="Mzg3MTU5NjUzOjk5OTAwMC8xMDAwOjow" frac_prc="750/1" us_prc="+75000" last_change="2017-05-25T20:14:56"/>
+</Seln>
+<Seln status="A" seln_id="387159661" disporder="0" name="Lady Gaga">
+<Price prc_type="LP" dec_prc="1000.00" bet_ref="Mzg3MTU5NjYxOjk5OTAwMC8xMDAwOjow" frac_prc="750/1" us_prc="+75000" last_change="2017-05-25T20:13:45"/>
+</Seln>
+<Seln status="A" seln_id="387159662" disporder="0" name="Kim Kardashian">
+<Price prc_type="LP" dec_prc="1000.00" bet_ref="Mzg3MTU5NjYyOjk5OTAwMC8xMDAwOjow" frac_prc="750/1" us_prc="+75000" last_change="2017-05-25T20:10:36"/>
+</Seln>
+<Seln status="A" seln_id="463095123" disporder="0" name="LeBron James">
+<Price prc_type="LP" dec_prc="1000.00" bet_ref="NDYzMDk1MTIzOjk5OTAwMC8xMDAwOjow" frac_prc="750/1" us_prc="+75000" last_change="2018-01-30T19:05:58"/>
+</Seln>
+<Seln status="A" seln_id="476490161" disporder="0" name="Floyd Mayweather">
+<Price prc_type="LP" dec_prc="1000.00" bet_ref="NDc2NDkwMTYxOjk5OTAwMC8xMDAwOjow" frac_prc="750/1" us_prc="+75000" last_change="2018-03-07T16:48:19"/>
+</Seln>
+</Mkt>
+</Ev>
+</SBType>
+</SBClass>
+</Sport>
+</ContentAPI>
