@@ -1,7 +1,7 @@
 defmodule XmlParser do
     def get_event_ids do
     {:ok, xml} = :file.read_file("test/liveevents.xml")
-    {:ok, events, []} = :e  -> do_get_event_ids(xmline, acc) end)
+    {:ok, events, []} = :erlsom.parse_sax(xml,[],fn(xmline, acc) -> do_get_event_ids(xmline, acc) end)
     events
   end
 
