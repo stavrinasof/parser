@@ -15,4 +15,7 @@ defmodule XmlParserTest do
 
     assert pl1_id=="1005838"
   end
+  # test "greets the world" do
+  #   assert XmlParser.hello() == :world
+  # end
 end
