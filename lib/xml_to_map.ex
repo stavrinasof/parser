@@ -22,7 +22,7 @@ defmodule XmlToMap do
   end
 
   def parse(content) when is_list(content) do
-     %{:content => content}
+    %{:content => content}
   end
 
   def parse({name, [], content}) do
@@ -91,6 +91,7 @@ defmodule XmlToMap do
   end
 
   def find_id_from_attributes(tagname, []), do: {to_string(tagname)}
+
   def find_id_from_attributes(tagname, list) do
     list
     |> Enum.filter(fn {attrname, _attrvalue} -> attrname in @ids end)
@@ -98,10 +99,13 @@ defmodule XmlToMap do
   end
 
   defp do_find_id_from_attributes([], tagname), do: {to_string(tagname)}
-  defp do_find_id_from_attributes([{_, attrvalue}], tagname), do: {to_string(tagname), to_string(attrvalue)}
-  defp do_find_id_from_attributes(results, tagname) do
 
+  defp do_find_id_from_attributes([{_, attrvalue}], tagname),
+    do: {to_string(tagname), to_string(attrvalue)}
+
+  defp do_find_id_from_attributes(results, tagname) do
     results = Enum.filter(results, fn {attrname, _attrvalue} -> attrname in @ids end)
+
     {_attrname, attrvalue} =
       case tagname do
         'Seln' ->

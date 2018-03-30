@@ -1,7 +1,10 @@
 defmodule XmlParser do
-    def get_event_ids do
+  def get_event_ids do
     {:ok, xml} = :file.read_file("test/liveevents.xml")
-    {:ok, events, []} = :erlsom.parse_sax(xml,[],fn(xmline, acc) -> do_get_event_ids(xmline, acc) end)
+
+    {:ok, events, []} =
+      :erlsom.parse_sax(xml, [], fn xmline, acc -> do_get_event_ids(xmline, acc) end)
+
     events
   end
 
@@ -18,7 +21,6 @@ defmodule XmlParser do
     # file = File.read!("test/politics_event.xml")
 
     File.read!("test/small.xml")
-    |> XmlToMap.naive_map
-
+    |> XmlToMap.naive_map()
   end
 end
