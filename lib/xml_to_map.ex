@@ -84,21 +84,21 @@ defmodule XmlToMap do
     Map.put(acc, key, [value | [rest_values]])
   end
 
-  defp do_parse_attributes(list) do
+  def do_parse_attributes(list) do
     list
     |> Enum.map(fn {k, v} -> {to_string(k), to_string(v)} end)
     |> Map.new()
   end
 
-  defp find_id_from_attributes(tagname, []), do: {to_string(tagname)}
-  defp find_id_from_attributes(tagname, list) do
+  def find_id_from_attributes(tagname, []), do: {to_string(tagname)}
+  def find_id_from_attributes(tagname, list) do
     list
     |> Enum.filter(fn {attrname, _attrvalue} -> attrname in @ids end)
     |> do_find_id_from_attributes(tagname)
   end
 
   defp do_find_id_from_attributes([], tagname), do: {to_string(tagname)}
-  defp do_find_id_from_attributes([{_, attrvalue}], tagname), do: {to_string(tagname), attrvalue}
+  defp do_find_id_from_attributes([{_, attrvalue}], tagname), do: {to_string(tagname), to_string(attrvalue)}
   defp do_find_id_from_attributes(results, tagname) do
 
     results = Enum.filter(results, fn {attrname, _attrvalue} -> attrname in @ids end)
@@ -115,6 +115,6 @@ defmodule XmlToMap do
           List.first(results)
       end
 
-    {to_string(tagname), attrvalue}
+    {to_string(tagname), to_string(attrvalue)}
   end
 end
