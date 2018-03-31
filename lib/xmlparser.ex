@@ -21,7 +21,6 @@ defmodule XmlParser do
     # file = File.read!("test/politics_event.xml")
 
     File.read!("test/tennisevent.xml")
-    |> XmlToMap.naive_map
-
+    |> XmlToMap.naive_map()
   end
 end

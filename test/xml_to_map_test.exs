@@ -22,8 +22,8 @@ defmodule XmlToMaptTest do
                  ], []}
               ]}
 
-  test"find id from attributes" do
-    {tagname, attributes, _content} =  @selection
+  test "find id from attributes" do
+    {tagname, attributes, _content} = @selection
     assert XmlToMap.find_id_from_attributes(tagname, attributes) == {"Seln", "484026793"}
   end
 
@@ -41,17 +41,17 @@ defmodule XmlToMaptTest do
 
   test "parse tuple return map" do
     seln_map = XmlToMap.parse(@selection)
-    seln_value_map =Map.get(seln_map,{"Seln", "484026793"})
+    seln_value_map = Map.get(seln_map, {"Seln", "484026793"})
 
-    assert is_map(seln_map) ==true
-    assert is_map( Map.get(seln_value_map,{"Price"}) ) == true
+    assert is_map(seln_map) == true
+    assert is_map(Map.get(seln_value_map, {"Price"})) == true
   end
 
   test "parse turple with tuple content" do
     seln_map = XmlToMap.parse(@selection)
-    seln_value_map =Map.get(seln_map,{"Seln", "484026793"})
+    seln_value_map = Map.get(seln_map, {"Seln", "484026793"})
 
     assert length(Map.keys(seln_value_map)) == 7
-    assert Map.get(seln_value_map,{"Price"}) !=nil
+    assert Map.get(seln_value_map, {"Price"}) != nil
   end
 end
