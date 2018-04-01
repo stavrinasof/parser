@@ -1,4 +1,2 @@
 defmodule Pool do
-
-
 end
