@@ -1,6 +1,5 @@
 defmodule XmlParserTest do
   use ExUnit.Case
-  doctest XmlParser
 
   @list_with_maps [
     %{
@@ -57,13 +56,14 @@ defmodule XmlParserTest do
   # }
 
   test "Check number of ev_id occurences" do
-    event_ids = XmlParser.get_event_ids()
     {:ok, xml} = :file.read_file("test/liveevents.xml")
-    Enum.all?(event_ids, fn x -> String.contains?(xml, to_string(x)) end)
+    assert length(EventsParser.parse_events(xml)) == 15
+    # Enum.all?(event_ids, fn x -> String.contains?(xml, to_string(x)) end)
   end
 
   test "check if naive_map has correct structure and certain key-value is correct" do
-    map = XmlParser.with_xmltomap()
+    {:ok, xml} = :file.read_file("test/tennisevent.xml")
+    map = EventsParser.parse_event(xml)
 
     pl1_id =
       get_in(map, [

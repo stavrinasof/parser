@@ -1,2 +1,0 @@
-defmodule Pool do
-end

@@ -50,9 +50,9 @@ defmodule XmlToMap do
   end
 
   # Function to reduce maps' list
-  defp dynamic_merge(map, acc) when acc == %{}, do: map
+  def dynamic_merge(map, acc) when acc == %{}, do: map
 
-  defp dynamic_merge(map, acc) do
+  def dynamic_merge(map, acc) do
     [key] = Map.keys(map)
 
     case key do
