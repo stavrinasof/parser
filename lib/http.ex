@@ -22,8 +22,8 @@ defmodule Http do
       |> handle_response
 
     case http_response do
-      {:ok, body} ->    EventsParser.parse_event(body)
-      {:error, msg} ->  {:error, msg}
+      {:ok, body} -> EventsParser.parse_event(body)
+      {:error, msg} -> {:error, msg}
     end
   end
 
@@ -39,7 +39,7 @@ defmodule Http do
     {:ok, body}
   end
 
-  defp handle_response({_, %{status_code: status, body: body}}) do
+  defp handle_response({_, %{status_code: status, body: _}}) do
     {:error, "Error #{status} returned"}
   end
 end
