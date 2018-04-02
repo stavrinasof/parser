@@ -11,31 +11,32 @@ defmodule MapDiff do
                                                        new_acc = Map.update!(acc, :key_doesnt_exist, &Map.put(&1, reversed_new_key_path, Map.get(map_b, k)))
                                                       {new_acc, map_a_c}
                                         map_a_value -> {state, deleted_map_a} =diffs(map_a_value, Map.get(map_b, k), [k | key_path], {acc, map_a_c})
-                                                       check_diff_state(state,{acc, deleted_map_a}, [k | key_path], Map.get(map_b, k))
+                                                       new_map_changes  = check_diff_state(state, acc, [k | key_path], Map.get(map_b, k))
+
+                                                       {new_map_changes, deleted_map_a}
                                                        
                                     end
     end)
   end
 
+ defp delete(map_a_c, new_key_path) do
+    map_a_c
+    |>pop_in(Enum.reverse(new_key_path))
+    |> elem(1)
+  end
 
-  defp diffs(map_a_value, map_b_value, [h|_t]=new_key_path , {_result, map_a_copy}) when map_a_value == map_b_value do
-   {_, new_map_a_copy}=
-    map_a_copy
-    |> pop_in(Enum.reverse(new_key_path))
-    
-   {{:ok, :equals}, new_map_a_copy}
+
+  defp diffs(map_a_value, map_b_value, new_key_path , {_result, map_a_copy}) when map_a_value == map_b_value do
+   {{:ok, :equals}, delete(map_a_copy, new_key_path )}
   end
-  defp diffs(map_a_value, map_b_value, [h|_t]= new_key_path, {_result, map_a_copy}) do 
-    {_, new_map_a_copy}=
-    map_a_copy
-    |> pop_in(Enum.reverse(new_key_path))
-    |> IO.inspect
-    {{:ok, :change}, new_map_a_copy}
+  defp diffs(map_a_value, map_b_value, new_key_path, {_result, map_a_copy}) do 
+    {{:ok, :change}, delete(map_a_copy, new_key_path )}
   end
-  defp check_diff_state({:ok, :change}, {acc, deleted_map_a}, new_key_path, map_b_value) do
+
+  defp check_diff_state({:ok, :change}, acc, new_key_path, map_b_value) do
    reversed_new_key_path = new_key_path |> Enum.reverse
-   {Map.update!(acc, :changes, &Map.put(&1, reversed_new_key_path, map_b_value)), deleted_map_a}
+   Map.update!(acc, :changes, &Map.put(&1, reversed_new_key_path, map_b_value))
   end
-  defp check_diff_state({:ok, :equals}, {acc, deleted_map_a}, _,_), do: {acc, deleted_map_a}
-  defp check_diff_state(result, {_,deleted_map_a}, _,_), do: {result, deleted_map_a}
+  defp check_diff_state({:ok, :equals}, acc, _,_), do: acc
+  defp check_diff_state(result, _, _,_), do: result |> IO.inspect
 end
