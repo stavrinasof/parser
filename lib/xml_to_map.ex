@@ -1,16 +1,54 @@
-defmodule XmlToMap do
-  @ids [
-    'mkt_id',
-    'seln_id',
-    'incident_id',
-    'team_id',
-    'period',
-    'inplay_period_num',
-    'stat_type',
-    'player_id'
+defmodule Macroo do
+@ids [
+    {'Mkt', 'mkt_id'},
+    {'Seln', 'seln_id'},
+    {'Incident', 'incident_id'},
+    {'Team', 'team_id'},
+    {'PeriodScore','period'},
+    {'Inplay', 'inplay_period_num'},
+    {'Player', 'player_id'},
+    {'EvDetail', 'br_match_id'},
+    {'Participant', 'full_name'},
+    {'Score', 'name'},
+    {'MatchStatus', 'status_code'},
+    {'Price', 'prc_type'},
+    {'InplayDetail','period_start'},
+    {'MatchStat','name'}
   ]
+
+  defmacro my_macro1() do
+   tagname = (Macro.var(:"tagname", __MODULE__))
+  
+    quote do
+      def do_find_id_from_attributes(_, unquote(tagname)) do 
+        unquote(nil)
+      end
+    end
+  end
+
+  defmacro my_macro2() do
+    attrvalue = (Macro.var(:"attrvalue", __MODULE__))
+
+    @ids
+    |> Enum.map( fn {tagname, attrname} -> 
+        quote do
+          def do_find_id_from_attributes({unquote(attrname),unquote(attrvalue)}, unquote(tagname)) do
+              a= to_string(unquote(tagname))
+              {a, to_string(unquote(attrvalue))}
+           end
+        end
+    end) 
+    
+    
+
+  end
+end
+
+defmodule XmlToMap do
+  require Macroo
   @upperclasses [ 'ContentAPI','Sport','SBClass','SBType' ,'Ev']
 
+ 
   def naive_map(xml) do
     # can't handle xmlns
     xml = String.replace(xml, ~r/\sxmlns=\".*\"/, "")
@@ -98,31 +136,48 @@ defmodule XmlToMap do
 
   def find_id_from_attributes(tagname, list) do
     list
-    |> Enum.filter(fn {attrname, _attrvalue} -> attrname in @ids end)
-    |> do_find_id_from_attributes(tagname)
+    |> Enum.reduce_while({}, fn x, acc ->    case do_find_id_from_attributes(x, tagname) do
+                                                nil -> {:cont, acc}     
+                                                key -> {:halt, key}     
+                                               end
+                             end)
   end
 
-  defp do_find_id_from_attributes([], tagname), do: to_string(tagname)
+  Macroo.my_macro2
+  Macroo.my_macro1
+  # defp do_find_id_from_attributes({ 'mkt_id', attrvalue}, 'Mkt'=tagname), do: {to_string(tagname), to_string(attrvalue)}
+  # defp do_find_id_from_attributes({ 'seln_id', attrvalue}, 'Seln'=tagname), do: {to_string(tagname), to_string(attrvalue)}
+  # defp do_find_id_from_attributes({ 'incident_id', attrvalue}, 'Incident'=tagname), do: {to_string(tagname), to_string(attrvalue)}
+  # defp do_find_id_from_attributes({ 'team_id', attrvalue}, 'Team'=tagname), do: {to_string(tagname), to_string(attrvalue)}
+  # defp do_find_id_from_attributes({ 'period', attrvalue}, 'PeriodScore'=tagname), do: {to_string(tagname), to_string(attrvalue)}
+  # defp do_find_id_from_attributes({ 'inplay_period_num', attrvalue}, 'Inplay'=tagname), do: {to_string(tagname), to_string(attrvalue)}
+  # defp do_find_id_from_attributes({ 'stat_type', attrvalue}, 'Stat'=tagname), do: {to_string(tagname), to_string(attrvalue)}
+  # defp do_find_id_from_attributes({ 'player_id', attrvalue}, 'Player'=tagname), do: {to_string(tagname), to_string(attrvalue)}
+  # defp do_find_id_from_attributes({ 'br_match_id', attrvalue}, 'EvDetail'=tagname), do: {to_string(tagname), to_string(attrvalue)}
+  # defp do_find_id_from_attributes({ 'full_name', attrvalue}, 'Participant'=tagname), do: {to_string(tagname), to_string(attrvalue)}
+  # defp do_find_id_from_attributes({ 'name', attrvalue}, 'Score'=tagname), do: {to_string(tagname), to_string(attrvalue)}
+  # defp do_find_id_from_attributes({ 'status_code', attrvalue}, 'MatchStatus'=tagname), do: {to_string(tagname), to_string(attrvalue)}
+  # defp do_find_id_from_attributes({ 'prc_type', attrvalue},'Price'=tagname), do: {to_string(tagname), to_string(attrvalue)}
+  # defp do_find_id_from_attributes({ 'period_start', attrvalue},'InplayDetail'=tagname), do: {to_string(tagname), to_string(attrvalue)}
+  # defp do_find_id_from_attributes(_, tagname), do: nil
 
-  defp do_find_id_from_attributes([{_, attrvalue}], tagname),
-    do: {to_string(tagname), to_string(attrvalue)}
 
-  defp do_find_id_from_attributes(results, tagname) do
-    results = Enum.filter(results, fn {attrname, _attrvalue} -> attrname in @ids end)
+  # defp do_find_id_from_attributes(results, tagname) do
+  #   # results = Enum.filter(results, fn {attrname, _attrvalue} -> attrname in @ids end)
 
-    {_attrname, attrvalue} =
-      case tagname do
-        'Seln' ->
-          List.last(results)
+  #   {_attrname, attrvalue} =
+  #     case tagname do
+  #       'Seln' ->
+  #         List.last(results)
 
-        'Incident' ->
-          List.last(results)
+  #       'Incident' ->
+  #         List.last(results)
 
-        _ ->
-          IO.inspect("#{tagname}")
-          List.first(results)
-      end
+  #       _ ->
+  #         IO.inspect("#{tagname}")
+  #         List.first(results)
+  #     end
 
-    {to_string(tagname), to_string(attrvalue)}
-  end
+  #   {to_string(tagname), to_string(attrvalue)}
+  # end
 end
