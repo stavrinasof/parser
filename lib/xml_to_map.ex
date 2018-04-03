@@ -1,18 +1,19 @@
 defmodule XmlToMap do
   @ids [
     'mkt_id',
-    'ev_id',
+    #'ev_id',
     'seln_id',
-    'sb_class_id',
-    'sb_type_id',
+    #'sb_class_id',
+    #'sb_type_id',
     'incident_id',
     'team_id',
     'period',
     'inplay_period_num',
-    'sport_code',
+    #'sport_code',
     'stat_type',
     'player_id'
   ]
+  @upperclasses [ 'ContentAPI','Sport','SBClass','SBType' ,'Ev']
 
   def naive_map(xml) do
     # can't handle xmlns
@@ -21,8 +22,8 @@ defmodule XmlToMap do
     parse(tuples)
   end
 
-  def parse(content) when is_list(content) do
-    %{:content => content}
+  def parse({name, [], content}) when name in @upperclasses do
+    do_parse_content(content, [])
   end
 
   def parse({name, [], content}) do
@@ -36,6 +37,13 @@ defmodule XmlToMap do
   end
 
   # Need to merge both attribute map and content map
+
+  def parse({name, attributes, content}) when name in @upperclasses do
+    map_content = do_parse_content(content, [])
+    key = find_id_from_attributes(name, attributes)
+    Map.put(map_content, key ,do_parse_attributes(attributes))
+  end
+
   def parse({name, attributes, content}) do
     key = find_id_from_attributes(name, attributes)
     %{key => do_parse_content(content, []) |> Map.merge(do_parse_attributes(attributes))}
@@ -115,7 +123,7 @@ defmodule XmlToMap do
           List.last(results)
 
         _ ->
-          IO.inspect("AAAAAAAAAAAAAAAAAAAAAA #{tagname}")
+          IO.inspect("#{tagname}")
           List.first(results)
       end
 
