@@ -1,15 +1,11 @@
 defmodule XmlToMap do
   @ids [
     'mkt_id',
-    #'ev_id',
     'seln_id',
-    #'sb_class_id',
-    #'sb_type_id',
     'incident_id',
     'team_id',
     'period',
     'inplay_period_num',
-    #'sport_code',
     'stat_type',
     'player_id'
   ]
@@ -68,7 +64,7 @@ defmodule XmlToMap do
         # given map is of same hierachy as the other maps in acc
         Map.merge(map, acc)
 
-      {_keyname} ->
+      _keyname ->
         # given map needs to be member of a list
         # that is a value of a map of same hierachy as the other maps in acc
         Map.get(acc, key)
@@ -98,7 +94,7 @@ defmodule XmlToMap do
     |> Map.new()
   end
 
-  def find_id_from_attributes(tagname, []), do: {to_string(tagname)}
+  def find_id_from_attributes(tagname, []), do: to_string(tagname)
 
   def find_id_from_attributes(tagname, list) do
     list
@@ -106,7 +102,7 @@ defmodule XmlToMap do
     |> do_find_id_from_attributes(tagname)
   end
 
-  defp do_find_id_from_attributes([], tagname), do: {to_string(tagname)}
+  defp do_find_id_from_attributes([], tagname), do: to_string(tagname)
 
   defp do_find_id_from_attributes([{_, attrvalue}], tagname),
     do: {to_string(tagname), to_string(attrvalue)}

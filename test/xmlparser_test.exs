@@ -35,16 +35,16 @@ defmodule XmlParserTest do
   #   }
   # }
   @list_with_maps2 [
-    %{{"Score"} => %{"name" => "current_set_games_won", "score_a" => "4", "score_b" => "4"}},
-    %{{"Score"} => %{"name" => "is_server", "score_a" => "Y", "score_b" => "N"}},
-    %{{"Score"} => %{"name" => "sets_won", "score_a" => "1", "score_b" => "1"}},
-    %{{"Score"} => %{"name" => "set_2_games", "score_a" => "6", "score_b" => "1"}},
-    %{{"Score"} => %{"name" => "set_1_games", "score_a" => "2", "score_b" => "6"}},
-    %{{"Score"} => %{"name" => "current_game_score", "score_a" => "A", "score_b" => "40"}}
+    %{"Score" => %{"name" => "current_set_games_won", "score_a" => "4", "score_b" => "4"}},
+    %{"Score" => %{"name" => "is_server", "score_a" => "Y", "score_b" => "N"}},
+    %{"Score" => %{"name" => "sets_won", "score_a" => "1", "score_b" => "1"}},
+    %{"Score" => %{"name" => "set_2_games", "score_a" => "6", "score_b" => "1"}},
+    %{"Score" => %{"name" => "set_1_games", "score_a" => "2", "score_b" => "6"}},
+    %{"Score" => %{"name" => "current_game_score", "score_a" => "A", "score_b" => "40"}}
   ]
   # after dynamic merge
-  # %{{"Scores"} => %{
-  #     {"Score"} => [
+  # %"Scores" => %{
+  #     "Score" => [
   #       %{"name" => "current_game_score", "score_a" => "A", "score_b" => "40"},
   #       %{"name" => "set_1_games", "score_a" => "2", "score_b" => "6"},
   #       %{"name" => "set_2_games", "score_a" => "6", "score_b" => "1"},
@@ -67,12 +67,7 @@ defmodule XmlParserTest do
 
     pl1_id =
       get_in(map, [
-        {"ContentAPI"},
-        {"Sport", "TENN"},
-        {"SBClass", "10009"},
-        {"SBType", "17632"},
-        {"Ev", "1680638"},
-        {"Incidents"},
+        "Incidents",
         {"Incident", "101687325"},
         "player1_id"
       ])
