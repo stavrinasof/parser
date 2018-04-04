@@ -1,0 +1,145 @@
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODA5NTM1MjI0OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+  <Sport sport_code="BASE" allow_cash_out="N" name="Μπέιζμπολ" disporder="11">
+    <SBClass sb_class_id="128" disporder="-900" name="ΗΠΑ">
+      <SBType sb_type_id="1662" name="MLB" disporder="-100">
+        <Ev inplay_allowed="Y" status="A" name="Ατλάντα Μπρέιβς - Ουάσινγκτον Νάσιοναλς" allow_cash_out="N" start_time="2018-04-04T16:10:00" allow_cash_out_pre_ev="N" virtual="N" ev_timezone="UTC" allow_cash_out_inplay="N" inplay_now="N" mkt_count="13" ev_id="1590036" disporder="-99">
+          <Notes>Pitchers: Foltynewicz (ATL) - Scherzer (WSH)</Notes>
+          <EvDetail br_match_id="13625441" br_has_stats="Y"/>
+          <Inplay inplay_period_num="0" inplay_period_name_short="PERIOD_pre_match_SHORT" clock_status="STOPPED" correct_at="2018-04-04T08:40:12" inplay_period_finished="N" score_a="0" score_b="0" inplay_period_name="Έναρξη" num_periods="9" clock_mode="NONE" inplay_period="pre_match" num_extra_periods="0" score_string="0-0" scoring_system="match" last_change="2018-03-05T16:12:03" inplay_secs="0">
+            <Scores/>
+          </Inplay>
+          <InplayDetail period_length_mins="0" period_stoppage_secs="0" score_team_B="0" score_team_A="0"/>
+          <Teams>
+            <Team team_id="115166" team_order="0" name="Ατλάντα Μπρέιβς" short_name="Ατλάντα Μπρέιβς"/>
+            <Team team_id="115165" team_order="1" name="Ουάσινγκτον Νάσιοναλς" short_name="Ουάσινγκτον Νάσιοναλς"/>
+          </Teams>
+          <Mkt status="A" mkt_extra="PTCH01" name="Νικητής" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="96036387" inplay_avail="Y" disporder="-25" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="HHTT" lp_avail="Y" mkt_sort_name="MKT_SORT-HHTT">
+            <Seln status="A" name="Ατλάντα Μπρέιβς" seln_id="475761003" team_id="115166" disporder="-10" seln_sort="P1">
+              <Price prc_type="LP" dec_prc="2.80" bet_ref="NDc1NzYxMDAzOjkvNTo6MA" frac_prc="9/5" us_prc="+180" last_change="2018-04-04T06:16:22"/>
+            </Seln>
+            <Seln status="A" name="Ουάσινγκτον Νάσιοναλς" seln_id="475761004" team_id="115165" disporder="1" seln_sort="P2">
+              <Price prc_type="LP" dec_prc="1.47" bet_ref="NDc1NzYxMDA0OjQ3LzEwMDo6MA" frac_prc="47/100" us_prc="-213" last_change="2018-04-04T06:16:22"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Νικητής (1Χ2)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="96036384" inplay_avail="N" disporder="-15" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="MRES" lp_avail="Y" mkt_sort_name="Αγώνες">
+            <Seln status="A" name="Ατλάντα Μπρέιβς" seln_id="475760996" team_id="115166" disporder="0" seln_sort="H">
+              <Price prc_type="LP" dec_prc="3.05" bet_ref="NDc1NzYwOTk2OjQxLzIwOjow" frac_prc="41/20" us_prc="+205" last_change="2018-04-04T06:17:53"/>
+            </Seln>
+            <Seln status="A" seln_id="475760997" seln_sort="D" name="Ισοπαλία" disporder="1">
+              <Price prc_type="LP" dec_prc="8.50" bet_ref="NDc1NzYwOTk3OjE1LzI6OjA" frac_prc="15/2" us_prc="+750" last_change="2018-04-04T06:17:53"/>
+            </Seln>
+            <Seln status="A" name="Ουάσινγκτον Νάσιοναλς" seln_id="475760998" team_id="115165" disporder="2" seln_sort="A">
+              <Price prc_type="LP" dec_prc="1.571" bet_ref="NDc1NzYwOTk4OjQvNzo6MA" frac_prc="4/7" us_prc="-175" last_change="2018-04-04T06:17:53"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Συνολικά Runs (περιλαμβ. Παράταση)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="99179652" handicap="5.5" inplay_avail="Y" disporder="-8" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="FTPO" lp_avail="Y" mkt_sort_name="Total (including Overtime) (Fixed hcap)">
+            <Seln status="A" name="Over" handicap="5.5" seln_id="486807111" disporder="-10" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.35" bet_ref="NDg2ODA3MTExOjcvMjA6MjI6MA" frac_prc="7/20" us_prc="-286" last_change="2018-04-04T06:17:53"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="5.5" seln_id="486807110" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="3.25" bet_ref="NDg2ODA3MTEwOjkvNDoyMjow" frac_prc="9/4" us_prc="+225" last_change="2018-04-04T06:17:53"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Συνολικά Runs (περιλαμβ. Παράταση)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="99179653" handicap="7.5" inplay_avail="Y" disporder="-8" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="FTPO" lp_avail="Y" mkt_sort_name="Total (including Overtime) (Fixed hcap)">
+            <Seln status="A" name="Over" handicap="7.5" seln_id="486807112" disporder="-10" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.833" bet_ref="NDg2ODA3MTEyOjUvNjozMDow" frac_prc="5/6" us_prc="-120" last_change="2018-04-04T04:19:30"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="7.5" seln_id="486807113" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.97" bet_ref="NDg2ODA3MTEzOjk3LzEwMDozMDow" frac_prc="97/100" us_prc="-104" last_change="2018-04-04T04:19:30"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Συνολικά Runs (περιλαμβ. Παράταση)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="99179654" handicap="9.5" inplay_avail="Y" disporder="-8" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="FTPO" lp_avail="Y" mkt_sort_name="Total (including Overtime) (Fixed hcap)">
+            <Seln status="A" name="Over" handicap="9.5" seln_id="486807114" disporder="-10" seln_sort="O">
+              <Price prc_type="LP" dec_prc="2.80" bet_ref="NDg2ODA3MTE0OjkvNTozODow" frac_prc="9/5" us_prc="+180" last_change="2018-04-04T04:19:30"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="9.5" seln_id="486807115" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.444" bet_ref="NDg2ODA3MTE1OjQvOTozODow" frac_prc="4/9" us_prc="-225" last_change="2018-04-04T04:19:30"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Χάντικαπ (περιλαμβ. Παράταση)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="99167111" handicap="-1.5" inplay_avail="Y" disporder="-2" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="FHOT" lp_avail="Y" mkt_sort_name="Alternate Handicap">
+            <Seln status="A" name="Ατλάντα Μπρέιβς" handicap="-1.5" seln_id="486769525" team_id="115166" disporder="0" seln_sort="1">
+              <Price prc_type="LP" dec_prc="4.60" bet_ref="NDg2NzY5NTI1OjE4LzU6LTY6MA" frac_prc="18/5" us_prc="+360" last_change="2018-04-04T02:42:25"/>
+            </Seln>
+            <Seln status="A" name="Ουάσινγκτον Νάσιοναλς" handicap="+1.5" seln_id="486769526" team_id="115165" disporder="1" seln_sort="2">
+              <Price prc_type="LP" dec_prc="1.20" bet_ref="NDg2NzY5NTI2OjEvNTotNjow" frac_prc="1/5" us_prc="-500" last_change="2018-04-04T02:42:25"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Χάντικαπ (περιλαμβ. Παράταση)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="99167112" handicap="+1.5" inplay_avail="Y" disporder="-2" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="FHOT" lp_avail="Y" mkt_sort_name="Alternate Handicap">
+            <Seln status="A" name="Ατλάντα Μπρέιβς" handicap="+1.5" seln_id="486769528" team_id="115166" disporder="0" seln_sort="1">
+              <Price prc_type="LP" dec_prc="2.00" bet_ref="NDg2NzY5NTI4OjEvMTo2OjA" frac_prc="1/1" us_prc="+100" last_change="2018-04-04T06:17:53"/>
+            </Seln>
+            <Seln status="A" name="Ουάσινγκτον Νάσιοναλς" handicap="-1.5" seln_id="486769527" team_id="115165" disporder="1" seln_sort="2">
+              <Price prc_type="LP" dec_prc="1.833" bet_ref="NDg2NzY5NTI3OjUvNjo2OjA" frac_prc="5/6" us_prc="-120" last_change="2018-04-04T06:17:53"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Χάντικαπ (περιλαμβ. Παράταση)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="99167113" handicap="+4.5" inplay_avail="Y" disporder="-2" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="FHOT" lp_avail="Y" mkt_sort_name="Alternate Handicap">
+            <Seln status="A" name="Ατλάντα Μπρέιβς" handicap="+4.5" seln_id="486769530" team_id="115166" disporder="0" seln_sort="1">
+              <Price prc_type="LP" dec_prc="1.26" bet_ref="NDg2NzY5NTMwOjEzLzUwOjE4OjA" frac_prc="13/50" us_prc="-385" last_change="2018-04-04T06:17:53"/>
+            </Seln>
+            <Seln status="A" name="Ουάσινγκτον Νάσιοναλς" handicap="-4.5" seln_id="486769529" team_id="115165" disporder="1" seln_sort="2">
+              <Price prc_type="LP" dec_prc="3.90" bet_ref="NDg2NzY5NTI5OjI5LzEwOjE4OjA" frac_prc="29/10" us_prc="+290" last_change="2018-04-04T06:17:53"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Αποτέλεσμα/Συνολικά Runs" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="99179651" handicap="+7.5" inplay_avail="Y" disporder="-1" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="MROU" lp_avail="Y" mkt_sort_name="MKT_SORT-MROU">
+            <Seln status="A" name="Ατλάντα Μπρέιβς και Over" handicap="+7.5" seln_id="486807107" team_id="115166" disporder="0" seln_sort="HO">
+              <Price prc_type="LP" dec_prc="6.00" bet_ref="NDg2ODA3MTA3OjUvMTozMDow" frac_prc="5/1" us_prc="+500" last_change="2018-04-04T06:17:53"/>
+            </Seln>
+            <Seln status="A" name="Ατλάντα Μπρέιβς και Under" handicap="+7.5" seln_id="486807106" team_id="115166" disporder="1" seln_sort="HU">
+              <Price prc_type="LP" dec_prc="4.85" bet_ref="NDg2ODA3MTA2Ojc3LzIwOjMwOjA" frac_prc="77/20" us_prc="+385" last_change="2018-04-04T06:17:53"/>
+            </Seln>
+            <Seln status="A" name="Ουάσινγκτον Νάσιοναλς και Over" handicap="+7.5" seln_id="486807109" team_id="115165" disporder="2" seln_sort="AO">
+              <Price prc_type="LP" dec_prc="2.50" bet_ref="NDg2ODA3MTA5OjYvNDozMDow" frac_prc="6/4" us_prc="+150" last_change="2018-04-04T06:17:53"/>
+            </Seln>
+            <Seln status="A" name="Ουάσινγκτον Νάσιοναλς και Under" handicap="+7.5" seln_id="486807108" team_id="115165" disporder="3" seln_sort="AU">
+              <Price prc_type="LP" dec_prc="3.05" bet_ref="NDg2ODA3MTA4OjQxLzIwOjMwOjA" frac_prc="41/20" us_prc="+205" last_change="2018-04-04T06:17:53"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Συνολ. Runs (χωρίς Παράταση)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="99167079" handicap="7.5" inplay_avail="N" disporder="3" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="OVUN" lp_avail="Y" mkt_sort_name="Πάνω/Κάτω">
+            <Seln status="A" name="Over" handicap="7.5" seln_id="486769433" disporder="1" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.833" bet_ref="NDg2NzY5NDMzOjUvNjozMDow" frac_prc="5/6" us_prc="-120" last_change="2018-04-04T04:19:30"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="7.5" seln_id="486769432" disporder="2" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.97" bet_ref="NDg2NzY5NDMyOjk3LzEwMDozMDow" frac_prc="97/100" us_prc="-104" last_change="2018-04-04T04:19:30"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Περιθώριο νίκης" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="96036388" inplay_avail="N" disporder="9" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="WMBA" lp_avail="Y" mkt_sort_name="MKT_SORT-WMBA">
+            <Seln status="A" name="Ατλάντα Μπρέιβς νίκη με 1-2" seln_id="475761007" team_id="115166" disporder="-8" seln_sort="1H2">
+              <Price prc_type="LP" dec_prc="4.15" bet_ref="NDc1NzYxMDA3OjYzLzIwOjow" frac_prc="63/20" us_prc="+315" last_change="2018-04-04T06:17:53"/>
+            </Seln>
+            <Seln status="A" name="Ατλάντα Μπρέιβς νίκη με 3-4" seln_id="475761006" team_id="115166" disporder="-5" seln_sort="3H4">
+              <Price prc_type="LP" dec_prc="11.75" bet_ref="NDc1NzYxMDA2OjQzLzQ6OjA" frac_prc="43/4" us_prc="+1075" last_change="2018-04-04T02:42:25"/>
+            </Seln>
+            <Seln status="A" name="Ατλάντα Μπρέιβς νίκη με 5+" seln_id="475761005" team_id="115166" disporder="0" seln_sort="5H-">
+              <Price prc_type="LP" dec_prc="23.00" bet_ref="NDc1NzYxMDA1OjIyLzE6OjA" frac_prc="22/1" us_prc="+2200" last_change="2018-04-04T06:17:53"/>
+            </Seln>
+            <Seln status="A" name="Ουάσινγκτον Νάσιοναλς νίκη με 1-2" seln_id="475761008" team_id="115165" disporder="3" seln_sort="1A2">
+              <Price prc_type="LP" dec_prc="3.45" bet_ref="NDc1NzYxMDA4OjQ5LzIwOjow" frac_prc="49/20" us_prc="+245" last_change="2018-04-04T06:17:53"/>
+            </Seln>
+            <Seln status="A" name="Ουάσινγκτον Νάσιοναλς νίκη με 3-4" seln_id="475761009" team_id="115165" disporder="4" seln_sort="3A4">
+              <Price prc_type="LP" dec_prc="5.00" bet_ref="NDc1NzYxMDA5OjQvMTo6MA" frac_prc="4/1" us_prc="+400" last_change="2018-04-04T06:17:53"/>
+            </Seln>
+            <Seln status="A" name="Ουάσινγκτον Νάσιοναλς νίκη με 5+" seln_id="475761010" team_id="115165" disporder="5" seln_sort="5A-">
+              <Price prc_type="LP" dec_prc="4.15" bet_ref="NDc1NzYxMDEwOjYzLzIwOjow" frac_prc="63/20" us_prc="+315" last_change="2018-04-04T06:17:53"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Παράταση" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="96036385" inplay_avail="Y" disporder="1800" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="OVRT" lp_avail="Y" mkt_sort_name="Will there be overtime?">
+            <Seln status="A" seln_id="475760999" seln_sort="Y" name="Ναι" disporder="0">
+              <Price prc_type="LP" dec_prc="7.50" bet_ref="NDc1NzYwOTk5OjEzLzI6OjA" frac_prc="13/2" us_prc="+650" last_change="2018-04-03T21:08:19"/>
+            </Seln>
+            <Seln status="A" seln_id="475761000" seln_sort="N" name="Όχι" disporder="1">
+              <Price prc_type="LP" dec_prc="1.071" bet_ref="NDc1NzYxMDAwOjEvMTQ6OjA" frac_prc="1/14" us_prc="-1400" last_change="2018-04-03T21:08:19"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Συνολικοί Πόντοι - Μονά/Ζυγά (περιλαμβ. Παράταση)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="96036386" inplay_avail="Y" disporder="2222" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="OEOT" lp_avail="Y" mkt_sort_name="Odd/Even Total Points">
+            <Seln status="A" seln_id="475761001" seln_sort="O" name="Μονά" disporder="0">
+              <Price prc_type="LP" dec_prc="1.60" bet_ref="NDc1NzYxMDAxOjMvNTo6MA" frac_prc="3/5" us_prc="-167" last_change="2018-04-03T21:08:19"/>
+            </Seln>
+            <Seln status="A" seln_id="475761002" seln_sort="E" name="Ζυγά" disporder="1">
+              <Price prc_type="LP" dec_prc="2.25" bet_ref="NDc1NzYxMDAyOjUvNDo6MA" frac_prc="5/4" us_prc="+125" last_change="2018-04-03T21:08:19"/>
+            </Seln>
+          </Mkt>
+        </Ev>
+      </SBType>
+    </SBClass>
+  </Sport>
+</ContentAPI>
