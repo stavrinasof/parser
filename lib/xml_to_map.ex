@@ -14,12 +14,12 @@ defmodule XmlToMap do
   end
 
   def parse({name, [], content}) when name in @upperclasses do
-    do_parse_content(content, [])
+    do_parse_content(content, [],0)
   end
 
   def parse({name, [], content}) do
     key = find_id_from_attributes(name, [])
-    %{key => do_parse_content(content, [])}
+    %{key => do_parse_content(content, [],0)}
   end
 
   def parse({name, attributes, []}) do
@@ -30,22 +30,28 @@ defmodule XmlToMap do
   # Need to merge both attribute map and content map
 
   def parse({name, attributes, content}) when name in @upperclasses do
-    map_content = do_parse_content(content, [])
+    map_content = do_parse_content(content, [],0)
     key = find_id_from_attributes(name, attributes)
     Map.put(map_content, key, do_parse_attributes(attributes))
   end
 
   def parse({name, attributes, content}) do
     key = find_id_from_attributes(name, attributes)
-    %{key => do_parse_content(content, []) |> Map.merge(do_parse_attributes(attributes))}
+    %{key => do_parse_content(content, [],0) |> Map.merge(do_parse_attributes(attributes))}
   end
 
   # Helper function to parse content list and merge all maps into a larger map
-  defp do_parse_content([], maps), do: Enum.reduce(maps, %{}, &MapActions.dynamic_merge(&1, &2))
+  defp do_parse_content([], maps,_), do: Enum.reduce(maps, %{}, &MapActions.dynamic_merge(&1, &2))
 
-  defp do_parse_content([h | t], acc) do
+  defp do_parse_content([h | t], acc,order) do
     ph = parse(h)
-    do_parse_content(t, [ph | acc])
+    new_ph =
+    case is_map(ph) do
+      true -> Map.put(ph,"Order",order)
+      false -> ph
+    end
+
+    do_parse_content(t, [new_ph | acc],order+1)
   end
 
   def do_parse_attributes(list) do
