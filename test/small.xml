@@ -13,6 +13,7 @@
         <Stats>
           <Stat name="EV_STAT_GOAL" title="TEAM_STAT_GOAL" type="team" away="1" home="0" stat_type="GOAL"/>
           </Stats>
+          <Notes>Pitchers: Foltynewicz (ATL) - Scherzer (WSH)</Notes>
         <Incidents>
           <Incident incident_id="101589900" description="Second half started" inplay_period_mins="1" inplay_total_mins="46" time="2018-03-28T09:38:43" inplay_period="second_half" type="PBEG"/>
           <Incident incident_id="101589355" description="First half ended" inplay_period_mins="46" inplay_total_mins="46" time="2018-03-28T09:22:02" inplay_period="half_time" type="PEND"/>

@@ -1,48 +1,3 @@
-defmodule ID_Macros do
-@ids [
-    {'Mkt', 'mkt_id'},
-    {'Seln', 'seln_id'},
-    {'Incident', 'incident_id'},
-    {'Team', 'team_id'},
-    {'PeriodScore','period'},
-    {'Inplay', 'inplay_period_num'},
-    {'Player', 'player_id'},
-    {'EvDetail', 'br_match_id'},
-    {'Participant', 'full_name'},
-    {'Score', 'name'},
-    {'MatchStatus', 'status_code'},
-    {'Price', 'prc_type'},
-    {'InplayDetail','period_start'},
-    {'MatchStat','name'}
-  ]
-
-  defmacro not_in_list() do
-   tagname = (Macro.var(:"tagname", __MODULE__))
-
-    quote do
-      def do_find_id_from_attributes(_ , unquote(tagname)) do
-        unquote(nil)
-      end
-    end
-  end
-
-  defmacro in_list() do
-    attrvalue = (Macro.var(:"attrvalue", __MODULE__))
-    @ids
-    |> Enum.map( fn {tagname, attrname} ->
-        quote do
-          def do_find_id_from_attributes({unquote(attrname),unquote(attrvalue)}, unquote(tagname)) do
-              a= to_string(unquote(tagname))
-              {a, to_string(unquote(attrvalue))}
-           end
-        end
-    end)
-
-
-
-  end
-end
-
 defmodule XmlToMap do
   require ID_Macros
   @upperclasses [ 'ContentAPI','Sport','SBClass','SBType' ,'Ev']
@@ -52,6 +7,11 @@ defmodule XmlToMap do
     xml = String.replace(xml, ~r/\sxmlns=\".*\"/, "")
     {:ok, tuples, _} = :erlsom.simple_form(xml)
     parse(tuples)
+  end
+
+  #content is a charlist
+  def parse(content) when is_list(content) do
+    to_string(content)
   end
 
   def parse({name, [], content}) when name in @upperclasses do
@@ -134,11 +94,12 @@ defmodule XmlToMap do
 
   def find_id_from_attributes(tagname, list) do
     list
-    |> Enum.reduce_while({}, fn x, acc ->    case do_find_id_from_attributes(x, tagname) do
-                                                nil -> {:cont, to_string(tagname)}
-                                                key -> {:halt, key}
-                                               end
-                             end)
+    |> Enum.reduce_while({}, fn x, _ ->
+        case do_find_id_from_attributes(x, tagname) do
+          nil -> {:cont, to_string(tagname)}
+          key -> {:halt, key}
+        end
+      end)
   end
 
     ID_Macros.in_list
