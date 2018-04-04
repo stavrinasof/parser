@@ -1,4 +1,4 @@
-defmodule XmlParserTest do
+defmodule MapActionsTest do
   use ExUnit.Case
 
   @list_with_maps [
@@ -21,19 +21,10 @@ defmodule XmlParserTest do
   ]
   # after dynamic merge
   # %{
-  #   {"PeriodScore", "1"} => %{
-  #     "period" => "1",
-  #     "score_a" => "0",
-  #     "score_b" => "1",
-  #     "score_string" => "0-1"
-  #   },
-  #   {"PeriodScore", "2"} => %{
-  #     "period" => "2",
-  #     "score_a" => "0",
-  #     "score_b" => "1",
-  #     "score_string" => "0-1"
-  #   }
+  #   {"PeriodScore", "1"} => %{ "period" => "1", "score_a" => "0", "score_b" => "1", "score_string" => "0-1"},
+  #   {"PeriodScore", "2"} => %{ "period" => "2", "score_a" => "0","score_b" => "1", "score_string" => "0-1" }
   # }
+
   @list_with_maps2 [
     %{"Score" => %{"name" => "current_set_games_won", "score_a" => "4", "score_b" => "4"}},
     %{"Score" => %{"name" => "is_server", "score_a" => "Y", "score_b" => "N"}},
@@ -55,30 +46,10 @@ defmodule XmlParserTest do
   #   }
   # }
 
-  test "Check number of ev_id occurences" do
-    {:ok, xml} = :file.read_file("test/liveevents.xml")
-    assert length(EventsParser.parse_events(xml)) == 15
-    # Enum.all?(event_ids, fn x -> String.contains?(xml, to_string(x)) end)
-  end
-
-  test "check if naive_map has correct structure and certain key-value is correct" do
-    {:ok, xml} = :file.read_file("test/tennisevent.xml")
-    map = EventsParser.parse_event(xml)
-
-    pl1_id =
-      get_in(map, [
-        "Incidents",
-        {"Incident", "101687325"},
-        "player1_id"
-      ])
-
-    assert pl1_id == "1005838"
-  end
-
   test "dynamic merge of list with maps (keyname, keyid)" do
     results =
       @list_with_maps
-      |> Enum.reduce(%{}, &XmlToMap.dynamic_merge(&1, &2))
+      |> Enum.reduce(%{}, &MapActions.dynamic_merge(&1, &2))
 
     assert @list_with_maps
            |> List.first()
@@ -91,7 +62,7 @@ defmodule XmlParserTest do
   test "dynamic merge of list with maps (keyname)" do
     results =
       @list_with_maps2
-      |> Enum.reduce(%{}, &XmlToMap.dynamic_merge(&1, &2))
+      |> Enum.reduce(%{}, &MapActions.dynamic_merge(&1, &2))
 
     # all maps in the list have the same key
     assert @list_with_maps2

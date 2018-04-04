@@ -22,29 +22,27 @@ defmodule XmlToMaptTest do
                  ], []}
               ]}
 
-  test "find id from attributes" do
-    {tagname, attributes, _content} = @selection
-    assert XmlToMap.find_id_from_attributes(tagname, attributes) == {"Seln", "484026793"}
-  end
-
-  test "find id from empty attributes" do
-    {tagname, _attributes, _content} = @selection
-    assert XmlToMap.find_id_from_attributes(tagname, []) == "Seln"
-  end
+  @notes {'Notes', [], ['Pitchers: Foltynewicz (ATL) - Scherzer (WSH)']}
 
   test "do parse attributes into a map" do
-    {tagname, attributes, _content} = @selection
+    {_tagname, attributes, _content} = @selection
     attr_map = XmlToMap.do_parse_attributes(attributes)
     assert length(Map.keys(attr_map)) == 6
     assert Map.get(attr_map, "disporder") == "1"
   end
 
-  test "parse tuple return map" do
+  test "parse tuple returns map" do
     seln_map = XmlToMap.parse(@selection)
     seln_value_map = Map.get(seln_map, {"Seln", "484026793"})
 
     assert is_map(seln_map) == true
-    assert is_map(Map.get(seln_value_map, "Price")) == true
+    assert is_map(Map.get(seln_value_map, {"Price", "LP"})) == true
+  end
+
+  test "parse notes" do
+    notes_map = XmlToMap.parse(@notes)
+    assert is_map(notes_map) == true
+    assert Map.keys(notes_map) == ["Notes"]
   end
 
   test "parse turple with tuple content" do
@@ -52,6 +50,6 @@ defmodule XmlToMaptTest do
     seln_value_map = Map.get(seln_map, {"Seln", "484026793"})
 
     assert length(Map.keys(seln_value_map)) == 7
-    assert Map.get(seln_value_map, "Price") != nil
+    assert Map.get(seln_value_map, {"Price", "LP"}) != nil
   end
 end
