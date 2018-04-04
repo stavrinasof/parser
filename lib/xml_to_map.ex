@@ -18,9 +18,9 @@ defmodule Macroo do
 
   defmacro my_macro1() do
    tagname = (Macro.var(:"tagname", __MODULE__))
-  
+
     quote do
-      def do_find_id_from_attributes(_, unquote(tagname)) do 
+      def do_find_id_from_attributes(_ , unquote(tagname)) do
         unquote(nil)
       end
     end
@@ -28,18 +28,17 @@ defmodule Macroo do
 
   defmacro my_macro2() do
     attrvalue = (Macro.var(:"attrvalue", __MODULE__))
-
     @ids
-    |> Enum.map( fn {tagname, attrname} -> 
+    |> Enum.map( fn {tagname, attrname} ->
         quote do
           def do_find_id_from_attributes({unquote(attrname),unquote(attrvalue)}, unquote(tagname)) do
               a= to_string(unquote(tagname))
               {a, to_string(unquote(attrvalue))}
            end
         end
-    end) 
-    
-    
+    end)
+
+
 
   end
 end
@@ -48,7 +47,7 @@ defmodule XmlToMap do
   require Macroo
   @upperclasses [ 'ContentAPI','Sport','SBClass','SBType' ,'Ev']
 
- 
+
   def naive_map(xml) do
     # can't handle xmlns
     xml = String.replace(xml, ~r/\sxmlns=\".*\"/, "")
@@ -137,14 +136,14 @@ defmodule XmlToMap do
   def find_id_from_attributes(tagname, list) do
     list
     |> Enum.reduce_while({}, fn x, acc ->    case do_find_id_from_attributes(x, tagname) do
-                                                nil -> {:cont, acc}     
-                                                key -> {:halt, key}     
+                                                nil -> {:cont, to_string(tagname)}
+                                                key -> {:halt, key}
                                                end
                              end)
   end
 
-  Macroo.my_macro2
-  Macroo.my_macro1
+    Macroo.my_macro2
+    Macroo.my_macro1
   # defp do_find_id_from_attributes({ 'mkt_id', attrvalue}, 'Mkt'=tagname), do: {to_string(tagname), to_string(attrvalue)}
   # defp do_find_id_from_attributes({ 'seln_id', attrvalue}, 'Seln'=tagname), do: {to_string(tagname), to_string(attrvalue)}
   # defp do_find_id_from_attributes({ 'incident_id', attrvalue}, 'Incident'=tagname), do: {to_string(tagname), to_string(attrvalue)}
