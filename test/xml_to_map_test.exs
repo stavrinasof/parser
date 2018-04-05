@@ -32,22 +32,22 @@ defmodule XmlToMaptTest do
   end
 
   test "parse tuple returns map" do
-    seln_map = XmlToMap.parse(@selection)
-    seln_value_map = Map.get(seln_map, {"Seln", "484026793"})
+    seln_map = XmlToMap.parse(@selection, 0)
+    seln_value_map = Map.get(seln_map, {{"Seln", "484026793"}, 0})
 
     assert is_map(seln_map) == true
     assert is_map(Map.get(seln_value_map, {"Price", "LP"})) == true
   end
 
   test "parse notes" do
-    notes_map = XmlToMap.parse(@notes)
+    notes_map = XmlToMap.parse(@notes, 0)
     assert is_map(notes_map) == true
     assert Map.keys(notes_map) == ["Notes"]
   end
 
   test "parse turple with tuple content" do
-    seln_map = XmlToMap.parse(@selection)
-    seln_value_map = Map.get(seln_map, {"Seln", "484026793"})
+    seln_map = XmlToMap.parse(@selection, 0)
+    seln_value_map = Map.get(seln_map, {{"Seln", "484026793"}, 0})
 
     assert length(Map.keys(seln_value_map)) == 7
     assert Map.get(seln_value_map, {"Price", "LP"}) != nil

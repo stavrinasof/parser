@@ -14,7 +14,7 @@ defmodule EventsParserTest do
     pl1_id =
       get_in(map, [
         "Incidents",
-        {"Incident", "101687325"},
+        {{"Incident", "101688367"}, 0},
         "player1_id"
       ])
 
