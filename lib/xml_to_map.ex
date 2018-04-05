@@ -1,6 +1,8 @@
 defmodule XmlToMap do
   require ID_Macros
   @upperclasses ['ContentAPI', 'Sport', 'SBClass', 'SBType', 'Ev']
+  @lowerclasses ['Incident','Mkt', 'Seln']
+
 
   def naive_map(xml) do
     xml = String.replace(xml, ~r/\sxmlns=\".*\"/, "")
@@ -17,36 +19,47 @@ defmodule XmlToMap do
     do_parse_content(content, [], 0)
   end
 
-  def parse({name, [], content},order) do
-    key = find_id_from_attributes(name, [])
-    case is_tuple(key) do
-      true -> %{{key,order+1} => do_parse_content(content, [], 0)}
-      false -> %{key => do_parse_content(content, [], 0)}
-    end
-    end
-
-  def parse({name, attributes, []}, order) do
-    key = find_id_from_attributes(name, attributes)
-    case is_tuple(key) do
-      true -> %{{key,order} => do_parse_attributes(attributes)} #
-      false -> %{key => do_parse_attributes(attributes)}
-    end    
-  end
-
-  # Need to merge both attribute map and content map
-
   def parse({name, attributes, content}) when name in @upperclasses do
     map_content = do_parse_content(content, [], 0)
     key = find_id_from_attributes(name, attributes)
     Map.put(map_content, key, do_parse_attributes(attributes))
   end
 
-  def parse({name, attributes, content}, order) do
-    key = find_id_from_attributes(name, attributes)
-    case is_tuple(key)do
-      true -> %{{key, order} => do_parse_content(content, [], 0) |> Map.merge(do_parse_attributes(attributes))}
-      false -> %{key => do_parse_content(content, [], 0) |> Map.merge(do_parse_attributes(attributes))}
+  def parse({name, [], content},order) when name in @lowerclasses do
+    key = find_id_from_attributes(name, [])
+    %{{key,order+1} => do_parse_content(content, [], 0)}
     end
+
+  def parse({name, [], content},_order) do
+    key = find_id_from_attributes(name, [])
+    %{key => do_parse_content(content, [], 0)}
+  end
+
+  def parse({name, attributes, []}, order) when name in @lowerclasses do
+    key = find_id_from_attributes(name, attributes)    
+    %{{key,order} => do_parse_attributes(attributes)}      
+  end
+
+  def parse({name, attributes, []}, _order) do
+    key = find_id_from_attributes(name, attributes)
+    %{key => do_parse_attributes(attributes)}   
+  end
+
+ 
+
+  # Need to merge both attribute map and content map
+
+
+
+  def parse({name, attributes, content}, order) when name in @lowerclasses do
+    key = find_id_from_attributes(name, attributes)
+    %{{key, order} => do_parse_content(content, [], 0) |> Map.merge(do_parse_attributes(attributes))}
+  end
+
+  
+  def parse({name, attributes, content}, _order) do
+    key = find_id_from_attributes(name, attributes)
+    %{key => do_parse_content(content, [], 0) |> Map.merge(do_parse_attributes(attributes))}
   end
 
 
