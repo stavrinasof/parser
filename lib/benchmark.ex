@@ -4,8 +4,9 @@ defmodule Benchmark do
     xml = File.read!("test/eventdetails.xml")
 
     Benchee.run(%{
-      "order in key"    => fn -> XmlToMap.naive_map xml end,
-      "order in key 2" => fn -> XmlToMap.naive_map xml end
+      "no order"    => fn -> XmlToMap.naive_map xml end,
+      "order in attributes" => fn -> XmlToMapOrderInAttr.naive_map xml end,
+      "order in key" => fn -> XmlToMapOrderInKey.naive_map xml end,
     },
       formatters: [
         Benchee.Formatters.HTML,

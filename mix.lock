@@ -1,5 +1,9 @@
 %{
+  "benchee": {:hex, :benchee, "0.12.1", "1286a79bab2f1899220134daf9a695586af00ea71968e6cd89d3d3afdf7cecba", [:mix], [{:deep_merge, "~> 0.1", [hex: :deep_merge, repo: "hexpm", optional: false]}], "hexpm"},
+  "benchee_html": {:hex, :benchee_html, "0.5.0", "1354ba8005f979c177561fe08b83cafbae43f3046e8a6cf209132b8967b6db17", [:mix], [{:benchee, "~> 0.12", [hex: :benchee, repo: "hexpm", optional: false]}, {:benchee_json, "~> 0.5", [hex: :benchee_json, repo: "hexpm", optional: false]}], "hexpm"},
+  "benchee_json": {:hex, :benchee_json, "0.5.0", "75878fd9944093ced03e9c214e6e1429da147de43e2f4a4cbc4377294ed5d029", [:mix], [{:benchee, "~> 0.12", [hex: :benchee, repo: "hexpm", optional: false]}, {:jason, "~> 1.0", [hex: :jason, repo: "hexpm", optional: false]}], "hexpm"},
   "certifi": {:hex, :certifi, "2.0.0", "a0c0e475107135f76b8c1d5bc7efb33cd3815cb3cf3dea7aefdd174dabead064", [:rebar3], [], "hexpm"},
+  "deep_merge": {:hex, :deep_merge, "0.1.1", "c27866a7524a337b6a039eeb8dd4f17d458fd40fbbcb8c54661b71a22fffe846", [:mix], [], "hexpm"},
   "elixir_xml_to_map": {:hex, :elixir_xml_to_map, "0.1.1", "57e924cd11731947bfd245ce57d0b8dd8b7168bf8edb20cd156a2982ca96fdfa", [:mix], [{:erlsom, "~>1.4", [hex: :erlsom, repo: "hexpm", optional: false]}], "hexpm"},
   "erlsom": {:hex, :erlsom, "1.4.1", "53dbacf35adfea6f0714fd0e4a7b0720d495e88c5e24e12c5dc88c7b62bd3e49", [:rebar3], [], "hexpm"},
   "exml": {:hex, :exml, "0.1.1", "1f580101641781e23dbda396ae8a4ea5dcf1be526859e59f3129921610f4afd3", [:mix], [], "hexpm"},
@@ -7,6 +11,7 @@
   "hackney": {:hex, :hackney, "1.11.0", "4951ee019df102492dabba66a09e305f61919a8a183a7860236c0fde586134b6", [:rebar3], [{:certifi, "2.0.0", [hex: :certifi, repo: "hexpm", optional: false]}, {:idna, "5.1.0", [hex: :idna, repo: "hexpm", optional: false]}, {:metrics, "1.0.1", [hex: :metrics, repo: "hexpm", optional: false]}, {:mimerl, "1.0.2", [hex: :mimerl, repo: "hexpm", optional: false]}, {:ssl_verify_fun, "1.1.1", [hex: :ssl_verify_fun, repo: "hexpm", optional: false]}], "hexpm"},
   "httpoison": {:hex, :httpoison, "1.0.0", "1f02f827148d945d40b24f0b0a89afe40bfe037171a6cf70f2486976d86921cd", [:mix], [{:hackney, "~> 1.8", [hex: :hackney, repo: "hexpm", optional: false]}], "hexpm"},
   "idna": {:hex, :idna, "5.1.0", "d72b4effeb324ad5da3cab1767cb16b17939004e789d8c0ad5b70f3cea20c89a", [:rebar3], [{:unicode_util_compat, "0.3.1", [hex: :unicode_util_compat, repo: "hexpm", optional: false]}], "hexpm"},
+  "jason": {:hex, :jason, "1.0.0", "0f7cfa9bdb23fed721ec05419bcee2b2c21a77e926bce0deda029b5adc716fe2", [:mix], [{:decimal, "~> 1.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm"},
   "map_diff": {:hex, :map_diff, "1.3.1", "cf9666c15587ca144051bb50389ee2f03866fe42a7bf994bfe03058465d8e7c5", [:mix], [{:tensor, "~> 1.0", [hex: :tensor, repo: "hexpm", optional: false]}], "hexpm"},
   "metrics": {:hex, :metrics, "1.0.1", "25f094dea2cda98213cecc3aeff09e940299d950904393b2a29d191c346a8486", [:rebar3], [], "hexpm"},
   "mimerl": {:hex, :mimerl, "1.0.2", "993f9b0e084083405ed8252b99460c4f0563e41729ab42d9074fd5e52439be88", [:rebar3], [], "hexpm"},
