@@ -83,7 +83,7 @@ defmodule XmlToMaptTest do
   end
 
 
-  test "order in attributes" do
+  test "correct order in attributes" do
     market_map = XmlToMap.parse(@market,0)
     #IO.inspect market_map
     seln_value_map1 = get_in(market_map, [{"Mkt", "118360"},{"Seln", "484026793"}])
