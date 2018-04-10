@@ -38,6 +38,42 @@
           <Price prc_type="LP" dec_prc="1.09" bet_ref="NDg0MDI2NzkxOjkvMTAwOjow" frac_prc="9/100" us_prc="-1112" last_change="2018-03-28T09:56:47"/>
           </Seln>
         </Mkt>
+        <Mkt status="A" name="To Qualify" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98487372" inplay_avail="Y" disporder="-9966" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="QUAL" lp_avail="Y" mkt_sort_name="To Qualify">
+<Seln status="A" name="Eastern Lions" seln_id="484345240" team_id="118360" disporder="0" seln_sort="H">
+<Price prc_type="LP" dec_prc="9.50" bet_ref="NDg0MzQ1MjQwOjE3LzI6OjA" frac_prc="17/2" us_prc="+850" last_change="2018-03-28T09:58:07"/>
+</Seln>
+<Seln status="A" name="Oakleigh Cannons" seln_id="484345239" team_id="114960" disporder="1" seln_sort="A">
+<Price prc_type="LP" dec_prc="1.04" bet_ref="NDg0MzQ1MjM5OjEvMjU6OjA" frac_prc="1/25" us_prc="-2500" last_change="2018-03-28T09:58:07"/>
+</Seln>
+</Mkt>
+<Mkt status="A" name="Method of Qualification" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98487374" inplay_avail="Y" disporder="-9965" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="MOFW" lp_avail="Y" mkt_sort_name="MKT_SORT-MOFW">
+<Seln status="A" seln_id="484345247" seln_sort="HNT" name="Eastern Lions in Normal Time" disporder="1">
+<Price prc_type="LP" dec_prc="34.00" bet_ref="NDg0MzQ1MjQ3OjMzLzE6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-03-28T09:56:47"/>
+</Seln>
+<Seln status="A" seln_id="484345244" seln_sort="ANT" name="Oakleigh Cannons in Normal Time" disporder="2">
+<Price prc_type="LP" dec_prc="1.09" bet_ref="NDg0MzQ1MjQ0OjkvMTAwOjow" frac_prc="9/100" us_prc="-1112" last_change="2018-03-28T09:56:47"/>
+</Seln>
+<Seln status="A" seln_id="484345246" seln_sort="HET" name="Eastern Lions in Extra Time" disporder="3">
+<Price prc_type="LP" dec_prc="31.00" bet_ref="NDg0MzQ1MjQ2OjMwLzE6OjA" frac_prc="30/1" us_prc="+3000" last_change="2018-03-28T09:58:07"/>
+</Seln>
+<Seln status="A" seln_id="484345243" seln_sort="AET" name="Oakleigh Cannons in Extra Time" disporder="4">
+<Price prc_type="LP" dec_prc="19.50" bet_ref="NDg0MzQ1MjQzOjM3LzI6OjA" frac_prc="37/2" us_prc="+1850" last_change="2018-03-28T09:58:17"/>
+</Seln>
+<Seln status="A" seln_id="484345248" seln_sort="HPE" name="Eastern Lions on Penalties" disporder="5">
+<Price prc_type="LP" dec_prc="27.50" bet_ref="NDg0MzQ1MjQ4OjUzLzI6OjA" frac_prc="53/2" us_prc="+2650" last_change="2018-03-28T09:56:47"/>
+</Seln>
+<Seln status="A" seln_id="484345245" seln_sort="APE" name="Oakleigh Cannons on Penalties" disporder="6">
+<Price prc_type="LP" dec_prc="27.50" bet_ref="NDg0MzQ1MjQ1OjUzLzI6OjA" frac_prc="53/2" us_prc="+2650" last_change="2018-03-28T09:56:47"/>
+</Seln>
+</Mkt>
+<Mkt status="A" name="Under/Over Total Goals" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98487424" handicap="1.5" inplay_avail="Y" disporder="-9900" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HCTG" lp_avail="Y" mkt_sort_name="Handicap Total Goals">
+<Seln status="A" name="Over" handicap="1.5" seln_id="484345395" disporder="1" seln_sort="O">
+<Price prc_type="LP" dec_prc="1.30" bet_ref="NDg0MzQ1Mzk1OjMvMTA6Njow" frac_prc="3/10" us_prc="-334" last_change="2018-03-28T09:57:10"/>
+</Seln>
+<Seln status="A" name="Under" handicap="1.5" seln_id="484345396" disporder="2" seln_sort="U">
+<Price prc_type="LP" dec_prc="3.15" bet_ref="NDg0MzQ1Mzk2OjQzLzIwOjY6MA" frac_prc="43/20" us_prc="+215" last_change="2018-03-28T09:58:23"/>
+</Seln>
+</Mkt>
       </Ev>
     </SBType>
   </SBClass>

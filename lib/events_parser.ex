@@ -15,6 +15,6 @@ defmodule EventsParser do
 
   def parse_event(body) do
     body
-    |> XmlToMap.naive_map()
+    |> SaxToMap.saxmap()
   end
 end
