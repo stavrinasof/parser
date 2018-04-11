@@ -1,7 +1,7 @@
 defmodule SaxToMap do
   def saxmap(xml) do
     xml = String.replace(xml, ~r/\sxmlns=\".*\"/, "")
-    :erlsom.parse_sax(xml, [], fn xmline,acc -> parse_element(xmline,acc) end)
+    :erlsom.parse_sax(xml, [], fn xmline,acc -> parse_element(xmline,acc)  end)
     |>elem(1)
     |>Enum.reduce([],&my_reduce_fun(&1,&2))
     |>Enum.reduce(%{},&Map.merge(&2,&1))
@@ -50,6 +50,9 @@ defmodule SaxToMap do
     end
   end
 
+  def parse_element({:endElement, [], 'Notes', []},[{:chars,chars}|acc_tuples]) do
+    [{"Notes",%{"Notes" => chars}} | acc_tuples]
+  end
   def parse_element({:endElement, [], element, []},acc_tuples) do
     name=to_string(element)
     case elem(List.first(acc_tuples),0) do
@@ -62,11 +65,12 @@ defmodule SaxToMap do
     end
   end
 
+  def parse_element({:characters, characters} ,acc_tuples) ,do: [{:chars,to_string(characters)}|acc_tuples]
   def parse_element({:ignorableWhitespace, _} ,acc_tuples) ,do: acc_tuples
 
   def add_to_mkt(already_in, new) when already_in==%{} do
     to_add_values = Map.get(new,"Mkt")
-    %{"Mkt"=>[to_add_values]} |> IO.inspect
+    %{"Mkt"=>[to_add_values]}
   end
   def add_to_mkt(already_in , new) do
     to_add_values  = Map.get(new,"Mkt")

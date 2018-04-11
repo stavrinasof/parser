@@ -28,6 +28,7 @@
           <Team team_id="114960" team_order="1" name="Oakleigh Cannons" short_name="Oakleigh Cannons"/>
         </Teams>
         <Mkt status="A" name="Full Time Result" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="98399030" inplay_avail="Y" disporder="-9999" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="MRES" lp_avail="Y" mkt_sort_name="Matches">
+        <Notes>Pitchers: Foltynewicz (ATL) - Scherzer (WSH)</Notes>          
           <Seln status="A" name="Eastern Lions" seln_id="484026793" team_id="118360" disporder="1" seln_sort="H">
           <Price prc_type="LP" dec_prc="34.00" bet_ref="NDg0MDI2NzkzOjMzLzE6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-03-28T09:56:47"/>
           </Seln>
