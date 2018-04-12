@@ -46,7 +46,7 @@ defmodule XmlToMap do
   end
 
   def parse({name, attributes, content}) when name in @lowerclasses do
-    %{name => do_parse_content(content, []) |> Map.merge(do_parse_attributes(attributes))}
+    %{to_string(name) => do_parse_content(content, []) |> Map.merge(do_parse_attributes(attributes))}
   end
 
   def parse({name, attributes, content}) do
