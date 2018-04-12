@@ -1,6 +1,7 @@
-defmodule XmlToMap do
+defmodule XmlToMapListed do
   require ID_Macros
   @upperclasses ['ContentAPI', 'Sport', 'SBClass', 'SBType', 'Ev']
+  @lowerclasses ['Incident', 'Mkt', 'Seln', 'Price']
 
   def naive_map(xml) do
     xml = String.replace(xml, ~r/\sxmlns=\".*\"/, "")
@@ -17,9 +18,18 @@ defmodule XmlToMap do
     do_parse_content(content, [])
   end
 
+  def parse({name, [], content}) when name=='Incidents' do
+    key = find_id_from_attributes(name, []) 
+    %{key => do_parse_content_l(content, [])}
+  end
+
   def parse({name, [], content}) do
     key = find_id_from_attributes(name, [])
     %{key => do_parse_content(content, [])}
+  end
+
+  def parse({name, attributes, []}) when name in @lowerclasses do
+    do_parse_attributes(attributes)
   end
 
   def parse({name, attributes, []}) do
@@ -35,13 +45,25 @@ defmodule XmlToMap do
     Map.put(map_content, key, do_parse_attributes(attributes))
   end
 
+  def parse({name, attributes, content}) when name in @lowerclasses do
+    %{name => do_parse_content(content, []) |> Map.merge(do_parse_attributes(attributes))}
+  end
+
   def parse({name, attributes, content}) do
     key = find_id_from_attributes(name, attributes)
     %{key => do_parse_content(content, []) |> Map.merge(do_parse_attributes(attributes))}
   end
 
+  defp do_parse_content_l([], maps), do: maps
+  defp do_parse_content_l([h | t], acc) do
+    ph = parse(h)
+    do_parse_content_l(t, [ph | acc])
+  end
+
   # Helper function to parse content list and merge all maps into a larger map
-  defp do_parse_content([], maps), do: Enum.reduce(maps, %{}, &MapActions.dynamic_merge(&1, &2))
+  defp do_parse_content([], maps) do
+    Enum.reduce(maps, %{}, &MapActions.dynamic_merge(&1, &2))
+  end
 
   defp do_parse_content([h | t], acc) do
     ph = parse(h)

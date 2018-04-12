@@ -20,6 +20,7 @@ defmodule MapDiff do
               &Map.put(&1, reversed_new_key_path, map_b_value)
             )
 
+          # |> check_for_empty_valuemaps}
           {new_map_changes, map_a_c}
 
         map_a_value ->
@@ -27,6 +28,7 @@ defmodule MapDiff do
             diffs(map_a_value, map_b_value, new_key_path, {map_changes, map_a_c})
 
           new_map_changes = check_diff_state(state, map_changes, new_key_path, map_b_value)
+          # |> check_for_empty_valuemaps}
           {new_map_changes, deleted_map_a}
       end
     end)
@@ -41,10 +43,9 @@ defmodule MapDiff do
     {:change, delete_in(map_a_copy, new_key_path)}
   end
 
-  defp delete_in(map_a_c, new_key_path) do
+  def delete_in(map_a_c, new_key_path) do
     map_a_c
-    |> pop_in(Enum.reverse(new_key_path))
-    |> elem(1)
+    |> my_pop_in(Enum.reverse(new_key_path))
   end
 
   defp check_diff_state(:change, map_changes, new_key_path, map_b_value) do
@@ -54,4 +55,20 @@ defmodule MapDiff do
 
   defp check_diff_state(:equals, map_changes, _, _), do: map_changes
   defp check_diff_state(map_changes, _, _, _), do: map_changes
+
+  defp my_pop_in(map, []), do: map
+
+  defp my_pop_in(map, [key]) do
+    Map.delete(map, key)
+  end
+
+  defp my_pop_in(map, [head_key | tail_keypath]) do
+    value_map = Map.get(map, head_key)
+    new_value_map = my_pop_in(value_map, tail_keypath)
+
+    case Map.equal?(new_value_map, %{}) do
+      true -> Map.delete(map, head_key)
+      false -> Map.put(map, head_key, new_value_map)
+    end
+  end
 end
