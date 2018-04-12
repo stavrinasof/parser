@@ -1,0 +1,13 @@
+<Ev inplay_allowed="Y" status="A" name="Eastern Lions v Oakleigh Cannons" allow_cash_out="Y" start_time="2018-03-28T08:30:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="Y" inplay_now="Y" mkt_count="16" ev_id="1679643" disporder="-12200">
+        <Inplay inplay_period_num="2" inplay_period_name_short="PERIOD_second_half_SHORT" clock_status="TICKING" period_length="2700" correct_at="2018-03-28T09:58:32" inplay_period_finished="N" extra_period_length="900" score_a="0" score_b="1" inplay_period_name="Second Half" num_periods="2" clock_mode="FORWARD" inplay_period="second_half" num_extra_periods="2" score_string="0-1" scoring_system="match" last_change="2018-03-28T09:51:11" inplay_secs="3889">
+          <Scores>
+            <PeriodScore score_a="0" score_b="1" score_string="0-1" period="1"/>
+            <PeriodScore score_a="0" score_b="1" score_string="0-1" period="2"/>
+            <PeriodScore score_a="0" score_b="1" score_string="0-1" period="3"/>            
+          </Scores>
+        </Inplay>
+        <InplayDetail period_length_mins="45" period_start="2018-03-28T09:38:43" period_stoppage_secs="0" score_team_B="1" score_team_A="0"/>
+        <Stats>
+          <Stat name="EV_STAT_GOAL" title="TEAM_STAT_GOAL" type="team" away="1" home="0" stat_type="GOAL"/>
+        </Stats>
+        </Ev>
