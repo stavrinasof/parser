@@ -1,7 +1,7 @@
 defmodule XmlToMap do
   require ID_Macros
   @upperclasses ['ContentAPI', 'Sport', 'SBClass', 'SBType', 'Ev']
-  @lowerclasses ['Incident', 'Mkt', 'Seln', 'Price']
+  @lowerclasses ['Incident', 'Mkt', 'Seln', 'Price', 'Team']
 
   def naive_map(xml) do
     xml = String.replace(xml, ~r/\sxmlns=\".*\"/, "")
@@ -18,7 +18,7 @@ defmodule XmlToMap do
     do_parse_content(content, [])
   end
 
-  def parse({name, [], content}) when name=='Incidents' do
+  def parse({name, [], content}) when name=='Incidents' or name=='Teams' do
     key = find_id_from_attributes(name, []) 
     %{key => do_parse_content_l(content, [])}
   end
