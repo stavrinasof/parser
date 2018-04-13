@@ -13,6 +13,7 @@ defmodule EventsParserTest do
 
     pl1_id =
       get_in(map, [
+        "Ev",
         "Incidents",
         {"Incident", "101687325"},
         "player1_id"
