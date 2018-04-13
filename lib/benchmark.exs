@@ -9,11 +9,14 @@ defmodule Benchmark do
     map1 = XmlToMap.naive_map xml
     map1_attr = XmlToMapOrderInAttr.naive_map xml
     map1_key = XmlToMapOrderInKey.naive_map xml 
-  
+    map1_ch = XmlToMapOrderInAttr.naive_map xml
     Benchee.run(%{
       "No order"    => fn -> XmlToMap.naive_map xml end,
+      "No order, chars insted of strings" => fn -> XmlToMapChars.naive_map xml end,
+      "MapDiff No order, chars insted of strings" => fn -> map2 = XmlToMapChars.naive_map xml2 
+                                                          MapDiff.diffs(map1, map2) end,
       "No order, Mapdiff" => fn -> map2 = XmlToMap.naive_map xml2
-                                   MapDiff.diffs(map1, map2) end,                                  
+                                   MapDiff.diffs(map1_ch, map2) end,                                  
       "order in attributes" => fn -> XmlToMapOrderInAttr.naive_map xml end,
       "order in attributes, Mapdiff" => fn -> map2 = XmlToMapOrderInAttr.naive_map xml2
                                    MapDiffOrderInAttr.diffs(map1_attr, map2) end, 
