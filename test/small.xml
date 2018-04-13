@@ -15,7 +15,7 @@
           </Stats>
           <Notes>Pitchers: Foltynewicz (ATL) - Scherzer (WSH)</Notes>
         <Incidents>
-          <Incident incident_id="101589900" description="Second half started" inplay_period_mins="1" inplay_total_mins="46" time="2018-03-28T09:38:43" inplay_period="second_half" type="PBEG"/>
+          <Incident incident_id="101589900" description="Second ha started" inplay_period_mins="1" inplay_total_mins="46" time="2018-03-28T09:38:43" inplay_period="second_half" type="PBEG"/>
           <Incident incident_id="101589355" description="First half ended" inplay_period_mins="46" inplay_total_mins="46" time="2018-03-28T09:22:02" inplay_period="half_time" type="PEND"/>
           <Incident incident_id="101588371" description="0-1 Oakleigh Cannons" inplay_period_mins="17" team_id="114960" inplay_total_mins="17" time="2018-03-28T08:52:33" inplay_period="first_half" type="GOAL"/>
           <Incident incident_id="101587939" inplay_period_mins="1" inplay_total_mins="1" time="2018-03-28T08:36:19" inplay_period="first_half" type="SYNC"/>

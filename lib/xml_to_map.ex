@@ -10,7 +10,7 @@ defmodule XmlToMap do
 
   # content is a charlist
   def parse(content) when is_list(content) do
-    {:chars ,to_string(content)}
+    {:chars ,content}
   end
 
   def parse({name, [], content}) when name in @upperclasses do
@@ -60,17 +60,17 @@ defmodule XmlToMap do
 
   def do_parse_attributes(list) do
     list
-    |> Enum.map(fn {k, v} -> {to_string(k), to_string(v)} end)
+    |> Enum.map(fn {k, v} -> {k, v} end)
     |> Map.new()
   end
 
-  def find_id_from_attributes(tagname, []), do: to_string(tagname)
+  def find_id_from_attributes(tagname, []), do: tagname
 
   def find_id_from_attributes(tagname, list) do
     list
     |> Enum.reduce_while({}, fn x, _ ->
       case do_find_id_from_attributes(x, tagname) do
-        nil -> {:cont, to_string(tagname)}
+        nil -> {:cont, tagname}
         key -> {:halt, key}
       end
     end)

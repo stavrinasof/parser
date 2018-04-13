@@ -33,8 +33,8 @@ defmodule ID_Macros do
     |> Enum.map(fn {tagname, attrname} ->
       quote do
         def do_find_id_from_attributes({unquote(attrname), unquote(attrvalue)}, unquote(tagname)) do
-          a = to_string(unquote(tagname))
-          {a, to_string(unquote(attrvalue))}
+          a = unquote(tagname)
+          {a, unquote(attrvalue)}
         end
       end
     end)
