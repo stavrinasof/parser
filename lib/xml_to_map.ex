@@ -1,47 +1,61 @@
 defmodule XmlToMap do
   require ID_Macros
-  @upperclasses ['ContentAPI', 'Sport', 'SBClass', 'SBType', 'Ev']
+  @upperclasses ['ContentAPI', 'Sport', 'SBClass', 'SBType']
 
   def naive_map(xml) do
     xml = String.replace(xml, ~r/\sxmlns=\".*\"/, "")
     {:ok, tuples, _} = :erlsom.simple_form(xml)
-    parse(tuples)
+    parse(tuples) |>Map.new
   end
 
   # content is a charlist
   def parse(content) when is_list(content) do
-    to_string(content)
+    {:chars ,to_string(content)}
   end
 
   def parse({name, [], content}) when name in @upperclasses do
-    do_parse_content(content, [])
+    do_parse_content_upper(content, [])
   end
 
   def parse({name, [], content}) do
     key = find_id_from_attributes(name, [])
-    %{key => do_parse_content(content, [])}
+    {key , do_parse_content(content, [])}
   end
 
   def parse({name, attributes, []}) do
     key = find_id_from_attributes(name, attributes)
-    %{key => do_parse_attributes(attributes)}
+    {key , do_parse_attributes(attributes)}
   end
 
   # Need to merge both attribute map and content map
 
   def parse({name, attributes, content}) when name in @upperclasses do
-    map_content = do_parse_content(content, [])
+
+    map_content_tuple = do_parse_content_upper(content, [])
     key = find_id_from_attributes(name, attributes)
-    Map.put(map_content, key, do_parse_attributes(attributes))
+   # map_inner =Map.put(map_content, key, do_parse_attributes(attributes))
+   #IO.inspect map_content_tuple
+
+    case is_list(map_content_tuple) do
+    true -> [{key ,do_parse_attributes(attributes)} |map_content_tuple]
+    false ->  [{key ,do_parse_attributes(attributes)} ,map_content_tuple ]
+   end
   end
 
   def parse({name, attributes, content}) do
     key = find_id_from_attributes(name, attributes)
-    %{key => do_parse_content(content, []) |> Map.merge(do_parse_attributes(attributes))}
+    {key , do_parse_content(content, []) |> Map.merge(do_parse_attributes(attributes))}
+  end
+
+  defp do_parse_content_upper([], tuple_maps), do: List.first tuple_maps
+  defp do_parse_content_upper([h | t], acc) do
+    ph = parse(h)
+    do_parse_content_upper(t, [ph | acc])
   end
 
   # Helper function to parse content list and merge all maps into a larger map
-  defp do_parse_content([], maps), do: Enum.reduce(maps, %{}, &MapActions.dynamic_merge(&1, &2))
+  defp do_parse_content([], tuple_maps), do: Map.new(tuple_maps)
+  #Enum.reduce(tuple_maps, %{}, &MapActions.dynamic_merge(&1, &2))
 
   defp do_parse_content([h | t], acc) do
     ph = parse(h)

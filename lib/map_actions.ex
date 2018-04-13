@@ -1,6 +1,6 @@
 defmodule MapActions do
   # Function to reduce maps' list
-  def dynamic_merge(map, acc) when acc == %{}, do: map
+  def dynamic_merge({key,map}, acc) when acc == %{}, do: map
 
   def dynamic_merge(map, acc) do
     [key] = Map.keys(map)
