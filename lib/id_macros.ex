@@ -13,7 +13,8 @@ defmodule ID_Macros do
     {'MatchStatus', 'status_code'},
    # {'Price', 'prc_type'},
     {'InplayDetail', 'period_start'},
-    {'MatchStat', 'name'}
+    {'MatchStat', 'name'},
+    {'Stat', 'name'},
   ]
 
   defmacro not_in_list() do

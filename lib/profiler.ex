@@ -6,9 +6,9 @@ defmodule Profiler do
     {:ok, xml} = :file.read_file("test/bench.xml")
     map1 =  EventsParser.parse_event(xml)
     profile do
-        {:ok, xml} = :file.read_file("test/bench2.xml")
+        {:ok, xml} = :file.read_file("test/bench1.xml")
         map2 =  EventsParser.parse_event(xml)
-        MapDiff.diffs(map1, map1)
+        MapDiff.diff(map1, map2)
     end
   end
 

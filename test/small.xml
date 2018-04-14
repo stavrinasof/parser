@@ -11,21 +11,64 @@
         </Inplay>
         <InplayDetail period_length_mins="65" period_start="2018-03-28T09:38:43" period_stoppage_secs="0" score_team_B="1" score_team_A="0"/>
         <Stats>
-          <Stat name="EV_STAT_GOAL" title="TEAM_STAT_GOAL" type="team" away="1" home="0" stat_type="GOAL"/>
+          <Stat name="EV_STAT_GOAL" title="TEAM_STAT_GOAL" type="tam" away="1" home="0" stat_type="GOAL"/>
           </Stats>
           <Notes>Pitchers: Foltynewicz (ATL) - Scherzer (WSH)</Notes>
         <Incidents>
-          <Incident incident_id="101589355" description="First half ended" inplay_period_mins="46" inplay_total_mins="46" time="2018-03-28T09:22:02" inplay_period="half_time" type="PEND"/>
-          <Incident incident_id="101588671" description="0-1 Oakeigh Cannons" inplay_period_mins="17" team_id="114960" inplay_total_mins="17" time="2018-03-28T08:52:33" inplay_period="first_half" type="GOAL"/>
+          <Incident incident_id="101589355" description="First alf ended" inplay_period_mins="46" inplay_total_mins="46" time="2018-03-28T09:22:02" inplay_period="half_time" type="PEND"/>
           <Incident incident_id="101587939" inplay_period_mins="1" inplay_total_mins="1" time="2018-03-28T08:36:19" inplay_period="first_half" type="SYNC"/>
           <Incident incident_id="102587332" inplay_period_mins="4" inplay_total_mins="4" time="2018-03-28T08:36:12" inplay_period="first_half" type="SYNC"/>
           <Incident incident_id="101586690" inplay_period_mins="1" inplay_total_mins="2" time="2018-03-28T08:31:00" inplay_period="first_half" type="SYNC"/>
           <Incident incident_id="101587759" description="First haf started" inplay_period_mins="1" inplay_total_mins="1" time="2018-03-28T08:30:13" inplay_period="first_half" type="PBEG"/>
+          <Incident incident_id="101587779" description="First haf arted" inplay_period_mins="1" inplay_total_mins="1" time="2018-03-28T08:30:13" inplay_period="first_half" type="PBEG"/>
         </Incidents>
         <Teams>
-          <Team team_id="114360" team_order="0" name="Eastern Lions" short_name="Eastern Lions"/>
+          <Team team_id="114360" team_order="0" name="Eastern Lions" short_name="Easten Lions"/>
           <Team team_id="114910" team_order="1" name="Oakleigh Cannons" short_name="Oakleigh Cannons"/>
         </Teams>
+        <Mkt status="A" name="Τελικό Αποτέλεσμα" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="99912524" inplay_avail="Y" disporder="-99000" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="MR12" lp_avail="Y" mkt_sort_name="MKT_SORT-MR12">
+            <Seln status="A" name="Ρεάλ" seln_id="489473212" team_id="107805" disporder="0" seln_sort="H">
+              <Price prc_type="LP" dec_prc="1.67" bet_ref="NDg5NDczMjEyOjY3MC8xMDAwOjow" frac_prc="4/6" us_prc="-150" last_change="2018-04-11T11:43:24"/>
+            </Seln>
+            <Seln status="A" seln_id="489473211" seln_sort="D" name="Ισοπαλία" disporder="1">
+              <Price prc_type="LP" dec_prc="4.50" bet_ref="NDg5NDczMjExOjM1MDAvMTAwMDo6MA" frac_prc="7/2" us_prc="+350" last_change="2018-04-11T11:43:24"/>
+            </Seln>
+            <Seln status="A" name="Γιουβέντους" seln_id="489473210" team_id="107717" disporder="2" seln_sort="A">
+              <Price prc_type="LP" dec_prc="5.50" bet_ref="NDg5NDczMjEwOjQ1MDAvMTAwMDo6MA" frac_prc="9/2" us_prc="+450" last_change="2018-04-11T11:43:24"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Γκολ Over/Uder" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="99164529" handicap="3.5" inplay_avail="Y" disporder="-98600" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HCTG" lp_avail="Y" mkt_sort_name="Χάντικαπ συνολικών γκολ">
+            <Seln status="A" name="Over" handicap="3.5" seln_id="486760680" disporder="1" seln_sort="O">
+              <Price prc_type="LP" dec_prc="2.40" bet_ref="NDg2NzYwNjgwOjcvNToxNDow" frac_prc="7/5" us_prc="+140" last_change="2018-04-11T12:03:31"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="3.5" seln_id="486760681" disporder="2" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.55" bet_ref="NDg2NzYwNjgxOjExLzIwOjE0OjA" frac_prc="11/20" us_prc="-182" last_change="2018-04-11T12:03:31"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Γκολ Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="99164530" handicap="4.5" inplay_avail="Y" disporder="-98600" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HCTG" lp_avail="Y" mkt_sort_name="Χάντικαπ συνολικών γκολ">
+            <Seln status="A" name="Over" handicap="4.5" seln_id="486760682" disporder="1" seln_sort="O">
+              <Price prc_type="LP" dec_prc="4.30" bet_ref="NDg2NzYwNjgyOjMzLzEwOjE4OjA" frac_prc="33/10" us_prc="+330" last_change="2018-04-11T09:59:33"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="4.5" seln_id="486760683" disporder="2" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.20" bet_ref="NDg2NzYwNjgzOjEvNToxODow" frac_prc="1/5" us_prc="-500" last_change="2018-04-11T09:41:32"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Γκολ Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="99164531" handicap="5.5" inplay_avail="Y" disporder="-98600" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HCTG" lp_avail="Y" mkt_sort_name="Χάντικαπ συνολικών γκολ">
+            <Seln status="A" name="Over" handicap="5.5" seln_id="486760684" disporder="1" seln_sort="O">
+              <Price prc_type="LP" dec_prc="8.00" bet_ref="NDg2NzYwNjg0OjcvMToyMjow" frac_prc="7/1" us_prc="+700" last_change="2018-04-11T07:10:12"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="5.5" seln_id="486760685" disporder="2" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.071" bet_ref="NDg2NzYwNjg1OjEvMTQ6MjI6MA" frac_prc="1/14" us_prc="-1400" last_change="2018-04-11T07:10:12"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Γκολ Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="99864531" handicap="5.5" inplay_avail="Y" disporder="-98600" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HCTG" lp_avail="Y" mkt_sort_name="Χάντικαπ συνολικών γκολ">
+            <Seln status="A" name="Over" handicap="5.5" seln_id="486760684" disporder="1" seln_sort="O">
+              <Price prc_type="LP" dec_prc="8.00" bet_ref="NDg2NzYwNjg0OjcvMToyMjow" frac_prc="7/1" us_prc="+700" last_change="2018-04-11T07:10:12"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="5.5" seln_id="486760685" disporder="2" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.071" bet_ref="NDg2NzYwNjg1OjEvMTQ6MjI6MA" frac_prc="1/14" us_prc="-1400" last_change="2018-04-11T07:10:12"/>
+            </Seln>
+          </Mkt>
       </Ev>
     </SBType>
   </SBClass>

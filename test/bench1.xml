@@ -25,7 +25,7 @@
             <Stat name="EV_STAT_PENL" title="TEAM_STAT_PENL" type="team" away="0" home="0" stat_type="PENL"/>
             <Stat name="EV_STAT_SBLO" title="TEAM_STAT_SBLO" type="team" away="0" home="0" stat_type="SBLO"/>
             <Stat name="EV_STAT_GKIC" title="TEAM_STAT_GKIC" type="team" away="0" home="0" stat_type="GKIC"/>
-             <Stat name="EV_asd" title="TEAM_STAT_sd" type="team" away="0" home="0" stat_type="GKIC"/>
+             <Stat name="EV_asασδd" title="TEAM_STAT_sσδd" type="team" away="0" home="0" stat_type="GKIC"/>
           </Stats>
           <Teams>
             <Team team_id="107805" team_order="0" name="Ρεάλ" short_name="Ρεάλ"/>
@@ -42,7 +42,7 @@
             <Seln status="A" seln_id="486760898" seln_sort="HET" name="Ρεάλ στην παράταση" disporder="3">
               <Price prc_type="LP" dec_prc="34.00" bet_ref="NDg2NzYwODk4OjMzLzE6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-04-11T08:51:54"/>
             </Seln>
-            <Seln status="A" seln_id="486760895" seln_sort="AET" name="Γιουβέντους στην παράταση" disporder="4">
+            <Seln status="A" seln_id="486760895" seln_sort="AET" name="Γιουβένους στην παράταση" disporder="4">
               <Price prc_type="LP" dec_prc="41.00" bet_ref="NDg2NzYwODk1OjQwLzE6OjA" frac_prc="40/1" us_prc="+4000" last_change="2018-04-11T08:51:54"/>
             </Seln>
             <Seln status="A" seln_id="486760900" seln_sort="HPE" name="Ρεάλ στα πέναλτι" disporder="5">
@@ -4062,7 +4062,7 @@
               <Price prc_type="LP" dec_prc="1.153" bet_ref="NDg5NjA2MTc5OjIvMTM6OjA" frac_prc="2/13" us_prc="-650" last_change="2018-04-11T08:26:51"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Ειδικά Στοιχήματα" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="99953406" inplay_avail="N" disporder="-500" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="X144" lp_avail="Y" mkt_sort_name="MKT_SORT-X144">
+          <Mkt status="A" name="Ειδικά Στοιχήματα" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="92953406" inplay_avail="N" disporder="-500" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="X144" lp_avail="Y" mkt_sort_name="MKT_SORT-X144">
             <Seln status="A" seln_id="489685154" disporder="0" name="Θα σκοράρουν και οι 2 ομάδες/Συνολικά Γκολ : Ναι και Over +2.5 &amp; Να Σκοράρει : Κρ. Ρονάλντο">
               <Price prc_type="LP" dec_prc="2.50" bet_ref="NDg5Njg1MTU0OjE1MDAvMTAwMDo6MA" frac_prc="6/4" us_prc="+150" last_change="2018-04-11T12:07:59"/>
             </Seln>

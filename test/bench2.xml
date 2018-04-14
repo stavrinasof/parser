@@ -42,14 +42,6 @@
               <Price prc_type="LP" dec_prc="5.45" bet_ref="NDg5NDczMjEwOjQ0NTAvMTAwMDo6MA" frac_prc="22/5" us_prc="+440" last_change="2018-04-11T12:15:30"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Πρόκριση" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="99164518" inplay_avail="N" disporder="-98830" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="QUAL" lp_avail="Y" mkt_sort_name="Πρόκριση">
-            <Seln status="A" name="Ρεάλ" seln_id="486760652" team_id="107805" disporder="0" seln_sort="H">
-              <Price prc_type="LP" dec_prc="1.01" bet_ref="NDg2NzYwNjUyOjEvMTAwOjow" frac_prc="1/100" us_prc="-10000" last_change="2018-04-11T10:32:06"/>
-            </Seln>
-            <Seln status="A" name="Γιουβέντους" seln_id="486760651" team_id="107717" disporder="1" seln_sort="A">
-              <Price prc_type="LP" dec_prc="16.75" bet_ref="NDg2NzYwNjUxOjYzLzQ6OjA" frac_prc="63/4" us_prc="+1575" last_change="2018-04-11T10:32:06"/>
-            </Seln>
-          </Mkt>
           <Mkt status="A" name="Τρόπος Πρόκρισης" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="99164586" inplay_avail="N" disporder="-98820" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="MOFW" lp_avail="Y" mkt_sort_name="MKT_SORT-MOFW">
             <Seln status="A" seln_id="486760899" seln_sort="HNT" name="Ρεάλ στην καν. διάρκεια" disporder="1">
               <Price prc_type="LP" dec_prc="1.01" bet_ref="NDg2NzYwODk5OjEvMTAwOjow" frac_prc="1/100" us_prc="-10000" last_change="2018-04-11T07:10:13"/>
