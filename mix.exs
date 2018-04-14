@@ -25,7 +25,7 @@ defmodule XmlParser.MixProject do
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"},
       {:erlsom, "~> 1.4"},
       {:httpoison, "~> 1.0"},
-      {:map_diff, "~> 1.0"}
+      {:exprof, "~> 0.2.0"}
       # {:exomler, git: "https://github.com/vkletsko/exomler.git"},
       # {:exml, "~> 0.1.1"},
       # {:elixir_xml_to_map, "~> 0.1.1"}

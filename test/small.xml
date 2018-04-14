@@ -9,24 +9,22 @@
             <PeriodScore score_a="0" score_b="1" score_string="0-1" period="2"/>
           </Scores>
         </Inplay>
-        <InplayDetail period_length_mins="45" period_start="2018-03-28T09:38:43" period_stoppage_secs="0" score_team_B="1" score_team_A="0"/>
+        <InplayDetail period_length_mins="65" period_start="2018-03-28T09:38:43" period_stoppage_secs="0" score_team_B="1" score_team_A="0"/>
         <Stats>
           <Stat name="EV_STAT_GOAL" title="TEAM_STAT_GOAL" type="team" away="1" home="0" stat_type="GOAL"/>
           </Stats>
           <Notes>Pitchers: Foltynewicz (ATL) - Scherzer (WSH)</Notes>
         <Incidents>
-          <Incident incident_id="101589900" description="Second ha started" inplay_period_mins="1" inplay_total_mins="46" time="2018-03-28T09:38:43" inplay_period="second_half" type="PBEG"/>
           <Incident incident_id="101589355" description="First half ended" inplay_period_mins="46" inplay_total_mins="46" time="2018-03-28T09:22:02" inplay_period="half_time" type="PEND"/>
-          <Incident incident_id="101588371" description="0-1 Oakleigh Cannons" inplay_period_mins="17" team_id="114960" inplay_total_mins="17" time="2018-03-28T08:52:33" inplay_period="first_half" type="GOAL"/>
+          <Incident incident_id="101588671" description="0-1 Oakeigh Cannons" inplay_period_mins="17" team_id="114960" inplay_total_mins="17" time="2018-03-28T08:52:33" inplay_period="first_half" type="GOAL"/>
           <Incident incident_id="101587939" inplay_period_mins="1" inplay_total_mins="1" time="2018-03-28T08:36:19" inplay_period="first_half" type="SYNC"/>
-          <Incident incident_id="101587932" inplay_period_mins="4" inplay_total_mins="4" time="2018-03-28T08:36:12" inplay_period="first_half" type="SYNC"/>
-          <Incident incident_id="101587790" inplay_period_mins="2" inplay_total_mins="2" time="2018-03-28T08:31:00" inplay_period="first_half" type="SYNC"/>
-          <Incident incident_id="101587759" description="First half started" inplay_period_mins="1" inplay_total_mins="1" time="2018-03-28T08:30:13" inplay_period="first_half" type="PBEG"/>
-          <Incident incident_id="101587758" description="Match Started" inplay_period_mins="1" inplay_total_mins="1" time="2018-03-28T08:30:13" inplay_period="match_started" type="EBEG"/>
+          <Incident incident_id="102587332" inplay_period_mins="4" inplay_total_mins="4" time="2018-03-28T08:36:12" inplay_period="first_half" type="SYNC"/>
+          <Incident incident_id="101586690" inplay_period_mins="1" inplay_total_mins="2" time="2018-03-28T08:31:00" inplay_period="first_half" type="SYNC"/>
+          <Incident incident_id="101587759" description="First haf started" inplay_period_mins="1" inplay_total_mins="1" time="2018-03-28T08:30:13" inplay_period="first_half" type="PBEG"/>
         </Incidents>
         <Teams>
-          <Team team_id="118360" team_order="0" name="Eastern Lions" short_name="Eastern Lions"/>
-          <Team team_id="114960" team_order="1" name="Oakleigh Cannons" short_name="Oakleigh Cannons"/>
+          <Team team_id="114360" team_order="0" name="Eastern Lions" short_name="Eastern Lions"/>
+          <Team team_id="114910" team_order="1" name="Oakleigh Cannons" short_name="Oakleigh Cannons"/>
         </Teams>
       </Ev>
     </SBType>

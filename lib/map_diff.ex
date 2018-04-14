@@ -6,31 +6,12 @@ defmodule MapDiff do
     map_b
     |> Map.keys()
     |> Enum.reduce(result, fn k, {map_changes, map_a_c} ->
-      map_b_value = Map.get(map_b, k)
+ 
+      map_a_value = Map.get(map_a, k) 
+      %{^k => map_b_value} = map_b #map_b_value = Map.get(map_b, k) 
       new_key_path = [k | key_path]
 
-      case Map.get(map_a, k) do
-        nil ->
-          reversed_new_key_path = new_key_path |> Enum.reverse()
-
-          new_map_changes =
-            Map.update!(
-              map_changes,
-              :key_doesnt_exist,
-              &Map.put(&1, reversed_new_key_path, map_b_value)
-            )
-
-          # |> check_for_empty_valuemaps}
-          {new_map_changes, map_a_c}
-
-        map_a_value ->
-          {state, deleted_map_a} =
-            diffs(map_a_value, map_b_value, new_key_path, {map_changes, map_a_c})
-
-          new_map_changes = check_diff_state(state, map_changes, new_key_path, map_b_value)
-          # |> check_for_empty_valuemaps}
-          {new_map_changes, deleted_map_a}
-      end
+      do_diffs(map_b_value, new_key_path, map_a_value, {map_changes, map_a_c})
     end)
   end
 
@@ -41,6 +22,26 @@ defmodule MapDiff do
 
   defp diffs(_map_a_value, _map_b_value, new_key_path, {_, map_a_copy}) do
     {:change, delete_in(map_a_copy, new_key_path)}
+  end
+
+  defp do_diffs(map_b_value, new_key_path, nil, {map_changes, map_a_c}) do
+    reversed_new_key_path = new_key_path |> Enum.reverse()
+
+    new_map_changes =
+      Map.update!(
+        map_changes,
+        :key_doesnt_exist,
+        &Map.put(&1, reversed_new_key_path, map_b_value)
+      )
+
+    {new_map_changes, map_a_c}
+  end
+
+  defp do_diffs(map_b_value, new_key_path, map_a_value, {map_changes, map_a_c}) do
+    {state, deleted_map_a} = diffs(map_a_value, map_b_value, new_key_path, {map_changes, map_a_c})
+    new_map_changes = check_diff_state(state, map_changes, new_key_path, map_b_value)
+
+    {new_map_changes, deleted_map_a}
   end
 
   def delete_in(map_a_c, new_key_path) do
