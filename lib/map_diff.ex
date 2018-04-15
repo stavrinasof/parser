@@ -1,9 +1,9 @@
 defmodule MapDiff do
   def diff(map_a, map_b) when is_map(map_a) and is_map(map_b) do
     changes_and_additions =
-      find_changes_and_additions(map_a, map_b, [], %{:added => %{}, :changed => %{}})
-
-    find_deletions(map_b, map_a, [], Map.put(changes_and_additions, :deleted, %{}))
+    find_changes_and_additions(map_a, map_b, [], %{:added => %{}, :changed => %{}, :deleted => %{}})
+    
+    find_deletions(map_b, map_a, [], changes_and_additions)
   end
 
   defp find_deletions(map_a, map_b, key_path, result) when is_map(map_a) and is_map(map_b) do
@@ -57,5 +57,11 @@ defmodule MapDiff do
 
   defp do_find_changes_and_additions(map_a_value, map_b_value, new_key_path, acc) do
     find_changes_and_additions(map_a_value, map_b_value, new_key_path, acc)
+  end
+
+  def additions(a, b, changes, equal?) do
+    Enum.reduce(Map.keys(b) -- Map.keys(a), {changes, equal?}, fn key, {changes, _equal?} ->
+      {Map.put(changes, key, %{changed: :added, value: b[key]}), false}
+    end)
   end
 end
