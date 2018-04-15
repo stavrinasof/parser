@@ -1,8 +1,12 @@
 defmodule MapDiff do
   def diff(map_a, map_b) when is_map(map_a) and is_map(map_b) do
     changes_and_additions =
-    find_changes_and_additions(map_a, map_b, [], %{:added => %{}, :changed => %{}, :deleted => %{}})
-    
+      find_changes_and_additions(map_a, map_b, [], %{
+        :added => %{},
+        :changed => %{},
+        :deleted => %{}
+      })
+
     find_deletions(map_b, map_a, [], changes_and_additions)
   end
 

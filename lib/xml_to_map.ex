@@ -5,12 +5,12 @@ defmodule XmlToMap do
   def naive_map(xml) do
     xml = String.replace(xml, ~r/\sxmlns=\".*\"/, "")
     {:ok, tuples, _} = :erlsom.simple_form(xml)
-    parse(tuples) |>Map.new
+    parse(tuples) |> Map.new()
   end
 
   # content is a charlist
   def parse(content) when is_list(content) do
-    {:chars ,content}
+    {:chars, content}
   end
 
   def parse({name, [], content}) when name in @upperclasses do
@@ -19,12 +19,12 @@ defmodule XmlToMap do
 
   def parse({name, [], content}) do
     key = find_id_from_attributes(name, [])
-    {key , do_parse_content(content, [])}
+    {key, do_parse_content(content, [])}
   end
 
   def parse({name, attributes, []}) do
     key = find_id_from_attributes(name, attributes)
-    {key , do_parse_attributes(attributes)}
+    {key, do_parse_attributes(attributes)}
   end
 
   # Need to merge both attribute map and content map
@@ -32,18 +32,20 @@ defmodule XmlToMap do
   def parse({name, attributes, content}) when name in @upperclasses do
     map_content_tuple = do_parse_content_upper(content, [])
     key = find_id_from_attributes(name, attributes)
+
     case is_list(map_content_tuple) do
-      true -> [{key ,do_parse_attributes(attributes)} |map_content_tuple]
-      false ->  [{key ,do_parse_attributes(attributes)} ,map_content_tuple ]
-   end
+      true -> [{key, do_parse_attributes(attributes)} | map_content_tuple]
+      false -> [{key, do_parse_attributes(attributes)}, map_content_tuple]
+    end
   end
 
   def parse({name, attributes, content}) do
     key = find_id_from_attributes(name, attributes)
-    {key , do_parse_content(content, []) |> Map.merge(do_parse_attributes(attributes))}
+    {key, do_parse_content(content, []) |> Map.merge(do_parse_attributes(attributes))}
   end
 
   defp do_parse_content_upper([], [tuple_maps]), do: tuple_maps
+
   defp do_parse_content_upper([h | t], acc) do
     ph = parse(h)
     do_parse_content_upper(t, [ph | acc])

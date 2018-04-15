@@ -4,7 +4,6 @@ defmodule EventsParserTest do
   test "Check number of ev_id occurences" do
     {:ok, xml} = :file.read_file("test/xml_files/liveevents.xml")
     assert length(EventsParser.parse_events(xml)) == 15
-    
   end
 
   test "check if naive_map has correct structure and certain key-value is correct" do

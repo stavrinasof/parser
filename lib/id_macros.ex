@@ -11,10 +11,10 @@ defmodule ID_Macros do
     {'Participant', 'full_name'},
     {'Score', 'name'},
     {'MatchStatus', 'status_code'},
-   # {'Price', 'prc_type'},
+    # {'Price', 'prc_type'},
     {'InplayDetail', 'period_start'},
     {'MatchStat', 'name'},
-    {'Stat', 'name'},
+    {'Stat', 'name'}
   ]
 
   defmacro not_in_list() do
