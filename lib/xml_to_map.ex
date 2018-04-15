@@ -3,7 +3,7 @@ defmodule XmlToMap do
   @upperclasses ['ContentAPI', 'Sport', 'SBClass', 'SBType']
 
   def naive_map(xml) do
-    xml = String.replace(xml, ~r/\sxmlns=\".*\"/, "")
+    xml = String.replace(xml, ~r/\sxmlns=\".*\"/, "", global: false)
     {:ok, tuples, _} = :erlsom.simple_form(xml)
     parse(tuples) |> Map.new()
   end
