@@ -36,17 +36,6 @@ defmodule MapDiffTest do
     }
   }
 
-  # test "delete nested key value" do
-  #   assert MapDiff.delete_in(@map_v1, ["team_order", {"Team", "114960"}, "Teams"])
-  #          |> get_in(["Teams", {"Team", "114960"}, "team_order"]) == nil
-  # end
-
-  # test "delete in doesn't leave trace" do
-  #   assert MapDiff.delete_in(@map_v1, ["name", {"Team", "222666"}, "Teams"])
-  #          |> Map.get("Teams")
-  #          |> Map.has_key?({"Team", "222666"}) == false
-  # end
-
   test "values changed" do
     changes =MapDiff.diff(@map_v1, @map_v2)
              |>Map.get(:changed)

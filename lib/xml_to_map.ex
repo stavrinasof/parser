@@ -51,7 +51,6 @@ defmodule XmlToMap do
 
   # Helper function to parse content list and merge all maps into a larger map
   defp do_parse_content([], tuple_maps), do: Map.new(tuple_maps)
-  #Enum.reduce(tuple_maps, %{}, &MapActions.dynamic_merge(&1, &2))
 
   defp do_parse_content([h | t], acc) do
     ph = parse(h)
