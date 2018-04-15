@@ -1,0 +1,42 @@
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNjY0OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+  <Sport sport_code="SNOO" allow_cash_out="N" name="Σνούκερ" disporder="265">
+    <SBClass sb_class_id="188521" disporder="0" name="Διεθνή">
+      <SBType sb_type_id="187611" name="Παγκόσμιο Πρωτάθλημα" disporder="0">
+        <Ev inplay_allowed="Y" status="A" name="Λιάνγκ Γουένμπο v Ζάο Ξάιτονγκ" allow_cash_out="N" start_time="2018-04-16T13:30:00" allow_cash_out_pre_ev="N" virtual="N" ev_timezone="UTC" allow_cash_out_inplay="N" inplay_now="N" mkt_count="3" ev_id="1746808" disporder="-33">
+          <Notes>Ο αγώνας θα συνεχιστεί με σκορ 7-2</Notes>
+          <EvDetail br_match_id="14325179" br_has_stats="Y"/>
+          <Inplay inplay_period_num="10" inplay_period_name_short="Delayed" clock_status="STOPPED" correct_at="2018-04-15T19:52:08" inplay_period_finished="N" score_a="7" score_b="2" inplay_period_name="Καθυστερημένο" clock_mode="FORWARD" inplay_period="delay" score_string="7-2" scoring_system="match" last_change="2018-04-15T16:22:52" inplay_secs="7947">
+            <Scores/>
+            <MatchStatus player_id="18904267" status_code="BAPO" status_text="MATCH_STATUS_BAPO"/>
+          </Inplay>
+          <InplayDetail period_length_mins="0" period_start="2018-04-15T16:22:52" period_stoppage_secs="0" score_team_B="2" score_team_A="7"/>
+          <Players/>
+          <Mkt status="A" name="Νικητής" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100147546" inplay_avail="Y" disporder="-9999" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="HTOH" lp_avail="Y" mkt_sort_name="Ένας Εναντίον Ενός">
+            <Seln status="A" name="Λιάνγκ Γουένμπο" seln_id="490296719" disporder="1" player_id="18901892" seln_sort="P1">
+              <Price prc_type="LP" dec_prc="1.01" bet_ref="NDkwMjk2NzE5OjEvMTAwOjow" frac_prc="1/100" us_prc="-10000" last_change="2018-04-15T16:04:56"/>
+            </Seln>
+            <Seln status="A" name="Ζάο Ξάιτονγκ" seln_id="490296720" disporder="2" player_id="18904267" seln_sort="P2">
+              <Price prc_type="LP" dec_prc="14.00" bet_ref="NDkwMjk2NzIwOjEzLzE6OjA" frac_prc="13/1" us_prc="+1300" last_change="2018-04-15T16:04:56"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" mkt_extra="F10" name="Νικητής Frame (Frame 10)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100456688" inplay_avail="Y" disporder="-8500" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="FMWN" lp_avail="Y" mkt_sort_name="Frame Winner">
+            <Seln status="A" name="Λιάνγκ Γουένμπο" seln_id="491407078" disporder="0" player_id="18901892" seln_sort="P1">
+              <Price prc_type="LP" dec_prc="1.45" bet_ref="NDkxNDA3MDc4OjQ1MC8xMDAwOjow" frac_prc="4/9" us_prc="-225" last_change="2018-04-15T19:31:04"/>
+            </Seln>
+            <Seln status="A" name="Ζάο Ξάιτονγκ" seln_id="491407079" disporder="1" player_id="18904267" seln_sort="P2">
+              <Price prc_type="LP" dec_prc="2.63" bet_ref="NDkxNDA3MDc5OjE2MzAvMTAwMDo6MA" frac_prc="13/8" us_prc="+162" last_change="2018-04-15T19:31:04"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" mkt_extra="F11" name="Νικητής Frame (Frame 11)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100459209" inplay_avail="Y" disporder="-8500" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="FMWN" lp_avail="Y" mkt_sort_name="Frame Winner">
+            <Seln status="A" name="Λιάνγκ Γουένμπο" seln_id="491415386" disporder="0" player_id="18901892" seln_sort="P1">
+              <Price prc_type="LP" dec_prc="1.45" bet_ref="NDkxNDE1Mzg2OjQ1MC8xMDAwOjow" frac_prc="4/9" us_prc="-225" last_change="2018-04-15T19:31:11"/>
+            </Seln>
+            <Seln status="A" name="Ζάο Ξάιτονγκ" seln_id="491415387" disporder="1" player_id="18904267" seln_sort="P2">
+              <Price prc_type="LP" dec_prc="2.63" bet_ref="NDkxNDE1Mzg3OjE2MzAvMTAwMDo6MA" frac_prc="13/8" us_prc="+162" last_change="2018-04-15T19:31:11"/>
+            </Seln>
+          </Mkt>
+        </Ev>
+      </SBType>
+    </SBClass>
+  </Sport>
+</ContentAPI>

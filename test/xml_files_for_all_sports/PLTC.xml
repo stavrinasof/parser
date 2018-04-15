@@ -1,0 +1,45 @@
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNjMzOjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+  <Sport sport_code="PLTC" allow_cash_out="N" name="Πολιτική" disporder="2000">
+    <SBClass sb_class_id="188571" disporder="65" name="Ηνωμένο Βασίλειο">
+      <SBType sb_type_id="183840" name="Γενικές εκλογές" disporder="0">
+        <Ev inplay_allowed="N" status="A" outright="Y" name="Γενικές εκλογές" allow_cash_out="N" start_time="2022-05-05T06:00:00" allow_cash_out_pre_ev="N" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="N" inplay_now="N" mkt_count="2" ev_id="998020" disporder="-1">
+          <Notes>Άλλες επιλογές κατόπιν αιτήματος</Notes>
+          <Mkt status="A" name="Περισσότερες έδρες στις επόμενες Βρετανικές Εκλογές" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="73600503" inplay_avail="N" disporder="-99" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="OUTR" lp_avail="Y" mkt_sort_name="MKT_SORT-OUTR">
+            <Seln status="A" seln_id="396104005" disporder="0" name="Εργατικοί">
+              <Price prc_type="LP" dec_prc="1.90" bet_ref="Mzk2MTA0MDA1OjkwMC8xMDAwOjow" frac_prc="9/10" us_prc="-112" last_change="2018-03-11T10:03:36"/>
+            </Seln>
+            <Seln status="A" seln_id="396104004" disporder="0" name="Συντηρητικοί">
+              <Price prc_type="LP" dec_prc="2.00" bet_ref="Mzk2MTA0MDA0OjEwMDAvMTAwMDo6MA" frac_prc="1/1" us_prc="+100" last_change="2018-03-11T10:03:36"/>
+            </Seln>
+            <Seln status="A" seln_id="396104006" disporder="0" name="Φιλελεύθεροι Δημοκράτες">
+              <Price prc_type="LP" dec_prc="100.00" bet_ref="Mzk2MTA0MDA2Ojk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-07-04T14:04:46"/>
+            </Seln>
+            <Seln status="A" seln_id="396104008" disporder="0" name="Κόμμα Ανεξαρτησίας του Ηνωμένου Βασιλείου">
+              <Price prc_type="LP" dec_prc="300.00" bet_ref="Mzk2MTA0MDA4OjI5OTAwMC8xMDAwOjow" frac_prc="250/1" us_prc="+25000" last_change="2017-10-20T18:46:37"/>
+            </Seln>
+            <Seln status="A" seln_id="396104007" disporder="0" name="Πράσινοι">
+              <Price prc_type="LP" dec_prc="1000.00" bet_ref="Mzk2MTA0MDA3Ojk5OTAwMC8xMDAwOjow" frac_prc="750/1" us_prc="+75000" last_change="2017-10-20T18:44:56"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Έτος Επόμενων Εκλογών" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="90031688" inplay_avail="N" disporder="0" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="STRD" lp_avail="Y" mkt_sort_name="Διάφορα Στοιχήματα" mkt_close_at="2018-05-05T06:00:00">
+            <Seln status="A" seln_id="454498956" disporder="-5" name="2018">
+              <Price prc_type="LP" dec_prc="4.20" bet_ref="NDU0NDk4OTU2OjMyMDAvMTAwMDo6MA" frac_prc="16/5" us_prc="+320" last_change="2018-03-11T10:04:24"/>
+            </Seln>
+            <Seln status="A" seln_id="454498957" disporder="-4" name="2019">
+              <Price prc_type="LP" dec_prc="3.75" bet_ref="NDU0NDk4OTU3OjI3NTAvMTAwMDo6MA" frac_prc="11/4" us_prc="+275" last_change="2018-02-21T09:54:47"/>
+            </Seln>
+            <Seln status="A" seln_id="454498958" disporder="-3" name="2020">
+              <Price prc_type="LP" dec_prc="10.00" bet_ref="NDU0NDk4OTU4OjkwMDAvMTAwMDo6MA" frac_prc="9/1" us_prc="+900" last_change="2018-03-11T10:04:07"/>
+            </Seln>
+            <Seln status="A" seln_id="454498959" disporder="-2" name="2021">
+              <Price prc_type="LP" dec_prc="10.00" bet_ref="NDU0NDk4OTU5OjkwMDAvMTAwMDo6MA" frac_prc="9/1" us_prc="+900" last_change="2018-02-21T09:54:47"/>
+            </Seln>
+            <Seln status="A" seln_id="454498960" disporder="-1" name="2022 ή αργότερα">
+              <Price prc_type="LP" dec_prc="2.50" bet_ref="NDU0NDk4OTYwOjE1MDAvMTAwMDo6MA" frac_prc="6/4" us_prc="+150" last_change="2018-02-21T09:54:47"/>
+            </Seln>
+          </Mkt>
+        </Ev>
+      </SBType>
+    </SBClass>
+  </Sport>
+</ContentAPI>

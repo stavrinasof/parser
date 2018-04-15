@@ -1,0 +1,43 @@
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNjQ3OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+  <Sport sport_code="CHES" allow_cash_out="N" name="Σκάκι" disporder="800">
+    <SBClass sb_class_id="189112" disporder="0" name="Shamkir Chess">
+      <SBType sb_type_id="189978" name="Νικητής Διοργάνωσης" disporder="0">
+        <Ev inplay_allowed="N" status="A" outright="Y" name="Shamkir Chess 2018" allow_cash_out="N" start_time="2018-04-29T10:00:00" allow_cash_out_pre_ev="N" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="N" inplay_now="N" mkt_count="1" ev_id="1736338" disporder="99">
+          <Mkt status="A" name="Νικητής Διοργάνωσης" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="99879061" inplay_avail="N" disporder="0" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="OUTR" lp_avail="Y" mkt_sort_name="MKT_SORT-OUTR" mkt_close_at="2018-04-19T11:00:00">
+            <Notes>Περισσότερες επιλογές κατόπιν αιτήματος</Notes>
+            <Seln status="A" seln_id="489359212" disporder="0" name="Μάγκνους Κάρλσεν">
+              <Price prc_type="LP" dec_prc="2.50" bet_ref="NDg5MzU5MjEyOjE1MDAvMTAwMDo6MA" frac_prc="6/4" us_prc="+150" last_change="2018-04-10T13:19:49"/>
+            </Seln>
+            <Seln status="A" seln_id="489359213" disporder="0" name="Σακχιγιάρ Μαμεντιάροβ">
+              <Price prc_type="LP" dec_prc="5.50" bet_ref="NDg5MzU5MjEzOjQ1MDAvMTAwMDo6MA" frac_prc="9/2" us_prc="+450" last_change="2018-04-10T13:19:49"/>
+            </Seln>
+            <Seln status="A" seln_id="489359214" disporder="0" name="Σεργκέι Καρτζάκιν">
+              <Price prc_type="LP" dec_prc="6.00" bet_ref="NDg5MzU5MjE0OjUwMDAvMTAwMDo6MA" frac_prc="5/1" us_prc="+500" last_change="2018-04-10T13:19:49"/>
+            </Seln>
+            <Seln status="A" seln_id="489359215" disporder="0" name="Άνις Γκίρι">
+              <Price prc_type="LP" dec_prc="8.00" bet_ref="NDg5MzU5MjE1OjcwMDAvMTAwMDo6MA" frac_prc="7/1" us_prc="+700" last_change="2018-04-10T13:19:49"/>
+            </Seln>
+            <Seln status="A" seln_id="489359216" disporder="0" name="Βλάντιμιρ Κράμνικ">
+              <Price prc_type="LP" dec_prc="9.00" bet_ref="NDg5MzU5MjE2OjgwMDAvMTAwMDo6MA" frac_prc="8/1" us_prc="+800" last_change="2018-04-10T13:19:49"/>
+            </Seln>
+            <Seln status="A" seln_id="489359217" disporder="0" name="Λιρέν Ντινγκ">
+              <Price prc_type="LP" dec_prc="11.00" bet_ref="NDg5MzU5MjE3OjEwMDAwLzEwMDA6OjA" frac_prc="10/1" us_prc="+1000" last_change="2018-04-10T13:19:49"/>
+            </Seln>
+            <Seln status="A" seln_id="489359218" disporder="0" name="Teimour Radjabov">
+              <Price prc_type="LP" dec_prc="17.00" bet_ref="NDg5MzU5MjE4OjE2MDAwLzEwMDA6OjA" frac_prc="16/1" us_prc="+1600" last_change="2018-04-10T13:19:49"/>
+            </Seln>
+            <Seln status="A" seln_id="489359219" disporder="0" name="Rauf Mamedov">
+              <Price prc_type="LP" dec_prc="20.00" bet_ref="NDg5MzU5MjE5OjE5MDAwLzEwMDA6OjA" frac_prc="19/1" us_prc="+1900" last_change="2018-04-10T13:19:49"/>
+            </Seln>
+            <Seln status="A" seln_id="489359220" disporder="0" name="Veselin Topalov">
+              <Price prc_type="LP" dec_prc="20.00" bet_ref="NDg5MzU5MjIwOjE5MDAwLzEwMDA6OjA" frac_prc="19/1" us_prc="+1900" last_change="2018-04-10T13:19:49"/>
+            </Seln>
+            <Seln status="A" seln_id="489359221" disporder="0" name="David Navara">
+              <Price prc_type="LP" dec_prc="35.00" bet_ref="NDg5MzU5MjIxOjM0MDAwLzEwMDA6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-04-10T13:19:49"/>
+            </Seln>
+          </Mkt>
+        </Ev>
+      </SBType>
+    </SBClass>
+  </Sport>
+</ContentAPI>

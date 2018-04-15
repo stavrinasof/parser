@@ -1,0 +1,44 @@
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzODQ0OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+  <Sport sport_code="FOOT" allow_cash_out="Y" name="Ποδόσφαιρο" disporder="1">
+    <SBClass sb_class_id="188889" disporder="9999" name="Μπελίζ">
+      <SBType sb_type_id="187196" name="Premier League" disporder="0">
+        <Ev inplay_allowed="N" status="A" name="Χάνκουκ Βέρντες - Πολίς Γιουν." allow_cash_out="Y" start_time="2018-04-15T22:00:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="Y" inplay_now="N" mkt_count="3" ev_id="1751991" disporder="-12200">
+          <Teams>
+            <Team team_id="112174" team_order="0" name="Χάνκουκ Βέρντες" short_name="Χάνκουκ Βέρντες"/>
+            <Team team_id="117630" team_order="1" name="Πολίς Γιουν." short_name="Πολίς Γιουν."/>
+          </Teams>
+          <Mkt status="A" name="Τελικό Αποτέλεσμα" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100283114" inplay_avail="Y" disporder="-9999" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="MRES" lp_avail="Y" mkt_sort_name="Αγώνες">
+            <Seln status="A" name="Χάνκουκ Βέρντες" seln_id="490802203" team_id="112174" disporder="1" seln_sort="H">
+              <Price prc_type="LP" dec_prc="1.38" bet_ref="NDkwODAyMjAzOjE5LzUwOjow" frac_prc="19/50" us_prc="-264" last_change="2018-04-14T06:26:00"/>
+            </Seln>
+            <Seln status="A" seln_id="490802201" seln_sort="D" name="Ισοπαλία" disporder="3">
+              <Price prc_type="LP" dec_prc="5.25" bet_ref="NDkwODAyMjAxOjE3LzQ6OjA" frac_prc="17/4" us_prc="+425" last_change="2018-04-14T06:26:00"/>
+            </Seln>
+            <Seln status="A" name="Πολίς Γιουν." seln_id="490802198" team_id="117630" disporder="5" seln_sort="A">
+              <Price prc_type="LP" dec_prc="5.80" bet_ref="NDkwODAyMTk4OjI0LzU6OjA" frac_prc="24/5" us_prc="+480" last_change="2018-04-14T06:26:00"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Διπλή ευκαιρία" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100283112" inplay_avail="Y" disporder="-9200" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="DBLC" lp_avail="Y" mkt_sort_name="Διπλή ευκαιρία">
+            <Seln status="A" seln_id="490802190" seln_sort="HD" name="1X" disporder="0">
+              <Price prc_type="LP" dec_prc="1.111" bet_ref="NDkwODAyMTkwOjEvOTo6MA" frac_prc="1/9" us_prc="-900" last_change="2018-04-14T06:26:00"/>
+            </Seln>
+            <Seln status="A" seln_id="490802186" seln_sort="AD" name="2X" disporder="2">
+              <Price prc_type="LP" dec_prc="2.95" bet_ref="NDkwODAyMTg2OjM5LzIwOjow" frac_prc="39/20" us_prc="+195" last_change="2018-04-14T06:26:00"/>
+            </Seln>
+            <Seln status="A" seln_id="490802188" seln_sort="HA" name="12" disporder="3">
+              <Price prc_type="LP" dec_prc="1.142" bet_ref="NDkwODAyMTg4OjEvNzo6MA" frac_prc="1/7" us_prc="-700" last_change="2018-04-14T06:26:00"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Draw No Bet" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100283113" inplay_avail="Y" disporder="-9100" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="DNOB" lp_avail="Y" mkt_sort_name="Draw No Bet">
+            <Seln status="A" name="Χάνκουκ Βέρντες" seln_id="490802195" team_id="112174" disporder="0" seln_sort="H">
+              <Price prc_type="LP" dec_prc="1.142" bet_ref="NDkwODAyMTk1OjEvNzo6MA" frac_prc="1/7" us_prc="-700" last_change="2018-04-14T06:26:00"/>
+            </Seln>
+            <Seln status="A" name="Πολίς Γιουν." seln_id="490802192" team_id="117630" disporder="1" seln_sort="A">
+              <Price prc_type="LP" dec_prc="4.60" bet_ref="NDkwODAyMTkyOjE4LzU6OjA" frac_prc="18/5" us_prc="+360" last_change="2018-04-14T06:26:00"/>
+            </Seln>
+          </Mkt>
+        </Ev>
+      </SBType>
+    </SBClass>
+  </Sport>
+</ContentAPI>

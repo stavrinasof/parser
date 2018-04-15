@@ -1,0 +1,108 @@
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNzQ5OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+  <Sport sport_code="AMFO" allow_cash_out="N" name="Αμερικάνικο Ποδόσφαιρο" disporder="10">
+    <SBClass sb_class_id="16" disporder="-999" name="ΗΠΑ">
+      <SBType sb_type_id="1611" name="NFL" disporder="-9999">
+        <Ev inplay_allowed="N" status="A" outright="Y" name="NFL" allow_cash_out="N" start_time="2019-02-04T00:00:00" allow_cash_out_pre_ev="N" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="N" inplay_now="N" mkt_count="1" ev_id="1477259" disporder="10">
+          <Mkt status="A" name="Κατάκτηση Σούπερ Μπόουλ 53" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="93074334" inplay_avail="N" disporder="-1000" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="OUTR" lp_avail="Y" mkt_sort_name="MKT_SORT-OUTR">
+            <Seln status="A" seln_id="465270046" disporder="0" name="Πάτριοτς">
+              <Price prc_type="LP" dec_prc="6.00" bet_ref="NDY1MjcwMDQ2OjUwMDAvMTAwMDo6MA" frac_prc="5/1" us_prc="+500" last_change="2018-02-05T14:40:26"/>
+            </Seln>
+            <Seln status="A" seln_id="465270047" disporder="0" name="Πάκερς">
+              <Price prc_type="LP" dec_prc="10.00" bet_ref="NDY1MjcwMDQ3OjkwMDAvMTAwMDo6MA" frac_prc="9/1" us_prc="+900" last_change="2018-02-05T14:40:26"/>
+            </Seln>
+            <Seln status="A" seln_id="465270048" disporder="0" name="Ιγκλς">
+              <Price prc_type="LP" dec_prc="10.00" bet_ref="NDY1MjcwMDQ4OjkwMDAvMTAwMDo6MA" frac_prc="9/1" us_prc="+900" last_change="2018-02-05T14:40:26"/>
+            </Seln>
+            <Seln status="A" seln_id="465270049" disporder="0" name="Στίλερς">
+              <Price prc_type="LP" dec_prc="12.50" bet_ref="NDY1MjcwMDQ5OjExNTAwLzEwMDA6OjA" frac_prc="23/2" us_prc="+1150" last_change="2018-02-05T14:40:26"/>
+            </Seln>
+            <Seln status="A" seln_id="465270050" disporder="0" name="Βίκινγκς">
+              <Price prc_type="LP" dec_prc="15.00" bet_ref="NDY1MjcwMDUwOjE0MDAwLzEwMDA6OjA" frac_prc="14/1" us_prc="+1400" last_change="2018-02-05T14:40:26"/>
+            </Seln>
+            <Seln status="A" seln_id="465270051" disporder="0" name="Καουμπόις">
+              <Price prc_type="LP" dec_prc="17.50" bet_ref="NDY1MjcwMDUxOjE2NTAwLzEwMDA6OjA" frac_prc="33/2" us_prc="+1650" last_change="2018-02-05T14:40:26"/>
+            </Seln>
+            <Seln status="A" seln_id="465270052" disporder="0" name="Φάλκονς">
+              <Price prc_type="LP" dec_prc="20.00" bet_ref="NDY1MjcwMDUyOjE5MDAwLzEwMDA6OjA" frac_prc="19/1" us_prc="+1900" last_change="2018-02-05T14:40:26"/>
+            </Seln>
+            <Seln status="A" seln_id="465270053" disporder="0" name="Ραμς">
+              <Price prc_type="LP" dec_prc="20.00" bet_ref="NDY1MjcwMDUzOjE5MDAwLzEwMDA6OjA" frac_prc="19/1" us_prc="+1900" last_change="2018-02-05T14:40:26"/>
+            </Seln>
+            <Seln status="A" seln_id="465270058" disporder="0" name="49ερς">
+              <Price prc_type="LP" dec_prc="22.50" bet_ref="NDY1MjcwMDU4OjIxNTAwLzEwMDA6OjA" frac_prc="21/1" us_prc="+2100" last_change="2018-02-05T14:40:26"/>
+            </Seln>
+            <Seln status="A" seln_id="465270055" disporder="0" name="Σέιντς">
+              <Price prc_type="LP" dec_prc="25.00" bet_ref="NDY1MjcwMDU1OjI0MDAwLzEwMDA6OjA" frac_prc="24/1" us_prc="+2400" last_change="2018-03-13T15:49:45"/>
+            </Seln>
+            <Seln status="A" seln_id="465270056" disporder="0" name="Πάνθερς">
+              <Price prc_type="LP" dec_prc="25.00" bet_ref="NDY1MjcwMDU2OjI0MDAwLzEwMDA6OjA" frac_prc="24/1" us_prc="+2400" last_change="2018-03-13T15:49:45"/>
+            </Seln>
+            <Seln status="A" seln_id="465270057" disporder="0" name="Τζάγκουαρς">
+              <Price prc_type="LP" dec_prc="25.00" bet_ref="NDY1MjcwMDU3OjI0MDAwLzEwMDA6OjA" frac_prc="24/1" us_prc="+2400" last_change="2018-03-13T15:49:45"/>
+            </Seln>
+            <Seln status="A" seln_id="465270054" disporder="0" name="Σίχοκς">
+              <Price prc_type="LP" dec_prc="27.50" bet_ref="NDY1MjcwMDU0OjI2NTAwLzEwMDA6OjA" frac_prc="53/2" us_prc="+2650" last_change="2018-03-13T15:49:45"/>
+            </Seln>
+            <Seln status="A" seln_id="465270059" disporder="0" name="Τέξανς">
+              <Price prc_type="LP" dec_prc="27.50" bet_ref="NDY1MjcwMDU5OjI2NTAwLzEwMDA6OjA" frac_prc="53/2" us_prc="+2650" last_change="2018-03-13T15:49:45"/>
+            </Seln>
+            <Seln status="A" seln_id="465270060" disporder="0" name="Τσιφς">
+              <Price prc_type="LP" dec_prc="30.00" bet_ref="NDY1MjcwMDYwOjI5MDAwLzEwMDA6OjA" frac_prc="28/1" us_prc="+2800" last_change="2018-02-05T14:40:26"/>
+            </Seln>
+            <Seln status="A" seln_id="465270061" disporder="0" name="Λάιονς">
+              <Price prc_type="LP" dec_prc="35.00" bet_ref="NDY1MjcwMDYxOjM0MDAwLzEwMDA6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-02-05T14:40:26"/>
+            </Seln>
+            <Seln status="A" seln_id="465270062" disporder="0" name="Μπρόνκος">
+              <Price prc_type="LP" dec_prc="35.00" bet_ref="NDY1MjcwMDYyOjM0MDAwLzEwMDA6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-02-05T14:40:26"/>
+            </Seln>
+            <Seln status="A" seln_id="465270063" disporder="0" name="Ράιντερς">
+              <Price prc_type="LP" dec_prc="35.00" bet_ref="NDY1MjcwMDYzOjM0MDAwLzEwMDA6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-02-05T14:40:26"/>
+            </Seln>
+            <Seln status="A" seln_id="465273773" disporder="0" name="Τσάρτζερς">
+              <Price prc_type="LP" dec_prc="35.00" bet_ref="NDY1MjczNzczOjM0MDAwLzEwMDA6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-02-05T15:05:32"/>
+            </Seln>
+            <Seln status="A" seln_id="465270064" disporder="0" name="Τάιτανς">
+              <Price prc_type="LP" dec_prc="40.00" bet_ref="NDY1MjcwMDY0OjM5MDAwLzEwMDA6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-02-05T14:40:26"/>
+            </Seln>
+            <Seln status="A" seln_id="465270065" disporder="0" name="Ρέιβενς">
+              <Price prc_type="LP" dec_prc="40.00" bet_ref="NDY1MjcwMDY1OjM5MDAwLzEwMDA6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-02-05T14:40:26"/>
+            </Seln>
+            <Seln status="A" seln_id="465270066" disporder="0" name="Ρέντσκινς">
+              <Price prc_type="LP" dec_prc="40.00" bet_ref="NDY1MjcwMDY2OjM5MDAwLzEwMDA6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-02-05T14:40:26"/>
+            </Seln>
+            <Seln status="A" seln_id="465270067" disporder="0" name="Τζάιαντς">
+              <Price prc_type="LP" dec_prc="50.00" bet_ref="NDY1MjcwMDY3OjQ5MDAwLzEwMDA6OjA" frac_prc="45/1" us_prc="+4500" last_change="2018-02-05T14:40:26"/>
+            </Seln>
+            <Seln status="A" seln_id="465270068" disporder="0" name="Μπιούκανιρς">
+              <Price prc_type="LP" dec_prc="50.00" bet_ref="NDY1MjcwMDY4OjQ5MDAwLzEwMDA6OjA" frac_prc="45/1" us_prc="+4500" last_change="2018-02-05T14:40:26"/>
+            </Seln>
+            <Seln status="A" seln_id="465270070" disporder="0" name="Κολτς">
+              <Price prc_type="LP" dec_prc="50.00" bet_ref="NDY1MjcwMDcwOjQ5MDAwLzEwMDA6OjA" frac_prc="45/1" us_prc="+4500" last_change="2018-02-05T14:40:26"/>
+            </Seln>
+            <Seln status="A" seln_id="465270069" disporder="0" name="Κάρντιναλς">
+              <Price prc_type="LP" dec_prc="75.00" bet_ref="NDY1MjcwMDY5Ojc0MDAwLzEwMDA6OjA" frac_prc="70/1" us_prc="+7000" last_change="2018-03-13T15:49:45"/>
+            </Seln>
+            <Seln status="A" seln_id="465270071" disporder="0" name="Μπιλς">
+              <Price prc_type="LP" dec_prc="75.00" bet_ref="NDY1MjcwMDcxOjc0MDAwLzEwMDA6OjA" frac_prc="70/1" us_prc="+7000" last_change="2018-02-05T14:40:26"/>
+            </Seln>
+            <Seln status="A" seln_id="465270072" disporder="0" name="Μπένγκαλς">
+              <Price prc_type="LP" dec_prc="75.00" bet_ref="NDY1MjcwMDcyOjc0MDAwLzEwMDA6OjA" frac_prc="70/1" us_prc="+7000" last_change="2018-02-05T14:40:26"/>
+            </Seln>
+            <Seln status="A" seln_id="465270073" disporder="0" name="Ντόλφινς">
+              <Price prc_type="LP" dec_prc="75.00" bet_ref="NDY1MjcwMDczOjc0MDAwLzEwMDA6OjA" frac_prc="70/1" us_prc="+7000" last_change="2018-02-05T14:40:26"/>
+            </Seln>
+            <Seln status="A" seln_id="465270074" disporder="0" name="Μπέαρς">
+              <Price prc_type="LP" dec_prc="100.00" bet_ref="NDY1MjcwMDc0Ojk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2018-02-05T14:40:26"/>
+            </Seln>
+            <Seln status="A" seln_id="465270076" disporder="0" name="Μπράουνς">
+              <Price prc_type="LP" dec_prc="100.00" bet_ref="NDY1MjcwMDc2Ojk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2018-03-13T15:49:45"/>
+            </Seln>
+            <Seln status="A" seln_id="465270075" disporder="0" name="Τζετς">
+              <Price prc_type="LP" dec_prc="125.00" bet_ref="NDY1MjcwMDc1OjEyNDAwMC8xMDAwOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-02-05T14:40:26"/>
+            </Seln>
+          </Mkt>
+        </Ev>
+      </SBType>
+    </SBClass>
+  </Sport>
+</ContentAPI>

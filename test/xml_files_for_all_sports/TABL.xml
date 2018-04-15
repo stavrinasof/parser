@@ -1,0 +1,24 @@
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNzAyOjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+  <Sport sport_code="TABL" allow_cash_out="N" name="Πινγκ πονγκ" disporder="80">
+    <SBClass sb_class_id="188527" disporder="1" name="Διεθνή">
+      <SBType sb_type_id="186626" name="Challenger Series" disporder="-10">
+        <Ev inplay_allowed="Y" status="A" name="Ρικάρντο Χιμένεζ - Φέντορ Κούζμιν" allow_cash_out="N" start_time="2018-04-16T20:00:00" allow_cash_out_pre_ev="N" virtual="N" ev_timezone="UTC" allow_cash_out_inplay="N" inplay_now="N" mkt_count="1" ev_id="1757583" disporder="0">
+          <EvDetail br_match_id="14317123"/>
+          <Inplay inplay_period_num="0" inplay_period_name_short="PERIOD_pre_match_SHORT" clock_status="STOPPED" correct_at="2018-04-15T19:52:10" inplay_period_finished="N" score_a="0" score_b="0" inplay_period_name="Έναρξη" clock_mode="NONE" inplay_period="pre_match" score_string="0-0" scoring_system="match" last_change="2018-04-15T18:26:03" inplay_secs="0">
+            <Scores/>
+          </Inplay>
+          <InplayDetail period_length_mins="0" period_stoppage_secs="0" score_team_B="0" score_team_A="0"/>
+          <Players/>
+          <Mkt status="A" name="Νικητής" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100463553" inplay_avail="Y" disporder="-100" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="HTOH" lp_avail="Y" mkt_sort_name="Ένας Εναντίον Ενός">
+            <Seln status="A" name="Ρικάρντο Χιμένεζ" seln_id="491428831" disporder="0" player_id="18939330" seln_sort="P1">
+              <Price prc_type="LP" dec_prc="8.00" bet_ref="NDkxNDI4ODMxOjcvMTo6MA" frac_prc="7/1" us_prc="+700" last_change="2018-04-15T16:54:35"/>
+            </Seln>
+            <Seln status="A" name="Φέντορ Κούζμιν" seln_id="491428832" disporder="1" player_id="18903154" seln_sort="P2">
+              <Price prc_type="LP" dec_prc="1.062" bet_ref="NDkxNDI4ODMyOjEvMTY6OjA" frac_prc="1/16" us_prc="-1600" last_change="2018-04-15T16:54:35"/>
+            </Seln>
+          </Mkt>
+        </Ev>
+      </SBType>
+    </SBClass>
+  </Sport>
+</ContentAPI>

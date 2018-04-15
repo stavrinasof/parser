@@ -1,0 +1,23 @@
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNjg3OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+  <Sport sport_code="CRIC" allow_cash_out="N" name="Κρίκετ" disporder="130">
+    <SBClass sb_class_id="188709" disporder="0" name="Ινδία">
+      <SBType sb_type_id="185716" name="Premier League" disporder="-10">
+        <Ev inplay_allowed="N" status="A" name="Μουμπάι Ίντιανς - Ρόγιαλ Τσάλεντζερς Μπάνγκαλορ" allow_cash_out="N" start_time="2018-04-17T14:30:00" allow_cash_out_pre_ev="N" virtual="N" ev_timezone="UTC" allow_cash_out_inplay="N" inplay_now="N" mkt_count="1" ev_id="1757294" disporder="1">
+          <EvDetail br_match_id="13808773" br_has_stats="Y"/>
+          <Teams>
+            <Team team_id="1901549" team_order="0" name="Μουμπάι Ίντιανς" short_name="Μουμπάι Ίντιανς"/>
+            <Team team_id="1901606" team_order="1" name="Ρόγιαλ Τσάλεντζερς Μπάνγκαλορ" short_name="Ρόγιαλ Τσάλεντζερς Μπάνγκαλορ"/>
+          </Teams>
+          <Mkt status="A" name="Νικητής" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100446039" inplay_avail="N" disporder="-20" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="H2HT" lp_avail="Y" mkt_sort_name="Ένας Εναντίον Ενός">
+            <Seln status="A" name="Μουμπάι Ίντιανς" seln_id="491366644" team_id="1901549" disporder="0" seln_sort="P1">
+              <Price prc_type="LP" dec_prc="1.97" bet_ref="NDkxMzY2NjQ0Ojk3LzEwMDo6MA" frac_prc="97/100" us_prc="-104" last_change="2018-04-15T17:47:40"/>
+            </Seln>
+            <Seln status="A" name="Ρόγιαλ Τσάλεντζερς Μπάνγκαλορ" seln_id="491366645" team_id="1901606" disporder="1" seln_sort="P2">
+              <Price prc_type="LP" dec_prc="1.80" bet_ref="NDkxMzY2NjQ1OjQvNTo6MA" frac_prc="4/5" us_prc="-125" last_change="2018-04-15T17:47:40"/>
+            </Seln>
+          </Mkt>
+        </Ev>
+      </SBType>
+    </SBClass>
+  </Sport>
+</ContentAPI>

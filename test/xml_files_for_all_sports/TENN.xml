@@ -1,0 +1,40 @@
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNzQ5OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+  <Sport sport_code="TENN" allow_cash_out="Y" name="Τένις" disporder="3">
+    <SBClass sb_class_id="189071" disporder="6" name="Μ.Λάκη">
+      <SBType sb_type_id="189500" name="Ειδικά στοιχήματα" disporder="0">
+        <Ev inplay_allowed="N" status="A" outright="Y" name="Ειδικά στοιχήματα" allow_cash_out="Y" start_time="2025-11-23T18:00:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="Y" inplay_now="N" mkt_count="6" ev_id="1420675" disporder="6">
+          <Mkt status="A" name="Να κερδίσει Γκραν Σλαμ μέχρι το τέλος του 2025" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="91526538" inplay_avail="N" disporder="1" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUTR" lp_avail="Y" mkt_sort_name="MKT_SORT-OUTR" mkt_close_at="2018-12-31T21:59:00">
+            <Seln status="A" seln_id="459691006" disporder="0" name="Ναι">
+              <Price prc_type="LP" dec_prc="800.00" bet_ref="NDU5NjkxMDA2Ojc5OTAwMC8xMDAwOjow" frac_prc="750/1" us_prc="+75000" last_change="2018-02-09T20:09:28"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Να κερδίσει Τίτλο WTA Tour (Μονά) μέχρι το τέλος του 2025" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="91526603" inplay_avail="N" disporder="2" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUTR" lp_avail="Y" mkt_sort_name="MKT_SORT-OUTR" mkt_close_at="2018-12-31T21:59:00">
+            <Seln status="A" seln_id="459691085" disporder="-1" name="Ναι">
+              <Price prc_type="LP" dec_prc="15.00" bet_ref="NDU5NjkxMDg1OjE0MDAwLzEwMDA6OjA" frac_prc="14/1" us_prc="+1400" last_change="2018-02-09T20:09:28"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Να φτάσει στο Top-10 (WTA Ranking) μέχρι το τέλος του 2025" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="91526911" inplay_avail="N" disporder="3" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUTR" lp_avail="Y" mkt_sort_name="MKT_SORT-OUTR" mkt_close_at="2018-12-31T21:59:00">
+            <Seln status="A" seln_id="459691181" disporder="0" name="Ναι">
+              <Price prc_type="LP" dec_prc="300.00" bet_ref="NDU5NjkxMTgxOjI5OTAwMC8xMDAwOjow" frac_prc="250/1" us_prc="+25000" last_change="2018-02-09T20:09:28"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Να φτάσει στο Top-50 (WTA Ranking) μέχρι το τέλος του 2025" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="91526899" inplay_avail="N" disporder="4" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUTR" lp_avail="Y" mkt_sort_name="MKT_SORT-OUTR" mkt_close_at="2018-12-31T21:59:00">
+            <Seln status="A" seln_id="459691196" disporder="0" name="Ναι">
+              <Price prc_type="LP" dec_prc="150.00" bet_ref="NDU5NjkxMTk2OjE0OTAwMC8xMDAwOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-02-09T20:09:28"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Να φτάσει στο Top-100 (WTA Ranking) μέχρι το τέλος του 2025" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="91526665" inplay_avail="N" disporder="5" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUTR" lp_avail="Y" mkt_sort_name="MKT_SORT-OUTR" mkt_close_at="2018-12-31T21:59:00">
+            <Seln status="A" seln_id="459691231" disporder="0" name="Ναι">
+              <Price prc_type="LP" dec_prc="35.00" bet_ref="NDU5NjkxMjMxOjM0MDAwLzEwMDA6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-02-09T20:09:28"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Να φτάσει στο Top-200 (WTA Ranking) μέχρι το τέλος του 2025" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="91526651" inplay_avail="N" disporder="6" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUTR" lp_avail="Y" mkt_sort_name="MKT_SORT-OUTR" mkt_close_at="2018-12-31T21:59:00">
+            <Seln status="A" seln_id="459691290" disporder="-1" name="Ναι">
+              <Price prc_type="LP" dec_prc="12.00" bet_ref="NDU5NjkxMjkwOjExMDAwLzEwMDA6OjA" frac_prc="11/1" us_prc="+1100" last_change="2018-02-09T20:09:28"/>
+            </Seln>
+          </Mkt>
+        </Ev>
+      </SBType>
+    </SBClass>
+  </Sport>
+</ContentAPI>

@@ -1,0 +1,62 @@
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNjg5OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+  <Sport sport_code="WTPL" allow_cash_out="N" name="Πόλο" disporder="50">
+    <SBClass sb_class_id="11476" disporder="0" name="Ευρώπη">
+      <SBType sb_type_id="17712" name="Champions League" disporder="0">
+        <Ev inplay_allowed="N" status="A" outright="Y" name="Champions League" allow_cash_out="N" start_time="2018-06-09T07:00:00" allow_cash_out_pre_ev="N" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="N" inplay_now="N" mkt_count="2" ev_id="1651837" disporder="1">
+          <Mkt status="A" name="Νικητής" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="97679460" inplay_avail="N" disporder="0" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="OUTR" lp_avail="Y" mkt_sort_name="MKT_SORT-OUTR" mkt_close_at="2018-04-18T14:00:00">
+            <Seln status="A" seln_id="481533347" disporder="0" name="Προ Ρέκο">
+              <Price prc_type="LP" dec_prc="1.70" bet_ref="NDgxNTMzMzQ3OjcwMC8xMDAwOjow" frac_prc="7/10" us_prc="-143" last_change="2018-04-01T12:47:23"/>
+            </Seln>
+            <Seln status="A" seln_id="481533348" disporder="0" name="Ολυμπιακός">
+              <Price prc_type="LP" dec_prc="4.15" bet_ref="NDgxNTMzMzQ4OjMxNTAvMTAwMDo6MA" frac_prc="63/20" us_prc="+315" last_change="2018-04-01T12:47:23"/>
+            </Seln>
+            <Seln status="A" seln_id="481533352" disporder="0" name="Γιουγκ">
+              <Price prc_type="LP" dec_prc="6.50" bet_ref="NDgxNTMzMzUyOjU1MDAvMTAwMDo6MA" frac_prc="11/2" us_prc="+550" last_change="2018-03-20T12:57:28"/>
+            </Seln>
+            <Seln status="A" seln_id="481533349" disporder="0" name="Έγκερ">
+              <Price prc_type="LP" dec_prc="12.00" bet_ref="NDgxNTMzMzQ5OjExMDAwLzEwMDA6OjA" frac_prc="11/1" us_prc="+1100" last_change="2018-03-20T12:57:28"/>
+            </Seln>
+            <Seln status="A" seln_id="481533351" disporder="0" name="Τσολνόκι">
+              <Price prc_type="LP" dec_prc="12.00" bet_ref="NDgxNTMzMzUxOjExMDAwLzEwMDA6OjA" frac_prc="11/1" us_prc="+1100" last_change="2018-03-20T13:09:34"/>
+            </Seln>
+            <Seln status="A" seln_id="481533350" disporder="0" name="Μπαρτσελονέτα">
+              <Price prc_type="LP" dec_prc="18.00" bet_ref="NDgxNTMzMzUwOjE3MDAwLzEwMDA6OjA" frac_prc="17/1" us_prc="+1700" last_change="2018-03-20T13:09:55"/>
+            </Seln>
+            <Seln status="A" seln_id="481533354" disporder="0" name="Μπρέσια">
+              <Price prc_type="LP" dec_prc="30.00" bet_ref="NDgxNTMzMzU0OjI5MDAwLzEwMDA6OjA" frac_prc="28/1" us_prc="+2800" last_change="2018-03-20T13:09:55"/>
+            </Seln>
+            <Seln status="A" seln_id="481533353" disporder="0" name="Σπαντάου">
+              <Price prc_type="LP" dec_prc="50.00" bet_ref="NDgxNTMzMzUzOjQ5MDAwLzEwMDA6OjA" frac_prc="45/1" us_prc="+4500" last_change="2018-03-20T13:09:55"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Να φτάσει στον τελικό" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="97680071" inplay_avail="N" disporder="1" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="OUTR" lp_avail="Y" mkt_sort_name="MKT_SORT-OUTR" mkt_close_at="2018-04-18T14:00:00">
+            <Seln status="A" seln_id="481534030" disporder="0" name="Προ Ρέκο">
+              <Price prc_type="LP" dec_prc="1.07" bet_ref="NDgxNTM0MDMwOjcwLzEwMDA6OjA" frac_prc="7/100" us_prc="-1429" last_change="2018-04-01T12:47:29"/>
+            </Seln>
+            <Seln status="A" seln_id="481534031" disporder="0" name="Ολυμπιακός">
+              <Price prc_type="LP" dec_prc="1.90" bet_ref="NDgxNTM0MDMxOjkwMC8xMDAwOjow" frac_prc="9/10" us_prc="-112" last_change="2018-04-01T12:47:29"/>
+            </Seln>
+            <Seln status="A" seln_id="481534035" disporder="0" name="Γιουγκ">
+              <Price prc_type="LP" dec_prc="3.50" bet_ref="NDgxNTM0MDM1OjI1MDAvMTAwMDo6MA" frac_prc="5/2" us_prc="+250" last_change="2018-03-20T13:15:41"/>
+            </Seln>
+            <Seln status="A" seln_id="481534032" disporder="0" name="Έγκερ">
+              <Price prc_type="LP" dec_prc="5.50" bet_ref="NDgxNTM0MDMyOjQ1MDAvMTAwMDo6MA" frac_prc="9/2" us_prc="+450" last_change="2018-03-20T13:29:22"/>
+            </Seln>
+            <Seln status="A" seln_id="481534034" disporder="0" name="Τσολνόκι">
+              <Price prc_type="LP" dec_prc="5.50" bet_ref="NDgxNTM0MDM0OjQ1MDAvMTAwMDo6MA" frac_prc="9/2" us_prc="+450" last_change="2018-03-20T13:29:22"/>
+            </Seln>
+            <Seln status="A" seln_id="481534033" disporder="0" name="Μπαρτσελονέτα">
+              <Price prc_type="LP" dec_prc="9.00" bet_ref="NDgxNTM0MDMzOjgwMDAvMTAwMDo6MA" frac_prc="8/1" us_prc="+800" last_change="2018-03-20T13:29:22"/>
+            </Seln>
+            <Seln status="A" seln_id="481534037" disporder="0" name="Μπρέσια">
+              <Price prc_type="LP" dec_prc="20.00" bet_ref="NDgxNTM0MDM3OjE5MDAwLzEwMDA6OjA" frac_prc="19/1" us_prc="+1900" last_change="2018-03-20T13:29:22"/>
+            </Seln>
+            <Seln status="A" seln_id="481534036" disporder="0" name="Σπαντάου">
+              <Price prc_type="LP" dec_prc="30.00" bet_ref="NDgxNTM0MDM2OjI5MDAwLzEwMDA6OjA" frac_prc="28/1" us_prc="+2800" last_change="2018-03-20T13:29:22"/>
+            </Seln>
+          </Mkt>
+        </Ev>
+      </SBType>
+    </SBClass>
+  </Sport>
+</ContentAPI>

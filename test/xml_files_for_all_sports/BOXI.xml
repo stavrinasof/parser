@@ -1,0 +1,28 @@
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNjg5OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+  <Sport sport_code="BOXI" allow_cash_out="N" name="Πυγμαχία" disporder="90">
+    <SBClass sb_class_id="188459" disporder="0" name="Πυγμαχία">
+      <SBType sb_type_id="181564" name="Αγώνες" disporder="0">
+        <Ev inplay_allowed="N" status="A" name="Ολεξάντρ Ούσικ - Μουράτ Γκασίεβ" allow_cash_out="N" start_time="2018-05-11T19:00:00" allow_cash_out_pre_ev="N" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="N" inplay_now="N" mkt_count="2" ev_id="1749602" disporder="0">
+          <EvDetail br_match_id="13726537"/>
+          <Players/>
+          <Mkt status="A" name="Νικητής" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100227655" inplay_avail="N" disporder="0" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="HTOH" lp_avail="Y" mkt_sort_name="Ένας Εναντίον Ενός">
+            <Seln status="A" name="Ολεξάντρ Ούσικ" seln_id="490602622" disporder="0" player_id="18918829" seln_sort="P1">
+              <Price prc_type="LP" dec_prc="1.40" bet_ref="NDkwNjAyNjIyOjQwMC8xMDAwOjow" frac_prc="2/5" us_prc="-250" last_change="2018-04-13T15:33:32"/>
+            </Seln>
+            <Seln status="A" name="Μουράτ Γκασίεβ" seln_id="490602623" disporder="1" player_id="18927326" seln_sort="P2">
+              <Price prc_type="LP" dec_prc="2.80" bet_ref="NDkwNjAyNjIzOjE4MDAvMTAwMDo6MA" frac_prc="9/5" us_prc="+180" last_change="2018-04-13T15:33:32"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Συνολικοί γύροι" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100227656" handicap="9.5" inplay_avail="N" disporder="10" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="OVUN" lp_avail="Y" mkt_sort_name="Πάνω/Κάτω">
+            <Seln status="A" name="Over" handicap="9.5" seln_id="490602625" disporder="-10" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.33" bet_ref="NDkwNjAyNjI1OjMzMC8xMDAwOjM4OjA" frac_prc="33/100" us_prc="-304" last_change="2018-04-13T15:32:49"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="9.5" seln_id="490602624" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="3.15" bet_ref="NDkwNjAyNjI0OjIxNTAvMTAwMDozODow" frac_prc="43/20" us_prc="+215" last_change="2018-04-13T15:32:49"/>
+            </Seln>
+          </Mkt>
+        </Ev>
+      </SBType>
+    </SBClass>
+  </Sport>
+</ContentAPI>

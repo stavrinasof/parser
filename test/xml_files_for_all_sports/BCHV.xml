@@ -1,0 +1,23 @@
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNzQ5OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+  <Sport sport_code="BCHV" allow_cash_out="N" name="Μπιτς Βόλεϊ" disporder="6">
+    <SBClass sb_class_id="11311" disporder="5" name="Διεθνή">
+      <SBType sb_type_id="189622" name="CSVP" disporder="0">
+        <Ev inplay_allowed="Y" status="A" name="Ράνγκελ/Γκόμεζ (ΒΕΝ) - Φελίπε/Γκούτο (ΒΡΑ)" allow_cash_out="N" start_time="2018-04-15T21:00:00" allow_cash_out_pre_ev="N" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="N" inplay_now="N" mkt_count="1" ev_id="1758148" disporder="-999">
+          <EvDetail br_match_id="14348745"/>
+          <Inplay inplay_period_num="0" inplay_period_name_short="PERIOD_pre_match_SHORT" clock_status="STOPPED" correct_at="2018-04-15T19:52:14" inplay_period_finished="N" score_a="0" score_b="0" inplay_period_name="Έναρξη" num_periods="3" clock_mode="NONE" inplay_period="pre_match" score_string="0-0" scoring_system="set-match" last_change="2018-04-15T19:48:13" inplay_secs="0">
+            <Scores/>
+          </Inplay>
+          <InplayDetail period_length_mins="0" period_stoppage_secs="0" score_team_B="0" score_team_A="0"/>
+          <Teams>
+            <Team team_id="1922421" team_order="0" name="Ράνγκελ/Γκόμεζ (ΒΕΝ)" short_name="Ράνγκελ/Γκόμεζ (ΒΕΝ)"/>
+            <Team team_id="1922340" team_order="1" name="Φελίπε/Γκούτο (ΒΡΑ)" short_name="Φελίπε/Γκούτο (ΒΡΑ)"/>
+          </Teams>
+          <Mkt status="A" name="Νικητής" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100481016" inplay_avail="Y" disporder="10" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="H2HT" lp_avail="Y" mkt_sort_name="Ένας Εναντίον Ενός">
+            <Seln status="A" name="Ράνγκελ/Γκόμεζ (ΒΕΝ)" seln_id="491492394" team_id="1922421" disporder="0" seln_sort="P1"/>
+            <Seln status="A" name="Φελίπε/Γκούτο (ΒΡΑ)" seln_id="491492395" team_id="1922340" disporder="1" seln_sort="P2"/>
+          </Mkt>
+        </Ev>
+      </SBType>
+    </SBClass>
+  </Sport>
+</ContentAPI>

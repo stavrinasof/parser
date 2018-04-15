@@ -1,0 +1,36 @@
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNzAyOjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+  <Sport sport_code="SPED" allow_cash_out="Y" name="Speedway" disporder="34">
+    <SBClass sb_class_id="188662" disporder="10" name="Σουηδία">
+      <SBType sb_type_id="183826" name="Ελίτσεριεν" disporder="0">
+        <Ev inplay_allowed="N" status="A" outright="Y" name="2018 Ελίτσεριεν" allow_cash_out="N" start_time="2018-09-26T16:00:00" allow_cash_out_pre_ev="N" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="N" inplay_now="N" mkt_count="1" ev_id="1615098" disporder="1">
+          <Mkt status="A" name="Νικητής Διοργάνωσης" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="96758259" inplay_avail="N" disporder="1" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="OUTR" lp_avail="Y" mkt_sort_name="MKT_SORT-OUTR" mkt_close_at="2018-05-08T16:00:00">
+            <Seln status="A" seln_id="478279403" disporder="0" name="Dackarna">
+              <Price prc_type="LP" dec_prc="3.50" bet_ref="NDc4Mjc5NDAzOjI1MDAvMTAwMDo6MA" frac_prc="5/2" us_prc="+250" last_change="2018-03-11T15:49:59"/>
+            </Seln>
+            <Seln status="A" seln_id="478279405" disporder="0" name="Smederna">
+              <Price prc_type="LP" dec_prc="4.50" bet_ref="NDc4Mjc5NDA1OjM1MDAvMTAwMDo6MA" frac_prc="7/2" us_prc="+350" last_change="2018-03-11T15:49:59"/>
+            </Seln>
+            <Seln status="A" seln_id="478279406" disporder="0" name="Masarna">
+              <Price prc_type="LP" dec_prc="6.00" bet_ref="NDc4Mjc5NDA2OjUwMDAvMTAwMDo6MA" frac_prc="5/1" us_prc="+500" last_change="2018-03-11T15:49:59"/>
+            </Seln>
+            <Seln status="A" seln_id="478279407" disporder="0" name="Lejonen">
+              <Price prc_type="LP" dec_prc="7.50" bet_ref="NDc4Mjc5NDA3OjY1MDAvMTAwMDo6MA" frac_prc="13/2" us_prc="+650" last_change="2018-03-11T15:49:59"/>
+            </Seln>
+            <Seln status="A" seln_id="478279408" disporder="0" name="Rospiggarna">
+              <Price prc_type="LP" dec_prc="7.50" bet_ref="NDc4Mjc5NDA4OjY1MDAvMTAwMDo6MA" frac_prc="13/2" us_prc="+650" last_change="2018-03-11T15:49:59"/>
+            </Seln>
+            <Seln status="A" seln_id="478279409" disporder="0" name="Elit Vetlanda">
+              <Price prc_type="LP" dec_prc="9.00" bet_ref="NDc4Mjc5NDA5OjgwMDAvMTAwMDo6MA" frac_prc="8/1" us_prc="+800" last_change="2018-03-11T15:49:59"/>
+            </Seln>
+            <Seln status="A" seln_id="478279410" disporder="0" name="Indianerna">
+              <Price prc_type="LP" dec_prc="11.00" bet_ref="NDc4Mjc5NDEwOjEwMDAwLzEwMDA6OjA" frac_prc="10/1" us_prc="+1000" last_change="2018-03-11T15:49:59"/>
+            </Seln>
+            <Seln status="A" seln_id="478279411" disporder="0" name="Vastervik">
+              <Price prc_type="LP" dec_prc="35.00" bet_ref="NDc4Mjc5NDExOjM0MDAwLzEwMDA6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-03-11T15:49:59"/>
+            </Seln>
+          </Mkt>
+        </Ev>
+      </SBType>
+    </SBClass>
+  </Sport>
+</ContentAPI>

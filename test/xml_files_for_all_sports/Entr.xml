@@ -1,0 +1,88 @@
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNjQ1OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+  <Sport sport_code="Entr" allow_cash_out="N" name="Διασκέδαση" disporder="900">
+    <SBClass sb_class_id="188781" disporder="5" name="James Bond">
+      <SBType sb_type_id="185497" name="Επόμενος Τζέιμς Μποντ" disporder="10">
+        <Ev inplay_allowed="N" status="A" outright="Y" name="Επόμενος Τζέιμς Μποντ" allow_cash_out="N" start_time="2018-05-01T09:00:00" allow_cash_out_pre_ev="N" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="N" inplay_now="N" mkt_count="1" ev_id="613913" disporder="0">
+          <Mkt status="A" name="Νικητής Διοργάνωσης" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="45156250" inplay_avail="N" disporder="0" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="STRD" lp_avail="Y" mkt_sort_name="Διάφορα Στοιχήματα" mkt_close_at="2018-04-30T09:00:00">
+            <Notes>Άλλοι κατόπιν αιτήματος</Notes>
+            <Seln status="A" seln_id="341119425" disporder="0" name="James Norton">
+              <Price prc_type="LP" dec_prc="3.30" bet_ref="MzQxMTE5NDI1OjIzMDAvMTAwMDo6MA" frac_prc="23/10" us_prc="+230" last_change="2018-04-09T15:35:49"/>
+            </Seln>
+            <Seln status="A" seln_id="295337740" disporder="0" name="Tom Hardy">
+              <Price prc_type="LP" dec_prc="4.00" bet_ref="Mjk1MzM3NzQwOjMwMDAvMTAwMDo6MA" frac_prc="3/1" us_prc="+300" last_change="2018-01-08T15:41:22"/>
+            </Seln>
+            <Seln status="A" seln_id="341119416" disporder="0" name="Jack Huston">
+              <Price prc_type="LP" dec_prc="4.50" bet_ref="MzQxMTE5NDE2OjM1MDAvMTAwMDo6MA" frac_prc="7/2" us_prc="+350" last_change="2017-11-14T15:26:32"/>
+            </Seln>
+            <Seln status="A" seln_id="295337741" disporder="0" name="Aidan Turner">
+              <Price prc_type="LP" dec_prc="7.00" bet_ref="Mjk1MzM3NzQxOjYwMDAvMTAwMDo6MA" frac_prc="6/1" us_prc="+600" last_change="2018-01-08T15:41:45"/>
+            </Seln>
+            <Seln status="A" seln_id="295337744" disporder="0" name="Idris Elba">
+              <Price prc_type="LP" dec_prc="7.00" bet_ref="Mjk1MzM3NzQ0OjYwMDAvMTAwMDo6MA" frac_prc="6/1" us_prc="+600" last_change="2017-11-14T15:26:46"/>
+            </Seln>
+            <Seln status="A" seln_id="295337746" disporder="0" name="Tom Hiddlestone">
+              <Price prc_type="LP" dec_prc="7.00" bet_ref="Mjk1MzM3NzQ2OjYwMDAvMTAwMDo6MA" frac_prc="6/1" us_prc="+600" last_change="2017-10-16T18:00:49"/>
+            </Seln>
+            <Seln status="A" seln_id="295337745" disporder="0" name="Michael Fassbender">
+              <Price prc_type="LP" dec_prc="9.00" bet_ref="Mjk1MzM3NzQ1OjgwMDAvMTAwMDo6MA" frac_prc="8/1" us_prc="+800" last_change="2017-09-14T11:52:36"/>
+            </Seln>
+            <Seln status="A" seln_id="472838451" disporder="0" name="Cillian Murphy">
+              <Price prc_type="LP" dec_prc="10.00" bet_ref="NDcyODM4NDUxOjkwMDAvMTAwMDo6MA" frac_prc="9/1" us_prc="+900" last_change="2018-02-25T19:58:40"/>
+            </Seln>
+            <Seln status="A" seln_id="415471887" disporder="0" name="Jamie Bell">
+              <Price prc_type="LP" dec_prc="13.00" bet_ref="NDE1NDcxODg3OjEyMDAwLzEwMDA6OjA" frac_prc="12/1" us_prc="+1200" last_change="2018-02-12T16:54:52"/>
+            </Seln>
+            <Seln status="A" seln_id="295337743" disporder="0" name="Henry Cavill">
+              <Price prc_type="LP" dec_prc="15.00" bet_ref="Mjk1MzM3NzQzOjE0MDAwLzEwMDA6OjA" frac_prc="14/1" us_prc="+1400" last_change="2018-01-08T15:42:20"/>
+            </Seln>
+            <Seln status="A" seln_id="295337748" disporder="0" name="Dan Stevens">
+              <Price prc_type="LP" dec_prc="25.00" bet_ref="Mjk1MzM3NzQ4OjI0MDAwLzEwMDA6OjA" frac_prc="24/1" us_prc="+2400" last_change="2018-01-08T15:42:52"/>
+            </Seln>
+            <Seln status="A" seln_id="295337749" disporder="0" name="Luke Evans">
+              <Price prc_type="LP" dec_prc="25.00" bet_ref="Mjk1MzM3NzQ5OjI0MDAwLzEwMDA6OjA" frac_prc="24/1" us_prc="+2400" last_change="2018-01-08T15:42:52"/>
+            </Seln>
+            <Seln status="A" seln_id="295337753" disporder="0" name="Jamie Dornan">
+              <Price prc_type="LP" dec_prc="25.00" bet_ref="Mjk1MzM3NzUzOjI0MDAwLzEwMDA6OjA" frac_prc="24/1" us_prc="+2400" last_change="2018-01-08T15:43:05"/>
+            </Seln>
+            <Seln status="A" seln_id="295337742" disporder="0" name="Damian Lewis">
+              <Price prc_type="LP" dec_prc="35.00" bet_ref="Mjk1MzM3NzQyOjM0MDAwLzEwMDA6OjA" frac_prc="33/1" us_prc="+3300" last_change="2017-09-11T15:41:19"/>
+            </Seln>
+            <Seln status="A" seln_id="426429885" disporder="0" name="Ryan Gosling">
+              <Price prc_type="LP" dec_prc="35.00" bet_ref="NDI2NDI5ODg1OjM0MDAwLzEwMDA6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-01-08T15:42:27"/>
+            </Seln>
+            <Seln status="A" seln_id="295337747" disporder="0" name="Sam Riley">
+              <Price prc_type="LP" dec_prc="40.00" bet_ref="Mjk1MzM3NzQ3OjM5MDAwLzEwMDA6OjA" frac_prc="33/1" us_prc="+3300" last_change="2017-10-16T18:01:22"/>
+            </Seln>
+            <Seln status="A" seln_id="295337751" disporder="0" name="Christian Bale">
+              <Price prc_type="LP" dec_prc="75.00" bet_ref="Mjk1MzM3NzUxOjc0MDAwLzEwMDA6OjA" frac_prc="70/1" us_prc="+7000" last_change="2018-01-08T15:43:36"/>
+            </Seln>
+            <Seln status="A" seln_id="341119540" disporder="0" name="Richard Armitage">
+              <Price prc_type="LP" dec_prc="75.00" bet_ref="MzQxMTE5NTQwOjc0MDAwLzEwMDA6OjA" frac_prc="70/1" us_prc="+7000" last_change="2018-01-08T15:43:24"/>
+            </Seln>
+            <Seln status="A" seln_id="295337750" disporder="0" name="Orland Bloom">
+              <Price prc_type="LP" dec_prc="100.00" bet_ref="Mjk1MzM3NzUwOjk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2016-12-27T13:03:53"/>
+            </Seln>
+            <Seln status="A" seln_id="295337754" disporder="0" name="Eddie Redmayne">
+              <Price prc_type="LP" dec_prc="100.00" bet_ref="Mjk1MzM3NzU0Ojk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2016-10-25T11:42:48"/>
+            </Seln>
+            <Seln status="A" seln_id="415471888" disporder="0" name="Τζουντ Λο">
+              <Price prc_type="LP" dec_prc="100.00" bet_ref="NDE1NDcxODg4Ojk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-09-11T15:49:48"/>
+            </Seln>
+            <Seln status="A" seln_id="415471889" disporder="0" name="Clive Owen">
+              <Price prc_type="LP" dec_prc="100.00" bet_ref="NDE1NDcxODg5Ojk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-09-11T15:49:48"/>
+            </Seln>
+            <Seln status="A" seln_id="415471891" disporder="0" name="Gerald Butler">
+              <Price prc_type="LP" dec_prc="100.00" bet_ref="NDE1NDcxODkxOjk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2017-09-11T15:49:48"/>
+            </Seln>
+            <Seln status="A" seln_id="415471892" disporder="0" name="Will Smith">
+              <Price prc_type="LP" dec_prc="200.00" bet_ref="NDE1NDcxODkyOjE5OTAwMC8xMDAwOjow" frac_prc="175/1" us_prc="+17500" last_change="2017-09-11T15:49:48"/>
+            </Seln>
+            <Seln status="A" seln_id="415471893" disporder="0" name="Colin Farrell">
+              <Price prc_type="LP" dec_prc="200.00" bet_ref="NDE1NDcxODkzOjE5OTAwMC8xMDAwOjow" frac_prc="175/1" us_prc="+17500" last_change="2017-09-11T15:49:48"/>
+            </Seln>
+          </Mkt>
+        </Ev>
+      </SBType>
+    </SBClass>
+  </Sport>
+</ContentAPI>

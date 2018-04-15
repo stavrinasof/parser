@@ -1,0 +1,55 @@
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNzAyOjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+  <Sport sport_code="MOTO" allow_cash_out="N" name="Μηχανοκίνητα" disporder="33">
+    <SBClass sb_class_id="11356" disporder="0" name="Παγκόσμιο Πρωτάθλημα Ράλι">
+      <SBType sb_type_id="187799" name="Πρωτάθλημα οδηγών" disporder="0">
+        <Ev inplay_allowed="N" status="A" outright="Y" name="Πρωτάθλημα οδηγών 2018" allow_cash_out="N" start_time="2018-11-17T22:00:00" allow_cash_out_pre_ev="N" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="N" inplay_now="N" mkt_count="1" ev_id="1413243" disporder="99">
+          <Mkt status="A" name="Νικητής Διοργάνωσης" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="91314054" inplay_avail="N" disporder="0" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="OUTR" lp_avail="Y" mkt_sort_name="MKT_SORT-OUTR" mkt_close_at="2018-04-26T11:00:00">
+            <Notes>Άλλες επιλογές κατόπιν αιτήματος</Notes>
+            <Seln status="A" seln_id="458931466" disporder="0" name="Σεμπάστιαν Οζιέ">
+              <Price prc_type="LP" dec_prc="1.55" bet_ref="NDU4OTMxNDY2OjU1MC8xMDAwOjow" frac_prc="11/20" us_prc="-182" last_change="2018-04-10T17:53:29"/>
+            </Seln>
+            <Seln status="A" seln_id="458931467" disporder="0" name="Τιερί Νεβίλ">
+              <Price prc_type="LP" dec_prc="2.40" bet_ref="NDU4OTMxNDY3OjE0MDAvMTAwMDo6MA" frac_prc="7/5" us_prc="+140" last_change="2018-03-13T21:05:29"/>
+            </Seln>
+            <Seln status="A" seln_id="458931468" disporder="0" name="Οτ Τάνακ">
+              <Price prc_type="LP" dec_prc="13.00" bet_ref="NDU4OTMxNDY4OjEyMDAwLzEwMDA6OjA" frac_prc="12/1" us_prc="+1200" last_change="2018-04-10T17:53:29"/>
+            </Seln>
+            <Seln status="A" seln_id="458931469" disporder="0" name="Γιάρι-Ματί Λάτβαλα">
+              <Price prc_type="LP" dec_prc="25.00" bet_ref="NDU4OTMxNDY5OjI0MDAwLzEwMDA6OjA" frac_prc="24/1" us_prc="+2400" last_change="2018-04-15T11:12:44"/>
+            </Seln>
+            <Seln status="A" seln_id="458931470" disporder="0" name="Αντρέας Μίκελσεν">
+              <Price prc_type="LP" dec_prc="25.00" bet_ref="NDU4OTMxNDcwOjI0MDAwLzEwMDA6OjA" frac_prc="24/1" us_prc="+2400" last_change="2018-04-15T11:12:44"/>
+            </Seln>
+            <Seln status="A" seln_id="458931471" disporder="0" name="Κρις Μικ">
+              <Price prc_type="LP" dec_prc="25.00" bet_ref="NDU4OTMxNDcxOjI0MDAwLzEwMDA6OjA" frac_prc="24/1" us_prc="+2400" last_change="2018-04-15T11:12:44"/>
+            </Seln>
+            <Seln status="A" seln_id="458931473" disporder="0" name="Esapekka Lappi">
+              <Price prc_type="LP" dec_prc="40.00" bet_ref="NDU4OTMxNDczOjM5MDAwLzEwMDA6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-04-10T17:53:29"/>
+            </Seln>
+            <Seln status="A" seln_id="479071833" disporder="0" name="Σεμπάστιαν Λεμπ">
+              <Price prc_type="LP" dec_prc="40.00" bet_ref="NDc5MDcxODMzOjM5MDAwLzEwMDA6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-03-13T21:06:25"/>
+            </Seln>
+            <Seln status="A" seln_id="458931472" disporder="0" name="Έλφυν Έβανς">
+              <Price prc_type="LP" dec_prc="100.00" bet_ref="NDU4OTMxNDcyOjk5MDAwLzEwMDA6OjA" frac_prc="90/1" us_prc="+9000" last_change="2018-04-10T17:53:29"/>
+            </Seln>
+            <Seln status="A" seln_id="458931475" disporder="0" name="Κρέιγκ Μπριν">
+              <Price prc_type="LP" dec_prc="150.00" bet_ref="NDU4OTMxNDc1OjE0OTAwMC8xMDAwOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-15T11:12:44"/>
+            </Seln>
+            <Seln status="A" seln_id="458931476" disporder="0" name="Ντάνι Σόρντο">
+              <Price prc_type="LP" dec_prc="150.00" bet_ref="NDU4OTMxNDc2OjE0OTAwMC8xMDAwOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-15T11:12:44"/>
+            </Seln>
+            <Seln status="A" seln_id="458931474" disporder="0" name="Χάιντεν Πάντον">
+              <Price prc_type="LP" dec_prc="200.00" bet_ref="NDU4OTMxNDc0OjE5OTAwMC8xMDAwOjow" frac_prc="175/1" us_prc="+17500" last_change="2018-04-15T11:12:44"/>
+            </Seln>
+            <Seln status="A" seln_id="458931477" disporder="0" name="Στεφάν Λεφέμπρ">
+              <Price prc_type="LP" dec_prc="500.00" bet_ref="NDU4OTMxNDc3OjQ5OTAwMC8xMDAwOjow" frac_prc="450/1" us_prc="+45000" last_change="2018-03-13T21:05:29"/>
+            </Seln>
+            <Seln status="A" seln_id="458931478" disporder="0" name="Χαλίντ Αλ Κασίμι">
+              <Price prc_type="LP" dec_prc="500.00" bet_ref="NDU4OTMxNDc4OjQ5OTAwMC8xMDAwOjow" frac_prc="450/1" us_prc="+45000" last_change="2018-01-20T15:27:20"/>
+            </Seln>
+          </Mkt>
+        </Ev>
+      </SBType>
+    </SBClass>
+  </Sport>
+</ContentAPI>

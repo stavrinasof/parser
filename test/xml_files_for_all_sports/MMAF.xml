@@ -1,0 +1,27 @@
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNjcyOjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+  <Sport sport_code="MMAF" allow_cash_out="N" name="MMA" disporder="101">
+    <SBClass sb_class_id="188745" disporder="-5" name="Bellator">
+      <SBType sb_type_id="185110" name="Αγώνες" disporder="0">
+        <Ev inplay_allowed="N" status="A" name="Ράιαν Μπέιντερ - Μοχάμεντ Λαγουάλ" allow_cash_out="N" start_time="2018-05-13T01:00:00" allow_cash_out_pre_ev="N" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="N" inplay_now="N" mkt_count="2" ev_id="1441011" disporder="-99">
+          <Players/>
+          <Mkt status="A" name="Νικητής" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="92107736" inplay_avail="N" disporder="-22" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="H2HT" lp_avail="Y" mkt_sort_name="Ένας Εναντίον Ενός">
+            <Seln status="A" seln_id="461860502" seln_sort="P1" name="Ράιαν Μπέιντερ" disporder="0">
+              <Price prc_type="LP" dec_prc="1.38" bet_ref="NDYxODYwNTAyOjM4MC8xMDAwOjow" frac_prc="19/50" us_prc="-264" last_change="2018-03-04T18:08:31"/>
+            </Seln>
+            <Seln status="A" seln_id="461860503" seln_sort="P2" name="Μοχάμεντ Λαγουάλ" disporder="1">
+              <Price prc_type="LP" dec_prc="3.10" bet_ref="NDYxODYwNTAzOjIxMDAvMTAwMDo6MA" frac_prc="21/10" us_prc="+210" last_change="2018-03-04T18:08:31"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Over/Under Συνολικοί γύροι" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="95958903" handicap="+2.5" inplay_avail="N" disporder="-6" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="RDOU" lp_avail="Y" mkt_sort_name="MKT_SORT-RDOU">
+            <Seln status="A" name="Over" handicap="+2.5" seln_id="475488450" disporder="0" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.58" bet_ref="NDc1NDg4NDUwOjU4MC8xMDAwOjEwOjA" frac_prc="4/7" us_prc="-175" last_change="2018-03-04T18:08:10"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="+2.5" seln_id="475488451" disporder="1" seln_sort="U">
+              <Price prc_type="LP" dec_prc="2.40" bet_ref="NDc1NDg4NDUxOjE0MDAvMTAwMDoxMDow" frac_prc="7/5" us_prc="+140" last_change="2018-03-04T18:08:10"/>
+            </Seln>
+          </Mkt>
+        </Ev>
+      </SBType>
+    </SBClass>
+  </Sport>
+</ContentAPI>

@@ -1,0 +1,140 @@
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNzI0OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+  <Sport sport_code="BASE" allow_cash_out="Y" name="Μπέιζμπολ" disporder="11">
+    <SBClass sb_class_id="11540" disporder="0" name="Μεξικό">
+      <SBType sb_type_id="18395" name="Mexican League" disporder="0">
+        <Ev inplay_allowed="N" status="A" name="Τόρος Τιχουάνα - Πιράτας Καμπέτσε" allow_cash_out="Y" start_time="2018-04-16T01:00:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="UTC" allow_cash_out_inplay="Y" inplay_now="N" mkt_count="13" ev_id="1740588" disporder="-99">
+          <EvDetail br_match_id="14154897"/>
+          <Teams>
+            <Team team_id="1885979" team_order="0" name="Τόρος Τιχουάνα" short_name="Τόρος Τιχουάνα"/>
+            <Team team_id="118328" team_order="1" name="Πιράτας Καμπέτσε" short_name="Πιράτας Καμπέτσε"/>
+          </Teams>
+          <Mkt status="A" mkt_extra="PTCH01" name="Νικητής" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="99968086" inplay_avail="Y" disporder="-25" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HHTT" lp_avail="Y" mkt_sort_name="MKT_SORT-HHTT">
+            <Seln status="A" name="Τόρος Τιχουάνα" seln_id="489658631" team_id="1885979" disporder="-10" seln_sort="P1">
+              <Price prc_type="LP" dec_prc="1.615" bet_ref="NDg5NjU4NjMxOjgvMTM6OjA" frac_prc="8/13" us_prc="-163" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+            <Seln status="A" name="Πιράτας Καμπέτσε" seln_id="489658632" team_id="118328" disporder="1" seln_sort="P2">
+              <Price prc_type="LP" dec_prc="2.375" bet_ref="NDg5NjU4NjMyOjExLzg6OjA" frac_prc="11/8" us_prc="+137" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Νικητής (1Χ2)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="99968083" inplay_avail="N" disporder="-15" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="MRES" lp_avail="Y" mkt_sort_name="Αγώνες">
+            <Seln status="A" name="Τόρος Τιχουάνα" seln_id="489658624" team_id="1885979" disporder="0" seln_sort="H">
+              <Price prc_type="LP" dec_prc="1.727" bet_ref="NDg5NjU4NjI0OjgvMTE6OjA" frac_prc="8/11" us_prc="-138" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+            <Seln status="A" seln_id="489658625" seln_sort="D" name="Ισοπαλία" disporder="1">
+              <Price prc_type="LP" dec_prc="9.00" bet_ref="NDg5NjU4NjI1OjgvMTo6MA" frac_prc="8/1" us_prc="+800" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+            <Seln status="A" name="Πιράτας Καμπέτσε" seln_id="489658626" team_id="118328" disporder="2" seln_sort="A">
+              <Price prc_type="LP" dec_prc="2.55" bet_ref="NDg5NjU4NjI2OjMxLzIwOjow" frac_prc="31/20" us_prc="+155" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Συνολικά Runs (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100404391" handicap="7.5" inplay_avail="Y" disporder="-8" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FTPO" lp_avail="Y" mkt_sort_name="Total (including Overtime) (Fixed hcap)">
+            <Seln status="A" name="Over" handicap="7.5" seln_id="491218936" disporder="-10" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.40" bet_ref="NDkxMjE4OTM2OjIvNTozMDow" frac_prc="2/5" us_prc="-250" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="7.5" seln_id="491218937" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="2.95" bet_ref="NDkxMjE4OTM3OjM5LzIwOjMwOjA" frac_prc="39/20" us_prc="+195" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Συνολικά Runs (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100404392" handicap="9.5" inplay_avail="Y" disporder="-8" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FTPO" lp_avail="Y" mkt_sort_name="Total (including Overtime) (Fixed hcap)">
+            <Seln status="A" name="Over" handicap="9.5" seln_id="491218939" disporder="-10" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.909" bet_ref="NDkxMjE4OTM5OjEwLzExOjM4OjA" frac_prc="10/11" us_prc="-110" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="9.5" seln_id="491218938" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.909" bet_ref="NDkxMjE4OTM4OjEwLzExOjM4OjA" frac_prc="10/11" us_prc="-110" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Συνολικά Runs (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100404390" handicap="11.5" inplay_avail="Y" disporder="-8" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FTPO" lp_avail="Y" mkt_sort_name="Total (including Overtime) (Fixed hcap)">
+            <Seln status="A" name="Over" handicap="11.5" seln_id="491218935" disporder="-10" seln_sort="O">
+              <Price prc_type="LP" dec_prc="2.75" bet_ref="NDkxMjE4OTM1OjcvNDo0Njow" frac_prc="7/4" us_prc="+175" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="11.5" seln_id="491218934" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.444" bet_ref="NDkxMjE4OTM0OjQvOTo0Njow" frac_prc="4/9" us_prc="-225" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Χάντικαπ (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100404388" handicap="-4.5" inplay_avail="Y" disporder="-2" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FHOT" lp_avail="Y" mkt_sort_name="Alternate Handicap">
+            <Seln status="A" name="Τόρος Τιχουάνα" handicap="-4.5" seln_id="491218930" team_id="1885979" disporder="0" seln_sort="1">
+              <Price prc_type="LP" dec_prc="4.85" bet_ref="NDkxMjE4OTMwOjc3LzIwOi0xODow" frac_prc="77/20" us_prc="+385" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+            <Seln status="A" name="Πιράτας Καμπέτσε" handicap="+4.5" seln_id="491218931" team_id="118328" disporder="1" seln_sort="2">
+              <Price prc_type="LP" dec_prc="1.181" bet_ref="NDkxMjE4OTMxOjIvMTE6LTE4OjA" frac_prc="2/11" us_prc="-550" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Χάντικαπ (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100404387" handicap="-1.5" inplay_avail="Y" disporder="-2" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FHOT" lp_avail="Y" mkt_sort_name="Alternate Handicap">
+            <Seln status="A" name="Τόρος Τιχουάνα" handicap="-1.5" seln_id="491218928" team_id="1885979" disporder="0" seln_sort="1">
+              <Price prc_type="LP" dec_prc="2.30" bet_ref="NDkxMjE4OTI4OjEzLzEwOi02OjA" frac_prc="13/10" us_prc="+130" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+            <Seln status="A" name="Πιράτας Καμπέτσε" handicap="+1.5" seln_id="491218929" team_id="118328" disporder="1" seln_sort="2">
+              <Price prc_type="LP" dec_prc="1.615" bet_ref="NDkxMjE4OTI5OjgvMTM6LTY6MA" frac_prc="8/13" us_prc="-163" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Χάντικαπ (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100404389" handicap="+1.5" inplay_avail="Y" disporder="-2" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FHOT" lp_avail="Y" mkt_sort_name="Alternate Handicap">
+            <Seln status="A" name="Τόρος Τιχουάνα" handicap="+1.5" seln_id="491218932" team_id="1885979" disporder="0" seln_sort="1">
+              <Price prc_type="LP" dec_prc="1.38" bet_ref="NDkxMjE4OTMyOjE5LzUwOjY6MA" frac_prc="19/50" us_prc="-264" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+            <Seln status="A" name="Πιράτας Καμπέτσε" handicap="-1.5" seln_id="491218933" team_id="118328" disporder="1" seln_sort="2">
+              <Price prc_type="LP" dec_prc="3.05" bet_ref="NDkxMjE4OTMzOjQxLzIwOjY6MA" frac_prc="41/20" us_prc="+205" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Αποτέλεσμα/Συνολικά Runs" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100404386" handicap="+9.5" inplay_avail="Y" disporder="-1" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="MROU" lp_avail="Y" mkt_sort_name="MKT_SORT-MROU">
+            <Seln status="A" name="Τόρος Τιχουάνα και Over" handicap="+9.5" seln_id="491218926" team_id="1885979" disporder="0" seln_sort="HO">
+              <Price prc_type="LP" dec_prc="3.15" bet_ref="NDkxMjE4OTI2OjQzLzIwOjM4OjA" frac_prc="43/20" us_prc="+215" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+            <Seln status="A" name="Τόρος Τιχουάνα και Under" handicap="+9.5" seln_id="491218924" team_id="1885979" disporder="1" seln_sort="HU">
+              <Price prc_type="LP" dec_prc="3.00" bet_ref="NDkxMjE4OTI0OjIvMTozODow" frac_prc="2/1" us_prc="+200" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+            <Seln status="A" name="Πιράτας Καμπέτσε και Over" handicap="+9.5" seln_id="491218925" team_id="118328" disporder="2" seln_sort="AO">
+              <Price prc_type="LP" dec_prc="4.333" bet_ref="NDkxMjE4OTI1OjEwLzM6Mzg6MA" frac_prc="10/3" us_prc="+333" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+            <Seln status="A" name="Πιράτας Καμπέτσε και Under" handicap="+9.5" seln_id="491218927" team_id="118328" disporder="3" seln_sort="AU">
+              <Price prc_type="LP" dec_prc="4.60" bet_ref="NDkxMjE4OTI3OjE4LzU6Mzg6MA" frac_prc="18/5" us_prc="+360" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Συνολ. Runs (χωρίς Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100404393" handicap="9.5" inplay_avail="N" disporder="3" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OVUN" lp_avail="Y" mkt_sort_name="Πάνω/Κάτω">
+            <Seln status="A" name="Over" handicap="9.5" seln_id="491218941" disporder="1" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.909" bet_ref="NDkxMjE4OTQxOjEwLzExOjM4OjA" frac_prc="10/11" us_prc="-110" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="9.5" seln_id="491218940" disporder="2" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.909" bet_ref="NDkxMjE4OTQwOjEwLzExOjM4OjA" frac_prc="10/11" us_prc="-110" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Περιθώριο νίκης" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="99968087" inplay_avail="N" disporder="9" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="WMBA" lp_avail="Y" mkt_sort_name="MKT_SORT-WMBA">
+            <Seln status="A" name="Τόρος Τιχουάνα νίκη με 1-2" seln_id="489658635" team_id="1885979" disporder="-8" seln_sort="1H2">
+              <Price prc_type="LP" dec_prc="3.25" bet_ref="NDg5NjU4NjM1OjkvNDo6MA" frac_prc="9/4" us_prc="+225" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+            <Seln status="A" name="Τόρος Τιχουάνα νίκη με 3-4" seln_id="489658634" team_id="1885979" disporder="-5" seln_sort="3H4">
+              <Price prc_type="LP" dec_prc="6.25" bet_ref="NDg5NjU4NjM0OjIxLzQ6OjA" frac_prc="21/4" us_prc="+525" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+            <Seln status="A" name="Τόρος Τιχουάνα νίκη με 5+" seln_id="489658633" team_id="1885979" disporder="0" seln_sort="5H-">
+              <Price prc_type="LP" dec_prc="5.25" bet_ref="NDg5NjU4NjMzOjE3LzQ6OjA" frac_prc="17/4" us_prc="+425" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+            <Seln status="A" name="Πιράτας Καμπέτσε νίκη με 1-2" seln_id="489658636" team_id="118328" disporder="3" seln_sort="1A2">
+              <Price prc_type="LP" dec_prc="4.85" bet_ref="NDg5NjU4NjM2Ojc3LzIwOjow" frac_prc="77/20" us_prc="+385" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+            <Seln status="A" name="Πιράτας Καμπέτσε νίκη με 3-4" seln_id="489658637" team_id="118328" disporder="4" seln_sort="3A4">
+              <Price prc_type="LP" dec_prc="8.50" bet_ref="NDg5NjU4NjM3OjE1LzI6OjA" frac_prc="15/2" us_prc="+750" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+            <Seln status="A" name="Πιράτας Καμπέτσε νίκη με 5+" seln_id="489658638" team_id="118328" disporder="5" seln_sort="5A-">
+              <Price prc_type="LP" dec_prc="8.50" bet_ref="NDg5NjU4NjM4OjE1LzI6OjA" frac_prc="15/2" us_prc="+750" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Παράταση" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="99968084" inplay_avail="Y" disporder="1800" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OVRT" lp_avail="Y" mkt_sort_name="Will there be overtime?">
+            <Seln status="A" seln_id="489658627" seln_sort="Y" name="Ναι" disporder="0">
+              <Price prc_type="LP" dec_prc="8.00" bet_ref="NDg5NjU4NjI3OjcvMTo6MA" frac_prc="7/1" us_prc="+700" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+            <Seln status="A" seln_id="489658628" seln_sort="N" name="Όχι" disporder="1">
+              <Price prc_type="LP" dec_prc="1.062" bet_ref="NDg5NjU4NjI4OjEvMTY6OjA" frac_prc="1/16" us_prc="-1600" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Συνολικοί Πόντοι - Μονά/Ζυγά (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="99968085" inplay_avail="Y" disporder="2222" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OEOT" lp_avail="Y" mkt_sort_name="Odd/Even Total Points">
+            <Seln status="A" seln_id="489658629" seln_sort="O" name="Μονά" disporder="0">
+              <Price prc_type="LP" dec_prc="1.60" bet_ref="NDg5NjU4NjI5OjMvNTo6MA" frac_prc="3/5" us_prc="-167" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+            <Seln status="A" seln_id="489658630" seln_sort="E" name="Ζυγά" disporder="1">
+              <Price prc_type="LP" dec_prc="2.25" bet_ref="NDg5NjU4NjMwOjUvNDo6MA" frac_prc="5/4" us_prc="+125" last_change="2018-04-15T09:16:37"/>
+            </Seln>
+          </Mkt>
+        </Ev>
+      </SBType>
+    </SBClass>
+  </Sport>
+</ContentAPI>

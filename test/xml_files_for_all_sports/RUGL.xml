@@ -1,0 +1,26 @@
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNjcyOjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+  <Sport sport_code="RUGL" allow_cash_out="N" name="Ράγκμπι Λιγκ" disporder="184">
+    <SBClass sb_class_id="188702" disporder="0" name="Αυστραλία">
+      <SBType sb_type_id="184513" name="Νάσιοναλ Ράγκμπι Λιγκ" disporder="0">
+        <Ev inplay_allowed="N" status="A" name="Σάουθ Σίντνεϊ Ράμπιτος - Κανμπέρα Ράιντερς" allow_cash_out="N" start_time="2018-04-21T05:00:00" allow_cash_out_pre_ev="N" virtual="N" ev_timezone="UTC" allow_cash_out_inplay="N" inplay_now="N" mkt_count="1" ev_id="1736641" disporder="0">
+          <EvDetail br_match_id="13369049" br_has_stats="Y"/>
+          <Teams>
+            <Team team_id="1895106" team_order="0" name="Σάουθ Σίντνεϊ Ράμπιτος" short_name="Σάουθ Σίντνεϊ Ράμπιτος"/>
+            <Team team_id="1894919" team_order="1" name="Κανμπέρα Ράιντερς" short_name="Κανμπέρα Ράιντερς"/>
+          </Teams>
+          <Mkt status="A" name="Νικητής (1Χ2)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="99888566" inplay_avail="N" disporder="-9999" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="MRES" lp_avail="Y" mkt_sort_name="Αγώνες">
+            <Seln status="A" name="Σάουθ Σίντνεϊ Ράμπιτος" seln_id="489390773" team_id="1895106" disporder="0" seln_sort="H">
+              <Price prc_type="LP" dec_prc="1.60" bet_ref="NDg5MzkwNzczOjMvNTo6MA" frac_prc="3/5" us_prc="-167" last_change="2018-04-14T11:35:05"/>
+            </Seln>
+            <Seln status="A" seln_id="489390774" seln_sort="D" name="Ισοπαλία" disporder="1">
+              <Price prc_type="LP" dec_prc="21.00" bet_ref="NDg5MzkwNzc0OjIwLzE6OjA" frac_prc="20/1" us_prc="+2000" last_change="2018-04-14T11:35:05"/>
+            </Seln>
+            <Seln status="A" name="Κανμπέρα Ράιντερς" seln_id="489390775" team_id="1894919" disporder="2" seln_sort="A">
+              <Price prc_type="LP" dec_prc="2.50" bet_ref="NDg5MzkwNzc1OjYvNDo6MA" frac_prc="6/4" us_prc="+150" last_change="2018-04-14T11:35:05"/>
+            </Seln>
+          </Mkt>
+        </Ev>
+      </SBType>
+    </SBClass>
+  </Sport>
+</ContentAPI>

@@ -1,0 +1,52 @@
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNzQ5OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+  <Sport sport_code="VOLL" allow_cash_out="Y" name="Βόλεϊ" disporder="5">
+    <SBClass sb_class_id="188712" disporder="0" name="Καζακστάν">
+      <SBType sb_type_id="185143" name="Βισάγια Λίγκα (Γ)" disporder="0">
+        <Ev inplay_allowed="Y" status="A" name="Ντβόρετς Σκολνίκοβ (Γ) - Γκράσια (Γ)" allow_cash_out="Y" start_time="2018-04-16T09:00:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="Y" inplay_now="N" mkt_count="7" ev_id="1757928" disporder="-999">
+          <EvDetail br_match_id="14200373"/>
+          <Inplay inplay_period_num="0" inplay_period_name_short="PERIOD_pre_match_SHORT" clock_status="STOPPED" correct_at="2018-04-15T19:52:14" inplay_period_finished="N" score_a="0" score_b="0" inplay_period_name="Έναρξη" num_periods="5" clock_mode="NONE" inplay_period="pre_match" score_string="0-0" scoring_system="set-match" last_change="2018-04-15T18:21:11" inplay_secs="0">
+            <Scores/>
+          </Inplay>
+          <InplayDetail period_length_mins="0" period_stoppage_secs="0" score_team_B="0" score_team_A="0"/>
+          <Teams>
+            <Team team_id="1899888" team_order="0" name="Ντβόρετς Σκολνίκοβ (Γ)" short_name="Ντβόρετς Σκολνίκοβ (Γ)"/>
+            <Team team_id="1900679" team_order="1" name="Γκράσια (Γ)" short_name="Γκράσια (Γ)"/>
+          </Teams>
+          <Mkt status="A" name="Νικητής" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100473798" inplay_avail="Y" disporder="-100" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="H2HT" lp_avail="Y" mkt_sort_name="Ένας Εναντίον Ενός">
+            <Seln status="A" name="Ντβόρετς Σκολνίκοβ (Γ)" seln_id="491466457" team_id="1899888" disporder="-1" seln_sort="P1"/>
+            <Seln status="A" name="Γκράσια (Γ)" seln_id="491466458" team_id="1900679" disporder="0" seln_sort="P2"/>
+          </Mkt>
+          <Mkt status="A" mkt_extra="S01" name="Νικητής Σετ (Σετ 1)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100473799" inplay_avail="Y" disporder="-90" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="STWT" lp_avail="Y" mkt_sort_name="Νικητής Σετ">
+            <Seln status="A" name="Ντβόρετς Σκολνίκοβ (Γ)" seln_id="491466459" team_id="1899888" disporder="-1" seln_sort="P1"/>
+            <Seln status="A" name="Γκράσια (Γ)" seln_id="491466460" team_id="1900679" disporder="0" seln_sort="P2"/>
+          </Mkt>
+          <Mkt status="A" name="Αριθμός Σετ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100473795" inplay_avail="Y" disporder="33" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="NMST" lp_avail="Y" mkt_sort_name="Αριθμός Σετ στον αγώνα">
+            <Seln status="A" seln_id="491466446" seln_sort="3-3" name="3 Σετ" disporder="3"/>
+            <Seln status="A" seln_id="491466447" seln_sort="4-4" name="4 Σετ" disporder="4"/>
+            <Seln status="A" seln_id="491466448" seln_sort="5-5" name="5 Σετ" disporder="5"/>
+          </Mkt>
+          <Mkt status="A" name="Over/Under Συνολικά Σετ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100473797" handicap="+3.5" inplay_avail="N" disporder="35" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUTS" lp_avail="Y" mkt_sort_name="MKT_SORT-OUTS">
+            <Seln status="A" name="Over" handicap="+3.5" seln_id="491466456" disporder="-22" seln_sort="O"/>
+            <Seln status="A" name="Under" handicap="+3.5" seln_id="491466455" disporder="0" seln_sort="U"/>
+          </Mkt>
+          <Mkt status="A" name="Ακριβές Σετ Σκορ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100473796" inplay_avail="Y" disporder="65" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="TCSS" lp_avail="Y" mkt_sort_name="MKT_SORT-TCSS">
+            <Seln status="A" seln_id="491466450" seln_sort="0-3" name="Ντβόρετς Σκολνίκοβ (Γ) 0 - 3 Γκράσια (Γ)" disporder="3"/>
+            <Seln status="A" seln_id="491466452" seln_sort="1-3" name="Ντβόρετς Σκολνίκοβ (Γ) 1 - 3 Γκράσια (Γ)" disporder="103"/>
+            <Seln status="A" seln_id="491466454" seln_sort="2-3" name="Ντβόρετς Σκολνίκοβ (Γ) 2 - 3 Γκράσια (Γ)" disporder="203"/>
+            <Seln status="A" seln_id="491466449" seln_sort="3-0" name="Ντβόρετς Σκολνίκοβ (Γ) 3 - 0 Γκράσια (Γ)" disporder="300"/>
+            <Seln status="A" seln_id="491466451" seln_sort="3-1" name="Ντβόρετς Σκολνίκοβ (Γ) 3 - 1 Γκράσια (Γ)" disporder="301"/>
+            <Seln status="A" seln_id="491466453" seln_sort="3-2" name="Ντβόρετς Σκολνίκοβ (Γ) 3 - 2 Γκράσια (Γ)" disporder="302"/>
+          </Mkt>
+          <Mkt status="A" name="Σετ 1 - Μονά/Ζυγά" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100473793" inplay_avail="N" disporder="111" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="P1OE" lp_avail="Y" mkt_sort_name="MKT_SORT-P1OE">
+            <Seln status="A" seln_id="491466442" seln_sort="O" name="Μονά" disporder="0"/>
+            <Seln status="A" seln_id="491466443" seln_sort="E" name="Ζυγά" disporder="0"/>
+          </Mkt>
+          <Mkt status="A" name="Μονά/Ζυγά Συνολικοί Πόντοι" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100473794" inplay_avail="N" disporder="199" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OETP" lp_avail="Y" mkt_sort_name="MKT_SORT-OETP">
+            <Seln status="A" seln_id="491466444" seln_sort="O" name="Μονά" disporder="0"/>
+            <Seln status="A" seln_id="491466445" seln_sort="E" name="Ζυγά" disporder="1"/>
+          </Mkt>
+        </Ev>
+      </SBType>
+    </SBClass>
+  </Sport>
+</ContentAPI>
