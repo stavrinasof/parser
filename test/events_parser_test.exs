@@ -13,12 +13,12 @@ defmodule EventsParserTest do
 
     pl1_id =
       get_in(map, [
-        "Ev",
-        "Incidents",
-        {"Incident", "101687325"},
-        "player1_id"
+        'Ev',
+        'Incidents',
+        {'Incident', '101687325'},
+        'player1_id'
       ])
 
-    assert pl1_id == "1005838"
+    assert pl1_id == '1005838'
   end
 end

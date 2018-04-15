@@ -28,7 +28,7 @@ defmodule XmlToMaptTest do
     {_tagname, attributes, _content} = @selection
     attr_map = XmlToMap.do_parse_attributes(attributes)
     assert length(Map.keys(attr_map)) == 6
-    assert Map.get(attr_map, "disporder") == "1"
+    assert Map.get(attr_map, 'disporder') == '1'
   end
 
   test "parse tuple returns tuple" do
@@ -39,7 +39,7 @@ defmodule XmlToMaptTest do
   test "parse notes" do
     notes_tuple = XmlToMap.parse(@notes)
     assert is_tuple(notes_tuple) == true
-    assert elem(notes_tuple, 0) == "Notes"
+    assert elem(notes_tuple, 0) == 'Notes'
   end
 
   test "parse turple with tuple content" do
@@ -47,6 +47,6 @@ defmodule XmlToMaptTest do
     selection_map = elem(parsed_selection, 1)
 
     assert length(Map.keys(selection_map)) == 7
-    assert Map.get(selection_map, "Price") != nil
+    assert Map.get(selection_map, 'Price') != nil
   end
 end

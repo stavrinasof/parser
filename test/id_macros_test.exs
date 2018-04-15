@@ -29,17 +29,17 @@ defmodule ID_MacrosTest do
 
   test "find id from attributes" do
     {tagname, attributes, _content} = @selection
-    assert XmlToMap.find_id_from_attributes(tagname, attributes) == {"Seln", "484026793"}
+    assert XmlToMap.find_id_from_attributes(tagname, attributes) == {'Seln', '484026793'}
   end
 
   test "find id from empty attributes" do
     {tagname, _attributes, _content} = @notes
-    assert XmlToMap.find_id_from_attributes(tagname, []) == "Notes"
+    assert XmlToMap.find_id_from_attributes(tagname, []) == 'Notes'
   end
 
   test "do find id from attribute in list" do
     tuple = do_find_id_from_attributes({'seln_id', '484026793'}, 'Seln')
-    assert tuple == {"Seln", "484026793"}
+    assert tuple == {'Seln', '484026793'}
   end
 
   test "do find id from attribute not in list" do
