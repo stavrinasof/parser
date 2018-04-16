@@ -23,7 +23,6 @@ defmodule XmlParser.MixProject do
     [
       {:erlsom, "~> 1.4"},
       {:httpoison, "~> 1.0"},
-      {:exprof, "~> 0.2.0"}
     ]
   end
 end
