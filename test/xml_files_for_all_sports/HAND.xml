@@ -1,159 +1,151 @@
-<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNzAyOjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwODMzMTg1OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
   <Sport sport_code="HAND" allow_cash_out="Y" name="Χάντμπολ" disporder="40">
     <SBClass sb_class_id="188633" disporder="0" name="Ισλανδία">
       <SBType sb_type_id="183523" name="Όλις Ντέιλντιν" disporder="0">
-        <Ev inplay_allowed="Y" status="A" name="Χάουκαρ Χαφνάρφιορντουρ - Βάλουρ Ρέικιαβικ" allow_cash_out="Y" start_time="2018-04-16T19:30:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="Y" inplay_now="N" mkt_count="14" ev_id="1756306" disporder="1">
-          <EvDetail br_match_id="14197865"/>
-          <Inplay inplay_period_num="0" inplay_period_name_short="PERIOD_pre_match_SHORT" clock_status="STOPPED" period_length="1800" correct_at="2018-04-15T19:52:11" inplay_period_finished="N" extra_period_length="300" score_a="0" score_b="0" inplay_period_name="Έναρξη" num_periods="2" clock_mode="NONE" inplay_period="pre_match" num_extra_periods="2" score_string="0-0" scoring_system="match" last_change="2018-04-15T09:33:42" inplay_secs="0">
-            <Scores/>
-          </Inplay>
-          <InplayDetail period_length_mins="30" period_stoppage_secs="0" score_team_B="0" score_team_A="0"/>
-          <Stats>
-            <Stat name="EV_STAT_FTHR" title="TEAM_STAT_FTHR" type="team" away="0" home="0" stat_type="FTHR"/>
-            <Stat name="EV_STAT_SUSP" title="TEAM_STAT_SUSP" type="team" away="0" home="0" stat_type="SUSP"/>
-          </Stats>
+        <Ev inplay_allowed="N" status="A" name="Στάρναν - Σέλφος" allow_cash_out="Y" start_time="2018-04-16T19:30:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="Y" inplay_now="N" mkt_count="14" ev_id="1756309" disporder="1">
+          <EvDetail br_match_id="14197867"/>
           <Teams>
-            <Team team_id="1882410" team_order="0" name="Χάουκαρ Χαφνάρφιορντουρ" short_name="Χάουκαρ Χαφνάρφιορντουρ"/>
-            <Team team_id="1898509" team_order="1" name="Βάλουρ Ρέικιαβικ" short_name="Βάλουρ Ρέικιαβικ"/>
+            <Team team_id="1892428" team_order="0" name="Στάρναν" short_name="Στάρναν"/>
+            <Team team_id="1896322" team_order="1" name="Σέλφος" short_name="Σέλφος"/>
           </Teams>
-          <Mkt status="A" name="Νικητής" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100405687" inplay_avail="Y" disporder="-990" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="MRES" lp_avail="Y" mkt_sort_name="Αγώνες">
-            <Seln status="A" name="Χάουκαρ Χαφνάρφιορντουρ" seln_id="491222764" team_id="1882410" disporder="1" seln_sort="H">
-              <Price prc_type="LP" dec_prc="1.95" bet_ref="NDkxMjIyNzY0OjE5LzIwOjow" frac_prc="19/20" us_prc="-106" last_change="2018-04-15T10:03:43"/>
+          <Mkt status="A" name="Νικητής" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100405911" inplay_avail="Y" disporder="-990" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="MRES" lp_avail="Y" mkt_sort_name="Αγώνες">
+            <Seln status="A" name="Στάρναν" seln_id="491223717" team_id="1892428" disporder="1" seln_sort="H">
+              <Price prc_type="LP" dec_prc="2.875" bet_ref="NDkxMjIzNzE3OjE1Lzg6OjA" frac_prc="15/8" us_prc="+187" last_change="2018-04-15T09:33:54"/>
             </Seln>
-            <Seln status="A" seln_id="491222766" seln_sort="D" name="Ισοπαλία" disporder="2">
-              <Price prc_type="LP" dec_prc="9.00" bet_ref="NDkxMjIyNzY2OjgvMTo6MA" frac_prc="8/1" us_prc="+800" last_change="2018-04-15T10:03:43"/>
+            <Seln status="A" seln_id="491223719" seln_sort="D" name="Ισοπαλία" disporder="2">
+              <Price prc_type="LP" dec_prc="9.75" bet_ref="NDkxMjIzNzE5OjM1LzQ6OjA" frac_prc="35/4" us_prc="+875" last_change="2018-04-15T09:33:54"/>
             </Seln>
-            <Seln status="A" name="Βάλουρ Ρέικιαβικ" seln_id="491222765" team_id="1898509" disporder="3" seln_sort="A">
-              <Price prc_type="LP" dec_prc="2.05" bet_ref="NDkxMjIyNzY1OjIxLzIwOjow" frac_prc="21/20" us_prc="+105" last_change="2018-04-15T09:33:42"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" name="Συνολικά γκολ (Over/Under)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100405697" handicap="+51.5" inplay_avail="N" disporder="-980" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FHTG" lp_avail="Y" mkt_sort_name="MKT_SORT-FHTG">
-            <Seln status="A" name="Over" handicap="+51.5" seln_id="491222803" disporder="0" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.87" bet_ref="NDkxMjIyODAzOjg3LzEwMDoyMDY6MA" frac_prc="87/100" us_prc="-115" last_change="2018-04-15T09:33:42"/>
-            </Seln>
-            <Seln status="A" name="Under" handicap="+51.5" seln_id="491222804" disporder="1" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.87" bet_ref="NDkxMjIyODA0Ojg3LzEwMDoyMDY6MA" frac_prc="87/100" us_prc="-115" last_change="2018-04-15T09:33:42"/>
+            <Seln status="A" name="Σέλφος" seln_id="491223718" team_id="1896322" disporder="3" seln_sort="A">
+              <Price prc_type="LP" dec_prc="1.50" bet_ref="NDkxMjIzNzE4OjEvMjo6MA" frac_prc="1/2" us_prc="-200" last_change="2018-04-15T09:33:54"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Διπλή ευκαιρία" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100405690" inplay_avail="Y" disporder="-950" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="DBLC" lp_avail="Y" mkt_sort_name="Διπλή ευκαιρία">
-            <Seln status="A" seln_id="491222772" seln_sort="HA" name="12" disporder="0">
-              <Price prc_type="LP" dec_prc="1.071" bet_ref="NDkxMjIyNzcyOjEvMTQ6OjA" frac_prc="1/14" us_prc="-1400" last_change="2018-04-15T09:33:42"/>
+          <Mkt status="A" name="Συνολικά γκολ (Over/Under)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100405925" handicap="+58.5" inplay_avail="N" disporder="-980" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FHTG" lp_avail="Y" mkt_sort_name="MKT_SORT-FHTG">
+            <Seln status="A" name="Over" handicap="+58.5" seln_id="491223768" disporder="0" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.95" bet_ref="NDkxMjIzNzY4OjE5LzIwOjIzNDow" frac_prc="19/20" us_prc="-106" last_change="2018-04-15T09:33:54"/>
             </Seln>
-            <Seln status="A" seln_id="491222773" seln_sort="HD" name="1X" disporder="1">
-              <Price prc_type="LP" dec_prc="1.615" bet_ref="NDkxMjIyNzczOjgvMTM6OjA" frac_prc="8/13" us_prc="-163" last_change="2018-04-15T09:33:42"/>
-            </Seln>
-            <Seln status="A" seln_id="491222774" seln_sort="AD" name="2X" disporder="2">
-              <Price prc_type="LP" dec_prc="1.75" bet_ref="NDkxMjIyNzc0OjMvNDo6MA" frac_prc="3/4" us_prc="-134" last_change="2018-04-15T09:33:42"/>
+            <Seln status="A" name="Under" handicap="+58.5" seln_id="491223769" disporder="1" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.80" bet_ref="NDkxMjIzNzY5OjQvNToyMzQ6MA" frac_prc="4/5" us_prc="-125" last_change="2018-04-15T09:33:54"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Draw No Bet" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100405688" inplay_avail="Y" disporder="-940" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="DNOB" lp_avail="Y" mkt_sort_name="Draw No Bet">
-            <Seln status="A" name="Χάουκαρ Χαφνάρφιορντουρ" seln_id="491222767" team_id="1882410" disporder="0" seln_sort="H">
-              <Price prc_type="LP" dec_prc="1.80" bet_ref="NDkxMjIyNzY3OjQvNTo6MA" frac_prc="4/5" us_prc="-125" last_change="2018-04-15T09:33:42"/>
+          <Mkt status="A" name="Διπλή ευκαιρία" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100405914" inplay_avail="Y" disporder="-950" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="DBLC" lp_avail="Y" mkt_sort_name="Διπλή ευκαιρία">
+            <Seln status="A" seln_id="491223725" seln_sort="HA" name="12" disporder="0">
+              <Price prc_type="LP" dec_prc="1.062" bet_ref="NDkxMjIzNzI1OjEvMTY6OjA" frac_prc="1/16" us_prc="-1600" last_change="2018-04-15T09:33:54"/>
             </Seln>
-            <Seln status="A" name="Βάλουρ Ρέικιαβικ" seln_id="491222768" team_id="1898509" disporder="1" seln_sort="A">
-              <Price prc_type="LP" dec_prc="1.93" bet_ref="NDkxMjIyNzY4OjkzLzEwMDo6MA" frac_prc="93/100" us_prc="-108" last_change="2018-04-15T09:33:42"/>
+            <Seln status="A" seln_id="491223726" seln_sort="HD" name="1X" disporder="1">
+              <Price prc_type="LP" dec_prc="2.25" bet_ref="NDkxMjIzNzI2OjUvNDo6MA" frac_prc="5/4" us_prc="+125" last_change="2018-04-15T09:33:54"/>
             </Seln>
-          </Mkt>
-          <Mkt status="A" name="Χάντικαπ Γκολ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100405699" handicap="-2.5" inplay_avail="Y" disporder="-900" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FAHC" lp_avail="Y" mkt_sort_name="Asian Handicap / Goal Line">
-            <Seln status="A" name="Χάουκαρ Χαφνάρφιορντουρ" handicap="-2.5" seln_id="491222808" team_id="1882410" disporder="0" seln_sort="1">
-              <Price prc_type="LP" dec_prc="2.875" bet_ref="NDkxMjIyODA4OjE1Lzg6LTEwOjA" frac_prc="15/8" us_prc="+187" last_change="2018-04-15T09:33:42"/>
-            </Seln>
-            <Seln status="A" name="Βάλουρ Ρέικιαβικ" handicap="+2.5" seln_id="491222807" team_id="1898509" disporder="1" seln_sort="2">
-              <Price prc_type="LP" dec_prc="1.38" bet_ref="NDkxMjIyODA3OjE5LzUwOi0xMDow" frac_prc="19/50" us_prc="-264" last_change="2018-04-15T09:33:42"/>
+            <Seln status="A" seln_id="491223727" seln_sort="AD" name="2X" disporder="2">
+              <Price prc_type="LP" dec_prc="1.36" bet_ref="NDkxMjIzNzI3OjkvMjU6OjA" frac_prc="9/25" us_prc="-278" last_change="2018-04-15T09:33:54"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Χάντικαπ Γκολ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100405698" handicap="-0.5" inplay_avail="Y" disporder="-900" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FAHC" lp_avail="Y" mkt_sort_name="Asian Handicap / Goal Line">
-            <Seln status="A" name="Χάουκαρ Χαφνάρφιορντουρ" handicap="-0.5" seln_id="491222805" team_id="1882410" disporder="0" seln_sort="1">
-              <Price prc_type="LP" dec_prc="2.00" bet_ref="NDkxMjIyODA1OjEvMTotMjow" frac_prc="1/1" us_prc="+100" last_change="2018-04-15T09:33:42"/>
+          <Mkt status="A" name="Draw No Bet" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100405912" inplay_avail="Y" disporder="-940" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="DNOB" lp_avail="Y" mkt_sort_name="Draw No Bet">
+            <Seln status="A" name="Στάρναν" seln_id="491223720" team_id="1892428" disporder="0" seln_sort="H">
+              <Price prc_type="LP" dec_prc="2.80" bet_ref="NDkxMjIzNzIwOjkvNTo6MA" frac_prc="9/5" us_prc="+180" last_change="2018-04-15T09:33:54"/>
             </Seln>
-            <Seln status="A" name="Βάλουρ Ρέικιαβικ" handicap="+0.5" seln_id="491222806" team_id="1898509" disporder="1" seln_sort="2">
-              <Price prc_type="LP" dec_prc="1.75" bet_ref="NDkxMjIyODA2OjMvNDotMjow" frac_prc="3/4" us_prc="-134" last_change="2018-04-15T09:33:42"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" name="Χάντικαπ Γκολ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100405700" handicap="+1.5" inplay_avail="Y" disporder="-900" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FAHC" lp_avail="Y" mkt_sort_name="Asian Handicap / Goal Line">
-            <Seln status="A" name="Χάουκαρ Χαφνάρφιορντουρ" handicap="+1.5" seln_id="491222809" team_id="1882410" disporder="0" seln_sort="1">
-              <Price prc_type="LP" dec_prc="1.47" bet_ref="NDkxMjIyODA5OjQ3LzEwMDo2OjA" frac_prc="47/100" us_prc="-213" last_change="2018-04-15T09:33:42"/>
-            </Seln>
-            <Seln status="A" name="Βάλουρ Ρέικιαβικ" handicap="-1.5" seln_id="491222810" team_id="1898509" disporder="1" seln_sort="2">
-              <Price prc_type="LP" dec_prc="2.55" bet_ref="NDkxMjIyODEwOjMxLzIwOjY6MA" frac_prc="31/20" us_prc="+155" last_change="2018-04-15T09:33:42"/>
+            <Seln status="A" name="Σέλφος" seln_id="491223721" team_id="1896322" disporder="1" seln_sort="A">
+              <Price prc_type="LP" dec_prc="1.40" bet_ref="NDkxMjIzNzIxOjIvNTo6MA" frac_prc="2/5" us_prc="-250" last_change="2018-04-15T09:33:54"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Ημίχρονο / Τελικό" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100405692" inplay_avail="Y" disporder="-650" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HTFT" lp_avail="Y" mkt_sort_name="Ημίχρονο/Λήξη">
-            <Seln status="A" seln_id="491222781" seln_sort="HH" name="1/1" disporder="0"/>
-            <Seln status="A" seln_id="491222782" seln_sort="HD" name="1/X" disporder="1"/>
-            <Seln status="A" seln_id="491222783" seln_sort="HA" name="1/2" disporder="2"/>
-            <Seln status="A" seln_id="491222784" seln_sort="DH" name="X/1" disporder="3"/>
-            <Seln status="A" seln_id="491222785" seln_sort="DD" name="X/X" disporder="4"/>
-            <Seln status="A" seln_id="491222786" seln_sort="DA" name="X/2" disporder="5"/>
-            <Seln status="A" seln_id="491222787" seln_sort="AH" name="2/1" disporder="6"/>
-            <Seln status="A" seln_id="491222788" seln_sort="AD" name="2/X" disporder="7"/>
-            <Seln status="A" seln_id="491222789" seln_sort="AA" name="2/2" disporder="8"/>
-          </Mkt>
-          <Mkt status="A" name="Ημίχρονο με τα περισσότερα γκολ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100405693" inplay_avail="Y" disporder="-625" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HSHL" lp_avail="Y" mkt_sort_name="MKT_SORT-HSHL">
-            <Seln status="A" seln_id="491222791" seln_sort="1" name="1ο Ημίχρονο" disporder="-33"/>
-            <Seln status="A" seln_id="491222792" seln_sort="2" name="2ο Ημίχρονο" disporder="-15"/>
-            <Seln status="A" seln_id="491222790" seln_sort="E" name="Ισοπαλία" disporder="0"/>
-          </Mkt>
-          <Mkt status="A" name="Over/Under Χάουκαρ Χαφνάρφιορντουρ Συνολικά γκολ 25.5" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100405696" handicap="25.5" inplay_avail="Y" disporder="-619" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUHG" lp_avail="Y" mkt_sort_name="Συνολικά γκολ γηπεδούχων - Πάνω/Κάτω">
-            <Seln status="A" name="Over" handicap="25.5" seln_id="491222802" disporder="-20" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.75" bet_ref="NDkxMjIyODAyOjMvNDoxMDI6MA" frac_prc="3/4" us_prc="-134" last_change="2018-04-15T09:33:42"/>
+          <Mkt status="A" name="Χάντικαπ Γκολ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100405926" handicap="-0.5" inplay_avail="Y" disporder="-900" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FAHC" lp_avail="Y" mkt_sort_name="Asian Handicap / Goal Line">
+            <Seln status="A" name="Στάρναν" handicap="-0.5" seln_id="491223771" team_id="1892428" disporder="0" seln_sort="1">
+              <Price prc_type="LP" dec_prc="2.95" bet_ref="NDkxMjIzNzcxOjM5LzIwOi0yOjA" frac_prc="39/20" us_prc="+195" last_change="2018-04-15T09:33:54"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="25.5" seln_id="491222801" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="2.00" bet_ref="NDkxMjIyODAxOjEvMToxMDI6MA" frac_prc="1/1" us_prc="+100" last_change="2018-04-15T09:33:42"/>
+            <Seln status="A" name="Σέλφος" handicap="+0.5" seln_id="491223770" team_id="1896322" disporder="1" seln_sort="2">
+              <Price prc_type="LP" dec_prc="1.363" bet_ref="NDkxMjIzNzcwOjQvMTE6LTI6MA" frac_prc="4/11" us_prc="-275" last_change="2018-04-15T09:33:54"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Over/Under Βάλουρ Ρέικιαβικ Συνολικά γκολ 25.5" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100405695" handicap="25.5" inplay_avail="Y" disporder="-618" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUAG" lp_avail="Y" mkt_sort_name="Συνολικά γκολ φιλοξενούμενης (Πάνω/Κάτω)">
-            <Seln status="A" name="Over" handicap="25.5" seln_id="491222800" disporder="-20" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.85" bet_ref="NDkxMjIyODAwOjE3LzIwOjEwMjow" frac_prc="17/20" us_prc="-118" last_change="2018-04-15T09:33:42"/>
+          <Mkt status="A" name="Χάντικαπ Γκολ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100405927" handicap="+1.5" inplay_avail="Y" disporder="-900" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FAHC" lp_avail="Y" mkt_sort_name="Asian Handicap / Goal Line">
+            <Seln status="A" name="Στάρναν" handicap="+1.5" seln_id="491223773" team_id="1892428" disporder="0" seln_sort="1">
+              <Price prc_type="LP" dec_prc="2.00" bet_ref="NDkxMjIzNzczOjEvMTo2OjA" frac_prc="1/1" us_prc="+100" last_change="2018-04-15T09:33:54"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="25.5" seln_id="491222799" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.90" bet_ref="NDkxMjIyNzk5OjkvMTA6MTAyOjA" frac_prc="9/10" us_prc="-112" last_change="2018-04-15T09:33:42"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" name="Περιθώριο νίκης" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100405691" inplay_avail="Y" disporder="-600" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="BWMR" lp_avail="Y" mkt_sort_name="Basketball Winning Margins">
-            <Seln status="A" name="Χάουκαρ Χαφνάρφιορντουρ να κερδίσει με 1-5 Γκολ" seln_id="491222778" team_id="1882410" disporder="-22" seln_sort="01H05">
-              <Price prc_type="LP" dec_prc="2.45" bet_ref="NDkxMjIyNzc4OjI5LzIwOjow" frac_prc="29/20" us_prc="+145" last_change="2018-04-15T09:33:42"/>
-            </Seln>
-            <Seln status="A" name="Χάουκαρ Χαφνάρφιορντουρ να κερδίσει με 6-10 Γκολ" seln_id="491222779" team_id="1882410" disporder="-15" seln_sort="06H10">
-              <Price prc_type="LP" dec_prc="6.50" bet_ref="NDkxMjIyNzc5OjExLzI6OjA" frac_prc="11/2" us_prc="+550" last_change="2018-04-15T09:33:42"/>
-            </Seln>
-            <Seln status="A" name="Χάουκαρ Χαφνάρφιορντουρ να κερδίσει με 11 ή περισσότερα Γκολ" seln_id="491222780" team_id="1882410" disporder="-7" seln_sort="11H99">
-              <Price prc_type="LP" dec_prc="23.00" bet_ref="NDkxMjIyNzgwOjIyLzE6OjA" frac_prc="22/1" us_prc="+2200" last_change="2018-04-15T09:33:42"/>
-            </Seln>
-            <Seln status="A" name="Βάλουρ Ρέικιαβικ να κερδίσει με 1-5 Γκολ" seln_id="491222775" team_id="1898509" disporder="1" seln_sort="01A05">
-              <Price prc_type="LP" dec_prc="2.40" bet_ref="NDkxMjIyNzc1OjcvNTo6MA" frac_prc="7/5" us_prc="+140" last_change="2018-04-15T09:33:42"/>
-            </Seln>
-            <Seln status="A" name="Βάλουρ Ρέικιαβικ να κερδίσει με 6-10 Γκολ" seln_id="491222776" team_id="1898509" disporder="2" seln_sort="06A10">
-              <Price prc_type="LP" dec_prc="8.00" bet_ref="NDkxMjIyNzc2OjcvMTo6MA" frac_prc="7/1" us_prc="+700" last_change="2018-04-15T09:33:42"/>
-            </Seln>
-            <Seln status="A" name="Βάλουρ Ρέικιαβικ να κερδίσει με 11 ή περισσότερα Γκολ" seln_id="491222777" team_id="1898509" disporder="3" seln_sort="11A99">
-              <Price prc_type="LP" dec_prc="31.00" bet_ref="NDkxMjIyNzc3OjMwLzE6OjA" frac_prc="30/1" us_prc="+3000" last_change="2018-04-15T09:33:42"/>
+            <Seln status="A" name="Σέλφος" handicap="-1.5" seln_id="491223772" team_id="1896322" disporder="1" seln_sort="2">
+              <Price prc_type="LP" dec_prc="1.75" bet_ref="NDkxMjIzNzcyOjMvNDo2OjA" frac_prc="3/4" us_prc="-134" last_change="2018-04-15T09:33:54"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Αποτέλεσμα/Συνολικά Γκολ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100405694" handicap="+51.5" inplay_avail="Y" disporder="10" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="MROU" lp_avail="Y" mkt_sort_name="MKT_SORT-MROU">
-            <Seln status="A" name="Χάουκαρ Χαφνάρφιορντουρ και Over" handicap="+51.5" seln_id="491222794" team_id="1882410" disporder="0" seln_sort="HO">
-              <Price prc_type="LP" dec_prc="3.65" bet_ref="NDkxMjIyNzk0OjUzLzIwOjIwNjow" frac_prc="53/20" us_prc="+265" last_change="2018-04-15T09:33:42"/>
+          <Mkt status="A" name="Χάντικαπ Γκολ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100405928" handicap="+3.5" inplay_avail="Y" disporder="-900" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FAHC" lp_avail="Y" mkt_sort_name="Asian Handicap / Goal Line">
+            <Seln status="A" name="Στάρναν" handicap="+3.5" seln_id="491223774" team_id="1892428" disporder="0" seln_sort="1">
+              <Price prc_type="LP" dec_prc="1.50" bet_ref="NDkxMjIzNzc0OjEvMjoxNDow" frac_prc="1/2" us_prc="-200" last_change="2018-04-15T09:33:54"/>
             </Seln>
-            <Seln status="A" name="Χάουκαρ Χαφνάρφιορντουρ και Under" handicap="+51.5" seln_id="491222796" team_id="1882410" disporder="1" seln_sort="HU">
-              <Price prc_type="LP" dec_prc="3.75" bet_ref="NDkxMjIyNzk2OjExLzQ6MjA2OjA" frac_prc="11/4" us_prc="+275" last_change="2018-04-15T09:33:42"/>
-            </Seln>
-            <Seln status="A" name="Βάλουρ Ρέικιαβικ και Over" handicap="+51.5" seln_id="491222798" team_id="1898509" disporder="2" seln_sort="AO">
-              <Price prc_type="LP" dec_prc="4.00" bet_ref="NDkxMjIyNzk4OjMvMToyMDY6MA" frac_prc="3/1" us_prc="+300" last_change="2018-04-15T09:33:42"/>
-            </Seln>
-            <Seln status="A" name="Βάλουρ Ρέικιαβικ και Under" handicap="+51.5" seln_id="491222797" team_id="1898509" disporder="3" seln_sort="AU">
-              <Price prc_type="LP" dec_prc="3.75" bet_ref="NDkxMjIyNzk3OjExLzQ6MjA2OjA" frac_prc="11/4" us_prc="+275" last_change="2018-04-15T09:33:42"/>
-            </Seln>
-            <Seln status="A" name="X &amp; Over" handicap="+51.5" seln_id="491222795" disporder="4" seln_sort="DO">
-              <Price prc_type="LP" dec_prc="16.00" bet_ref="NDkxMjIyNzk1OjE1LzE6MjA2OjA" frac_prc="15/1" us_prc="+1500" last_change="2018-04-15T09:33:42"/>
-            </Seln>
-            <Seln status="A" name="X &amp; Under" handicap="+51.5" seln_id="491222793" disporder="5" seln_sort="DU">
-              <Price prc_type="LP" dec_prc="16.50" bet_ref="NDkxMjIyNzkzOjMxLzI6MjA2OjA" frac_prc="31/2" us_prc="+1550" last_change="2018-04-15T12:12:32"/>
+            <Seln status="A" name="Σέλφος" handicap="-3.5" seln_id="491223775" team_id="1896322" disporder="1" seln_sort="2">
+              <Price prc_type="LP" dec_prc="2.50" bet_ref="NDkxMjIzNzc1OjYvNDoxNDow" frac_prc="6/4" us_prc="+150" last_change="2018-04-15T09:33:54"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Αποτέλεσμα 1ου Ημιχρόνου" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100405689" inplay_avail="Y" disporder="35" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="H1RS" lp_avail="Y" mkt_sort_name="Αποτέλεσμα 1ου ημιχρόνου">
-            <Seln status="A" seln_id="491222769" seln_sort="H" name="1" disporder="0"/>
-            <Seln status="A" seln_id="491222770" seln_sort="D" name="X" disporder="1"/>
-            <Seln status="A" seln_id="491222771" seln_sort="A" name="2" disporder="2"/>
+          <Mkt status="A" name="Ημίχρονο / Τελικό" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100405916" inplay_avail="Y" disporder="-650" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HTFT" lp_avail="Y" mkt_sort_name="Ημίχρονο/Λήξη">
+            <Seln status="A" seln_id="491223734" seln_sort="HH" name="1/1" disporder="0"/>
+            <Seln status="A" seln_id="491223735" seln_sort="HD" name="1/X" disporder="1"/>
+            <Seln status="A" seln_id="491223736" seln_sort="HA" name="1/2" disporder="2"/>
+            <Seln status="A" seln_id="491223737" seln_sort="DH" name="X/1" disporder="3"/>
+            <Seln status="A" seln_id="491223738" seln_sort="DD" name="X/X" disporder="4"/>
+            <Seln status="A" seln_id="491223739" seln_sort="DA" name="X/2" disporder="5"/>
+            <Seln status="A" seln_id="491223740" seln_sort="AH" name="2/1" disporder="6"/>
+            <Seln status="A" seln_id="491223741" seln_sort="AD" name="2/X" disporder="7"/>
+            <Seln status="A" seln_id="491223742" seln_sort="AA" name="2/2" disporder="8"/>
+          </Mkt>
+          <Mkt status="A" name="Ημίχρονο με τα περισσότερα γκολ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100405917" inplay_avail="Y" disporder="-625" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HSHL" lp_avail="Y" mkt_sort_name="MKT_SORT-HSHL">
+            <Seln status="A" seln_id="491223744" seln_sort="1" name="1ο Ημίχρονο" disporder="-33"/>
+            <Seln status="A" seln_id="491223745" seln_sort="2" name="2ο Ημίχρονο" disporder="-15"/>
+            <Seln status="A" seln_id="491223743" seln_sort="E" name="Ισοπαλία" disporder="0"/>
+          </Mkt>
+          <Mkt status="A" name="Over/Under Στάρναν Συνολικά γκολ 28.5" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100405923" handicap="28.5" inplay_avail="Y" disporder="-619" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUHG" lp_avail="Y" mkt_sort_name="Συνολικά γκολ γηπεδούχων - Πάνω/Κάτω">
+            <Seln status="A" name="Over" handicap="28.5" seln_id="491223765" disporder="-20" seln_sort="O">
+              <Price prc_type="LP" dec_prc="2.05" bet_ref="NDkxMjIzNzY1OjIxLzIwOjExNDow" frac_prc="21/20" us_prc="+105" last_change="2018-04-15T09:33:54"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="28.5" seln_id="491223764" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.727" bet_ref="NDkxMjIzNzY0OjgvMTE6MTE0OjA" frac_prc="8/11" us_prc="-138" last_change="2018-04-15T09:33:54"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Over/Under Σέλφος Συνολικά γκολ 30.5" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100405921" handicap="30.5" inplay_avail="Y" disporder="-618" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUAG" lp_avail="Y" mkt_sort_name="Συνολικά γκολ φιλοξενούμενης (Πάνω/Κάτω)">
+            <Seln status="A" name="Over" handicap="30.5" seln_id="491223760" disporder="-20" seln_sort="O">
+              <Price prc_type="LP" dec_prc="2.05" bet_ref="NDkxMjIzNzYwOjIxLzIwOjEyMjow" frac_prc="21/20" us_prc="+105" last_change="2018-04-15T09:33:54"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="30.5" seln_id="491223761" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.727" bet_ref="NDkxMjIzNzYxOjgvMTE6MTIyOjA" frac_prc="8/11" us_prc="-138" last_change="2018-04-15T09:33:54"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Περιθώριο νίκης" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100405915" inplay_avail="Y" disporder="-600" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="BWMR" lp_avail="Y" mkt_sort_name="Basketball Winning Margins">
+            <Seln status="A" name="Στάρναν να κερδίσει με 1-5 Γκολ" seln_id="491223731" team_id="1892428" disporder="-22" seln_sort="01H05">
+              <Price prc_type="LP" dec_prc="3.40" bet_ref="NDkxMjIzNzMxOjEyLzU6OjA" frac_prc="12/5" us_prc="+240" last_change="2018-04-15T09:33:54"/>
+            </Seln>
+            <Seln status="A" name="Στάρναν να κερδίσει με 6-10 Γκολ" seln_id="491223732" team_id="1892428" disporder="-15" seln_sort="06H10">
+              <Price prc_type="LP" dec_prc="10.00" bet_ref="NDkxMjIzNzMyOjkvMTo6MA" frac_prc="9/1" us_prc="+900" last_change="2018-04-15T09:33:54"/>
+            </Seln>
+            <Seln status="A" name="Στάρναν να κερδίσει με 11 ή περισσότερα Γκολ" seln_id="491223733" team_id="1892428" disporder="-7" seln_sort="11H99">
+              <Price prc_type="LP" dec_prc="51.00" bet_ref="NDkxMjIzNzMzOjUwLzE6OjA" frac_prc="50/1" us_prc="+5000" last_change="2018-04-15T09:33:54"/>
+            </Seln>
+            <Seln status="A" name="Σέλφος να κερδίσει με 1-5 Γκολ" seln_id="491223728" team_id="1896322" disporder="1" seln_sort="01A05">
+              <Price prc_type="LP" dec_prc="2.22" bet_ref="NDkxMjIzNzI4OjYxLzUwOjow" frac_prc="61/50" us_prc="+122" last_change="2018-04-15T09:33:54"/>
+            </Seln>
+            <Seln status="A" name="Σέλφος να κερδίσει με 6-10 Γκολ" seln_id="491223729" team_id="1896322" disporder="2" seln_sort="06A10">
+              <Price prc_type="LP" dec_prc="4.30" bet_ref="NDkxMjIzNzI5OjMzLzEwOjow" frac_prc="33/10" us_prc="+330" last_change="2018-04-15T09:33:54"/>
+            </Seln>
+            <Seln status="A" name="Σέλφος να κερδίσει με 11 ή περισσότερα Γκολ" seln_id="491223730" team_id="1896322" disporder="3" seln_sort="11A99">
+              <Price prc_type="LP" dec_prc="11.75" bet_ref="NDkxMjIzNzMwOjQzLzQ6OjA" frac_prc="43/4" us_prc="+1075" last_change="2018-04-15T09:33:54"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Αποτέλεσμα/Συνολικά Γκολ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100405919" handicap="+58.5" inplay_avail="Y" disporder="10" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="MROU" lp_avail="Y" mkt_sort_name="MKT_SORT-MROU">
+            <Seln status="A" name="Στάρναν και Over" handicap="+58.5" seln_id="491223753" team_id="1892428" disporder="0" seln_sort="HO">
+              <Price prc_type="LP" dec_prc="6.00" bet_ref="NDkxMjIzNzUzOjUvMToyMzQ6MA" frac_prc="5/1" us_prc="+500" last_change="2018-04-15T09:33:54"/>
+            </Seln>
+            <Seln status="A" name="Στάρναν και Under" handicap="+58.5" seln_id="491223754" team_id="1892428" disporder="1" seln_sort="HU">
+              <Price prc_type="LP" dec_prc="5.00" bet_ref="NDkxMjIzNzU0OjQvMToyMzQ6MA" frac_prc="4/1" us_prc="+400" last_change="2018-04-15T09:33:54"/>
+            </Seln>
+            <Seln status="A" name="Σέλφος και Over" handicap="+58.5" seln_id="491223756" team_id="1896322" disporder="2" seln_sort="AO">
+              <Price prc_type="LP" dec_prc="2.875" bet_ref="NDkxMjIzNzU2OjE1Lzg6MjM0OjA" frac_prc="15/8" us_prc="+187" last_change="2018-04-15T09:33:54"/>
+            </Seln>
+            <Seln status="A" name="Σέλφος και Under" handicap="+58.5" seln_id="491223755" team_id="1896322" disporder="3" seln_sort="AU">
+              <Price prc_type="LP" dec_prc="2.90" bet_ref="NDkxMjIzNzU1OjE5LzEwOjIzNDow" frac_prc="19/10" us_prc="+190" last_change="2018-04-15T09:33:54"/>
+            </Seln>
+            <Seln status="A" name="X &amp; Over" handicap="+58.5" seln_id="491223752" disporder="4" seln_sort="DO">
+              <Price prc_type="LP" dec_prc="19.50" bet_ref="NDkxMjIzNzUyOjM3LzI6MjM0OjA" frac_prc="37/2" us_prc="+1850" last_change="2018-04-15T09:33:54"/>
+            </Seln>
+            <Seln status="A" name="X &amp; Under" handicap="+58.5" seln_id="491223757" disporder="5" seln_sort="DU">
+              <Price prc_type="LP" dec_prc="14.75" bet_ref="NDkxMjIzNzU3OjU1LzQ6MjM0OjA" frac_prc="55/4" us_prc="+1375" last_change="2018-04-15T09:33:54"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Αποτέλεσμα 1ου Ημιχρόνου" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100405913" inplay_avail="Y" disporder="35" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="H1RS" lp_avail="Y" mkt_sort_name="Αποτέλεσμα 1ου ημιχρόνου">
+            <Seln status="A" seln_id="491223722" seln_sort="H" name="1" disporder="0"/>
+            <Seln status="A" seln_id="491223723" seln_sort="D" name="X" disporder="1"/>
+            <Seln status="A" seln_id="491223724" seln_sort="A" name="2" disporder="2"/>
           </Mkt>
         </Ev>
       </SBType>

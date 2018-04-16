@@ -1,930 +1,915 @@
-<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNzI0OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwODMzMTg2OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
   <Sport sport_code="ICEH" allow_cash_out="Y" name="Χόκεϊ Επί Πάγου" disporder="22">
     <SBClass sb_class_id="188569" disporder="0" name="Καναδάς">
       <SBType sb_type_id="183050" name="OHL" disporder="0">
-        <Ev inplay_allowed="N" status="A" name="Όουεν Σάουντ Ατάκ - Μαρί Γκρέιχαουντς" allow_cash_out="Y" start_time="2018-04-15T23:00:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="UTC" allow_cash_out_inplay="Y" inplay_now="N" mkt_count="62" ev_id="1743584" disporder="-99">
-          <EvDetail br_match_id="14318643"/>
+        <Ev inplay_allowed="N" status="A" name="Μαρί Γκρέιχαουντς - Όουεν Σάουντ Ατάκ" allow_cash_out="Y" start_time="2018-04-17T23:07:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="UTC" allow_cash_out_inplay="Y" inplay_now="N" mkt_count="62" ev_id="1759048" disporder="-99">
+          <EvDetail br_match_id="14349627"/>
           <Teams>
-            <Team team_id="1888087" team_order="0" name="Όουεν Σάουντ Ατάκ" short_name="Όουεν Σάουντ Ατάκ"/>
-            <Team team_id="1888092" team_order="1" name="Μαρί Γκρέιχαουντς" short_name="Μαρί Γκρέιχαουντς"/>
+            <Team team_id="1888092" team_order="0" name="Μαρί Γκρέιχαουντς" short_name="Μαρί Γκρέιχαουντς"/>
+            <Team team_id="1888087" team_order="1" name="Όουεν Σάουντ Ατάκ" short_name="Όουεν Σάουντ Ατάκ"/>
           </Teams>
-          <Mkt status="A" name="Νικητής (1Χ2)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100055598" inplay_avail="Y" disporder="-9999" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="MRES" lp_avail="Y" mkt_sort_name="Αγώνες">
-            <Seln status="A" name="Όουεν Σάουντ Ατάκ" seln_id="489950701" team_id="1888087" disporder="0" seln_sort="H">
-              <Price prc_type="LP" dec_prc="2.60" bet_ref="NDg5OTUwNzAxOjgvNTo6MA" frac_prc="8/5" us_prc="+160" last_change="2018-04-15T07:41:38"/>
+          <Mkt status="A" name="Νικητής (1Χ2)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100496270" inplay_avail="Y" disporder="-9999" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="MRES" lp_avail="Y" mkt_sort_name="Αγώνες">
+            <Seln status="A" name="Μαρί Γκρέιχαουντς" seln_id="491541036" team_id="1888092" disporder="0" seln_sort="H">
+              <Price prc_type="LP" dec_prc="1.85" bet_ref="NDkxNTQxMDM2OjE3LzIwOjow" frac_prc="17/20" us_prc="-118" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="489950702" seln_sort="D" name="Ισοπαλία" disporder="1">
-              <Price prc_type="LP" dec_prc="4.45" bet_ref="NDg5OTUwNzAyOjY5LzIwOjow" frac_prc="69/20" us_prc="+345" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491541037" seln_sort="D" name="Ισοπαλία" disporder="1">
+              <Price prc_type="LP" dec_prc="4.50" bet_ref="NDkxNTQxMDM3OjcvMjo6MA" frac_prc="7/2" us_prc="+350" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" name="Μαρί Γκρέιχαουντς" seln_id="489950703" team_id="1888092" disporder="2" seln_sort="A">
-              <Price prc_type="LP" dec_prc="2.17" bet_ref="NDg5OTUwNzAzOjExNy8xMDA6OjA" frac_prc="117/100" us_prc="+117" last_change="2018-04-15T07:41:38"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" name="Νικητής (με παράταση και πέναλτι)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100055599" inplay_avail="Y" disporder="-9990" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="H2HT" lp_avail="Y" mkt_sort_name="Ένας Εναντίον Ενός">
-            <Seln status="A" name="Όουεν Σάουντ Ατάκ" seln_id="489950704" team_id="1888087" disporder="0" seln_sort="P1">
-              <Price prc_type="LP" dec_prc="2.05" bet_ref="NDg5OTUwNzA0OjIxLzIwOjow" frac_prc="21/20" us_prc="+105" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" name="Μαρί Γκρέιχαουντς" seln_id="489950705" team_id="1888092" disporder="1" seln_sort="P2">
-              <Price prc_type="LP" dec_prc="1.75" bet_ref="NDg5OTUwNzA1OjMvNDo6MA" frac_prc="3/4" us_prc="-134" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" name="Όουεν Σάουντ Ατάκ" seln_id="491541038" team_id="1888087" disporder="2" seln_sort="A">
+              <Price prc_type="LP" dec_prc="3.25" bet_ref="NDkxNTQxMDM4OjkvNDo6MA" frac_prc="9/4" us_prc="+225" last_change="2018-04-16T06:25:05"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Συνολικά γκολ (Over/Under)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277448" handicap="5.5" inplay_avail="Y" disporder="-9920" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HCTG" lp_avail="Y" mkt_sort_name="Χάντικαπ συνολικών γκολ">
-            <Seln status="A" name="Over" handicap="5.5" seln_id="490779921" disporder="-50" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.25" bet_ref="NDkwNzc5OTIxOjEvNDoyMjow" frac_prc="1/4" us_prc="-400" last_change="2018-04-14T04:27:21"/>
+          <Mkt status="A" name="Νικητής (με παράταση και πέναλτι)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100496271" inplay_avail="Y" disporder="-9990" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="H2HT" lp_avail="Y" mkt_sort_name="Ένας Εναντίον Ενός">
+            <Seln status="A" name="Μαρί Γκρέιχαουντς" seln_id="491541039" team_id="1888092" disporder="0" seln_sort="P1">
+              <Price prc_type="LP" dec_prc="1.533" bet_ref="NDkxNTQxMDM5OjgvMTU6OjA" frac_prc="8/15" us_prc="-188" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="5.5" seln_id="490779919" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="3.85" bet_ref="NDkwNzc5OTE5OjU3LzIwOjIyOjA" frac_prc="57/20" us_prc="+285" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" name="Συνολικά γκολ (Over/Under)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277449" handicap="6.5" inplay_avail="Y" disporder="-9920" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HCTG" lp_avail="Y" mkt_sort_name="Χάντικαπ συνολικών γκολ">
-            <Seln status="A" name="Over" handicap="6.5" seln_id="490779924" disporder="-50" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.533" bet_ref="NDkwNzc5OTI0OjgvMTU6MjY6MA" frac_prc="8/15" us_prc="-188" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" name="Under" handicap="6.5" seln_id="490779923" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="2.45" bet_ref="NDkwNzc5OTIzOjI5LzIwOjI2OjA" frac_prc="29/20" us_prc="+145" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" name="Όουεν Σάουντ Ατάκ" seln_id="491541040" team_id="1888087" disporder="1" seln_sort="P2">
+              <Price prc_type="LP" dec_prc="2.45" bet_ref="NDkxNTQxMDQwOjI5LzIwOjow" frac_prc="29/20" us_prc="+145" last_change="2018-04-16T06:25:05"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Συνολικά γκολ (Over/Under)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277451" handicap="7.5" inplay_avail="Y" disporder="-9920" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HCTG" lp_avail="Y" mkt_sort_name="Χάντικαπ συνολικών γκολ">
-            <Seln status="A" name="Over" handicap="7.5" seln_id="490779928" disporder="-50" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.93" bet_ref="NDkwNzc5OTI4OjkzLzEwMDozMDow" frac_prc="93/100" us_prc="-108" last_change="2018-04-14T04:27:21"/>
+          <Mkt status="A" name="Συνολικά γκολ (Over/Under)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501964" handicap="5.5" inplay_avail="Y" disporder="-9920" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HCTG" lp_avail="Y" mkt_sort_name="Χάντικαπ συνολικών γκολ">
+            <Seln status="A" name="Over" handicap="5.5" seln_id="491561810" disporder="-50" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.30" bet_ref="NDkxNTYxODEwOjMvMTA6MjI6MA" frac_prc="3/10" us_prc="-334" last_change="2018-04-16T06:25:06"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="7.5" seln_id="490779927" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.85" bet_ref="NDkwNzc5OTI3OjE3LzIwOjMwOjA" frac_prc="17/20" us_prc="-118" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" name="Συνολικά γκολ (Over/Under)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277453" handicap="8.5" inplay_avail="Y" disporder="-9920" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HCTG" lp_avail="Y" mkt_sort_name="Χάντικαπ συνολικών γκολ">
-            <Seln status="A" name="Over" handicap="8.5" seln_id="490779932" disporder="-50" seln_sort="O">
-              <Price prc_type="LP" dec_prc="2.75" bet_ref="NDkwNzc5OTMyOjcvNDozNDow" frac_prc="7/4" us_prc="+175" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" name="Under" handicap="8.5" seln_id="490779930" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.44" bet_ref="NDkwNzc5OTMwOjExLzI1OjM0OjA" frac_prc="11/25" us_prc="-228" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" name="Under" handicap="5.5" seln_id="491561809" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="3.45" bet_ref="NDkxNTYxODA5OjQ5LzIwOjIyOjA" frac_prc="49/20" us_prc="+245" last_change="2018-04-16T06:25:06"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Συνολικά γκολ (Over/Under)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277455" handicap="9.5" inplay_avail="Y" disporder="-9920" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HCTG" lp_avail="Y" mkt_sort_name="Χάντικαπ συνολικών γκολ">
-            <Seln status="A" name="Over" handicap="9.5" seln_id="490779936" disporder="-50" seln_sort="O">
-              <Price prc_type="LP" dec_prc="3.90" bet_ref="NDkwNzc5OTM2OjI5LzEwOjM4OjA" frac_prc="29/10" us_prc="+290" last_change="2018-04-14T04:27:21"/>
+          <Mkt status="A" name="Συνολικά γκολ (Over/Under)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501965" handicap="6.5" inplay_avail="Y" disporder="-9920" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HCTG" lp_avail="Y" mkt_sort_name="Χάντικαπ συνολικών γκολ">
+            <Seln status="A" name="Over" handicap="6.5" seln_id="491561812" disporder="-50" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.615" bet_ref="NDkxNTYxODEyOjgvMTM6MjY6MA" frac_prc="8/13" us_prc="-163" last_change="2018-04-16T06:25:06"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="9.5" seln_id="490779935" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.25" bet_ref="NDkwNzc5OTM1OjEvNDozODow" frac_prc="1/4" us_prc="-400" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" name="Χάντικαπ Γκολ (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277477" handicap="-1.5" inplay_avail="Y" disporder="-9910" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="AHOT" lp_avail="Y" mkt_sort_name="Asian Handicap (including Overtime)">
-            <Seln status="A" name="Όουεν Σάουντ Ατάκ" handicap="-1.5" seln_id="490779979" team_id="1888087" disporder="0" seln_sort="1">
-              <Price prc_type="LP" dec_prc="3.50" bet_ref="NDkwNzc5OTc5OjUvMjotNjow" frac_prc="5/2" us_prc="+250" last_change="2018-04-15T07:41:38"/>
-            </Seln>
-            <Seln status="A" name="Μαρί Γκρέιχαουντς" handicap="+1.5" seln_id="490779980" team_id="1888092" disporder="1" seln_sort="2">
-              <Price prc_type="LP" dec_prc="1.285" bet_ref="NDkwNzc5OTgwOjIvNzotNjow" frac_prc="2/7" us_prc="-350" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" name="Under" handicap="6.5" seln_id="491561811" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="2.25" bet_ref="NDkxNTYxODExOjUvNDoyNjow" frac_prc="5/4" us_prc="+125" last_change="2018-04-16T06:25:06"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Χάντικαπ Γκολ (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277479" handicap="+1.5" inplay_avail="Y" disporder="-9910" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="AHOT" lp_avail="Y" mkt_sort_name="Asian Handicap (including Overtime)">
-            <Seln status="A" name="Όουεν Σάουντ Ατάκ" handicap="+1.5" seln_id="490779983" team_id="1888087" disporder="0" seln_sort="1">
-              <Price prc_type="LP" dec_prc="1.44" bet_ref="NDkwNzc5OTgzOjExLzI1OjY6MA" frac_prc="11/25" us_prc="-228" last_change="2018-04-14T04:27:21"/>
+          <Mkt status="A" name="Συνολικά γκολ (Over/Under)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501966" handicap="7.5" inplay_avail="Y" disporder="-9920" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HCTG" lp_avail="Y" mkt_sort_name="Χάντικαπ συνολικών γκολ">
+            <Seln status="A" name="Over" handicap="7.5" seln_id="491561814" disporder="-50" seln_sort="O">
+              <Price prc_type="LP" dec_prc="2.08" bet_ref="NDkxNTYxODE0OjI3LzI1OjMwOjA" frac_prc="27/25" us_prc="+108" last_change="2018-04-16T06:25:06"/>
             </Seln>
-            <Seln status="A" name="Μαρί Γκρέιχαουντς" handicap="-1.5" seln_id="490779984" team_id="1888092" disporder="1" seln_sort="2">
-              <Price prc_type="LP" dec_prc="2.80" bet_ref="NDkwNzc5OTg0OjkvNTo2OjA" frac_prc="9/5" us_prc="+180" last_change="2018-04-15T07:41:38"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" name="Χάντικαπ Γκολ (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277481" handicap="+2.5" inplay_avail="Y" disporder="-9910" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="AHOT" lp_avail="Y" mkt_sort_name="Asian Handicap (including Overtime)">
-            <Seln status="A" name="Όουεν Σάουντ Ατάκ" handicap="+2.5" seln_id="490779985" team_id="1888087" disporder="0" seln_sort="1">
-              <Price prc_type="LP" dec_prc="1.20" bet_ref="NDkwNzc5OTg1OjEvNToxMDow" frac_prc="1/5" us_prc="-500" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" name="Μαρί Γκρέιχαουντς" handicap="-2.5" seln_id="490779987" team_id="1888092" disporder="1" seln_sort="2">
-              <Price prc_type="LP" dec_prc="4.45" bet_ref="NDkwNzc5OTg3OjY5LzIwOjEwOjA" frac_prc="69/20" us_prc="+345" last_change="2018-04-15T07:41:38"/>
+            <Seln status="A" name="Under" handicap="7.5" seln_id="491561813" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.727" bet_ref="NDkxNTYxODEzOjgvMTE6MzA6MA" frac_prc="8/11" us_prc="-138" last_change="2018-04-16T06:25:06"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Χάντικαπ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277420" handicap="-2" inplay_avail="Y" disporder="-9900" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HCMR" lp_avail="Y" mkt_sort_name="Αποτέλεσμα αγώνα με χάντικαπ">
-            <Seln status="A" name="Όουεν Σάουντ Ατάκ" handicap="-2" seln_id="490779851" team_id="1888087" disporder="0" seln_sort="1">
-              <Price prc_type="LP" dec_prc="5.75" bet_ref="NDkwNzc5ODUxOjE5LzQ6LTg6MA" frac_prc="19/4" us_prc="+475" last_change="2018-04-15T07:41:38"/>
+          <Mkt status="A" name="Συνολικά γκολ (Over/Under)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501967" handicap="8.5" inplay_avail="Y" disporder="-9920" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HCTG" lp_avail="Y" mkt_sort_name="Χάντικαπ συνολικών γκολ">
+            <Seln status="A" name="Over" handicap="8.5" seln_id="491561816" disporder="-50" seln_sort="O">
+              <Price prc_type="LP" dec_prc="3.05" bet_ref="NDkxNTYxODE2OjQxLzIwOjM0OjA" frac_prc="41/20" us_prc="+205" last_change="2018-04-16T06:25:06"/>
             </Seln>
-            <Seln status="A" name="Ισοπαλία" handicap="-2" seln_id="490779853" disporder="2" seln_sort="T">
-              <Price prc_type="LP" dec_prc="7.00" bet_ref="NDkwNzc5ODUzOjYvMTotODow" frac_prc="6/1" us_prc="+600" last_change="2018-04-15T07:41:38"/>
-            </Seln>
-            <Seln status="A" name="Μαρί Γκρέιχαουντς" handicap="+2" seln_id="490779852" team_id="1888092" disporder="50" seln_sort="2">
-              <Price prc_type="LP" dec_prc="1.30" bet_ref="NDkwNzc5ODUyOjMvMTA6LTg6MA" frac_prc="3/10" us_prc="-334" last_change="2018-04-15T07:41:38"/>
+            <Seln status="A" name="Under" handicap="8.5" seln_id="491561815" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.363" bet_ref="NDkxNTYxODE1OjQvMTE6MzQ6MA" frac_prc="4/11" us_prc="-275" last_change="2018-04-16T06:25:06"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Χάντικαπ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277421" handicap="-1" inplay_avail="Y" disporder="-9900" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HCMR" lp_avail="Y" mkt_sort_name="Αποτέλεσμα αγώνα με χάντικαπ">
-            <Seln status="A" name="Όουεν Σάουντ Ατάκ" handicap="-1" seln_id="490779854" team_id="1888087" disporder="0" seln_sort="1">
-              <Price prc_type="LP" dec_prc="3.50" bet_ref="NDkwNzc5ODU0OjUvMjotNDow" frac_prc="5/2" us_prc="+250" last_change="2018-04-15T07:41:38"/>
+          <Mkt status="A" name="Συνολικά γκολ (Over/Under)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501968" handicap="9.5" inplay_avail="Y" disporder="-9920" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HCTG" lp_avail="Y" mkt_sort_name="Χάντικαπ συνολικών γκολ">
+            <Seln status="A" name="Over" handicap="9.5" seln_id="491561818" disporder="-50" seln_sort="O">
+              <Price prc_type="LP" dec_prc="4.45" bet_ref="NDkxNTYxODE4OjY5LzIwOjM4OjA" frac_prc="69/20" us_prc="+345" last_change="2018-04-16T06:25:06"/>
             </Seln>
-            <Seln status="A" name="Ισοπαλία" handicap="-1" seln_id="490779856" disporder="2" seln_sort="T">
-              <Price prc_type="LP" dec_prc="7.50" bet_ref="NDkwNzc5ODU2OjEzLzI6LTQ6MA" frac_prc="13/2" us_prc="+650" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" name="Μαρί Γκρέιχαουντς" handicap="+1" seln_id="490779855" team_id="1888092" disporder="50" seln_sort="2">
-              <Price prc_type="LP" dec_prc="1.50" bet_ref="NDkwNzc5ODU1OjEvMjotNDow" frac_prc="1/2" us_prc="-200" last_change="2018-04-15T07:41:38"/>
+            <Seln status="A" name="Under" handicap="9.5" seln_id="491561817" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.20" bet_ref="NDkxNTYxODE3OjEvNTozODow" frac_prc="1/5" us_prc="-500" last_change="2018-04-16T06:25:06"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Χάντικαπ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277422" handicap="+1" inplay_avail="Y" disporder="-9900" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HCMR" lp_avail="Y" mkt_sort_name="Αποτέλεσμα αγώνα με χάντικαπ">
-            <Seln status="A" name="Όουεν Σάουντ Ατάκ" handicap="+1" seln_id="490779857" team_id="1888087" disporder="0" seln_sort="1">
-              <Price prc_type="LP" dec_prc="1.666" bet_ref="NDkwNzc5ODU3OjQvNjo0OjA" frac_prc="4/6" us_prc="-150" last_change="2018-04-15T07:41:38"/>
+          <Mkt status="A" name="Χάντικαπ Γκολ (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501980" handicap="-3.5" inplay_avail="Y" disporder="-9910" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="AHOT" lp_avail="Y" mkt_sort_name="Asian Handicap (including Overtime)">
+            <Seln status="A" name="Μαρί Γκρέιχαουντς" handicap="-3.5" seln_id="491561841" team_id="1888092" disporder="0" seln_sort="1">
+              <Price prc_type="LP" dec_prc="6.20" bet_ref="NDkxNTYxODQxOjI2LzU6LTE0OjA" frac_prc="26/5" us_prc="+520" last_change="2018-04-16T06:25:06"/>
             </Seln>
-            <Seln status="A" name="Ισοπαλία" handicap="+1" seln_id="490779859" disporder="2" seln_sort="T">
-              <Price prc_type="LP" dec_prc="7.25" bet_ref="NDkwNzc5ODU5OjI1LzQ6NDow" frac_prc="25/4" us_prc="+625" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" name="Μαρί Γκρέιχαουντς" handicap="-1" seln_id="490779858" team_id="1888092" disporder="50" seln_sort="2">
-              <Price prc_type="LP" dec_prc="2.80" bet_ref="NDkwNzc5ODU4OjkvNTo0OjA" frac_prc="9/5" us_prc="+180" last_change="2018-04-15T07:41:38"/>
+            <Seln status="A" name="Όουεν Σάουντ Ατάκ" handicap="+3.5" seln_id="491561842" team_id="1888087" disporder="1" seln_sort="2">
+              <Price prc_type="LP" dec_prc="1.111" bet_ref="NDkxNTYxODQyOjEvOTotMTQ6MA" frac_prc="1/9" us_prc="-900" last_change="2018-04-16T06:25:06"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Όουεν Σάουντ Ατάκ Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277457" handicap="2.5" inplay_avail="Y" disporder="-9845" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUHG" lp_avail="Y" mkt_sort_name="Συνολικά γκολ γηπεδούχων - Πάνω/Κάτω">
-            <Seln status="A" name="Over" handicap="2.5" seln_id="490779940" disporder="-50" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.36" bet_ref="NDkwNzc5OTQwOjkvMjU6MTA6MA" frac_prc="9/25" us_prc="-278" last_change="2018-04-15T07:41:38"/>
+          <Mkt status="A" name="Χάντικαπ Γκολ (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501981" handicap="-2.5" inplay_avail="Y" disporder="-9910" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="AHOT" lp_avail="Y" mkt_sort_name="Asian Handicap (including Overtime)">
+            <Seln status="A" name="Μαρί Γκρέιχαουντς" handicap="-2.5" seln_id="491561843" team_id="1888092" disporder="0" seln_sort="1">
+              <Price prc_type="LP" dec_prc="3.55" bet_ref="NDkxNTYxODQzOjUxLzIwOi0xMDow" frac_prc="51/20" us_prc="+255" last_change="2018-04-16T06:25:06"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="2.5" seln_id="490779939" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="3.10" bet_ref="NDkwNzc5OTM5OjIxLzEwOjEwOjA" frac_prc="21/10" us_prc="+210" last_change="2018-04-15T07:41:38"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" name="Όουεν Σάουντ Ατάκ Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277458" handicap="3.5" inplay_avail="Y" disporder="-9845" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUHG" lp_avail="Y" mkt_sort_name="Συνολικά γκολ γηπεδούχων - Πάνω/Κάτω">
-            <Seln status="A" name="Over" handicap="3.5" seln_id="490779943" disporder="-50" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.909" bet_ref="NDkwNzc5OTQzOjEwLzExOjE0OjA" frac_prc="10/11" us_prc="-110" last_change="2018-04-15T07:41:38"/>
-            </Seln>
-            <Seln status="A" name="Under" handicap="3.5" seln_id="490779941" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.87" bet_ref="NDkwNzc5OTQxOjg3LzEwMDoxNDow" frac_prc="87/100" us_prc="-115" last_change="2018-04-15T07:41:38"/>
+            <Seln status="A" name="Όουεν Σάουντ Ατάκ" handicap="+2.5" seln_id="491561844" team_id="1888087" disporder="1" seln_sort="2">
+              <Price prc_type="LP" dec_prc="1.285" bet_ref="NDkxNTYxODQ0OjIvNzotMTA6MA" frac_prc="2/7" us_prc="-350" last_change="2018-04-16T06:25:06"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Όουεν Σάουντ Ατάκ Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277460" handicap="4.5" inplay_avail="Y" disporder="-9845" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUHG" lp_avail="Y" mkt_sort_name="Συνολικά γκολ γηπεδούχων - Πάνω/Κάτω">
-            <Seln status="A" name="Over" handicap="4.5" seln_id="490779946" disporder="-50" seln_sort="O">
-              <Price prc_type="LP" dec_prc="3.05" bet_ref="NDkwNzc5OTQ2OjQxLzIwOjE4OjA" frac_prc="41/20" us_prc="+205" last_change="2018-04-15T07:41:38"/>
+          <Mkt status="A" name="Χάντικαπ Γκολ (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501982" handicap="-1.5" inplay_avail="Y" disporder="-9910" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="AHOT" lp_avail="Y" mkt_sort_name="Asian Handicap (including Overtime)">
+            <Seln status="A" name="Μαρί Γκρέιχαουντς" handicap="-1.5" seln_id="491561845" team_id="1888092" disporder="0" seln_sort="1">
+              <Price prc_type="LP" dec_prc="2.30" bet_ref="NDkxNTYxODQ1OjEzLzEwOi02OjA" frac_prc="13/10" us_prc="+130" last_change="2018-04-16T06:25:06"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="4.5" seln_id="490779945" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.363" bet_ref="NDkwNzc5OTQ1OjQvMTE6MTg6MA" frac_prc="4/11" us_prc="-275" last_change="2018-04-15T07:41:38"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" name="Μαρί Γκρέιχαουντς Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277417" handicap="2.5" inplay_avail="Y" disporder="-9842" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUAG" lp_avail="Y" mkt_sort_name="Συνολικά γκολ φιλοξενούμενης (Πάνω/Κάτω)">
-            <Seln status="A" name="Over" handicap="2.5" seln_id="490779846" disporder="-50" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.285" bet_ref="NDkwNzc5ODQ2OjIvNzoxMDow" frac_prc="2/7" us_prc="-350" last_change="2018-04-15T07:41:38"/>
-            </Seln>
-            <Seln status="A" name="Under" handicap="2.5" seln_id="490779845" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="3.60" bet_ref="NDkwNzc5ODQ1OjEzLzU6MTA6MA" frac_prc="13/5" us_prc="+260" last_change="2018-04-15T07:41:38"/>
+            <Seln status="A" name="Όουεν Σάουντ Ατάκ" handicap="+1.5" seln_id="491561846" team_id="1888087" disporder="1" seln_sort="2">
+              <Price prc_type="LP" dec_prc="1.60" bet_ref="NDkxNTYxODQ2OjMvNTotNjow" frac_prc="3/5" us_prc="-167" last_change="2018-04-16T06:25:06"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Μαρί Γκρέιχαουντς Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277418" handicap="3.5" inplay_avail="Y" disporder="-9842" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUAG" lp_avail="Y" mkt_sort_name="Συνολικά γκολ φιλοξενούμενης (Πάνω/Κάτω)">
-            <Seln status="A" name="Over" handicap="3.5" seln_id="490779848" disporder="-50" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.727" bet_ref="NDkwNzc5ODQ4OjgvMTE6MTQ6MA" frac_prc="8/11" us_prc="-138" last_change="2018-04-15T07:41:38"/>
+          <Mkt status="A" name="Χάντικαπ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501953" handicap="-2" inplay_avail="Y" disporder="-9900" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HCMR" lp_avail="Y" mkt_sort_name="Αποτέλεσμα αγώνα με χάντικαπ">
+            <Seln status="A" name="Μαρί Γκρέιχαουντς" handicap="-2" seln_id="491561784" team_id="1888092" disporder="0" seln_sort="1">
+              <Price prc_type="LP" dec_prc="3.55" bet_ref="NDkxNTYxNzg0OjUxLzIwOi04OjA" frac_prc="51/20" us_prc="+255" last_change="2018-04-16T06:25:06"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="3.5" seln_id="490779847" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="2.08" bet_ref="NDkwNzc5ODQ3OjI3LzI1OjE0OjA" frac_prc="27/25" us_prc="+108" last_change="2018-04-15T07:41:38"/>
+            <Seln status="A" name="Ισοπαλία" handicap="-2" seln_id="491561786" disporder="2" seln_sort="T">
+              <Price prc_type="LP" dec_prc="5.75" bet_ref="NDkxNTYxNzg2OjE5LzQ6LTg6MA" frac_prc="19/4" us_prc="+475" last_change="2018-04-16T06:25:06"/>
             </Seln>
-          </Mkt>
-          <Mkt status="A" name="Μαρί Γκρέιχαουντς Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277419" handicap="4.5" inplay_avail="Y" disporder="-9842" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUAG" lp_avail="Y" mkt_sort_name="Συνολικά γκολ φιλοξενούμενης (Πάνω/Κάτω)">
-            <Seln status="A" name="Over" handicap="4.5" seln_id="490779850" disporder="-50" seln_sort="O">
-              <Price prc_type="LP" dec_prc="2.625" bet_ref="NDkwNzc5ODUwOjEzLzg6MTg6MA" frac_prc="13/8" us_prc="+162" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" name="Under" handicap="4.5" seln_id="490779849" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.47" bet_ref="NDkwNzc5ODQ5OjQ3LzEwMDoxODow" frac_prc="47/100" us_prc="-213" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" name="Όουεν Σάουντ Ατάκ" handicap="+2" seln_id="491561785" team_id="1888087" disporder="50" seln_sort="2">
+              <Price prc_type="LP" dec_prc="1.571" bet_ref="NDkxNTYxNzg1OjQvNzotODow" frac_prc="4/7" us_prc="-175" last_change="2018-04-16T06:25:06"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Draw No Bet (Team based)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100055601" inplay_avail="Y" disporder="-9740" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="DNOB" lp_avail="Y" mkt_sort_name="Draw No Bet">
-            <Seln status="A" name="Όουεν Σάουντ Ατάκ" seln_id="489950709" team_id="1888087" disporder="0" seln_sort="H">
-              <Price prc_type="LP" dec_prc="2.08" bet_ref="NDg5OTUwNzA5OjI3LzI1Ojow" frac_prc="27/25" us_prc="+108" last_change="2018-04-15T07:41:38"/>
+          <Mkt status="A" name="Χάντικαπ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501954" handicap="-1" inplay_avail="Y" disporder="-9900" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HCMR" lp_avail="Y" mkt_sort_name="Αποτέλεσμα αγώνα με χάντικαπ">
+            <Seln status="A" name="Μαρί Γκρέιχαουντς" handicap="-1" seln_id="491561787" team_id="1888092" disporder="0" seln_sort="1">
+              <Price prc_type="LP" dec_prc="2.30" bet_ref="NDkxNTYxNzg3OjEzLzEwOi00OjA" frac_prc="13/10" us_prc="+130" last_change="2018-04-16T06:25:06"/>
             </Seln>
-            <Seln status="A" name="Μαρί Γκρέιχαουντς" seln_id="489950710" team_id="1888092" disporder="1" seln_sort="A">
-              <Price prc_type="LP" dec_prc="1.727" bet_ref="NDg5OTUwNzEwOjgvMTE6OjA" frac_prc="8/11" us_prc="-138" last_change="2018-04-15T07:41:38"/>
+            <Seln status="A" name="Ισοπαλία" handicap="-1" seln_id="491561789" disporder="2" seln_sort="T">
+              <Price prc_type="LP" dec_prc="6.75" bet_ref="NDkxNTYxNzg5OjIzLzQ6LTQ6MA" frac_prc="23/4" us_prc="+575" last_change="2018-04-16T06:25:06"/>
             </Seln>
-          </Mkt>
-          <Mkt status="A" name="Αποτέλεσμα/Συνολικά Γκολ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277423" handicap="+7.5" inplay_avail="Y" disporder="-9299" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUMR" lp_avail="Y" mkt_sort_name="MKT_SORT-OUMR">
-            <Seln status="A" name="Όουεν Σάουντ Ατάκ και Over" handicap="+7.5" seln_id="490779860" team_id="1888087" disporder="0" seln_sort="HO">
-              <Price prc_type="LP" dec_prc="5.20" bet_ref="NDkwNzc5ODYwOjIxLzU6MzA6MA" frac_prc="21/5" us_prc="+420" last_change="2018-04-15T07:41:38"/>
-            </Seln>
-            <Seln status="A" name="Όουεν Σάουντ Ατάκ και Under" handicap="+7.5" seln_id="490779861" team_id="1888087" disporder="1" seln_sort="HU">
-              <Price prc_type="LP" dec_prc="5.00" bet_ref="NDkwNzc5ODYxOjQvMTozMDow" frac_prc="4/1" us_prc="+400" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" name="Ισοπαλία και Over" handicap="+7.5" seln_id="490779864" disporder="4" seln_sort="DO">
-              <Price prc_type="LP" dec_prc="8.50" bet_ref="NDkwNzc5ODY0OjE1LzI6MzA6MA" frac_prc="15/2" us_prc="+750" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" name="Ισοπαλία και Under" handicap="+7.5" seln_id="490779866" disporder="5" seln_sort="DU">
-              <Price prc_type="LP" dec_prc="8.00" bet_ref="NDkwNzc5ODY2OjcvMTozMDow" frac_prc="7/1" us_prc="+700" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" name="Μαρί Γκρέιχαουντς και Over" handicap="+7.5" seln_id="490779862" team_id="1888092" disporder="20" seln_sort="AO">
-              <Price prc_type="LP" dec_prc="4.25" bet_ref="NDkwNzc5ODYyOjEzLzQ6MzA6MA" frac_prc="13/4" us_prc="+325" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" name="Μαρί Γκρέιχαουντς και Under" handicap="+7.5" seln_id="490779863" team_id="1888092" disporder="30" seln_sort="AU">
-              <Price prc_type="LP" dec_prc="4.20" bet_ref="NDkwNzc5ODYzOjE2LzU6MzA6MA" frac_prc="16/5" us_prc="+320" last_change="2018-04-15T07:41:38"/>
+            <Seln status="A" name="Όουεν Σάουντ Ατάκ" handicap="+1" seln_id="491561788" team_id="1888087" disporder="50" seln_sort="2">
+              <Price prc_type="LP" dec_prc="1.97" bet_ref="NDkxNTYxNzg4Ojk3LzEwMDotNDow" frac_prc="97/100" us_prc="-104" last_change="2018-04-16T06:25:06"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Συνολικά γκολ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100055602" inplay_avail="Y" disporder="-9150" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="GORN" lp_avail="Y" mkt_sort_name="Άθροισμα γκολ">
-            <Seln status="A" seln_id="489950711" seln_sort="0-3" name="0-3" disporder="0">
-              <Price prc_type="LP" dec_prc="12.60" bet_ref="NDg5OTUwNzExOjU4LzU6OjA" frac_prc="58/5" us_prc="+1160" last_change="2018-04-14T04:27:21"/>
+          <Mkt status="A" name="Χάντικαπ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501955" handicap="+1" inplay_avail="Y" disporder="-9900" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HCMR" lp_avail="Y" mkt_sort_name="Αποτέλεσμα αγώνα με χάντικαπ">
+            <Seln status="A" name="Μαρί Γκρέιχαουντς" handicap="+1" seln_id="491561790" team_id="1888092" disporder="0" seln_sort="1">
+              <Price prc_type="LP" dec_prc="1.35" bet_ref="NDkxNTYxNzkwOjcvMjA6NDow" frac_prc="7/20" us_prc="-286" last_change="2018-04-16T06:25:06"/>
             </Seln>
-            <Seln status="A" seln_id="489950712" seln_sort="4-5" name="4-5" disporder="2">
-              <Price prc_type="LP" dec_prc="5.20" bet_ref="NDg5OTUwNzEyOjIxLzU6OjA" frac_prc="21/5" us_prc="+420" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" name="Ισοπαλία" handicap="+1" seln_id="491561792" disporder="2" seln_sort="T">
+              <Price prc_type="LP" dec_prc="8.00" bet_ref="NDkxNTYxNzkyOjcvMTo0OjA" frac_prc="7/1" us_prc="+700" last_change="2018-04-16T06:25:06"/>
             </Seln>
-            <Seln status="A" seln_id="489950713" seln_sort="6-7" name="6-7" disporder="5">
-              <Price prc_type="LP" dec_prc="3.35" bet_ref="NDg5OTUwNzEzOjQ3LzIwOjow" frac_prc="47/20" us_prc="+235" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="489950714" seln_sort="8-" name="8+" disporder="50">
-              <Price prc_type="LP" dec_prc="1.97" bet_ref="NDg5OTUwNzE0Ojk3LzEwMDo6MA" frac_prc="97/100" us_prc="-104" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" name="Όουεν Σάουντ Ατάκ" handicap="-1" seln_id="491561791" team_id="1888087" disporder="50" seln_sort="2">
+              <Price prc_type="LP" dec_prc="4.50" bet_ref="NDkxNTYxNzkxOjcvMjo0OjA" frac_prc="7/2" us_prc="+350" last_change="2018-04-16T06:25:06"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" mkt_extra="I001" name="Επόμενη ομάδα που θα σκοράρει (Γκολ 1)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100055603" inplay_avail="Y" disporder="-9098" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="INTS" lp_avail="Y" mkt_sort_name="Επόμενη ομάδα που θα σκοράρει">
-            <Seln status="A" name="Όουεν Σάουντ Ατάκ" seln_id="489950715" team_id="1888087" disporder="0" seln_sort="H">
-              <Price prc_type="LP" dec_prc="1.97" bet_ref="NDg5OTUwNzE1Ojk3LzEwMDo6MA" frac_prc="97/100" us_prc="-104" last_change="2018-04-14T04:27:21"/>
+          <Mkt status="A" name="Μαρί Γκρέιχαουντς Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501969" handicap="2.5" inplay_avail="Y" disporder="-9845" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUHG" lp_avail="Y" mkt_sort_name="Συνολικά γκολ γηπεδούχων - Πάνω/Κάτω">
+            <Seln status="A" name="Over" handicap="2.5" seln_id="491561820" disporder="-50" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.25" bet_ref="NDkxNTYxODIwOjEvNDoxMDow" frac_prc="1/4" us_prc="-400" last_change="2018-04-16T06:25:06"/>
             </Seln>
-            <Seln status="A" seln_id="489950717" seln_sort="N" name="Κανένα γκολ" disporder="2">
-              <Price prc_type="LP" dec_prc="126.00" bet_ref="NDg5OTUwNzE3OjEyNS8xOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" name="Μαρί Γκρέιχαουντς" seln_id="489950716" team_id="1888092" disporder="103" seln_sort="A">
-              <Price prc_type="LP" dec_prc="1.85" bet_ref="NDg5OTUwNzE2OjE3LzIwOjow" frac_prc="17/20" us_prc="-118" last_change="2018-04-15T07:41:38"/>
+            <Seln status="A" name="Under" handicap="2.5" seln_id="491561819" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="3.90" bet_ref="NDkxNTYxODE5OjI5LzEwOjEwOjA" frac_prc="29/10" us_prc="+290" last_change="2018-04-16T06:25:06"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Περίοδος με τα Περισσότερα Γκολ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100055604" inplay_avail="N" disporder="-9090" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HSPE" lp_avail="Y" mkt_sort_name="MKT_SORT-HSPE">
-            <Seln status="A" seln_id="489950719" seln_sort="1" name="1η Περίοδος" disporder="1">
-              <Price prc_type="LP" dec_prc="4.35" bet_ref="NDg5OTUwNzE5OjY3LzIwOjow" frac_prc="67/20" us_prc="+335" last_change="2018-04-14T04:27:21"/>
+          <Mkt status="A" name="Μαρί Γκρέιχαουντς Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501970" handicap="3.5" inplay_avail="Y" disporder="-9845" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUHG" lp_avail="Y" mkt_sort_name="Συνολικά γκολ γηπεδούχων - Πάνω/Κάτω">
+            <Seln status="A" name="Over" handicap="3.5" seln_id="491561822" disporder="-50" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.65" bet_ref="NDkxNTYxODIyOjEzLzIwOjE0OjA" frac_prc="13/20" us_prc="-154" last_change="2018-04-16T06:25:06"/>
             </Seln>
-            <Seln status="A" seln_id="489950720" seln_sort="2" name="2η Περίοδος" disporder="2">
-              <Price prc_type="LP" dec_prc="2.90" bet_ref="NDg5OTUwNzIwOjE5LzEwOjow" frac_prc="19/10" us_prc="+190" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="489950721" seln_sort="3" name="3η Περίοδος" disporder="3">
-              <Price prc_type="LP" dec_prc="3.75" bet_ref="NDg5OTUwNzIxOjExLzQ6OjA" frac_prc="11/4" us_prc="+275" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="489950718" seln_sort="T" name="Ισοπαλία" disporder="50">
-              <Price prc_type="LP" dec_prc="3.85" bet_ref="NDg5OTUwNzE4OjU3LzIwOjow" frac_prc="57/20" us_prc="+285" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" name="Under" handicap="3.5" seln_id="491561821" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="2.20" bet_ref="NDkxNTYxODIxOjYvNToxNDow" frac_prc="6/5" us_prc="+120" last_change="2018-04-16T06:25:06"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Ακριβές σκορ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100055606" inplay_avail="Y" disporder="-8600" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="CSFT" lp_avail="Y" mkt_sort_name="Σωστό σκορ">
-            <Seln status="A" seln_id="491198104" seln_sort="1-0" name="1-0" disporder="10">
-              <Price prc_type="LP" dec_prc="151.00" bet_ref="NDkxMTk4MTA0OjE1MC8xOjow" frac_prc="150/1" us_prc="+15000" last_change="2018-04-15T07:41:38"/>
-            </Seln>
-            <Seln status="A" seln_id="490780080" seln_sort="2-0" name="2-0" disporder="20">
-              <Price prc_type="LP" dec_prc="126.00" bet_ref="NDkwNzgwMDgwOjEyNS8xOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780081" seln_sort="2-1" name="2-1" disporder="21">
-              <Price prc_type="LP" dec_prc="67.00" bet_ref="NDkwNzgwMDgxOjY2LzE6OjA" frac_prc="66/1" us_prc="+6600" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780089" seln_sort="3-0" name="3-0" disporder="30">
-              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkwNzgwMDg5OjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780090" seln_sort="3-1" name="3-1" disporder="31">
-              <Price prc_type="LP" dec_prc="46.00" bet_ref="NDkwNzgwMDkwOjQ1LzE6OjA" frac_prc="45/1" us_prc="+4500" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780091" seln_sort="3-2" name="3-2" disporder="32">
-              <Price prc_type="LP" dec_prc="34.00" bet_ref="NDkwNzgwMDkxOjMzLzE6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780099" seln_sort="4-0" name="4-0" disporder="40">
-              <Price prc_type="LP" dec_prc="126.00" bet_ref="NDkwNzgwMDk5OjEyNS8xOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780100" seln_sort="4-1" name="4-1" disporder="41">
-              <Price prc_type="LP" dec_prc="51.00" bet_ref="NDkwNzgwMTAwOjUwLzE6OjA" frac_prc="50/1" us_prc="+5000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780101" seln_sort="4-2" name="4-2" disporder="42">
-              <Price prc_type="LP" dec_prc="27.50" bet_ref="NDkwNzgwMTAxOjUzLzI6OjA" frac_prc="53/2" us_prc="+2650" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780102" seln_sort="4-3" name="4-3" disporder="43">
-              <Price prc_type="LP" dec_prc="29.00" bet_ref="NDkwNzgwMTAyOjI4LzE6OjA" frac_prc="28/1" us_prc="+2800" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780109" seln_sort="5-0" name="5-0" disporder="50">
-              <Price prc_type="LP" dec_prc="151.00" bet_ref="NDkwNzgwMTA5OjE1MC8xOjow" frac_prc="150/1" us_prc="+15000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780110" seln_sort="5-1" name="5-1" disporder="51">
-              <Price prc_type="LP" dec_prc="71.00" bet_ref="NDkwNzgwMTEwOjcwLzE6OjA" frac_prc="70/1" us_prc="+7000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780111" seln_sort="5-2" name="5-2" disporder="52">
-              <Price prc_type="LP" dec_prc="34.00" bet_ref="NDkwNzgwMTExOjMzLzE6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780112" seln_sort="5-3" name="5-3" disporder="53">
-              <Price prc_type="LP" dec_prc="27.50" bet_ref="NDkwNzgwMTEyOjUzLzI6OjA" frac_prc="53/2" us_prc="+2650" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780113" seln_sort="5-4" name="5-4" disporder="54">
-              <Price prc_type="LP" dec_prc="34.00" bet_ref="NDkwNzgwMTEzOjMzLzE6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780118" seln_sort="6-1" name="6-1" disporder="61">
-              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkwNzgwMTE4OjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780119" seln_sort="6-2" name="6-2" disporder="62">
-              <Price prc_type="LP" dec_prc="61.00" bet_ref="NDkwNzgwMTE5OjYwLzE6OjA" frac_prc="60/1" us_prc="+6000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780121" seln_sort="6-3" name="6-3" disporder="63">
-              <Price prc_type="LP" dec_prc="41.00" bet_ref="NDkwNzgwMTIxOjQwLzE6OjA" frac_prc="40/1" us_prc="+4000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780122" seln_sort="6-4" name="6-4" disporder="64">
-              <Price prc_type="LP" dec_prc="41.00" bet_ref="NDkwNzgwMTIyOjQwLzE6OjA" frac_prc="40/1" us_prc="+4000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780123" seln_sort="6-5" name="6-5" disporder="65">
-              <Price prc_type="LP" dec_prc="71.00" bet_ref="NDkwNzgwMTIzOjcwLzE6OjA" frac_prc="70/1" us_prc="+7000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780129" seln_sort="7-1" name="7-1" disporder="71">
-              <Price prc_type="LP" dec_prc="126.00" bet_ref="NDkwNzgwMTI5OjEyNS8xOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780131" seln_sort="7-2" name="7-2" disporder="72">
-              <Price prc_type="LP" dec_prc="91.00" bet_ref="NDkwNzgwMTMxOjkwLzE6OjA" frac_prc="90/1" us_prc="+9000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780133" seln_sort="7-3" name="7-3" disporder="73">
-              <Price prc_type="LP" dec_prc="76.00" bet_ref="NDkwNzgwMTMzOjc1LzE6OjA" frac_prc="75/1" us_prc="+7500" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780135" seln_sort="7-4" name="7-4" disporder="74">
-              <Price prc_type="LP" dec_prc="71.00" bet_ref="NDkwNzgwMTM1OjcwLzE6OjA" frac_prc="70/1" us_prc="+7000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780137" seln_sort="7-5" name="7-5" disporder="75">
-              <Price prc_type="LP" dec_prc="81.00" bet_ref="NDkwNzgwMTM3OjgwLzE6OjA" frac_prc="80/1" us_prc="+8000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780138" seln_sort="7-6" name="7-6" disporder="76">
-              <Price prc_type="LP" dec_prc="126.00" bet_ref="NDkwNzgwMTM4OjEyNS8xOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780142" seln_sort="8-2" name="8-2" disporder="82">
-              <Price prc_type="LP" dec_prc="151.00" bet_ref="NDkwNzgwMTQyOjE1MC8xOjow" frac_prc="150/1" us_prc="+15000" last_change="2018-04-15T07:41:38"/>
-            </Seln>
-            <Seln status="A" seln_id="490780146" seln_sort="8-3" name="8-3" disporder="83">
-              <Price prc_type="LP" dec_prc="126.00" bet_ref="NDkwNzgwMTQ2OjEyNS8xOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780148" seln_sort="8-4" name="8-4" disporder="84">
-              <Price prc_type="LP" dec_prc="126.00" bet_ref="NDkwNzgwMTQ4OjEyNS8xOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780149" seln_sort="8-5" name="8-5" disporder="85">
-              <Price prc_type="LP" dec_prc="126.00" bet_ref="NDkwNzgwMTQ5OjEyNS8xOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780151" seln_sort="8-6" name="8-6" disporder="86">
-              <Price prc_type="LP" dec_prc="151.00" bet_ref="NDkwNzgwMTUxOjE1MC8xOjow" frac_prc="150/1" us_prc="+15000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780072" seln_sort="1-1" name="1-1" disporder="1011">
-              <Price prc_type="LP" dec_prc="61.00" bet_ref="NDkwNzgwMDcyOjYwLzE6OjA" frac_prc="60/1" us_prc="+6000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780082" seln_sort="2-2" name="2-2" disporder="1022">
-              <Price prc_type="LP" dec_prc="25.00" bet_ref="NDkwNzgwMDgyOjI0LzE6OjA" frac_prc="24/1" us_prc="+2400" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780092" seln_sort="3-3" name="3-3" disporder="1033">
-              <Price prc_type="LP" dec_prc="16.50" bet_ref="NDkwNzgwMDkyOjMxLzI6OjA" frac_prc="31/2" us_prc="+1550" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780103" seln_sort="4-4" name="4-4" disporder="1044">
-              <Price prc_type="LP" dec_prc="18.00" bet_ref="NDkwNzgwMTAzOjE3LzE6OjA" frac_prc="17/1" us_prc="+1700" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780114" seln_sort="5-5" name="5-5" disporder="1055">
-              <Price prc_type="LP" dec_prc="29.00" bet_ref="NDkwNzgwMTE0OjI4LzE6OjA" frac_prc="28/1" us_prc="+2800" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780124" seln_sort="6-6" name="6-6" disporder="1066">
-              <Price prc_type="LP" dec_prc="61.00" bet_ref="NDkwNzgwMTI0OjYwLzE6OjA" frac_prc="60/1" us_prc="+6000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780140" seln_sort="7-7" name="7-7" disporder="1077">
-              <Price prc_type="LP" dec_prc="126.00" bet_ref="NDkwNzgwMTQwOjEyNS8xOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780067" seln_sort="0-1" name="0-1" disporder="2010">
-              <Price prc_type="LP" dec_prc="151.00" bet_ref="NDkwNzgwMDY3OjE1MC8xOjow" frac_prc="150/1" us_prc="+15000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780068" seln_sort="0-2" name="0-2" disporder="2020">
-              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkwNzgwMDY4OjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780073" seln_sort="1-2" name="1-2" disporder="2021">
-              <Price prc_type="LP" dec_prc="61.00" bet_ref="NDkwNzgwMDczOjYwLzE6OjA" frac_prc="60/1" us_prc="+6000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780069" seln_sort="0-3" name="0-3" disporder="2030">
-              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkwNzgwMDY5OjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780074" seln_sort="1-3" name="1-3" disporder="2031">
-              <Price prc_type="LP" dec_prc="41.00" bet_ref="NDkwNzgwMDc0OjQwLzE6OjA" frac_prc="40/1" us_prc="+4000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780083" seln_sort="2-3" name="2-3" disporder="2032">
-              <Price prc_type="LP" dec_prc="31.00" bet_ref="NDkwNzgwMDgzOjMwLzE6OjA" frac_prc="30/1" us_prc="+3000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780070" seln_sort="0-4" name="0-4" disporder="2040">
-              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkwNzgwMDcwOjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780075" seln_sort="1-4" name="1-4" disporder="2041">
-              <Price prc_type="LP" dec_prc="41.00" bet_ref="NDkwNzgwMDc1OjQwLzE6OjA" frac_prc="40/1" us_prc="+4000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780084" seln_sort="2-4" name="2-4" disporder="2042">
-              <Price prc_type="LP" dec_prc="25.00" bet_ref="NDkwNzgwMDg0OjI0LzE6OjA" frac_prc="24/1" us_prc="+2400" last_change="2018-04-15T07:41:38"/>
-            </Seln>
-            <Seln status="A" seln_id="490780093" seln_sort="3-4" name="3-4" disporder="2043">
-              <Price prc_type="LP" dec_prc="27.50" bet_ref="NDkwNzgwMDkzOjUzLzI6OjA" frac_prc="53/2" us_prc="+2650" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780071" seln_sort="0-5" name="0-5" disporder="2050">
-              <Price prc_type="LP" dec_prc="126.00" bet_ref="NDkwNzgwMDcxOjEyNS8xOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780076" seln_sort="1-5" name="1-5" disporder="2051">
-              <Price prc_type="LP" dec_prc="56.00" bet_ref="NDkwNzgwMDc2OjU1LzE6OjA" frac_prc="55/1" us_prc="+5500" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780085" seln_sort="2-5" name="2-5" disporder="2052">
-              <Price prc_type="LP" dec_prc="29.00" bet_ref="NDkwNzgwMDg1OjI4LzE6OjA" frac_prc="28/1" us_prc="+2800" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780094" seln_sort="3-5" name="3-5" disporder="2053">
-              <Price prc_type="LP" dec_prc="25.00" bet_ref="NDkwNzgwMDk0OjI0LzE6OjA" frac_prc="24/1" us_prc="+2400" last_change="2018-04-15T07:41:38"/>
-            </Seln>
-            <Seln status="A" seln_id="490780104" seln_sort="4-5" name="4-5" disporder="2054">
-              <Price prc_type="LP" dec_prc="34.00" bet_ref="NDkwNzgwMTA0OjMzLzE6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780077" seln_sort="1-6" name="1-6" disporder="2061">
-              <Price prc_type="LP" dec_prc="76.00" bet_ref="NDkwNzgwMDc3Ojc1LzE6OjA" frac_prc="75/1" us_prc="+7500" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780086" seln_sort="2-6" name="2-6" disporder="2062">
-              <Price prc_type="LP" dec_prc="46.00" bet_ref="NDkwNzgwMDg2OjQ1LzE6OjA" frac_prc="45/1" us_prc="+4500" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780095" seln_sort="3-6" name="3-6" disporder="2063">
-              <Price prc_type="LP" dec_prc="34.00" bet_ref="NDkwNzgwMDk1OjMzLzE6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780105" seln_sort="4-6" name="4-6" disporder="2064">
-              <Price prc_type="LP" dec_prc="34.00" bet_ref="NDkwNzgwMTA1OjMzLzE6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780115" seln_sort="5-6" name="5-6" disporder="2065">
-              <Price prc_type="LP" dec_prc="67.00" bet_ref="NDkwNzgwMTE1OjY2LzE6OjA" frac_prc="66/1" us_prc="+6600" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780078" seln_sort="1-7" name="1-7" disporder="2071">
-              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkwNzgwMDc4OjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780087" seln_sort="2-7" name="2-7" disporder="2072">
-              <Price prc_type="LP" dec_prc="76.00" bet_ref="NDkwNzgwMDg3Ojc1LzE6OjA" frac_prc="75/1" us_prc="+7500" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780096" seln_sort="3-7" name="3-7" disporder="2073">
-              <Price prc_type="LP" dec_prc="61.00" bet_ref="NDkwNzgwMDk2OjYwLzE6OjA" frac_prc="60/1" us_prc="+6000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780106" seln_sort="4-7" name="4-7" disporder="2074">
-              <Price prc_type="LP" dec_prc="61.00" bet_ref="NDkwNzgwMTA2OjYwLzE6OjA" frac_prc="60/1" us_prc="+6000" last_change="2018-04-15T07:41:38"/>
-            </Seln>
-            <Seln status="A" seln_id="490780116" seln_sort="5-7" name="5-7" disporder="2075">
-              <Price prc_type="LP" dec_prc="76.00" bet_ref="NDkwNzgwMTE2Ojc1LzE6OjA" frac_prc="75/1" us_prc="+7500" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780125" seln_sort="6-7" name="6-7" disporder="2076">
-              <Price prc_type="LP" dec_prc="126.00" bet_ref="NDkwNzgwMTI1OjEyNS8xOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780079" seln_sort="1-8" name="1-8" disporder="2081">
-              <Price prc_type="LP" dec_prc="151.00" bet_ref="NDkwNzgwMDc5OjE1MC8xOjow" frac_prc="150/1" us_prc="+15000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780088" seln_sort="2-8" name="2-8" disporder="2082">
-              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkwNzgwMDg4OjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780097" seln_sort="3-8" name="3-8" disporder="2083">
-              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkwNzgwMDk3OjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780107" seln_sort="4-8" name="4-8" disporder="2084">
-              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkwNzgwMTA3OjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780117" seln_sort="5-8" name="5-8" disporder="2085">
-              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkwNzgwMTE3OjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780127" seln_sort="6-8" name="6-8" disporder="2086">
-              <Price prc_type="LP" dec_prc="151.00" bet_ref="NDkwNzgwMTI3OjE1MC8xOjow" frac_prc="150/1" us_prc="+15000" last_change="2018-04-15T07:41:38"/>
-            </Seln>
-            <Seln status="A" seln_id="490780098" seln_sort="3-9" name="3-9" disporder="2093">
-              <Price prc_type="LP" dec_prc="151.00" bet_ref="NDkwNzgwMDk4OjE1MC8xOjow" frac_prc="150/1" us_prc="+15000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780108" seln_sort="4-9" name="4-9" disporder="2094">
-              <Price prc_type="LP" dec_prc="151.00" bet_ref="NDkwNzgwMTA4OjE1MC8xOjow" frac_prc="150/1" us_prc="+15000" last_change="2018-04-14T04:27:21"/>
+          <Mkt status="A" name="Μαρί Γκρέιχαουντς Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501971" handicap="4.5" inplay_avail="Y" disporder="-9845" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUHG" lp_avail="Y" mkt_sort_name="Συνολικά γκολ γηπεδούχων - Πάνω/Κάτω">
+            <Seln status="A" name="Over" handicap="4.5" seln_id="491561824" disporder="-50" seln_sort="O">
+              <Price prc_type="LP" dec_prc="2.45" bet_ref="NDkxNTYxODI0OjI5LzIwOjE4OjA" frac_prc="29/20" us_prc="+145" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="4.5" seln_id="491561823" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.533" bet_ref="NDkxNTYxODIzOjgvMTU6MTg6MA" frac_prc="8/15" us_prc="-188" last_change="2018-04-16T06:25:06"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Όουεν Σάουντ Ατάκ Μηδέν παθητικό" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100055607" inplay_avail="Y" disporder="-6700" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HCLS" lp_avail="Y" mkt_sort_name="MKT_SORT-HCLS">
-            <Seln status="A" seln_id="489950724" seln_sort="Y" name="Ναι" disporder="0">
-              <Price prc_type="LP" dec_prc="31.00" bet_ref="NDg5OTUwNzI0OjMwLzE6OjA" frac_prc="30/1" us_prc="+3000" last_change="2018-04-14T04:27:21"/>
+          <Mkt status="A" name="Όουεν Σάουντ Ατάκ Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501944" handicap="2.5" inplay_avail="Y" disporder="-9842" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUAG" lp_avail="Y" mkt_sort_name="Συνολικά γκολ φιλοξενούμενης (Πάνω/Κάτω)">
+            <Seln status="A" name="Over" handicap="2.5" seln_id="491561763" disporder="-50" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.50" bet_ref="NDkxNTYxNzYzOjEvMjoxMDow" frac_prc="1/2" us_prc="-200" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="489950725" seln_sort="N" name="Όχι" disporder="1">
-              <Price prc_type="LP" dec_prc="1.01" bet_ref="NDg5OTUwNzI1OjEvMTAwOjow" frac_prc="1/100" us_prc="-10000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" name="Μαρί Γκρέιχαουντς Μηδέν παθητικό" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100055608" inplay_avail="Y" disporder="-6690" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="ACLS" lp_avail="Y" mkt_sort_name="MKT_SORT-ACLS">
-            <Seln status="A" seln_id="489950726" seln_sort="Y" name="Ναι" disporder="0">
-              <Price prc_type="LP" dec_prc="24.00" bet_ref="NDg5OTUwNzI2OjIzLzE6OjA" frac_prc="23/1" us_prc="+2300" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="489950727" seln_sort="N" name="Όχι" disporder="1">
-              <Price prc_type="LP" dec_prc="1.015" bet_ref="NDg5OTUwNzI3OjEvNjY6OjA" frac_prc="1/66" us_prc="-6600" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" name="Under" handicap="2.5" seln_id="491561762" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="2.55" bet_ref="NDkxNTYxNzYyOjMxLzIwOjEwOjA" frac_prc="31/20" us_prc="+155" last_change="2018-04-16T06:25:05"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="1η Περίοδος - 1X2" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100055609" inplay_avail="Y" disporder="-5010" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="T1WN" lp_avail="Y" mkt_sort_name="MKT_SORT-T1WN">
-            <Seln status="A" name="Όουεν Σάουντ Ατάκ" seln_id="489950728" team_id="1888087" disporder="0" seln_sort="H">
-              <Price prc_type="LP" dec_prc="2.85" bet_ref="NDg5OTUwNzI4OjM3LzIwOjow" frac_prc="37/20" us_prc="+185" last_change="2018-04-15T07:41:38"/>
+          <Mkt status="A" name="Όουεν Σάουντ Ατάκ Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501945" handicap="3.5" inplay_avail="Y" disporder="-9842" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUAG" lp_avail="Y" mkt_sort_name="Συνολικά γκολ φιλοξενούμενης (Πάνω/Κάτω)">
+            <Seln status="A" name="Over" handicap="3.5" seln_id="491561765" disporder="-50" seln_sort="O">
+              <Price prc_type="LP" dec_prc="2.30" bet_ref="NDkxNTYxNzY1OjEzLzEwOjE0OjA" frac_prc="13/10" us_prc="+130" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="489950730" seln_sort="D" name="Ισοπαλία" disporder="2">
-              <Price prc_type="LP" dec_prc="3.10" bet_ref="NDg5OTUwNzMwOjIxLzEwOjow" frac_prc="21/10" us_prc="+210" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" name="Μαρί Γκρέιχαουντς" seln_id="489950729" team_id="1888092" disporder="10" seln_sort="A">
-              <Price prc_type="LP" dec_prc="2.50" bet_ref="NDg5OTUwNzI5OjYvNDo6MA" frac_prc="6/4" us_prc="+150" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" name="Under" handicap="3.5" seln_id="491561764" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.60" bet_ref="NDkxNTYxNzY0OjMvNToxNDow" frac_prc="3/5" us_prc="-167" last_change="2018-04-16T06:25:05"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="1η Περίοδος - Συνολικά γκολ (Over/Under)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277471" handicap="1.5" inplay_avail="Y" disporder="-4996" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="P1OU" lp_avail="Y" mkt_sort_name="1st Period Total Points (Over/Under)">
-            <Seln status="A" name="Over" handicap="1.5" seln_id="490779968" disporder="-50" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.44" bet_ref="NDkwNzc5OTY4OjExLzI1OjY6MA" frac_prc="11/25" us_prc="-228" last_change="2018-04-14T04:27:21"/>
+          <Mkt status="A" name="Όουεν Σάουντ Ατάκ Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501946" handicap="4.5" inplay_avail="Y" disporder="-9842" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUAG" lp_avail="Y" mkt_sort_name="Συνολικά γκολ φιλοξενούμενης (Πάνω/Κάτω)">
+            <Seln status="A" name="Over" handicap="4.5" seln_id="491561767" disporder="-50" seln_sort="O">
+              <Price prc_type="LP" dec_prc="4.00" bet_ref="NDkxNTYxNzY3OjMvMToxODow" frac_prc="3/1" us_prc="+300" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="1.5" seln_id="490779967" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="2.80" bet_ref="NDkwNzc5OTY3OjkvNTo2OjA" frac_prc="9/5" us_prc="+180" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" name="1η Περίοδος - Συνολικά γκολ (Over/Under)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277473" handicap="2.5" inplay_avail="Y" disporder="-4996" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="P1OU" lp_avail="Y" mkt_sort_name="1st Period Total Points (Over/Under)">
-            <Seln status="A" name="Over" handicap="2.5" seln_id="490779972" disporder="-50" seln_sort="O">
-              <Price prc_type="LP" dec_prc="2.25" bet_ref="NDkwNzc5OTcyOjUvNDoxMDow" frac_prc="5/4" us_prc="+125" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" name="Under" handicap="2.5" seln_id="490779971" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.615" bet_ref="NDkwNzc5OTcxOjgvMTM6MTA6MA" frac_prc="8/13" us_prc="-163" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" name="Under" handicap="4.5" seln_id="491561766" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.222" bet_ref="NDkxNTYxNzY2OjIvOToxODow" frac_prc="2/9" us_prc="-450" last_change="2018-04-16T06:25:05"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="1η Περίοδος - Συνολικά γκολ (Over/Under)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277475" handicap="3.5" inplay_avail="Y" disporder="-4996" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="P1OU" lp_avail="Y" mkt_sort_name="1st Period Total Points (Over/Under)">
-            <Seln status="A" name="Over" handicap="3.5" seln_id="490779976" disporder="-50" seln_sort="O">
-              <Price prc_type="LP" dec_prc="4.30" bet_ref="NDkwNzc5OTc2OjMzLzEwOjE0OjA" frac_prc="33/10" us_prc="+330" last_change="2018-04-14T04:27:21"/>
+          <Mkt status="A" name="Draw No Bet (Team based)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100496273" inplay_avail="Y" disporder="-9740" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="DNOB" lp_avail="Y" mkt_sort_name="Draw No Bet">
+            <Seln status="A" name="Μαρί Γκρέιχαουντς" seln_id="491541044" team_id="1888092" disporder="0" seln_sort="H">
+              <Price prc_type="LP" dec_prc="1.47" bet_ref="NDkxNTQxMDQ0OjQ3LzEwMDo6MA" frac_prc="47/100" us_prc="-213" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="3.5" seln_id="490779975" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.20" bet_ref="NDkwNzc5OTc1OjEvNToxNDow" frac_prc="1/5" us_prc="-500" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" name="1η Περίοδος - Χάντικαπ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277466" handicap="-0.5" inplay_avail="Y" disporder="-4994" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="T1HC" lp_avail="Y" mkt_sort_name="MKT_SORT-T1HC">
-            <Seln status="A" name="Όουεν Σάουντ Ατάκ" handicap="-0.5" seln_id="490779957" team_id="1888087" disporder="0" seln_sort="1">
-              <Price prc_type="LP" dec_prc="2.85" bet_ref="NDkwNzc5OTU3OjM3LzIwOi0yOjA" frac_prc="37/20" us_prc="+185" last_change="2018-04-15T07:41:38"/>
-            </Seln>
-            <Seln status="A" name="Μαρί Γκρέιχαουντς" handicap="+0.5" seln_id="490779958" team_id="1888092" disporder="1" seln_sort="2">
-              <Price prc_type="LP" dec_prc="1.44" bet_ref="NDkwNzc5OTU4OjExLzI1Oi0yOjA" frac_prc="11/25" us_prc="-228" last_change="2018-04-15T07:41:38"/>
+            <Seln status="A" name="Όουεν Σάουντ Ατάκ" seln_id="491541045" team_id="1888087" disporder="1" seln_sort="A">
+              <Price prc_type="LP" dec_prc="2.60" bet_ref="NDkxNTQxMDQ1OjgvNTo6MA" frac_prc="8/5" us_prc="+160" last_change="2018-04-16T06:25:05"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="1η Περίοδος - Χάντικαπ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277468" handicap="+0.5" inplay_avail="Y" disporder="-4994" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="T1HC" lp_avail="Y" mkt_sort_name="MKT_SORT-T1HC">
-            <Seln status="A" name="Όουεν Σάουντ Ατάκ" handicap="+0.5" seln_id="490779960" team_id="1888087" disporder="0" seln_sort="1">
-              <Price prc_type="LP" dec_prc="1.50" bet_ref="NDkwNzc5OTYwOjEvMjoyOjA" frac_prc="1/2" us_prc="-200" last_change="2018-04-14T04:27:21"/>
+          <Mkt status="A" name="Αποτέλεσμα/Συνολικά Γκολ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501950" handicap="+7.5" inplay_avail="Y" disporder="-9299" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUMR" lp_avail="Y" mkt_sort_name="MKT_SORT-OUMR">
+            <Seln status="A" name="Μαρί Γκρέιχαουντς και Over" handicap="+7.5" seln_id="491561774" team_id="1888092" disporder="0" seln_sort="HO">
+              <Price prc_type="LP" dec_prc="3.85" bet_ref="NDkxNTYxNzc0OjU3LzIwOjMwOjA" frac_prc="57/20" us_prc="+285" last_change="2018-04-16T06:25:06"/>
             </Seln>
-            <Seln status="A" name="Μαρί Γκρέιχαουντς" handicap="-0.5" seln_id="490779962" team_id="1888092" disporder="1" seln_sort="2">
-              <Price prc_type="LP" dec_prc="2.50" bet_ref="NDkwNzc5OTYyOjYvNDoyOjA" frac_prc="6/4" us_prc="+150" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" name="Μαρί Γκρέιχαουντς και Under" handicap="+7.5" seln_id="491561775" team_id="1888092" disporder="1" seln_sort="HU">
+              <Price prc_type="LP" dec_prc="3.40" bet_ref="NDkxNTYxNzc1OjEyLzU6MzA6MA" frac_prc="12/5" us_prc="+240" last_change="2018-04-16T06:25:06"/>
             </Seln>
-          </Mkt>
-          <Mkt status="A" name="1η Περίοδος - Χάντικαπ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277469" handicap="+1.5" inplay_avail="Y" disporder="-4994" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="T1HC" lp_avail="Y" mkt_sort_name="MKT_SORT-T1HC">
-            <Seln status="A" name="Όουεν Σάουντ Ατάκ" handicap="+1.5" seln_id="490779963" team_id="1888087" disporder="0" seln_sort="1">
-              <Price prc_type="LP" dec_prc="1.133" bet_ref="NDkwNzc5OTYzOjIvMTU6Njow" frac_prc="2/15" us_prc="-750" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" name="Ισοπαλία και Over" handicap="+7.5" seln_id="491561778" disporder="4" seln_sort="DO">
+              <Price prc_type="LP" dec_prc="9.75" bet_ref="NDkxNTYxNzc4OjM1LzQ6MzA6MA" frac_prc="35/4" us_prc="+875" last_change="2018-04-16T06:25:06"/>
             </Seln>
-            <Seln status="A" name="Μαρί Γκρέιχαουντς" handicap="-1.5" seln_id="490779964" team_id="1888092" disporder="1" seln_sort="2">
-              <Price prc_type="LP" dec_prc="5.60" bet_ref="NDkwNzc5OTY0OjIzLzU6Njow" frac_prc="23/5" us_prc="+460" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" name="Ισοπαλία και Under" handicap="+7.5" seln_id="491561779" disporder="5" seln_sort="DU">
+              <Price prc_type="LP" dec_prc="7.50" bet_ref="NDkxNTYxNzc5OjEzLzI6MzA6MA" frac_prc="13/2" us_prc="+650" last_change="2018-04-16T06:25:06"/>
             </Seln>
-          </Mkt>
-          <Mkt status="A" name="1η Περίοδος - Διπλή ευκαιρία" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100055610" inplay_avail="Y" disporder="-4993" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="P1DC" lp_avail="Y" mkt_sort_name="1st Period Double Chance ">
-            <Seln status="A" seln_id="489950732" seln_sort="HD" name="Όουεν Σάουντ Ατάκ/Ισοπαλία" disporder="1">
-              <Price prc_type="LP" dec_prc="1.50" bet_ref="NDg5OTUwNzMyOjEvMjo6MA" frac_prc="1/2" us_prc="-200" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" name="Όουεν Σάουντ Ατάκ και Over" handicap="+7.5" seln_id="491561776" team_id="1888087" disporder="20" seln_sort="AO">
+              <Price prc_type="LP" dec_prc="7.00" bet_ref="NDkxNTYxNzc2OjYvMTozMDow" frac_prc="6/1" us_prc="+600" last_change="2018-04-16T06:25:06"/>
             </Seln>
-            <Seln status="A" seln_id="489950733" seln_sort="AD" name="Μαρί Γκρέιχαουντς/Ισοπαλία" disporder="2">
-              <Price prc_type="LP" dec_prc="1.40" bet_ref="NDg5OTUwNzMzOjIvNTo6MA" frac_prc="2/5" us_prc="-250" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="489950731" seln_sort="HA" name="Όουεν Σάουντ Ατάκ/Μαρί Γκρέιχαουντς" disporder="50">
-              <Price prc_type="LP" dec_prc="1.38" bet_ref="NDg5OTUwNzMxOjE5LzUwOjow" frac_prc="19/50" us_prc="-264" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" name="Όουεν Σάουντ Ατάκ και Under" handicap="+7.5" seln_id="491561777" team_id="1888087" disporder="30" seln_sort="AU">
+              <Price prc_type="LP" dec_prc="5.60" bet_ref="NDkxNTYxNzc3OjIzLzU6MzA6MA" frac_prc="23/5" us_prc="+460" last_change="2018-04-16T06:25:06"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="1η Περίοδος/Τελικό Αποτέλεσμα" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100055611" inplay_avail="N" disporder="-4990" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="P1MR" lp_avail="Y" mkt_sort_name="MKT_SORT-P1MR">
-            <Seln status="A" seln_id="489950734" seln_sort="HH" name="1/1" disporder="0">
-              <Price prc_type="LP" dec_prc="4.50" bet_ref="NDg5OTUwNzM0OjcvMjo6MA" frac_prc="7/2" us_prc="+350" last_change="2018-04-15T07:41:38"/>
+          <Mkt status="A" name="Συνολικά γκολ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100496274" inplay_avail="Y" disporder="-9150" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="GORN" lp_avail="Y" mkt_sort_name="Άθροισμα γκολ">
+            <Seln status="A" seln_id="491541046" seln_sort="0-3" name="0-3" disporder="0">
+              <Price prc_type="LP" dec_prc="11.50" bet_ref="NDkxNTQxMDQ2OjIxLzI6OjA" frac_prc="21/2" us_prc="+1050" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="489950735" seln_sort="HD" name="1/X" disporder="1">
-              <Price prc_type="LP" dec_prc="12.60" bet_ref="NDg5OTUwNzM1OjU4LzU6OjA" frac_prc="58/5" us_prc="+1160" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491541047" seln_sort="4-5" name="4-5" disporder="2">
+              <Price prc_type="LP" dec_prc="4.75" bet_ref="NDkxNTQxMDQ3OjE1LzQ6OjA" frac_prc="15/4" us_prc="+375" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="489950736" seln_sort="HA" name="1/2" disporder="2">
-              <Price prc_type="LP" dec_prc="12.75" bet_ref="NDg5OTUwNzM2OjQ3LzQ6OjA" frac_prc="47/4" us_prc="+1175" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491541048" seln_sort="6-7" name="6-7" disporder="5">
+              <Price prc_type="LP" dec_prc="3.20" bet_ref="NDkxNTQxMDQ4OjExLzU6OjA" frac_prc="11/5" us_prc="+220" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="489950737" seln_sort="DH" name="X/1" disporder="3">
-              <Price prc_type="LP" dec_prc="8.00" bet_ref="NDg5OTUwNzM3OjcvMTo6MA" frac_prc="7/1" us_prc="+700" last_change="2018-04-15T07:41:38"/>
-            </Seln>
-            <Seln status="A" seln_id="489950738" seln_sort="DD" name="X/X" disporder="4">
-              <Price prc_type="LP" dec_prc="11.50" bet_ref="NDg5OTUwNzM4OjIxLzI6OjA" frac_prc="21/2" us_prc="+1050" last_change="2018-04-15T07:41:38"/>
-            </Seln>
-            <Seln status="A" seln_id="489950739" seln_sort="DA" name="X/2" disporder="5">
-              <Price prc_type="LP" dec_prc="7.25" bet_ref="NDg5OTUwNzM5OjI1LzQ6OjA" frac_prc="25/4" us_prc="+625" last_change="2018-04-15T07:41:38"/>
-            </Seln>
-            <Seln status="A" seln_id="489950740" seln_sort="AH" name="2/1" disporder="6">
-              <Price prc_type="LP" dec_prc="14.40" bet_ref="NDg5OTUwNzQwOjY3LzU6OjA" frac_prc="67/5" us_prc="+1340" last_change="2018-04-15T07:41:38"/>
-            </Seln>
-            <Seln status="A" seln_id="489950741" seln_sort="AD" name="2/X" disporder="7">
-              <Price prc_type="LP" dec_prc="12.60" bet_ref="NDg5OTUwNzQxOjU4LzU6OjA" frac_prc="58/5" us_prc="+1160" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="489950742" seln_sort="AA" name="2/2" disporder="8">
-              <Price prc_type="LP" dec_prc="3.70" bet_ref="NDg5OTUwNzQyOjI3LzEwOjow" frac_prc="27/10" us_prc="+270" last_change="2018-04-15T07:41:38"/>
+            <Seln status="A" seln_id="491541049" seln_sort="8-" name="8+" disporder="50">
+              <Price prc_type="LP" dec_prc="2.12" bet_ref="NDkxNTQxMDQ5OjI4LzI1Ojow" frac_prc="28/25" us_prc="+112" last_change="2018-04-16T06:25:05"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="1η Περίοδος - Όουεν Σάουντ Ατάκ Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277425" handicap="+0.5" inplay_avail="Y" disporder="-4925" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUPH" lp_avail="Y" mkt_sort_name="MKT_SORT-OUPH">
-            <Seln status="A" name="Over" handicap="+0.5" seln_id="490779869" disporder="-50" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.40" bet_ref="NDkwNzc5ODY5OjIvNToyOjA" frac_prc="2/5" us_prc="-250" last_change="2018-04-14T04:27:21"/>
+          <Mkt status="A" mkt_extra="I001" name="Επόμενη ομάδα που θα σκοράρει (Γκολ 1)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100496275" inplay_avail="Y" disporder="-9098" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="INTS" lp_avail="Y" mkt_sort_name="Επόμενη ομάδα που θα σκοράρει">
+            <Seln status="A" name="Μαρί Γκρέιχαουντς" seln_id="491541050" team_id="1888092" disporder="0" seln_sort="H">
+              <Price prc_type="LP" dec_prc="1.727" bet_ref="NDkxNTQxMDUwOjgvMTE6OjA" frac_prc="8/11" us_prc="-138" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="+0.5" seln_id="490779868" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="2.875" bet_ref="NDkwNzc5ODY4OjE1Lzg6Mjow" frac_prc="15/8" us_prc="+187" last_change="2018-04-15T07:41:38"/>
+            <Seln status="A" seln_id="491541052" seln_sort="N" name="Κανένα γκολ" disporder="2">
+              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkxNTQxMDUyOjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-          </Mkt>
-          <Mkt status="A" name="1η Περίοδος - Όουεν Σάουντ Ατάκ Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277427" handicap="+1.5" inplay_avail="Y" disporder="-4925" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUPH" lp_avail="Y" mkt_sort_name="MKT_SORT-OUPH">
-            <Seln status="A" name="Over" handicap="+1.5" seln_id="490779873" disporder="-50" seln_sort="O">
-              <Price prc_type="LP" dec_prc="3.00" bet_ref="NDkwNzc5ODczOjIvMTo2OjA" frac_prc="2/1" us_prc="+200" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" name="Under" handicap="+1.5" seln_id="490779872" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.38" bet_ref="NDkwNzc5ODcyOjE5LzUwOjY6MA" frac_prc="19/50" us_prc="-264" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" name="Όουεν Σάουντ Ατάκ" seln_id="491541051" team_id="1888087" disporder="103" seln_sort="A">
+              <Price prc_type="LP" dec_prc="2.12" bet_ref="NDkxNTQxMDUxOjI4LzI1Ojow" frac_prc="28/25" us_prc="+112" last_change="2018-04-16T06:25:05"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="1η Περίοδος - Μαρί Γκρέιχαουντς Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277462" handicap="+0.5" inplay_avail="Y" disporder="-4920" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUPA" lp_avail="Y" mkt_sort_name="MKT_SORT-OUPA">
-            <Seln status="A" name="Over" handicap="+0.5" seln_id="490779951" disporder="-50" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.36" bet_ref="NDkwNzc5OTUxOjkvMjU6Mjow" frac_prc="9/25" us_prc="-278" last_change="2018-04-14T04:27:21"/>
+          <Mkt status="A" name="Περίοδος με τα Περισσότερα Γκολ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100496276" inplay_avail="N" disporder="-9090" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HSPE" lp_avail="Y" mkt_sort_name="MKT_SORT-HSPE">
+            <Seln status="A" seln_id="491541054" seln_sort="1" name="1η Περίοδος" disporder="1">
+              <Price prc_type="LP" dec_prc="4.35" bet_ref="NDkxNTQxMDU0OjY3LzIwOjow" frac_prc="67/20" us_prc="+335" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="+0.5" seln_id="490779949" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="3.10" bet_ref="NDkwNzc5OTQ5OjIxLzEwOjI6MA" frac_prc="21/10" us_prc="+210" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491541055" seln_sort="2" name="2η Περίοδος" disporder="2">
+              <Price prc_type="LP" dec_prc="2.95" bet_ref="NDkxNTQxMDU1OjM5LzIwOjow" frac_prc="39/20" us_prc="+195" last_change="2018-04-16T06:25:05"/>
             </Seln>
-          </Mkt>
-          <Mkt status="A" name="1η Περίοδος - Μαρί Γκρέιχαουντς Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277464" handicap="+1.5" inplay_avail="Y" disporder="-4920" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUPA" lp_avail="Y" mkt_sort_name="MKT_SORT-OUPA">
-            <Seln status="A" name="Over" handicap="+1.5" seln_id="490779954" disporder="-50" seln_sort="O">
-              <Price prc_type="LP" dec_prc="2.70" bet_ref="NDkwNzc5OTU0OjE3LzEwOjY6MA" frac_prc="17/10" us_prc="+170" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491541056" seln_sort="3" name="3η Περίοδος" disporder="3">
+              <Price prc_type="LP" dec_prc="3.75" bet_ref="NDkxNTQxMDU2OjExLzQ6OjA" frac_prc="11/4" us_prc="+275" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="+1.5" seln_id="490779953" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.444" bet_ref="NDkwNzc5OTUzOjQvOTo2OjA" frac_prc="4/9" us_prc="-225" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491541053" seln_sort="T" name="Ισοπαλία" disporder="50">
+              <Price prc_type="LP" dec_prc="3.75" bet_ref="NDkxNTQxMDUzOjExLzQ6OjA" frac_prc="11/4" us_prc="+275" last_change="2018-04-16T06:25:05"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="1η Περίοδος - Συνολικά γκολ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100055612" inplay_avail="Y" disporder="-4800" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="GOR1" lp_avail="Y" mkt_sort_name="MKT_SORT-GOR1">
-            <Seln status="A" seln_id="489950743" seln_sort="0-2" name="0-2" disporder="0">
-              <Price prc_type="LP" dec_prc="1.615" bet_ref="NDg5OTUwNzQzOjgvMTM6OjA" frac_prc="8/13" us_prc="-163" last_change="2018-04-14T04:27:21"/>
+          <Mkt status="A" name="Ακριβές σκορ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100496278" inplay_avail="Y" disporder="-8600" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="CSFT" lp_avail="Y" mkt_sort_name="Σωστό σκορ">
+            <Seln status="A" seln_id="491561901" seln_sort="1-0" name="1-0" disporder="10">
+              <Price prc_type="LP" dec_prc="126.00" bet_ref="NDkxNTYxOTAxOjEyNS8xOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="489950744" seln_sort="3-" name="3+" disporder="1">
-              <Price prc_type="LP" dec_prc="2.25" bet_ref="NDg5OTUwNzQ0OjUvNDo6MA" frac_prc="5/4" us_prc="+125" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561908" seln_sort="2-0" name="2-0" disporder="20">
+              <Price prc_type="LP" dec_prc="91.00" bet_ref="NDkxNTYxOTA4OjkwLzE6OjA" frac_prc="90/1" us_prc="+9000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-          </Mkt>
-          <Mkt status="A" name="1η Περίοδος - Ακριβές σκορ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100055613" inplay_avail="Y" disporder="-4500" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="P1CS" lp_avail="Y" mkt_sort_name="MKT_SORT-P1CS">
-            <Seln status="A" seln_id="490780022" seln_sort="1-0" name="1 - 0" disporder="10">
-              <Price prc_type="LP" dec_prc="8.00" bet_ref="NDkwNzgwMDIyOjcvMTo6MA" frac_prc="7/1" us_prc="+700" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561909" seln_sort="2-1" name="2-1" disporder="21">
+              <Price prc_type="LP" dec_prc="51.00" bet_ref="NDkxNTYxOTA5OjUwLzE6OjA" frac_prc="50/1" us_prc="+5000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="490780027" seln_sort="2-0" name="2 - 0" disporder="20">
-              <Price prc_type="LP" dec_prc="14.25" bet_ref="NDkwNzgwMDI3OjUzLzQ6OjA" frac_prc="53/4" us_prc="+1325" last_change="2018-04-15T07:41:38"/>
+            <Seln status="A" seln_id="491561916" seln_sort="3-0" name="3-0" disporder="30">
+              <Price prc_type="LP" dec_prc="76.00" bet_ref="NDkxNTYxOTE2Ojc1LzE6OjA" frac_prc="75/1" us_prc="+7500" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="490780028" seln_sort="2-1" name="2 - 1" disporder="21">
-              <Price prc_type="LP" dec_prc="10.00" bet_ref="NDkwNzgwMDI4OjkvMTo6MA" frac_prc="9/1" us_prc="+900" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561917" seln_sort="3-1" name="3-1" disporder="31">
+              <Price prc_type="LP" dec_prc="31.00" bet_ref="NDkxNTYxOTE3OjMwLzE6OjA" frac_prc="30/1" us_prc="+3000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="490780032" seln_sort="3-0" name="3 - 0" disporder="30">
-              <Price prc_type="LP" dec_prc="34.00" bet_ref="NDkwNzgwMDMyOjMzLzE6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561918" seln_sort="3-2" name="3-2" disporder="32">
+              <Price prc_type="LP" dec_prc="27.50" bet_ref="NDkxNTYxOTE4OjUzLzI6OjA" frac_prc="53/2" us_prc="+2650" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="490780033" seln_sort="3-1" name="3 - 1" disporder="31">
-              <Price prc_type="LP" dec_prc="27.00" bet_ref="NDkwNzgwMDMzOjI2LzE6OjA" frac_prc="26/1" us_prc="+2600" last_change="2018-04-15T07:41:38"/>
+            <Seln status="A" seln_id="491561924" seln_sort="4-0" name="4-0" disporder="40">
+              <Price prc_type="LP" dec_prc="81.00" bet_ref="NDkxNTYxOTI0OjgwLzE6OjA" frac_prc="80/1" us_prc="+8000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="490780034" seln_sort="3-2" name="3 - 2" disporder="32">
-              <Price prc_type="LP" dec_prc="41.00" bet_ref="NDkwNzgwMDM0OjQwLzE6OjA" frac_prc="40/1" us_prc="+4000" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561925" seln_sort="4-1" name="4-1" disporder="41">
+              <Price prc_type="LP" dec_prc="31.00" bet_ref="NDkxNTYxOTI1OjMwLzE6OjA" frac_prc="30/1" us_prc="+3000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="490780036" seln_sort="4-0" name="4 - 0" disporder="40">
-              <Price prc_type="LP" dec_prc="91.00" bet_ref="NDkwNzgwMDM2OjkwLzE6OjA" frac_prc="90/1" us_prc="+9000" last_change="2018-04-15T07:41:38"/>
+            <Seln status="A" seln_id="491561926" seln_sort="4-2" name="4-2" disporder="42">
+              <Price prc_type="LP" dec_prc="21.00" bet_ref="NDkxNTYxOTI2OjIwLzE6OjA" frac_prc="20/1" us_prc="+2000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="490780037" seln_sort="4-1" name="4 - 1" disporder="41">
-              <Price prc_type="LP" dec_prc="81.00" bet_ref="NDkwNzgwMDM3OjgwLzE6OjA" frac_prc="80/1" us_prc="+8000" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561927" seln_sort="4-3" name="4-3" disporder="43">
+              <Price prc_type="LP" dec_prc="26.00" bet_ref="NDkxNTYxOTI3OjI1LzE6OjA" frac_prc="25/1" us_prc="+2500" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="490780038" seln_sort="4-2" name="4 - 2" disporder="42">
-              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkwNzgwMDM4OjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561933" seln_sort="5-0" name="5-0" disporder="50">
+              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkxNTYxOTMzOjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="490780017" seln_sort="0-0" name="0 - 0" disporder="1000">
-              <Price prc_type="LP" dec_prc="8.00" bet_ref="NDkwNzgwMDE3OjcvMTo6MA" frac_prc="7/1" us_prc="+700" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561934" seln_sort="5-1" name="5-1" disporder="51">
+              <Price prc_type="LP" dec_prc="41.00" bet_ref="NDkxNTYxOTM0OjQwLzE6OjA" frac_prc="40/1" us_prc="+4000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="490780023" seln_sort="1-1" name="1 - 1" disporder="1011">
-              <Price prc_type="LP" dec_prc="6.50" bet_ref="NDkwNzgwMDIzOjExLzI6OjA" frac_prc="11/2" us_prc="+550" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561935" seln_sort="5-2" name="5-2" disporder="52">
+              <Price prc_type="LP" dec_prc="24.00" bet_ref="NDkxNTYxOTM1OjIzLzE6OjA" frac_prc="23/1" us_prc="+2300" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="490780029" seln_sort="2-2" name="2 - 2" disporder="1022">
-              <Price prc_type="LP" dec_prc="16.00" bet_ref="NDkwNzgwMDI5OjE1LzE6OjA" frac_prc="15/1" us_prc="+1500" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561936" seln_sort="5-3" name="5-3" disporder="53">
+              <Price prc_type="LP" dec_prc="22.00" bet_ref="NDkxNTYxOTM2OjIxLzE6OjA" frac_prc="21/1" us_prc="+2100" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="490780035" seln_sort="3-3" name="3 - 3" disporder="1033">
-              <Price prc_type="LP" dec_prc="81.00" bet_ref="NDkwNzgwMDM1OjgwLzE6OjA" frac_prc="80/1" us_prc="+8000" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561937" seln_sort="5-4" name="5-4" disporder="54">
+              <Price prc_type="LP" dec_prc="34.00" bet_ref="NDkxNTYxOTM3OjMzLzE6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="490780018" seln_sort="0-1" name="0 - 1" disporder="2010">
-              <Price prc_type="LP" dec_prc="7.50" bet_ref="NDkwNzgwMDE4OjEzLzI6OjA" frac_prc="13/2" us_prc="+650" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561941" seln_sort="6-0" name="6-0" disporder="60">
+              <Price prc_type="LP" dec_prc="126.00" bet_ref="NDkxNTYxOTQxOjEyNS8xOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="490780019" seln_sort="0-2" name="0 - 2" disporder="2020">
-              <Price prc_type="LP" dec_prc="12.60" bet_ref="NDkwNzgwMDE5OjU4LzU6OjA" frac_prc="58/5" us_prc="+1160" last_change="2018-04-15T07:41:38"/>
+            <Seln status="A" seln_id="491561942" seln_sort="6-1" name="6-1" disporder="61">
+              <Price prc_type="LP" dec_prc="61.00" bet_ref="NDkxNTYxOTQyOjYwLzE6OjA" frac_prc="60/1" us_prc="+6000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="490780024" seln_sort="1-2" name="1 - 2" disporder="2021">
-              <Price prc_type="LP" dec_prc="10.00" bet_ref="NDkwNzgwMDI0OjkvMTo6MA" frac_prc="9/1" us_prc="+900" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561943" seln_sort="6-2" name="6-2" disporder="62">
+              <Price prc_type="LP" dec_prc="34.00" bet_ref="NDkxNTYxOTQzOjMzLzE6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="490780020" seln_sort="0-3" name="0 - 3" disporder="2030">
-              <Price prc_type="LP" dec_prc="29.00" bet_ref="NDkwNzgwMDIwOjI4LzE6OjA" frac_prc="28/1" us_prc="+2800" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561944" seln_sort="6-3" name="6-3" disporder="63">
+              <Price prc_type="LP" dec_prc="31.00" bet_ref="NDkxNTYxOTQ0OjMwLzE6OjA" frac_prc="30/1" us_prc="+3000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="490780025" seln_sort="1-3" name="1 - 3" disporder="2031">
-              <Price prc_type="LP" dec_prc="23.00" bet_ref="NDkwNzgwMDI1OjIyLzE6OjA" frac_prc="22/1" us_prc="+2200" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561945" seln_sort="6-4" name="6-4" disporder="64">
+              <Price prc_type="LP" dec_prc="34.00" bet_ref="NDkxNTYxOTQ1OjMzLzE6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="490780030" seln_sort="2-3" name="2 - 3" disporder="2032">
-              <Price prc_type="LP" dec_prc="34.00" bet_ref="NDkwNzgwMDMwOjMzLzE6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561946" seln_sort="6-5" name="6-5" disporder="65">
+              <Price prc_type="LP" dec_prc="71.00" bet_ref="NDkxNTYxOTQ2OjcwLzE6OjA" frac_prc="70/1" us_prc="+7000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="490780021" seln_sort="0-4" name="0 - 4" disporder="2040">
-              <Price prc_type="LP" dec_prc="81.00" bet_ref="NDkwNzgwMDIxOjgwLzE6OjA" frac_prc="80/1" us_prc="+8000" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561949" seln_sort="7-1" name="7-1" disporder="71">
+              <Price prc_type="LP" dec_prc="91.00" bet_ref="NDkxNTYxOTQ5OjkwLzE6OjA" frac_prc="90/1" us_prc="+9000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="490780026" seln_sort="1-4" name="1 - 4" disporder="2041">
-              <Price prc_type="LP" dec_prc="71.00" bet_ref="NDkwNzgwMDI2OjcwLzE6OjA" frac_prc="70/1" us_prc="+7000" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561950" seln_sort="7-2" name="7-2" disporder="72">
+              <Price prc_type="LP" dec_prc="61.00" bet_ref="NDkxNTYxOTUwOjYwLzE6OjA" frac_prc="60/1" us_prc="+6000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="490780031" seln_sort="2-4" name="2 - 4" disporder="2042">
-              <Price prc_type="LP" dec_prc="91.00" bet_ref="NDkwNzgwMDMxOjkwLzE6OjA" frac_prc="90/1" us_prc="+9000" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561951" seln_sort="7-3" name="7-3" disporder="73">
+              <Price prc_type="LP" dec_prc="51.00" bet_ref="NDkxNTYxOTUxOjUwLzE6OjA" frac_prc="50/1" us_prc="+5000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-          </Mkt>
-          <Mkt status="A" name="1η Περίοδος - Θα σκοράρουν και οι 2 ομάδες;" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100055614" inplay_avail="Y" disporder="-4400" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="BTP1" lp_avail="Y" mkt_sort_name="MKT_SORT-BTP1">
-            <Seln status="A" seln_id="489950745" seln_sort="Y" name="Ναι" disporder="0">
-              <Price prc_type="LP" dec_prc="1.93" bet_ref="NDg5OTUwNzQ1OjkzLzEwMDo6MA" frac_prc="93/100" us_prc="-108" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561952" seln_sort="7-4" name="7-4" disporder="74">
+              <Price prc_type="LP" dec_prc="56.00" bet_ref="NDkxNTYxOTUyOjU1LzE6OjA" frac_prc="55/1" us_prc="+5500" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="489950746" seln_sort="N" name="Όχι" disporder="1">
-              <Price prc_type="LP" dec_prc="1.85" bet_ref="NDg5OTUwNzQ2OjE3LzIwOjow" frac_prc="17/20" us_prc="-118" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561953" seln_sort="7-5" name="7-5" disporder="75">
+              <Price prc_type="LP" dec_prc="76.00" bet_ref="NDkxNTYxOTUzOjc1LzE6OjA" frac_prc="75/1" us_prc="+7500" last_change="2018-04-16T06:25:05"/>
             </Seln>
-          </Mkt>
-          <Mkt status="A" name="1η Περίοδος - Μονά/Ζυγά" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100055615" inplay_avail="Y" disporder="-4050" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="P1OE" lp_avail="Y" mkt_sort_name="MKT_SORT-P1OE">
-            <Seln status="A" seln_id="489950747" seln_sort="O" name="Μονά" disporder="0">
-              <Price prc_type="LP" dec_prc="1.93" bet_ref="NDg5OTUwNzQ3OjkzLzEwMDo6MA" frac_prc="93/100" us_prc="-108" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561954" seln_sort="7-6" name="7-6" disporder="76">
+              <Price prc_type="LP" dec_prc="126.00" bet_ref="NDkxNTYxOTU0OjEyNS8xOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="489950748" seln_sort="E" name="Ζυγά" disporder="1">
-              <Price prc_type="LP" dec_prc="1.85" bet_ref="NDg5OTUwNzQ4OjE3LzIwOjow" frac_prc="17/20" us_prc="-118" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561956" seln_sort="8-1" name="8-1" disporder="81">
+              <Price prc_type="LP" dec_prc="126.00" bet_ref="NDkxNTYxOTU2OjEyNS8xOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-16T06:25:05"/>
             </Seln>
-          </Mkt>
-          <Mkt status="A" name="2η Περίοδος - 1X2" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100055616" inplay_avail="Y" disporder="-4010" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="T2WN" lp_avail="Y" mkt_sort_name="MKT_SORT-T2WN">
-            <Seln status="A" name="Όουεν Σάουντ Ατάκ" seln_id="489950750" team_id="1888087" disporder="-50" seln_sort="H">
-              <Price prc_type="LP" dec_prc="2.75" bet_ref="NDg5OTUwNzUwOjcvNDo6MA" frac_prc="7/4" us_prc="+175" last_change="2018-04-15T07:41:38"/>
+            <Seln status="A" seln_id="491561957" seln_sort="8-2" name="8-2" disporder="82">
+              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkxNTYxOTU3OjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="489950749" seln_sort="D" name="Ισοπαλία" disporder="0">
-              <Price prc_type="LP" dec_prc="3.40" bet_ref="NDg5OTUwNzQ5OjEyLzU6OjA" frac_prc="12/5" us_prc="+240" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561958" seln_sort="8-3" name="8-3" disporder="83">
+              <Price prc_type="LP" dec_prc="91.00" bet_ref="NDkxNTYxOTU4OjkwLzE6OjA" frac_prc="90/1" us_prc="+9000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" name="Μαρί Γκρέιχαουντς" seln_id="489950751" team_id="1888092" disporder="1" seln_sort="A">
-              <Price prc_type="LP" dec_prc="2.45" bet_ref="NDg5OTUwNzUxOjI5LzIwOjow" frac_prc="29/20" us_prc="+145" last_change="2018-04-15T07:41:38"/>
+            <Seln status="A" seln_id="491561959" seln_sort="8-4" name="8-4" disporder="84">
+              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkxNTYxOTU5OjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-          </Mkt>
-          <Mkt status="A" name="2η Περίοδος - Συνολικά γκολ (Over/Under)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277439" handicap="1.5" inplay_avail="Y" disporder="-3996" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="P2OU" lp_avail="Y" mkt_sort_name="2nd Period Total Points (Over/Under)">
-            <Seln status="A" name="Over" handicap="1.5" seln_id="490779901" disporder="-50" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.26" bet_ref="NDkwNzc5OTAxOjEzLzUwOjY6MA" frac_prc="13/50" us_prc="-385" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561960" seln_sort="8-5" name="8-5" disporder="85">
+              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkxNTYxOTYwOjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="1.5" seln_id="490779900" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="3.75" bet_ref="NDkwNzc5OTAwOjExLzQ6Njow" frac_prc="11/4" us_prc="+275" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561961" seln_sort="8-6" name="8-6" disporder="86">
+              <Price prc_type="LP" dec_prc="151.00" bet_ref="NDkxNTYxOTYxOjE1MC8xOjow" frac_prc="150/1" us_prc="+15000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-          </Mkt>
-          <Mkt status="A" name="2η Περίοδος - Συνολικά γκολ (Over/Under)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277440" handicap="2.5" inplay_avail="Y" disporder="-3996" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="P2OU" lp_avail="Y" mkt_sort_name="2nd Period Total Points (Over/Under)">
-            <Seln status="A" name="Over" handicap="2.5" seln_id="490779906" disporder="-50" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.80" bet_ref="NDkwNzc5OTA2OjQvNToxMDow" frac_prc="4/5" us_prc="-125" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561962" seln_sort="9-2" name="9-2" disporder="92">
+              <Price prc_type="LP" dec_prc="151.00" bet_ref="NDkxNTYxOTYyOjE1MC8xOjow" frac_prc="150/1" us_prc="+15000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="2.5" seln_id="490779905" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.97" bet_ref="NDkwNzc5OTA1Ojk3LzEwMDoxMDow" frac_prc="97/100" us_prc="-104" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561963" seln_sort="9-3" name="9-3" disporder="93">
+              <Price prc_type="LP" dec_prc="126.00" bet_ref="NDkxNTYxOTYzOjEyNS8xOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-16T06:25:05"/>
             </Seln>
-          </Mkt>
-          <Mkt status="A" name="2η Περίοδος - Συνολικά γκολ (Over/Under)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277441" handicap="3.5" inplay_avail="Y" disporder="-3996" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="P2OU" lp_avail="Y" mkt_sort_name="2nd Period Total Points (Over/Under)">
-            <Seln status="A" name="Over" handicap="3.5" seln_id="490779909" disporder="-50" seln_sort="O">
-              <Price prc_type="LP" dec_prc="3.05" bet_ref="NDkwNzc5OTA5OjQxLzIwOjE0OjA" frac_prc="41/20" us_prc="+205" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561964" seln_sort="9-4" name="9-4" disporder="94">
+              <Price prc_type="LP" dec_prc="151.00" bet_ref="NDkxNTYxOTY0OjE1MC8xOjow" frac_prc="150/1" us_prc="+15000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="3.5" seln_id="490779907" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.363" bet_ref="NDkwNzc5OTA3OjQvMTE6MTQ6MA" frac_prc="4/11" us_prc="-275" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561902" seln_sort="1-1" name="1-1" disporder="1011">
+              <Price prc_type="LP" dec_prc="56.00" bet_ref="NDkxNTYxOTAyOjU1LzE6OjA" frac_prc="55/1" us_prc="+5500" last_change="2018-04-16T06:25:05"/>
             </Seln>
-          </Mkt>
-          <Mkt status="A" name="2η Περίοδος - Χάντικαπ -0.5" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277443" handicap="-0.5" inplay_avail="Y" disporder="-3994" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="T2HC" lp_avail="Y" mkt_sort_name="MKT_SORT-T2HC">
-            <Seln status="A" name="Όουεν Σάουντ Ατάκ" handicap="-0.5" seln_id="490779911" team_id="1888087" disporder="0" seln_sort="1">
-              <Price prc_type="LP" dec_prc="2.75" bet_ref="NDkwNzc5OTExOjcvNDotMjow" frac_prc="7/4" us_prc="+175" last_change="2018-04-15T07:41:38"/>
+            <Seln status="A" seln_id="491561910" seln_sort="2-2" name="2-2" disporder="1022">
+              <Price prc_type="LP" dec_prc="23.00" bet_ref="NDkxNTYxOTEwOjIyLzE6OjA" frac_prc="22/1" us_prc="+2200" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" name="Μαρί Γκρέιχαουντς" handicap="+0.5" seln_id="490779913" team_id="1888092" disporder="1" seln_sort="2">
-              <Price prc_type="LP" dec_prc="1.444" bet_ref="NDkwNzc5OTEzOjQvOTotMjow" frac_prc="4/9" us_prc="-225" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561919" seln_sort="3-3" name="3-3" disporder="1033">
+              <Price prc_type="LP" dec_prc="16.00" bet_ref="NDkxNTYxOTE5OjE1LzE6OjA" frac_prc="15/1" us_prc="+1500" last_change="2018-04-16T06:25:05"/>
             </Seln>
-          </Mkt>
-          <Mkt status="A" name="2η Περίοδος - Χάντικαπ 0.5" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277445" handicap="+0.5" inplay_avail="Y" disporder="-3994" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="T2HC" lp_avail="Y" mkt_sort_name="MKT_SORT-T2HC">
-            <Seln status="A" name="Όουεν Σάουντ Ατάκ" handicap="+0.5" seln_id="490779915" team_id="1888087" disporder="0" seln_sort="1">
-              <Price prc_type="LP" dec_prc="1.55" bet_ref="NDkwNzc5OTE1OjExLzIwOjI6MA" frac_prc="11/20" us_prc="-182" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561928" seln_sort="4-4" name="4-4" disporder="1044">
+              <Price prc_type="LP" dec_prc="19.00" bet_ref="NDkxNTYxOTI4OjE4LzE6OjA" frac_prc="18/1" us_prc="+1800" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" name="Μαρί Γκρέιχαουντς" handicap="-0.5" seln_id="490779917" team_id="1888092" disporder="1" seln_sort="2">
-              <Price prc_type="LP" dec_prc="2.45" bet_ref="NDkwNzc5OTE3OjI5LzIwOjI6MA" frac_prc="29/20" us_prc="+145" last_change="2018-04-15T07:41:38"/>
+            <Seln status="A" seln_id="491561938" seln_sort="5-5" name="5-5" disporder="1055">
+              <Price prc_type="LP" dec_prc="31.00" bet_ref="NDkxNTYxOTM4OjMwLzE6OjA" frac_prc="30/1" us_prc="+3000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-          </Mkt>
-          <Mkt status="A" name="2η Περίοδος - Διπλή ευκαιρία" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100055617" inplay_avail="Y" disporder="-3993" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="P2DC" lp_avail="Y" mkt_sort_name="2nd Period Double Chance">
-            <Seln status="A" seln_id="489950753" seln_sort="HD" name="Όουεν Σάουντ Ατάκ/Ισοπαλία" disporder="1">
-              <Price prc_type="LP" dec_prc="1.55" bet_ref="NDg5OTUwNzUzOjExLzIwOjow" frac_prc="11/20" us_prc="-182" last_change="2018-04-15T07:41:38"/>
+            <Seln status="A" seln_id="491561947" seln_sort="6-6" name="6-6" disporder="1066">
+              <Price prc_type="LP" dec_prc="71.00" bet_ref="NDkxNTYxOTQ3OjcwLzE6OjA" frac_prc="70/1" us_prc="+7000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="489950754" seln_sort="AD" name="Μαρί Γκρέιχαουντς/Ισοπαλία" disporder="2">
-              <Price prc_type="LP" dec_prc="1.444" bet_ref="NDg5OTUwNzU0OjQvOTo6MA" frac_prc="4/9" us_prc="-225" last_change="2018-04-15T07:41:38"/>
+            <Seln status="A" seln_id="491561955" seln_sort="7-7" name="7-7" disporder="1077">
+              <Price prc_type="LP" dec_prc="151.00" bet_ref="NDkxNTYxOTU1OjE1MC8xOjow" frac_prc="150/1" us_prc="+15000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="489950752" seln_sort="HA" name="Όουεν Σάουντ Ατάκ/Μαρί Γκρέιχαουντς" disporder="50">
-              <Price prc_type="LP" dec_prc="1.30" bet_ref="NDg5OTUwNzUyOjMvMTA6OjA" frac_prc="3/10" us_prc="-334" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561897" seln_sort="0-1" name="0-1" disporder="2010">
+              <Price prc_type="LP" dec_prc="151.00" bet_ref="NDkxNTYxODk3OjE1MC8xOjow" frac_prc="150/1" us_prc="+15000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-          </Mkt>
-          <Mkt status="A" name="2η Περίοδος - Όουεν Σάουντ Ατάκ Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277429" handicap="+0.5" inplay_avail="Y" disporder="-3925" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="H2OU" lp_avail="Y" mkt_sort_name="MKT_SORT-H2OU">
-            <Seln status="A" name="Over" handicap="+0.5" seln_id="490779877" disporder="-50" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.285" bet_ref="NDkwNzc5ODc3OjIvNzoyOjA" frac_prc="2/7" us_prc="-350" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561898" seln_sort="0-2" name="0-2" disporder="2020">
+              <Price prc_type="LP" dec_prc="126.00" bet_ref="NDkxNTYxODk4OjEyNS8xOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="+0.5" seln_id="490779876" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="3.50" bet_ref="NDkwNzc5ODc2OjUvMjoyOjA" frac_prc="5/2" us_prc="+250" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561903" seln_sort="1-2" name="1-2" disporder="2021">
+              <Price prc_type="LP" dec_prc="61.00" bet_ref="NDkxNTYxOTAzOjYwLzE6OjA" frac_prc="60/1" us_prc="+6000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-          </Mkt>
-          <Mkt status="A" name="2η Περίοδος - Όουεν Σάουντ Ατάκ Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277430" handicap="+1.5" inplay_avail="Y" disporder="-3925" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="H2OU" lp_avail="Y" mkt_sort_name="MKT_SORT-H2OU">
-            <Seln status="A" name="Over" handicap="+1.5" seln_id="490779879" disporder="-50" seln_sort="O">
-              <Price prc_type="LP" dec_prc="2.40" bet_ref="NDkwNzc5ODc5OjcvNTo2OjA" frac_prc="7/5" us_prc="+140" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561899" seln_sort="0-3" name="0-3" disporder="2030">
+              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkxNTYxODk5OjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="+1.5" seln_id="490779878" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.55" bet_ref="NDkwNzc5ODc4OjExLzIwOjY6MA" frac_prc="11/20" us_prc="-182" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561904" seln_sort="1-3" name="1-3" disporder="2031">
+              <Price prc_type="LP" dec_prc="46.00" bet_ref="NDkxNTYxOTA0OjQ1LzE6OjA" frac_prc="45/1" us_prc="+4500" last_change="2018-04-16T06:25:05"/>
             </Seln>
-          </Mkt>
-          <Mkt status="A" name="2η Περίοδος - Όουεν Σάουντ Ατάκ Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277432" handicap="+2.5" inplay_avail="Y" disporder="-3925" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="H2OU" lp_avail="Y" mkt_sort_name="MKT_SORT-H2OU">
-            <Seln status="A" name="Over" handicap="+2.5" seln_id="490779884" disporder="-50" seln_sort="O">
-              <Price prc_type="LP" dec_prc="5.75" bet_ref="NDkwNzc5ODg0OjE5LzQ6MTA6MA" frac_prc="19/4" us_prc="+475" last_change="2018-04-15T07:41:38"/>
+            <Seln status="A" seln_id="491561911" seln_sort="2-3" name="2-3" disporder="2032">
+              <Price prc_type="LP" dec_prc="34.00" bet_ref="NDkxNTYxOTExOjMzLzE6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="+2.5" seln_id="490779883" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.125" bet_ref="NDkwNzc5ODgzOjEvODoxMDow" frac_prc="1/8" us_prc="-800" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561900" seln_sort="0-4" name="0-4" disporder="2040">
+              <Price prc_type="LP" dec_prc="126.00" bet_ref="NDkxNTYxOTAwOjEyNS8xOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-16T06:25:05"/>
             </Seln>
-          </Mkt>
-          <Mkt status="A" name="2η Περίοδος - Μαρί Γκρέιχαουντς Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277434" handicap="+0.5" inplay_avail="Y" disporder="-3920" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="A2OU" lp_avail="Y" mkt_sort_name="MKT_SORT-A2OU">
-            <Seln status="A" name="Over" handicap="+0.5" seln_id="490779889" disporder="-50" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.25" bet_ref="NDkwNzc5ODg5OjEvNDoyOjA" frac_prc="1/4" us_prc="-400" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561905" seln_sort="1-4" name="1-4" disporder="2041">
+              <Price prc_type="LP" dec_prc="56.00" bet_ref="NDkxNTYxOTA1OjU1LzE6OjA" frac_prc="55/1" us_prc="+5500" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="+0.5" seln_id="490779887" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="3.85" bet_ref="NDkwNzc5ODg3OjU3LzIwOjI6MA" frac_prc="57/20" us_prc="+285" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561912" seln_sort="2-4" name="2-4" disporder="2042">
+              <Price prc_type="LP" dec_prc="31.00" bet_ref="NDkxNTYxOTEyOjMwLzE6OjA" frac_prc="30/1" us_prc="+3000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-          </Mkt>
-          <Mkt status="A" name="2η Περίοδος - Μαρί Γκρέιχαουντς Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277436" handicap="+1.5" inplay_avail="Y" disporder="-3920" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="A2OU" lp_avail="Y" mkt_sort_name="MKT_SORT-A2OU">
-            <Seln status="A" name="Over" handicap="+1.5" seln_id="490779894" disporder="-50" seln_sort="O">
-              <Price prc_type="LP" dec_prc="2.22" bet_ref="NDkwNzc5ODk0OjYxLzUwOjY6MA" frac_prc="61/50" us_prc="+122" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561920" seln_sort="3-4" name="3-4" disporder="2043">
+              <Price prc_type="LP" dec_prc="31.00" bet_ref="NDkxNTYxOTIwOjMwLzE6OjA" frac_prc="30/1" us_prc="+3000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="+1.5" seln_id="490779893" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.65" bet_ref="NDkwNzc5ODkzOjEzLzIwOjY6MA" frac_prc="13/20" us_prc="-154" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561906" seln_sort="1-5" name="1-5" disporder="2051">
+              <Price prc_type="LP" dec_prc="81.00" bet_ref="NDkxNTYxOTA2OjgwLzE6OjA" frac_prc="80/1" us_prc="+8000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-          </Mkt>
-          <Mkt status="A" name="2η Περίοδος - Μαρί Γκρέιχαουντς Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100277437" handicap="+2.5" inplay_avail="Y" disporder="-3920" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="A2OU" lp_avail="Y" mkt_sort_name="MKT_SORT-A2OU">
-            <Seln status="A" name="Over" handicap="+2.5" seln_id="490779896" disporder="-50" seln_sort="O">
-              <Price prc_type="LP" dec_prc="5.00" bet_ref="NDkwNzc5ODk2OjQvMToxMDow" frac_prc="4/1" us_prc="+400" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561913" seln_sort="2-5" name="2-5" disporder="2052">
+              <Price prc_type="LP" dec_prc="41.00" bet_ref="NDkxNTYxOTEzOjQwLzE6OjA" frac_prc="40/1" us_prc="+4000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="+2.5" seln_id="490779895" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.166" bet_ref="NDkwNzc5ODk1OjEvNjoxMDow" frac_prc="1/6" us_prc="-600" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561921" seln_sort="3-5" name="3-5" disporder="2053">
+              <Price prc_type="LP" dec_prc="34.00" bet_ref="NDkxNTYxOTIxOjMzLzE6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-04-16T06:25:05"/>
             </Seln>
-          </Mkt>
-          <Mkt status="A" name="2η Περίοδος - Συνολικά γκολ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100055618" inplay_avail="Y" disporder="-3800" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="GOR2" lp_avail="Y" mkt_sort_name="MKT_SORT-GOR2">
-            <Seln status="A" seln_id="489950755" seln_sort="0-2" name="0-2" disporder="0">
-              <Price prc_type="LP" dec_prc="1.97" bet_ref="NDg5OTUwNzU1Ojk3LzEwMDo6MA" frac_prc="97/100" us_prc="-104" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561929" seln_sort="4-5" name="4-5" disporder="2054">
+              <Price prc_type="LP" dec_prc="41.00" bet_ref="NDkxNTYxOTI5OjQwLzE6OjA" frac_prc="40/1" us_prc="+4000" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="489950756" seln_sort="3-" name="3+" disporder="1">
-              <Price prc_type="LP" dec_prc="1.80" bet_ref="NDg5OTUwNzU2OjQvNTo6MA" frac_prc="4/5" us_prc="-125" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491561907" seln_sort="1-6" name="1-6" disporder="2061">
+              <Price prc_type="LP" dec_prc="126.00" bet_ref="NDkxNTYxOTA3OjEyNS8xOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561914" seln_sort="2-6" name="2-6" disporder="2062">
+              <Price prc_type="LP" dec_prc="76.00" bet_ref="NDkxNTYxOTE0Ojc1LzE6OjA" frac_prc="75/1" us_prc="+7500" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561922" seln_sort="3-6" name="3-6" disporder="2063">
+              <Price prc_type="LP" dec_prc="51.00" bet_ref="NDkxNTYxOTIyOjUwLzE6OjA" frac_prc="50/1" us_prc="+5000" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561930" seln_sort="4-6" name="4-6" disporder="2064">
+              <Price prc_type="LP" dec_prc="51.00" bet_ref="NDkxNTYxOTMwOjUwLzE6OjA" frac_prc="50/1" us_prc="+5000" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561939" seln_sort="5-6" name="5-6" disporder="2065">
+              <Price prc_type="LP" dec_prc="81.00" bet_ref="NDkxNTYxOTM5OjgwLzE6OjA" frac_prc="80/1" us_prc="+8000" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561915" seln_sort="2-7" name="2-7" disporder="2072">
+              <Price prc_type="LP" dec_prc="126.00" bet_ref="NDkxNTYxOTE1OjEyNS8xOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561923" seln_sort="3-7" name="3-7" disporder="2073">
+              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkxNTYxOTIzOjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561931" seln_sort="4-7" name="4-7" disporder="2074">
+              <Price prc_type="LP" dec_prc="91.00" bet_ref="NDkxNTYxOTMxOjkwLzE6OjA" frac_prc="90/1" us_prc="+9000" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561940" seln_sort="5-7" name="5-7" disporder="2075">
+              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkxNTYxOTQwOjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561948" seln_sort="6-7" name="6-7" disporder="2076">
+              <Price prc_type="LP" dec_prc="151.00" bet_ref="NDkxNTYxOTQ4OjE1MC8xOjow" frac_prc="150/1" us_prc="+15000" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561932" seln_sort="4-8" name="4-8" disporder="2084">
+              <Price prc_type="LP" dec_prc="151.00" bet_ref="NDkxNTYxOTMyOjE1MC8xOjow" frac_prc="150/1" us_prc="+15000" last_change="2018-04-16T06:25:05"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="2η Περίοδος - Ακριβές σκορ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100055619" inplay_avail="Y" disporder="-3500" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="P2CS" lp_avail="Y" mkt_sort_name="MKT_SORT-P2CS">
-            <Seln status="A" seln_id="490780045" seln_sort="1-0" name="1 - 0" disporder="10">
-              <Price prc_type="LP" dec_prc="10.00" bet_ref="NDkwNzgwMDQ1OjkvMTo6MA" frac_prc="9/1" us_prc="+900" last_change="2018-04-14T04:27:21"/>
+          <Mkt status="A" name="Μαρί Γκρέιχαουντς Μηδέν παθητικό" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100496279" inplay_avail="Y" disporder="-6700" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HCLS" lp_avail="Y" mkt_sort_name="MKT_SORT-HCLS">
+            <Seln status="A" seln_id="491541059" seln_sort="Y" name="Ναι" disporder="0">
+              <Price prc_type="LP" dec_prc="16.75" bet_ref="NDkxNTQxMDU5OjYzLzQ6OjA" frac_prc="63/4" us_prc="+1575" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="490780051" seln_sort="2-0" name="2 - 0" disporder="20">
-              <Price prc_type="LP" dec_prc="16.00" bet_ref="NDkwNzgwMDUxOjE1LzE6OjA" frac_prc="15/1" us_prc="+1500" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780052" seln_sort="2-1" name="2 - 1" disporder="21">
-              <Price prc_type="LP" dec_prc="10.00" bet_ref="NDkwNzgwMDUyOjkvMTo6MA" frac_prc="9/1" us_prc="+900" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780057" seln_sort="3-0" name="3 - 0" disporder="30">
-              <Price prc_type="LP" dec_prc="34.00" bet_ref="NDkwNzgwMDU3OjMzLzE6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780058" seln_sort="3-1" name="3 - 1" disporder="31">
-              <Price prc_type="LP" dec_prc="22.00" bet_ref="NDkwNzgwMDU4OjIxLzE6OjA" frac_prc="21/1" us_prc="+2100" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780059" seln_sort="3-2" name="3 - 2" disporder="32">
-              <Price prc_type="LP" dec_prc="29.00" bet_ref="NDkwNzgwMDU5OjI4LzE6OjA" frac_prc="28/1" us_prc="+2800" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780062" seln_sort="4-0" name="4 - 0" disporder="40">
-              <Price prc_type="LP" dec_prc="81.00" bet_ref="NDkwNzgwMDYyOjgwLzE6OjA" frac_prc="80/1" us_prc="+8000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780063" seln_sort="4-1" name="4 - 1" disporder="41">
-              <Price prc_type="LP" dec_prc="61.00" bet_ref="NDkwNzgwMDYzOjYwLzE6OjA" frac_prc="60/1" us_prc="+6000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780064" seln_sort="4-2" name="4 - 2" disporder="42">
-              <Price prc_type="LP" dec_prc="71.00" bet_ref="NDkwNzgwMDY0OjcwLzE6OjA" frac_prc="70/1" us_prc="+7000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780065" seln_sort="4-3" name="4 - 3" disporder="43">
-              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkwNzgwMDY1OjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780066" seln_sort="5-1" name="5 - 1" disporder="51">
-              <Price prc_type="LP" dec_prc="126.00" bet_ref="NDkwNzgwMDY2OjEyNS8xOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="491198103" seln_sort="5-2" name="5 - 2" disporder="52">
-              <Price prc_type="LP" dec_prc="126.00" bet_ref="NDkxMTk4MTAzOjEyNS8xOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-15T07:41:38"/>
-            </Seln>
-            <Seln status="A" seln_id="490780039" seln_sort="0-0" name="0 - 0" disporder="1000">
-              <Price prc_type="LP" dec_prc="12.50" bet_ref="NDkwNzgwMDM5OjIzLzI6OjA" frac_prc="23/2" us_prc="+1150" last_change="2018-04-15T07:41:38"/>
-            </Seln>
-            <Seln status="A" seln_id="490780046" seln_sort="1-1" name="1 - 1" disporder="1011">
-              <Price prc_type="LP" dec_prc="7.25" bet_ref="NDkwNzgwMDQ2OjI1LzQ6OjA" frac_prc="25/4" us_prc="+625" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780053" seln_sort="2-2" name="2 - 2" disporder="1022">
-              <Price prc_type="LP" dec_prc="13.50" bet_ref="NDkwNzgwMDUzOjI1LzI6OjA" frac_prc="25/2" us_prc="+1250" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780060" seln_sort="3-3" name="3 - 3" disporder="1033">
-              <Price prc_type="LP" dec_prc="51.00" bet_ref="NDkwNzgwMDYwOjUwLzE6OjA" frac_prc="50/1" us_prc="+5000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780040" seln_sort="0-1" name="0 - 1" disporder="2010">
-              <Price prc_type="LP" dec_prc="10.00" bet_ref="NDkwNzgwMDQwOjkvMTo6MA" frac_prc="9/1" us_prc="+900" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780041" seln_sort="0-2" name="0 - 2" disporder="2020">
-              <Price prc_type="LP" dec_prc="14.25" bet_ref="NDkwNzgwMDQxOjUzLzQ6OjA" frac_prc="53/4" us_prc="+1325" last_change="2018-04-15T07:41:38"/>
-            </Seln>
-            <Seln status="A" seln_id="490780047" seln_sort="1-2" name="1 - 2" disporder="2021">
-              <Price prc_type="LP" dec_prc="9.75" bet_ref="NDkwNzgwMDQ3OjM1LzQ6OjA" frac_prc="35/4" us_prc="+875" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780042" seln_sort="0-3" name="0 - 3" disporder="2030">
-              <Price prc_type="LP" dec_prc="29.00" bet_ref="NDkwNzgwMDQyOjI4LzE6OjA" frac_prc="28/1" us_prc="+2800" last_change="2018-04-15T07:41:38"/>
-            </Seln>
-            <Seln status="A" seln_id="490780048" seln_sort="1-3" name="1 - 3" disporder="2031">
-              <Price prc_type="LP" dec_prc="19.50" bet_ref="NDkwNzgwMDQ4OjM3LzI6OjA" frac_prc="37/2" us_prc="+1850" last_change="2018-04-15T07:41:38"/>
-            </Seln>
-            <Seln status="A" seln_id="490780054" seln_sort="2-3" name="2 - 3" disporder="2032">
-              <Price prc_type="LP" dec_prc="27.00" bet_ref="NDkwNzgwMDU0OjI2LzE6OjA" frac_prc="26/1" us_prc="+2600" last_change="2018-04-15T07:41:38"/>
-            </Seln>
-            <Seln status="A" seln_id="490780043" seln_sort="0-4" name="0 - 4" disporder="2040">
-              <Price prc_type="LP" dec_prc="71.00" bet_ref="NDkwNzgwMDQzOjcwLzE6OjA" frac_prc="70/1" us_prc="+7000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780049" seln_sort="1-4" name="1 - 4" disporder="2041">
-              <Price prc_type="LP" dec_prc="46.00" bet_ref="NDkwNzgwMDQ5OjQ1LzE6OjA" frac_prc="45/1" us_prc="+4500" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780055" seln_sort="2-4" name="2 - 4" disporder="2042">
-              <Price prc_type="LP" dec_prc="61.00" bet_ref="NDkwNzgwMDU1OjYwLzE6OjA" frac_prc="60/1" us_prc="+6000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780061" seln_sort="3-4" name="3 - 4" disporder="2043">
-              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkwNzgwMDYxOjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780044" seln_sort="0-5" name="0 - 5" disporder="2050">
-              <Price prc_type="LP" dec_prc="126.00" bet_ref="NDkwNzgwMDQ0OjEyNS8xOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780050" seln_sort="1-5" name="1 - 5" disporder="2051">
-              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkwNzgwMDUwOjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="490780056" seln_sort="2-5" name="2 - 5" disporder="2052">
-              <Price prc_type="LP" dec_prc="126.00" bet_ref="NDkwNzgwMDU2OjEyNS8xOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491541060" seln_sort="N" name="Όχι" disporder="1">
+              <Price prc_type="LP" dec_prc="1.025" bet_ref="NDkxNTQxMDYwOjEvNDA6OjA" frac_prc="1/40" us_prc="-4000" last_change="2018-04-16T06:25:05"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="2η Περίοδος - Θα σκοράρουν και οι 2 ομάδες;" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100055620" inplay_avail="Y" disporder="-3400" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="BTP2" lp_avail="Y" mkt_sort_name="MKT_SORT-BTP2">
-            <Seln status="A" seln_id="489950757" seln_sort="Y" name="Ναι" disporder="0">
-              <Price prc_type="LP" dec_prc="1.615" bet_ref="NDg5OTUwNzU3OjgvMTM6OjA" frac_prc="8/13" us_prc="-163" last_change="2018-04-15T07:41:38"/>
+          <Mkt status="A" name="Όουεν Σάουντ Ατάκ Μηδέν παθητικό" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100496280" inplay_avail="Y" disporder="-6690" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="ACLS" lp_avail="Y" mkt_sort_name="MKT_SORT-ACLS">
+            <Seln status="A" seln_id="491541061" seln_sort="Y" name="Ναι" disporder="0">
+              <Price prc_type="LP" dec_prc="34.00" bet_ref="NDkxNTQxMDYxOjMzLzE6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="489950758" seln_sort="N" name="Όχι" disporder="1">
-              <Price prc_type="LP" dec_prc="2.25" bet_ref="NDg5OTUwNzU4OjUvNDo6MA" frac_prc="5/4" us_prc="+125" last_change="2018-04-15T07:41:38"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" name="2η Περίοδος - Μονά/Ζυγά" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100055621" inplay_avail="Y" disporder="-3050" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="P2OE" lp_avail="Y" mkt_sort_name="MKT_SORT-P2OE">
-            <Seln status="A" seln_id="489950759" seln_sort="O" name="Μονά" disporder="0">
-              <Price prc_type="LP" dec_prc="1.90" bet_ref="NDg5OTUwNzU5OjkvMTA6OjA" frac_prc="9/10" us_prc="-112" last_change="2018-04-14T04:27:21"/>
-            </Seln>
-            <Seln status="A" seln_id="489950760" seln_sort="E" name="Ζυγά" disporder="1">
-              <Price prc_type="LP" dec_prc="1.87" bet_ref="NDg5OTUwNzYwOjg3LzEwMDo6MA" frac_prc="87/100" us_prc="-115" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491541062" seln_sort="N" name="Όχι" disporder="1">
+              <Price prc_type="LP" dec_prc="1.01" bet_ref="NDkxNTQxMDYyOjEvMTAwOjow" frac_prc="1/100" us_prc="-10000" last_change="2018-04-16T06:25:05"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Συνολικά γκολ Μονά/Ζυγά" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100055622" inplay_avail="Y" disporder="5000" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="ODEV" lp_avail="Y" mkt_sort_name="Συνολικά γκολ Μονά/Ζυγά">
-            <Seln status="A" seln_id="489950761" seln_sort="O" name="Μονά" disporder="0">
-              <Price prc_type="LP" dec_prc="2.12" bet_ref="NDg5OTUwNzYxOjI4LzI1Ojow" frac_prc="28/25" us_prc="+112" last_change="2018-04-14T04:27:21"/>
+          <Mkt status="A" name="1η Περίοδος - 1X2" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100496281" inplay_avail="Y" disporder="-5010" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="T1WN" lp_avail="Y" mkt_sort_name="MKT_SORT-T1WN">
+            <Seln status="A" name="Μαρί Γκρέιχαουντς" seln_id="491541063" team_id="1888092" disporder="0" seln_sort="H">
+              <Price prc_type="LP" dec_prc="2.30" bet_ref="NDkxNTQxMDYzOjEzLzEwOjow" frac_prc="13/10" us_prc="+130" last_change="2018-04-16T06:25:05"/>
             </Seln>
-            <Seln status="A" seln_id="489950762" seln_sort="E" name="Ζυγά" disporder="1">
-              <Price prc_type="LP" dec_prc="1.70" bet_ref="NDg5OTUwNzYyOjcvMTA6OjA" frac_prc="7/10" us_prc="-143" last_change="2018-04-14T04:27:21"/>
+            <Seln status="A" seln_id="491541065" seln_sort="D" name="Ισοπαλία" disporder="2">
+              <Price prc_type="LP" dec_prc="3.05" bet_ref="NDkxNTQxMDY1OjQxLzIwOjow" frac_prc="41/20" us_prc="+205" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" name="Όουεν Σάουντ Ατάκ" seln_id="491541064" team_id="1888087" disporder="10" seln_sort="A">
+              <Price prc_type="LP" dec_prc="3.25" bet_ref="NDkxNTQxMDY0OjkvNDo6MA" frac_prc="9/4" us_prc="+225" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="1η Περίοδος - Συνολικά γκολ (Over/Under)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501977" handicap="1.5" inplay_avail="Y" disporder="-4996" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="P1OU" lp_avail="Y" mkt_sort_name="1st Period Total Points (Over/Under)">
+            <Seln status="A" name="Over" handicap="1.5" seln_id="491561836" disporder="-50" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.47" bet_ref="NDkxNTYxODM2OjQ3LzEwMDo2OjA" frac_prc="47/100" us_prc="-213" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="1.5" seln_id="491561835" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="2.65" bet_ref="NDkxNTYxODM1OjMzLzIwOjY6MA" frac_prc="33/20" us_prc="+165" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="1η Περίοδος - Συνολικά γκολ (Over/Under)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501978" handicap="2.5" inplay_avail="Y" disporder="-4996" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="P1OU" lp_avail="Y" mkt_sort_name="1st Period Total Points (Over/Under)">
+            <Seln status="A" name="Over" handicap="2.5" seln_id="491561838" disporder="-50" seln_sort="O">
+              <Price prc_type="LP" dec_prc="2.40" bet_ref="NDkxNTYxODM4OjcvNToxMDow" frac_prc="7/5" us_prc="+140" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="2.5" seln_id="491561837" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.55" bet_ref="NDkxNTYxODM3OjExLzIwOjEwOjA" frac_prc="11/20" us_prc="-182" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="1η Περίοδος - Συνολικά γκολ (Over/Under)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501979" handicap="3.5" inplay_avail="Y" disporder="-4996" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="P1OU" lp_avail="Y" mkt_sort_name="1st Period Total Points (Over/Under)">
+            <Seln status="A" name="Over" handicap="3.5" seln_id="491561840" disporder="-50" seln_sort="O">
+              <Price prc_type="LP" dec_prc="4.75" bet_ref="NDkxNTYxODQwOjE1LzQ6MTQ6MA" frac_prc="15/4" us_prc="+375" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="3.5" seln_id="491561839" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.181" bet_ref="NDkxNTYxODM5OjIvMTE6MTQ6MA" frac_prc="2/11" us_prc="-550" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="1η Περίοδος - Χάντικαπ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501974" handicap="-1.5" inplay_avail="Y" disporder="-4994" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="T1HC" lp_avail="Y" mkt_sort_name="MKT_SORT-T1HC">
+            <Seln status="A" name="Μαρί Γκρέιχαουντς" handicap="-1.5" seln_id="491561829" team_id="1888092" disporder="0" seln_sort="1">
+              <Price prc_type="LP" dec_prc="5.00" bet_ref="NDkxNTYxODI5OjQvMTotNjow" frac_prc="4/1" us_prc="+400" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+            <Seln status="A" name="Όουεν Σάουντ Ατάκ" handicap="+1.5" seln_id="491561830" team_id="1888087" disporder="1" seln_sort="2">
+              <Price prc_type="LP" dec_prc="1.166" bet_ref="NDkxNTYxODMwOjEvNjotNjow" frac_prc="1/6" us_prc="-600" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="1η Περίοδος - Χάντικαπ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501975" handicap="-0.5" inplay_avail="Y" disporder="-4994" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="T1HC" lp_avail="Y" mkt_sort_name="MKT_SORT-T1HC">
+            <Seln status="A" name="Μαρί Γκρέιχαουντς" handicap="-0.5" seln_id="491561831" team_id="1888092" disporder="0" seln_sort="1">
+              <Price prc_type="LP" dec_prc="2.30" bet_ref="NDkxNTYxODMxOjEzLzEwOi0yOjA" frac_prc="13/10" us_prc="+130" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+            <Seln status="A" name="Όουεν Σάουντ Ατάκ" handicap="+0.5" seln_id="491561832" team_id="1888087" disporder="1" seln_sort="2">
+              <Price prc_type="LP" dec_prc="1.615" bet_ref="NDkxNTYxODMyOjgvMTM6LTI6MA" frac_prc="8/13" us_prc="-163" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="1η Περίοδος - Χάντικαπ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501976" handicap="+0.5" inplay_avail="Y" disporder="-4994" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="T1HC" lp_avail="Y" mkt_sort_name="MKT_SORT-T1HC">
+            <Seln status="A" name="Μαρί Γκρέιχαουντς" handicap="+0.5" seln_id="491561833" team_id="1888092" disporder="0" seln_sort="1">
+              <Price prc_type="LP" dec_prc="1.333" bet_ref="NDkxNTYxODMzOjEvMzoyOjA" frac_prc="1/3" us_prc="-300" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+            <Seln status="A" name="Όουεν Σάουντ Ατάκ" handicap="-0.5" seln_id="491561834" team_id="1888087" disporder="1" seln_sort="2">
+              <Price prc_type="LP" dec_prc="3.25" bet_ref="NDkxNTYxODM0OjkvNDoyOjA" frac_prc="9/4" us_prc="+225" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="1η Περίοδος - Διπλή ευκαιρία" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100496282" inplay_avail="Y" disporder="-4993" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="P1DC" lp_avail="Y" mkt_sort_name="1st Period Double Chance ">
+            <Seln status="A" seln_id="491541067" seln_sort="HD" name="Μαρί Γκρέιχαουντς/Ισοπαλία" disporder="1">
+              <Price prc_type="LP" dec_prc="1.333" bet_ref="NDkxNTQxMDY3OjEvMzo6MA" frac_prc="1/3" us_prc="-300" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491541068" seln_sort="AD" name="Όουεν Σάουντ Ατάκ/Ισοπαλία" disporder="2">
+              <Price prc_type="LP" dec_prc="1.615" bet_ref="NDkxNTQxMDY4OjgvMTM6OjA" frac_prc="8/13" us_prc="-163" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491541066" seln_sort="HA" name="Μαρί Γκρέιχαουντς/Όουεν Σάουντ Ατάκ" disporder="50">
+              <Price prc_type="LP" dec_prc="1.363" bet_ref="NDkxNTQxMDY2OjQvMTE6OjA" frac_prc="4/11" us_prc="-275" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="1η Περίοδος/Τελικό Αποτέλεσμα" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100496283" inplay_avail="N" disporder="-4990" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="P1MR" lp_avail="Y" mkt_sort_name="MKT_SORT-P1MR">
+            <Seln status="A" seln_id="491541069" seln_sort="HH" name="1/1" disporder="0">
+              <Price prc_type="LP" dec_prc="3.05" bet_ref="NDkxNTQxMDY5OjQxLzIwOjow" frac_prc="41/20" us_prc="+205" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491541070" seln_sort="HD" name="1/X" disporder="1">
+              <Price prc_type="LP" dec_prc="13.00" bet_ref="NDkxNTQxMDcwOjEyLzE6OjA" frac_prc="12/1" us_prc="+1200" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491541071" seln_sort="HA" name="1/2" disporder="2">
+              <Price prc_type="LP" dec_prc="17.50" bet_ref="NDkxNTQxMDcxOjMzLzI6OjA" frac_prc="33/2" us_prc="+1650" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491541072" seln_sort="DH" name="X/1" disporder="3">
+              <Price prc_type="LP" dec_prc="6.20" bet_ref="NDkxNTQxMDcyOjI2LzU6OjA" frac_prc="26/5" us_prc="+520" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491541073" seln_sort="DD" name="X/X" disporder="4">
+              <Price prc_type="LP" dec_prc="11.00" bet_ref="NDkxNTQxMDczOjEwLzE6OjA" frac_prc="10/1" us_prc="+1000" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491541074" seln_sort="DA" name="X/2" disporder="5">
+              <Price prc_type="LP" dec_prc="9.75" bet_ref="NDkxNTQxMDc0OjM1LzQ6OjA" frac_prc="35/4" us_prc="+875" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491541075" seln_sort="AH" name="2/1" disporder="6">
+              <Price prc_type="LP" dec_prc="12.00" bet_ref="NDkxNTQxMDc1OjExLzE6OjA" frac_prc="11/1" us_prc="+1100" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491541076" seln_sort="AD" name="2/X" disporder="7">
+              <Price prc_type="LP" dec_prc="13.00" bet_ref="NDkxNTQxMDc2OjEyLzE6OjA" frac_prc="12/1" us_prc="+1200" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491541077" seln_sort="AA" name="2/2" disporder="8">
+              <Price prc_type="LP" dec_prc="5.80" bet_ref="NDkxNTQxMDc3OjI0LzU6OjA" frac_prc="24/5" us_prc="+480" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="1η Περίοδος - Μαρί Γκρέιχαουντς Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501951" handicap="+0.5" inplay_avail="Y" disporder="-4925" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUPH" lp_avail="Y" mkt_sort_name="MKT_SORT-OUPH">
+            <Seln status="A" name="Over" handicap="+0.5" seln_id="491561781" disporder="-50" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.333" bet_ref="NDkxNTYxNzgxOjEvMzoyOjA" frac_prc="1/3" us_prc="-300" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="+0.5" seln_id="491561780" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="3.20" bet_ref="NDkxNTYxNzgwOjExLzU6Mjow" frac_prc="11/5" us_prc="+220" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="1η Περίοδος - Μαρί Γκρέιχαουντς Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501952" handicap="+1.5" inplay_avail="Y" disporder="-4925" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUPH" lp_avail="Y" mkt_sort_name="MKT_SORT-OUPH">
+            <Seln status="A" name="Over" handicap="+1.5" seln_id="491561783" disporder="-50" seln_sort="O">
+              <Price prc_type="LP" dec_prc="2.625" bet_ref="NDkxNTYxNzgzOjEzLzg6Njow" frac_prc="13/8" us_prc="+162" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="+1.5" seln_id="491561782" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.47" bet_ref="NDkxNTYxNzgyOjQ3LzEwMDo2OjA" frac_prc="47/100" us_prc="-213" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="1η Περίοδος - Όουεν Σάουντ Ατάκ Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501972" handicap="+0.5" inplay_avail="Y" disporder="-4920" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUPA" lp_avail="Y" mkt_sort_name="MKT_SORT-OUPA">
+            <Seln status="A" name="Over" handicap="+0.5" seln_id="491561826" disporder="-50" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.50" bet_ref="NDkxNTYxODI2OjEvMjoyOjA" frac_prc="1/2" us_prc="-200" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="+0.5" seln_id="491561825" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="2.55" bet_ref="NDkxNTYxODI1OjMxLzIwOjI6MA" frac_prc="31/20" us_prc="+155" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="1η Περίοδος - Όουεν Σάουντ Ατάκ Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501973" handicap="+1.5" inplay_avail="Y" disporder="-4920" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUPA" lp_avail="Y" mkt_sort_name="MKT_SORT-OUPA">
+            <Seln status="A" name="Over" handicap="+1.5" seln_id="491561828" disporder="-50" seln_sort="O">
+              <Price prc_type="LP" dec_prc="3.45" bet_ref="NDkxNTYxODI4OjQ5LzIwOjY6MA" frac_prc="49/20" us_prc="+245" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="+1.5" seln_id="491561827" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.30" bet_ref="NDkxNTYxODI3OjMvMTA6Njow" frac_prc="3/10" us_prc="-334" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="1η Περίοδος - Συνολικά γκολ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100496284" inplay_avail="Y" disporder="-4800" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="GOR1" lp_avail="Y" mkt_sort_name="MKT_SORT-GOR1">
+            <Seln status="A" seln_id="491541078" seln_sort="0-2" name="0-2" disporder="0">
+              <Price prc_type="LP" dec_prc="1.55" bet_ref="NDkxNTQxMDc4OjExLzIwOjow" frac_prc="11/20" us_prc="-182" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491541079" seln_sort="3-" name="3+" disporder="1">
+              <Price prc_type="LP" dec_prc="2.40" bet_ref="NDkxNTQxMDc5OjcvNTo6MA" frac_prc="7/5" us_prc="+140" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="1η Περίοδος - Ακριβές σκορ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100496285" inplay_avail="Y" disporder="-4500" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="P1CS" lp_avail="Y" mkt_sort_name="MKT_SORT-P1CS">
+            <Seln status="A" seln_id="491561852" seln_sort="1-0" name="1 - 0" disporder="10">
+              <Price prc_type="LP" dec_prc="7.00" bet_ref="NDkxNTYxODUyOjYvMTo6MA" frac_prc="6/1" us_prc="+600" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561857" seln_sort="2-0" name="2 - 0" disporder="20">
+              <Price prc_type="LP" dec_prc="11.00" bet_ref="NDkxNTYxODU3OjEwLzE6OjA" frac_prc="10/1" us_prc="+1000" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561858" seln_sort="2-1" name="2 - 1" disporder="21">
+              <Price prc_type="LP" dec_prc="9.75" bet_ref="NDkxNTYxODU4OjM1LzQ6OjA" frac_prc="35/4" us_prc="+875" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561862" seln_sort="3-0" name="3 - 0" disporder="30">
+              <Price prc_type="LP" dec_prc="25.00" bet_ref="NDkxNTYxODYyOjI0LzE6OjA" frac_prc="24/1" us_prc="+2400" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561863" seln_sort="3-1" name="3 - 1" disporder="31">
+              <Price prc_type="LP" dec_prc="22.00" bet_ref="NDkxNTYxODYzOjIxLzE6OjA" frac_prc="21/1" us_prc="+2100" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561864" seln_sort="3-2" name="3 - 2" disporder="32">
+              <Price prc_type="LP" dec_prc="34.00" bet_ref="NDkxNTYxODY0OjMzLzE6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561866" seln_sort="4-0" name="4 - 0" disporder="40">
+              <Price prc_type="LP" dec_prc="71.00" bet_ref="NDkxNTYxODY2OjcwLzE6OjA" frac_prc="70/1" us_prc="+7000" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561867" seln_sort="4-1" name="4 - 1" disporder="41">
+              <Price prc_type="LP" dec_prc="61.00" bet_ref="NDkxNTYxODY3OjYwLzE6OjA" frac_prc="60/1" us_prc="+6000" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561868" seln_sort="4-2" name="4 - 2" disporder="42">
+              <Price prc_type="LP" dec_prc="91.00" bet_ref="NDkxNTYxODY4OjkwLzE6OjA" frac_prc="90/1" us_prc="+9000" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561869" seln_sort="5-1" name="5 - 1" disporder="51">
+              <Price prc_type="LP" dec_prc="126.00" bet_ref="NDkxNTYxODY5OjEyNS8xOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561847" seln_sort="0-0" name="0 - 0" disporder="1000">
+              <Price prc_type="LP" dec_prc="7.50" bet_ref="NDkxNTYxODQ3OjEzLzI6OjA" frac_prc="13/2" us_prc="+650" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561853" seln_sort="1-1" name="1 - 1" disporder="1011">
+              <Price prc_type="LP" dec_prc="6.50" bet_ref="NDkxNTYxODUzOjExLzI6OjA" frac_prc="11/2" us_prc="+550" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561859" seln_sort="2-2" name="2 - 2" disporder="1022">
+              <Price prc_type="LP" dec_prc="17.50" bet_ref="NDkxNTYxODU5OjMzLzI6OjA" frac_prc="33/2" us_prc="+1650" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561865" seln_sort="3-3" name="3 - 3" disporder="1033">
+              <Price prc_type="LP" dec_prc="91.00" bet_ref="NDkxNTYxODY1OjkwLzE6OjA" frac_prc="90/1" us_prc="+9000" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561848" seln_sort="0-1" name="0 - 1" disporder="2010">
+              <Price prc_type="LP" dec_prc="8.50" bet_ref="NDkxNTYxODQ4OjE1LzI6OjA" frac_prc="15/2" us_prc="+750" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561849" seln_sort="0-2" name="0 - 2" disporder="2020">
+              <Price prc_type="LP" dec_prc="16.50" bet_ref="NDkxNTYxODQ5OjMxLzI6OjA" frac_prc="31/2" us_prc="+1550" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561854" seln_sort="1-2" name="1 - 2" disporder="2021">
+              <Price prc_type="LP" dec_prc="12.00" bet_ref="NDkxNTYxODU0OjExLzE6OjA" frac_prc="11/1" us_prc="+1100" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561850" seln_sort="0-3" name="0 - 3" disporder="2030">
+              <Price prc_type="LP" dec_prc="46.00" bet_ref="NDkxNTYxODUwOjQ1LzE6OjA" frac_prc="45/1" us_prc="+4500" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561855" seln_sort="1-3" name="1 - 3" disporder="2031">
+              <Price prc_type="LP" dec_prc="34.00" bet_ref="NDkxNTYxODU1OjMzLzE6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561860" seln_sort="2-3" name="2 - 3" disporder="2032">
+              <Price prc_type="LP" dec_prc="46.00" bet_ref="NDkxNTYxODYwOjQ1LzE6OjA" frac_prc="45/1" us_prc="+4500" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561851" seln_sort="0-4" name="0 - 4" disporder="2040">
+              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkxNTYxODUxOjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561856" seln_sort="1-4" name="1 - 4" disporder="2041">
+              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkxNTYxODU2OjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561861" seln_sort="2-4" name="2 - 4" disporder="2042">
+              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkxNTYxODYxOjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="1η Περίοδος - Θα σκοράρουν και οι 2 ομάδες;" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100496286" inplay_avail="Y" disporder="-4400" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="BTP1" lp_avail="Y" mkt_sort_name="MKT_SORT-BTP1">
+            <Seln status="A" seln_id="491541080" seln_sort="Y" name="Ναι" disporder="0">
+              <Price prc_type="LP" dec_prc="2.02" bet_ref="NDkxNTQxMDgwOjUxLzUwOjow" frac_prc="51/50" us_prc="+102" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491541081" seln_sort="N" name="Όχι" disporder="1">
+              <Price prc_type="LP" dec_prc="1.75" bet_ref="NDkxNTQxMDgxOjMvNDo6MA" frac_prc="3/4" us_prc="-134" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="1η Περίοδος - Μονά/Ζυγά" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100496287" inplay_avail="Y" disporder="-4050" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="P1OE" lp_avail="Y" mkt_sort_name="MKT_SORT-P1OE">
+            <Seln status="A" seln_id="491541082" seln_sort="O" name="Μονά" disporder="0">
+              <Price prc_type="LP" dec_prc="1.93" bet_ref="NDkxNTQxMDgyOjkzLzEwMDo6MA" frac_prc="93/100" us_prc="-108" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491541083" seln_sort="E" name="Ζυγά" disporder="1">
+              <Price prc_type="LP" dec_prc="1.85" bet_ref="NDkxNTQxMDgzOjE3LzIwOjow" frac_prc="17/20" us_prc="-118" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="2η Περίοδος - 1X2" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100496288" inplay_avail="Y" disporder="-4010" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="T2WN" lp_avail="Y" mkt_sort_name="MKT_SORT-T2WN">
+            <Seln status="A" name="Μαρί Γκρέιχαουντς" seln_id="491541085" team_id="1888092" disporder="-50" seln_sort="H">
+              <Price prc_type="LP" dec_prc="2.20" bet_ref="NDkxNTQxMDg1OjYvNTo6MA" frac_prc="6/5" us_prc="+120" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491541084" seln_sort="D" name="Ισοπαλία" disporder="0">
+              <Price prc_type="LP" dec_prc="3.35" bet_ref="NDkxNTQxMDg0OjQ3LzIwOjow" frac_prc="47/20" us_prc="+235" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" name="Όουεν Σάουντ Ατάκ" seln_id="491541086" team_id="1888087" disporder="1" seln_sort="A">
+              <Price prc_type="LP" dec_prc="3.15" bet_ref="NDkxNTQxMDg2OjQzLzIwOjow" frac_prc="43/20" us_prc="+215" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="2η Περίοδος - Συνολικά γκολ (Over/Under)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501959" handicap="1.5" inplay_avail="Y" disporder="-3996" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="P2OU" lp_avail="Y" mkt_sort_name="2nd Period Total Points (Over/Under)">
+            <Seln status="A" name="Over" handicap="1.5" seln_id="491561800" disporder="-50" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.285" bet_ref="NDkxNTYxODAwOjIvNzo2OjA" frac_prc="2/7" us_prc="-350" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="1.5" seln_id="491561799" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="3.50" bet_ref="NDkxNTYxNzk5OjUvMjo2OjA" frac_prc="5/2" us_prc="+250" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="2η Περίοδος - Συνολικά γκολ (Over/Under)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501960" handicap="2.5" inplay_avail="Y" disporder="-3996" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="P2OU" lp_avail="Y" mkt_sort_name="2nd Period Total Points (Over/Under)">
+            <Seln status="A" name="Over" handicap="2.5" seln_id="491561802" disporder="-50" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.88" bet_ref="NDkxNTYxODAyOjIyLzI1OjEwOjA" frac_prc="22/25" us_prc="-114" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="2.5" seln_id="491561801" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.90" bet_ref="NDkxNTYxODAxOjkvMTA6MTA6MA" frac_prc="9/10" us_prc="-112" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="2η Περίοδος - Συνολικά γκολ (Over/Under)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501961" handicap="3.5" inplay_avail="Y" disporder="-3996" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="P2OU" lp_avail="Y" mkt_sort_name="2nd Period Total Points (Over/Under)">
+            <Seln status="A" name="Over" handicap="3.5" seln_id="491561804" disporder="-50" seln_sort="O">
+              <Price prc_type="LP" dec_prc="3.25" bet_ref="NDkxNTYxODA0OjkvNDoxNDow" frac_prc="9/4" us_prc="+225" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="3.5" seln_id="491561803" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.333" bet_ref="NDkxNTYxODAzOjEvMzoxNDow" frac_prc="1/3" us_prc="-300" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="2η Περίοδος - Χάντικαπ -0.5" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501962" handicap="-0.5" inplay_avail="Y" disporder="-3994" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="T2HC" lp_avail="Y" mkt_sort_name="MKT_SORT-T2HC">
+            <Seln status="A" name="Μαρί Γκρέιχαουντς" handicap="-0.5" seln_id="491561805" team_id="1888092" disporder="0" seln_sort="1">
+              <Price prc_type="LP" dec_prc="2.20" bet_ref="NDkxNTYxODA1OjYvNTotMjow" frac_prc="6/5" us_prc="+120" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+            <Seln status="A" name="Όουεν Σάουντ Ατάκ" handicap="+0.5" seln_id="491561806" team_id="1888087" disporder="1" seln_sort="2">
+              <Price prc_type="LP" dec_prc="1.666" bet_ref="NDkxNTYxODA2OjQvNjotMjow" frac_prc="4/6" us_prc="-150" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="2η Περίοδος - Χάντικαπ 0.5" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501963" handicap="+0.5" inplay_avail="Y" disporder="-3994" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="T2HC" lp_avail="Y" mkt_sort_name="MKT_SORT-T2HC">
+            <Seln status="A" name="Μαρί Γκρέιχαουντς" handicap="+0.5" seln_id="491561807" team_id="1888092" disporder="0" seln_sort="1">
+              <Price prc_type="LP" dec_prc="1.36" bet_ref="NDkxNTYxODA3OjkvMjU6Mjow" frac_prc="9/25" us_prc="-278" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+            <Seln status="A" name="Όουεν Σάουντ Ατάκ" handicap="-0.5" seln_id="491561808" team_id="1888087" disporder="1" seln_sort="2">
+              <Price prc_type="LP" dec_prc="3.15" bet_ref="NDkxNTYxODA4OjQzLzIwOjI6MA" frac_prc="43/20" us_prc="+215" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="2η Περίοδος - Διπλή ευκαιρία" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100496289" inplay_avail="Y" disporder="-3993" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="P2DC" lp_avail="Y" mkt_sort_name="2nd Period Double Chance">
+            <Seln status="A" seln_id="491541088" seln_sort="HD" name="Μαρί Γκρέιχαουντς/Ισοπαλία" disporder="1">
+              <Price prc_type="LP" dec_prc="1.35" bet_ref="NDkxNTQxMDg4OjcvMjA6OjA" frac_prc="7/20" us_prc="-286" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491541089" seln_sort="AD" name="Όουεν Σάουντ Ατάκ/Ισοπαλία" disporder="2">
+              <Price prc_type="LP" dec_prc="1.666" bet_ref="NDkxNTQxMDg5OjQvNjo6MA" frac_prc="4/6" us_prc="-150" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491541087" seln_sort="HA" name="Μαρί Γκρέιχαουντς/Όουεν Σάουντ Ατάκ" disporder="50">
+              <Price prc_type="LP" dec_prc="1.333" bet_ref="NDkxNTQxMDg3OjEvMzo6MA" frac_prc="1/3" us_prc="-300" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="2η Περίοδος - Μαρί Γκρέιχαουντς Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501947" handicap="+0.5" inplay_avail="Y" disporder="-3925" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="H2OU" lp_avail="Y" mkt_sort_name="MKT_SORT-H2OU">
+            <Seln status="A" name="Over" handicap="+0.5" seln_id="491561769" disporder="-50" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.222" bet_ref="NDkxNTYxNzY5OjIvOToyOjA" frac_prc="2/9" us_prc="-450" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="+0.5" seln_id="491561768" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="4.00" bet_ref="NDkxNTYxNzY4OjMvMToyOjA" frac_prc="3/1" us_prc="+300" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="2η Περίοδος - Μαρί Γκρέιχαουντς Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501948" handicap="+1.5" inplay_avail="Y" disporder="-3925" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="H2OU" lp_avail="Y" mkt_sort_name="MKT_SORT-H2OU">
+            <Seln status="A" name="Over" handicap="+1.5" seln_id="491561771" disporder="-50" seln_sort="O">
+              <Price prc_type="LP" dec_prc="2.15" bet_ref="NDkxNTYxNzcxOjIzLzIwOjY6MA" frac_prc="23/20" us_prc="+115" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="+1.5" seln_id="491561770" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.666" bet_ref="NDkxNTYxNzcwOjQvNjo2OjA" frac_prc="4/6" us_prc="-150" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="2η Περίοδος - Μαρί Γκρέιχαουντς Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501949" handicap="+2.5" inplay_avail="Y" disporder="-3925" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="H2OU" lp_avail="Y" mkt_sort_name="MKT_SORT-H2OU">
+            <Seln status="A" name="Over" handicap="+2.5" seln_id="491561773" disporder="-50" seln_sort="O">
+              <Price prc_type="LP" dec_prc="4.75" bet_ref="NDkxNTYxNzczOjE1LzQ6MTA6MA" frac_prc="15/4" us_prc="+375" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="+2.5" seln_id="491561772" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.181" bet_ref="NDkxNTYxNzcyOjIvMTE6MTA6MA" frac_prc="2/11" us_prc="-550" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="2η Περίοδος - Όουεν Σάουντ Ατάκ Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501956" handicap="+0.5" inplay_avail="Y" disporder="-3920" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="A2OU" lp_avail="Y" mkt_sort_name="MKT_SORT-A2OU">
+            <Seln status="A" name="Over" handicap="+0.5" seln_id="491561794" disporder="-50" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.363" bet_ref="NDkxNTYxNzk0OjQvMTE6Mjow" frac_prc="4/11" us_prc="-275" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="+0.5" seln_id="491561793" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="3.05" bet_ref="NDkxNTYxNzkzOjQxLzIwOjI6MA" frac_prc="41/20" us_prc="+205" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="2η Περίοδος - Όουεν Σάουντ Ατάκ Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501957" handicap="+1.5" inplay_avail="Y" disporder="-3920" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="A2OU" lp_avail="Y" mkt_sort_name="MKT_SORT-A2OU">
+            <Seln status="A" name="Over" handicap="+1.5" seln_id="491561796" disporder="-50" seln_sort="O">
+              <Price prc_type="LP" dec_prc="2.75" bet_ref="NDkxNTYxNzk2OjcvNDo2OjA" frac_prc="7/4" us_prc="+175" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="+1.5" seln_id="491561795" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.44" bet_ref="NDkxNTYxNzk1OjExLzI1OjY6MA" frac_prc="11/25" us_prc="-228" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="2η Περίοδος - Όουεν Σάουντ Ατάκ Over/Under" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100501958" handicap="+2.5" inplay_avail="Y" disporder="-3920" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="A2OU" lp_avail="Y" mkt_sort_name="MKT_SORT-A2OU">
+            <Seln status="A" name="Over" handicap="+2.5" seln_id="491561798" disporder="-50" seln_sort="O">
+              <Price prc_type="LP" dec_prc="7.00" bet_ref="NDkxNTYxNzk4OjYvMToxMDow" frac_prc="6/1" us_prc="+600" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="+2.5" seln_id="491561797" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.09" bet_ref="NDkxNTYxNzk3OjkvMTAwOjEwOjA" frac_prc="9/100" us_prc="-1112" last_change="2018-04-16T06:25:06"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="2η Περίοδος - Συνολικά γκολ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100496290" inplay_avail="Y" disporder="-3800" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="GOR2" lp_avail="Y" mkt_sort_name="MKT_SORT-GOR2">
+            <Seln status="A" seln_id="491541090" seln_sort="0-2" name="0-2" disporder="0">
+              <Price prc_type="LP" dec_prc="1.87" bet_ref="NDkxNTQxMDkwOjg3LzEwMDo6MA" frac_prc="87/100" us_prc="-115" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491541091" seln_sort="3-" name="3+" disporder="1">
+              <Price prc_type="LP" dec_prc="1.87" bet_ref="NDkxNTQxMDkxOjg3LzEwMDo6MA" frac_prc="87/100" us_prc="-115" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="2η Περίοδος - Ακριβές σκορ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100496291" inplay_avail="Y" disporder="-3500" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="P2CS" lp_avail="Y" mkt_sort_name="MKT_SORT-P2CS">
+            <Seln status="A" seln_id="491561875" seln_sort="1-0" name="1 - 0" disporder="10">
+              <Price prc_type="LP" dec_prc="8.50" bet_ref="NDkxNTYxODc1OjE1LzI6OjA" frac_prc="15/2" us_prc="+750" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561880" seln_sort="2-0" name="2 - 0" disporder="20">
+              <Price prc_type="LP" dec_prc="12.00" bet_ref="NDkxNTYxODgwOjExLzE6OjA" frac_prc="11/1" us_prc="+1100" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561881" seln_sort="2-1" name="2 - 1" disporder="21">
+              <Price prc_type="LP" dec_prc="9.00" bet_ref="NDkxNTYxODgxOjgvMTo6MA" frac_prc="8/1" us_prc="+800" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561885" seln_sort="3-0" name="3 - 0" disporder="30">
+              <Price prc_type="LP" dec_prc="24.00" bet_ref="NDkxNTYxODg1OjIzLzE6OjA" frac_prc="23/1" us_prc="+2300" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561886" seln_sort="3-1" name="3 - 1" disporder="31">
+              <Price prc_type="LP" dec_prc="17.50" bet_ref="NDkxNTYxODg2OjMzLzI6OjA" frac_prc="33/2" us_prc="+1650" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561887" seln_sort="3-2" name="3 - 2" disporder="32">
+              <Price prc_type="LP" dec_prc="27.00" bet_ref="NDkxNTYxODg3OjI2LzE6OjA" frac_prc="26/1" us_prc="+2600" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561890" seln_sort="4-0" name="4 - 0" disporder="40">
+              <Price prc_type="LP" dec_prc="56.00" bet_ref="NDkxNTYxODkwOjU1LzE6OjA" frac_prc="55/1" us_prc="+5500" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561891" seln_sort="4-1" name="4 - 1" disporder="41">
+              <Price prc_type="LP" dec_prc="41.00" bet_ref="NDkxNTYxODkxOjQwLzE6OjA" frac_prc="40/1" us_prc="+4000" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561892" seln_sort="4-2" name="4 - 2" disporder="42">
+              <Price prc_type="LP" dec_prc="61.00" bet_ref="NDkxNTYxODkyOjYwLzE6OjA" frac_prc="60/1" us_prc="+6000" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561893" seln_sort="4-3" name="4 - 3" disporder="43">
+              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkxNTYxODkzOjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561894" seln_sort="5-0" name="5 - 0" disporder="50">
+              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkxNTYxODk0OjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561895" seln_sort="5-1" name="5 - 1" disporder="51">
+              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkxNTYxODk1OjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561896" seln_sort="5-2" name="5 - 2" disporder="52">
+              <Price prc_type="LP" dec_prc="126.00" bet_ref="NDkxNTYxODk2OjEyNS8xOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561870" seln_sort="0-0" name="0 - 0" disporder="1000">
+              <Price prc_type="LP" dec_prc="11.50" bet_ref="NDkxNTYxODcwOjIxLzI6OjA" frac_prc="21/2" us_prc="+1050" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561876" seln_sort="1-1" name="1 - 1" disporder="1011">
+              <Price prc_type="LP" dec_prc="7.25" bet_ref="NDkxNTYxODc2OjI1LzQ6OjA" frac_prc="25/4" us_prc="+625" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561882" seln_sort="2-2" name="2 - 2" disporder="1022">
+              <Price prc_type="LP" dec_prc="14.25" bet_ref="NDkxNTYxODgyOjUzLzQ6OjA" frac_prc="53/4" us_prc="+1325" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561888" seln_sort="3-3" name="3 - 3" disporder="1033">
+              <Price prc_type="LP" dec_prc="61.00" bet_ref="NDkxNTYxODg4OjYwLzE6OjA" frac_prc="60/1" us_prc="+6000" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561871" seln_sort="0-1" name="0 - 1" disporder="2010">
+              <Price prc_type="LP" dec_prc="11.00" bet_ref="NDkxNTYxODcxOjEwLzE6OjA" frac_prc="10/1" us_prc="+1000" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561872" seln_sort="0-2" name="0 - 2" disporder="2020">
+              <Price prc_type="LP" dec_prc="18.50" bet_ref="NDkxNTYxODcyOjM1LzI6OjA" frac_prc="35/2" us_prc="+1750" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561877" seln_sort="1-2" name="1 - 2" disporder="2021">
+              <Price prc_type="LP" dec_prc="11.50" bet_ref="NDkxNTYxODc3OjIxLzI6OjA" frac_prc="21/2" us_prc="+1050" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561873" seln_sort="0-3" name="0 - 3" disporder="2030">
+              <Price prc_type="LP" dec_prc="41.00" bet_ref="NDkxNTYxODczOjQwLzE6OjA" frac_prc="40/1" us_prc="+4000" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561878" seln_sort="1-3" name="1 - 3" disporder="2031">
+              <Price prc_type="LP" dec_prc="27.50" bet_ref="NDkxNTYxODc4OjUzLzI6OjA" frac_prc="53/2" us_prc="+2650" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561883" seln_sort="2-3" name="2 - 3" disporder="2032">
+              <Price prc_type="LP" dec_prc="34.00" bet_ref="NDkxNTYxODgzOjMzLzE6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561874" seln_sort="0-4" name="0 - 4" disporder="2040">
+              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkxNTYxODc0OjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561879" seln_sort="1-4" name="1 - 4" disporder="2041">
+              <Price prc_type="LP" dec_prc="76.00" bet_ref="NDkxNTYxODc5Ojc1LzE6OjA" frac_prc="75/1" us_prc="+7500" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561884" seln_sort="2-4" name="2 - 4" disporder="2042">
+              <Price prc_type="LP" dec_prc="81.00" bet_ref="NDkxNTYxODg0OjgwLzE6OjA" frac_prc="80/1" us_prc="+8000" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491561889" seln_sort="3-4" name="3 - 4" disporder="2043">
+              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkxNTYxODg5OjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="2η Περίοδος - Θα σκοράρουν και οι 2 ομάδες;" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100496292" inplay_avail="Y" disporder="-3400" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="BTP2" lp_avail="Y" mkt_sort_name="MKT_SORT-BTP2">
+            <Seln status="A" seln_id="491541092" seln_sort="Y" name="Ναι" disporder="0">
+              <Price prc_type="LP" dec_prc="1.70" bet_ref="NDkxNTQxMDkyOjcvMTA6OjA" frac_prc="7/10" us_prc="-143" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491541093" seln_sort="N" name="Όχι" disporder="1">
+              <Price prc_type="LP" dec_prc="2.12" bet_ref="NDkxNTQxMDkzOjI4LzI1Ojow" frac_prc="28/25" us_prc="+112" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="2η Περίοδος - Μονά/Ζυγά" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100496293" inplay_avail="Y" disporder="-3050" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="P2OE" lp_avail="Y" mkt_sort_name="MKT_SORT-P2OE">
+            <Seln status="A" seln_id="491541094" seln_sort="O" name="Μονά" disporder="0">
+              <Price prc_type="LP" dec_prc="1.909" bet_ref="NDkxNTQxMDk0OjEwLzExOjow" frac_prc="10/11" us_prc="-110" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491541095" seln_sort="E" name="Ζυγά" disporder="1">
+              <Price prc_type="LP" dec_prc="1.87" bet_ref="NDkxNTQxMDk1Ojg3LzEwMDo6MA" frac_prc="87/100" us_prc="-115" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Συνολικά γκολ Μονά/Ζυγά" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100496294" inplay_avail="Y" disporder="5000" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="ODEV" lp_avail="Y" mkt_sort_name="Συνολικά γκολ Μονά/Ζυγά">
+            <Seln status="A" seln_id="491541096" seln_sort="O" name="Μονά" disporder="0">
+              <Price prc_type="LP" dec_prc="2.12" bet_ref="NDkxNTQxMDk2OjI4LzI1Ojow" frac_prc="28/25" us_prc="+112" last_change="2018-04-16T06:25:05"/>
+            </Seln>
+            <Seln status="A" seln_id="491541097" seln_sort="E" name="Ζυγά" disporder="1">
+              <Price prc_type="LP" dec_prc="1.70" bet_ref="NDkxNTQxMDk3OjcvMTA6OjA" frac_prc="7/10" us_prc="-143" last_change="2018-04-16T06:25:05"/>
             </Seln>
           </Mkt>
         </Ev>

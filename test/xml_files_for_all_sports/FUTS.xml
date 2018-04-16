@@ -1,0 +1,34 @@
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwODMzMTg0OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+  <Sport sport_code="FUTS" allow_cash_out="N" name="Ποδόσφαιρο Σάλας" disporder="110">
+    <SBClass sb_class_id="10676" disporder="0" name="Ρωσία">
+      <SBType sb_type_id="13302" name="Σουπερλίγκα" disporder="0">
+        <Ev inplay_allowed="N" status="A" name="Νοβάγια Τζενερασίγια - Σινάρα Εκατ." allow_cash_out="N" start_time="2018-04-16T16:00:00" allow_cash_out_pre_ev="N" virtual="N" ev_timezone="UTC" allow_cash_out_inplay="N" inplay_now="N" mkt_count="2" ev_id="1635918" disporder="20">
+          <EvDetail br_match_id="12326610" br_has_stats="Y"/>
+          <Teams>
+            <Team team_id="115289" team_order="0" name="Νοβάγια Τζενερασίγια" short_name="Νοβάγια Τζενερασίγια"/>
+            <Team team_id="115282" team_order="1" name="Σινάρα Εκατ." short_name="Σινάρα Εκατ."/>
+          </Teams>
+          <Mkt status="A" name="1Χ2" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="97263727" inplay_avail="Y" disporder="-900" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="MRES" lp_avail="Y" mkt_sort_name="Αγώνες">
+            <Seln status="A" name="Νοβάγια Τζενερασίγια" seln_id="480145878" team_id="115289" disporder="1" seln_sort="H">
+              <Price prc_type="LP" dec_prc="10.00" bet_ref="NDgwMTQ1ODc4OjkvMTo6MA" frac_prc="9/1" us_prc="+900" last_change="2018-04-15T23:47:43"/>
+            </Seln>
+            <Seln status="A" seln_id="480145879" seln_sort="D" name="Ισοπαλία" disporder="2">
+              <Price prc_type="LP" dec_prc="6.50" bet_ref="NDgwMTQ1ODc5OjExLzI6OjA" frac_prc="11/2" us_prc="+550" last_change="2018-04-15T23:47:43"/>
+            </Seln>
+            <Seln status="A" name="Σινάρα Εκατ." seln_id="480145880" team_id="115282" disporder="3" seln_sort="A">
+              <Price prc_type="LP" dec_prc="1.20" bet_ref="NDgwMTQ1ODgwOjEvNTo6MA" frac_prc="1/5" us_prc="-500" last_change="2018-04-15T23:47:43"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Over/Under" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100491198" handicap="6.5" inplay_avail="N" disporder="-886" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="OVUN" lp_avail="Y" mkt_sort_name="Πάνω/Κάτω">
+            <Seln status="A" name="Over" handicap="6.5" seln_id="491527066" disporder="0" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.615" bet_ref="NDkxNTI3MDY2OjgvMTM6MjY6MA" frac_prc="8/13" us_prc="-163" last_change="2018-04-15T23:46:55"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="6.5" seln_id="491527067" disporder="1" seln_sort="U">
+              <Price prc_type="LP" dec_prc="2.20" bet_ref="NDkxNTI3MDY3OjYvNToyNjow" frac_prc="6/5" us_prc="+120" last_change="2018-04-15T23:46:55"/>
+            </Seln>
+          </Mkt>
+        </Ev>
+      </SBType>
+    </SBClass>
+  </Sport>
+</ContentAPI>

@@ -1,4 +1,4 @@
-<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNzAyOjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwODMzMTg2OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
   <Sport sport_code="FRM1" allow_cash_out="N" name="Φόρμουλα 1" disporder="30">
     <SBClass sb_class_id="11348" disporder="2" name="Πρωτάθλημα κατασκευαστών">
       <SBType sb_type_id="16975" name="Νικητής" disporder="0">

@@ -1,4 +1,4 @@
-<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNjAyOjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwODMzMTg1OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
   <Sport sport_code="MOGP" allow_cash_out="N" name="Moto GP" disporder="31">
     <SBClass sb_class_id="11528" disporder="1" name="Πρωτάθλημα οδηγών">
       <SBType sb_type_id="18175" name="Νικητής" disporder="1">

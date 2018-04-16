@@ -1,177 +1,93 @@
-<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNjcyOjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwODMzMTg0OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
   <Sport sport_code="DART" allow_cash_out="N" name="Darts" disporder="120">
-    <SBClass sb_class_id="188655" disporder="0" name="European Tour">
-      <SBType sb_type_id="183779" name="European Tour 3" disporder="0">
-        <Ev inplay_allowed="Y" status="S" name="Μαξ Χοπ - Ρομπ Κρος" allow_cash_out="N" start_time="2018-04-15T19:35:00" allow_cash_out_pre_ev="N" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="N" inplay_now="Y" mkt_count="10" ev_id="1758059" disporder="1">
-          <EvDetail br_match_id="14348733"/>
-          <Inplay inplay_period_num="1" inplay_period_name_short="PERIOD_live_SHORT" clock_status="TICKING" correct_at="2018-04-15T19:52:09" inplay_period_finished="N" score_a="0" score_b="0" inplay_period_name="Ζωντανά" num_periods="1" clock_mode="FORWARD" inplay_period="live" score_string="0-0" scoring_system="game-match" last_change="2018-04-15T19:12:56" inplay_secs="635">
-            <Scores>
-              <Score score_a="40" score_b="36" name="current_game_score"/>
-              <Score score_a="2" score_b="2" name="current_set_games_won"/>
-              <Score score_a="0" score_b="0" name="sets_won"/>
-              <Score score_a="Y" score_b="N" name="is_server"/>
-            </Scores>
-            <MatchStatus player_id="18915414" status_code="SFIR" status_text="MATCH_STATUS_SFIR"/>
-          </Inplay>
-          <InplayDetail period_length_mins="0" period_start="2018-04-15T19:41:33" period_stoppage_secs="0" score_team_B="0" score_team_A="0"/>
+    <SBClass sb_class_id="188639" disporder="0" name="Premier League">
+      <SBType sb_type_id="183582" name="Premier League" disporder="0">
+        <Ev inplay_allowed="N" status="A" name="Ντάριλ Γκέρνεϊ - Σάιμον Γουίτλοκ" allow_cash_out="N" start_time="2018-04-19T20:35:00" allow_cash_out_pre_ev="N" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="N" inplay_now="N" mkt_count="5" ev_id="1746954" disporder="1">
+          <EvDetail br_match_id="14302069"/>
           <Stats>
-            <Stat name="EV_STAT_180S" title="PLAYER_STAT_180S" stat_type="180S" value="0" player_id="18902068" type="player"/>
-            <Stat name="EV_STAT_180S" title="PLAYER_STAT_180S" stat_type="180S" value="0" player_id="18915414" type="player"/>
+            <Stat name="EV_STAT_180S" title="PLAYER_STAT_180S" stat_type="180S" value="0" player_id="18907338" type="player"/>
+            <Stat name="EV_STAT_180S" title="PLAYER_STAT_180S" stat_type="180S" value="0" player_id="18898508" type="player"/>
           </Stats>
-          <Incidents>
-            <Incident incident_id="103393084" description="Τον πόντο κέρδισε ο/η Hopp" inplay_period_mins="11" player1_id="18902068" inplay_total_mins="11" time="2018-04-15T19:52:08" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103393062" description="Τον πόντο κέρδισε ο/η Κρος" inplay_period_mins="11" player1_id="18915414" inplay_total_mins="11" time="2018-04-15T19:51:47" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103393042" description="Τον πόντο κέρδισε ο/η Hopp" inplay_period_mins="10" player1_id="18902068" inplay_total_mins="10" time="2018-04-15T19:51:33" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103393028" description="Τον πόντο κέρδισε ο/η Κρος" inplay_period_mins="10" player1_id="18915414" inplay_total_mins="10" time="2018-04-15T19:51:19" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103393008" description="Τον πόντο κέρδισε ο/η Hopp" inplay_period_mins="10" player1_id="18902068" inplay_total_mins="10" time="2018-04-15T19:51:07" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392995" description="Τον πόντο κέρδισε ο/η Κρος" inplay_period_mins="10" player1_id="18915414" inplay_total_mins="10" time="2018-04-15T19:50:54" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392977" description="Τον πόντο κέρδισε ο/η Hopp" inplay_period_mins="10" player1_id="18902068" inplay_total_mins="10" time="2018-04-15T19:50:39" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392969" description="Τον πόντο κέρδισε ο/η Κρος" inplay_period_mins="9" player1_id="18915414" inplay_total_mins="9" time="2018-04-15T19:50:28" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392918" description="Τον πόντο κέρδισε ο/η Κρος" inplay_period_mins="9" player1_id="18915414" inplay_total_mins="9" time="2018-04-15T19:49:52" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392900" description="Τον πόντο κέρδισε ο/η Hopp" inplay_period_mins="9" player1_id="18902068" inplay_total_mins="9" time="2018-04-15T19:49:40" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392877" description="Τον πόντο κέρδισε ο/η Κρος" inplay_period_mins="8" player1_id="18915414" inplay_total_mins="8" time="2018-04-15T19:49:25" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392863" description="Τον πόντο κέρδισε ο/η Hopp" inplay_period_mins="8" player1_id="18902068" inplay_total_mins="8" time="2018-04-15T19:49:13" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392844" description="Τον πόντο κέρδισε ο/η Κρος" inplay_period_mins="8" player1_id="18915414" inplay_total_mins="8" time="2018-04-15T19:48:58" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392826" description="Τον πόντο κέρδισε ο/η Hopp" inplay_period_mins="8" player1_id="18902068" inplay_total_mins="8" time="2018-04-15T19:48:46" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392807" description="Τον πόντο κέρδισε ο/η Κρος" inplay_period_mins="7" player1_id="18915414" inplay_total_mins="7" time="2018-04-15T19:48:33" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392784" description="Τον πόντο κέρδισε ο/η Hopp" inplay_period_mins="7" player1_id="18902068" inplay_total_mins="7" time="2018-04-15T19:48:21" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392717" description="Τον πόντο κέρδισε ο/η Κρος" inplay_period_mins="7" player1_id="18915414" inplay_total_mins="7" time="2018-04-15T19:47:40" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392693" description="Τον πόντο κέρδισε ο/η Hopp" inplay_period_mins="6" player1_id="18902068" inplay_total_mins="6" time="2018-04-15T19:47:26" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392666" description="Τον πόντο κέρδισε ο/η Κρος" inplay_period_mins="6" player1_id="18915414" inplay_total_mins="6" time="2018-04-15T19:47:11" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392646" description="Τον πόντο κέρδισε ο/η Hopp" inplay_period_mins="6" player1_id="18902068" inplay_total_mins="6" time="2018-04-15T19:46:56" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392623" description="Τον πόντο κέρδισε ο/η Κρος" inplay_period_mins="6" player1_id="18915414" inplay_total_mins="6" time="2018-04-15T19:46:43" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392605" description="Τον πόντο κέρδισε ο/η Hopp" inplay_period_mins="5" player1_id="18902068" inplay_total_mins="5" time="2018-04-15T19:46:29" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392581" description="Τον πόντο κέρδισε ο/η Κρος" inplay_period_mins="5" player1_id="18915414" inplay_total_mins="5" time="2018-04-15T19:46:16" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392536" description="Τον πόντο κέρδισε ο/η Hopp" inplay_period_mins="5" player1_id="18902068" inplay_total_mins="5" time="2018-04-15T19:45:51" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392515" description="Τον πόντο κέρδισε ο/η Κρος" inplay_period_mins="5" player1_id="18915414" inplay_total_mins="5" time="2018-04-15T19:45:35" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392497" description="Τον πόντο κέρδισε ο/η Hopp" inplay_period_mins="4" player1_id="18902068" inplay_total_mins="4" time="2018-04-15T19:45:22" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392470" description="Τον πόντο κέρδισε ο/η Κρος" inplay_period_mins="4" player1_id="18915414" inplay_total_mins="4" time="2018-04-15T19:45:07" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392450" description="Τον πόντο κέρδισε ο/η Hopp" inplay_period_mins="4" player1_id="18902068" inplay_total_mins="4" time="2018-04-15T19:44:56" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392434" description="Τον πόντο κέρδισε ο/η Κρος" inplay_period_mins="4" player1_id="18915414" inplay_total_mins="4" time="2018-04-15T19:44:42" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392421" description="Τον πόντο κέρδισε ο/η Hopp" inplay_period_mins="3" player1_id="18902068" inplay_total_mins="3" time="2018-04-15T19:44:31" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392387" description="Τον πόντο κέρδισε ο/η Κρος" inplay_period_mins="3" player1_id="18915414" inplay_total_mins="3" time="2018-04-15T19:44:18" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392301" description="Τον πόντο κέρδισε ο/η Hopp" inplay_period_mins="3" player1_id="18902068" inplay_total_mins="3" time="2018-04-15T19:44:06" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392256" description="Τον πόντο κέρδισε ο/η Hopp" inplay_period_mins="3" player1_id="18902068" inplay_total_mins="3" time="2018-04-15T19:43:37" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392245" description="Τον πόντο κέρδισε ο/η Κρος" inplay_period_mins="2" player1_id="18915414" inplay_total_mins="2" time="2018-04-15T19:43:24" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392218" description="Τον πόντο κέρδισε ο/η Hopp" inplay_period_mins="2" player1_id="18902068" inplay_total_mins="2" time="2018-04-15T19:43:11" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392195" description="Τον πόντο κέρδισε ο/η Κρος" inplay_period_mins="2" player1_id="18915414" inplay_total_mins="2" time="2018-04-15T19:42:58" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392182" description="Τον πόντο κέρδισε ο/η Hopp" inplay_period_mins="2" player1_id="18902068" inplay_total_mins="2" time="2018-04-15T19:42:46" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392167" description="Τον πόντο κέρδισε ο/η Κρος" inplay_period_mins="1" player1_id="18915414" inplay_total_mins="1" time="2018-04-15T19:42:32" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392143" description="Τον πόντο κέρδισε ο/η Hopp" inplay_period_mins="1" player1_id="18902068" inplay_total_mins="1" time="2018-04-15T19:42:21" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392122" description="Τον πόντο κέρδισε ο/η Κρος" inplay_period_mins="1" player1_id="18915414" inplay_total_mins="1" time="2018-04-15T19:42:04" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103392110" description="Τον πόντο κέρδισε ο/η Hopp" inplay_period_mins="1" player1_id="18902068" inplay_total_mins="1" time="2018-04-15T19:41:51" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103391868" description="Τον πόντο κέρδισε ο/η Κρος" inplay_period_mins="1" player1_id="18915414" inplay_total_mins="1" time="2018-04-15T19:41:39" inplay_period="live" type="PWIN"/>
-            <Incident incident_id="103391866" description="Έναρξη σετ 1" inplay_period_mins="1" inplay_total_mins="1" time="2018-04-15T19:41:39" inplay_period="live" type="SSRT"/>
-            <Incident incident_id="103391860" description="Έναρξη αγώνα" inplay_period_mins="1" inplay_total_mins="1" time="2018-04-15T19:41:33" inplay_period="match_started" type="EBEG"/>
-          </Incidents>
-          <Participant name="Μαξ Χοπ" full_name="Μαξ Χοπ">
-            <Player first_name="Max" last_name="Hopp" name="Μαξ Χοπ" number="1" player_id="18902068" initials="M"/>
+          <Participant name="Ντάριλ Γκέρνεϊ" full_name="Ντάριλ Γκέρνεϊ">
+            <Player first_name="Daryl" last_name="Gurney" name="Ντάριλ Γκέρνεϊ" number="1" player_id="18907338" initials="D"/>
           </Participant>
-          <Participant name="Ρομπ Κρος" full_name="Ρομπ Κρος">
-            <Player first_name="Rob" last_name="Κρος" name="Ρομπ Κρος" number="2" player_id="18915414" initials="R"/>
+          <Participant name="Σάιμον Γουίτλοκ" full_name="Σάιμον Γουίτλοκ">
+            <Player first_name="Σιμόν" last_name="Whitlock" name="Σάιμον Γουίτλοκ" number="2" player_id="18898508" initials="S"/>
           </Participant>
-          <Mkt status="A" name="Νικητής" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100477756" inplay_avail="Y" disporder="-9999" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="HTOH" lp_avail="Y" mkt_sort_name="Ένας Εναντίον Ενός">
-            <Seln status="A" name="Μαξ Χοπ" seln_id="491480166" disporder="0" player_id="18902068" seln_sort="P1">
-              <Price prc_type="LP" dec_prc="5.00" bet_ref="NDkxNDgwMTY2OjQvMTo6MA" frac_prc="4/1" us_prc="+400" last_change="2018-04-15T19:52:00"/>
+          <Mkt status="A" name="Τελικό Αποτέλεσμα" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100150073" inplay_avail="Y" disporder="-9999" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="MREP" lp_avail="Y" mkt_sort_name="Αγώνες">
+            <Seln status="A" name="Ντάριλ Γκέρνεϊ" seln_id="490304628" disporder="0" player_id="18907338" seln_sort="H">
+              <Price prc_type="LP" dec_prc="1.833" bet_ref="NDkwMzA0NjI4OjUvNjo6MA" frac_prc="5/6" us_prc="-120" last_change="2018-04-13T00:50:56"/>
             </Seln>
-            <Seln status="A" name="Ρομπ Κρος" seln_id="491480167" disporder="1" player_id="18915414" seln_sort="P2">
-              <Price prc_type="LP" dec_prc="1.166" bet_ref="NDkxNDgwMTY3OjEvNjo6MA" frac_prc="1/6" us_prc="-600" last_change="2018-04-15T19:52:00"/>
+            <Seln status="A" seln_id="490304629" seln_sort="D" name="Ισοπαλία" disporder="1">
+              <Price prc_type="LP" dec_prc="4.333" bet_ref="NDkwMzA0NjI5OjEwLzM6OjA" frac_prc="10/3" us_prc="+333" last_change="2018-04-13T00:50:56"/>
             </Seln>
-          </Mkt>
-          <Mkt status="A" mkt_extra="S01" name="Χάντικαπ Leg (Σετ 1)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100480951" handicap="+1.5" inplay_avail="Y" disporder="-9940" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="ALHS" lp_avail="Y" mkt_sort_name="MKT_SORT-ALHS">
-            <Seln status="A" name="Μαξ Χοπ" handicap="+1.5" seln_id="491492216" disporder="0" player_id="18902068" seln_sort="P1">
-              <Price prc_type="LP" dec_prc="2.90" bet_ref="NDkxNDkyMjE2OjE5LzEwOjY6MA" frac_prc="19/10" us_prc="+190" last_change="2018-04-15T19:52:00"/>
-            </Seln>
-            <Seln status="A" name="Ρομπ Κρος" handicap="-1.5" seln_id="491492217" disporder="1" player_id="18915414" seln_sort="P2">
-              <Price prc_type="LP" dec_prc="1.38" bet_ref="NDkxNDkyMjE3OjE5LzUwOjY6MA" frac_prc="19/50" us_prc="-264" last_change="2018-04-15T19:52:00"/>
+            <Seln status="A" name="Σάιμον Γουίτλοκ" seln_id="490304630" disporder="2" player_id="18898508" seln_sort="A">
+              <Price prc_type="LP" dec_prc="3.40" bet_ref="NDkwMzA0NjMwOjEyLzU6OjA" frac_prc="12/5" us_prc="+240" last_change="2018-04-13T00:50:56"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" mkt_extra="S01" name="Χάντικαπ Leg (Σετ 1)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100480651" handicap="+2.5" inplay_avail="Y" disporder="-9940" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="ALHS" lp_avail="Y" mkt_sort_name="MKT_SORT-ALHS">
-            <Seln status="A" name="Μαξ Χοπ" handicap="+2.5" seln_id="491491296" disporder="0" player_id="18902068" seln_sort="P1">
-              <Price prc_type="LP" dec_prc="2.10" bet_ref="NDkxNDkxMjk2OjExLzEwOjEwOjA" frac_prc="11/10" us_prc="+110" last_change="2018-04-15T19:52:00"/>
+          <Mkt status="A" name="Συνολικά Legs" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100150076" handicap="+9.5" inplay_avail="Y" disporder="-9000" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="TLEG" lp_avail="Y" mkt_sort_name="MKT_SORT-TLEG" mkt_close_at="2018-04-19T20:25:00">
+            <Seln status="A" name="Over" handicap="+9.5" seln_id="490304646" disporder="0" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.20" bet_ref="NDkwMzA0NjQ2OjEvNTozODow" frac_prc="1/5" us_prc="-500" last_change="2018-04-13T00:50:56"/>
             </Seln>
-            <Seln status="A" name="Ρομπ Κρος" handicap="-2.5" seln_id="491491297" disporder="1" player_id="18915414" seln_sort="P2">
-              <Price prc_type="LP" dec_prc="1.70" bet_ref="NDkxNDkxMjk3OjcvMTA6MTA6MA" frac_prc="7/10" us_prc="-143" last_change="2018-04-15T19:52:00"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" mkt_extra="S01" name="Χάντικαπ Leg (Σετ 1)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100480653" handicap="+3.5" inplay_avail="Y" disporder="-9940" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="ALHS" lp_avail="Y" mkt_sort_name="MKT_SORT-ALHS">
-            <Seln status="A" name="Μαξ Χοπ" handicap="+3.5" seln_id="491491298" disporder="0" player_id="18902068" seln_sort="P1">
-              <Price prc_type="LP" dec_prc="1.38" bet_ref="NDkxNDkxMjk4OjE5LzUwOjE0OjA" frac_prc="19/50" us_prc="-264" last_change="2018-04-15T19:52:00"/>
-            </Seln>
-            <Seln status="A" name="Ρομπ Κρος" handicap="-3.5" seln_id="491491299" disporder="1" player_id="18915414" seln_sort="P2">
-              <Price prc_type="LP" dec_prc="2.875" bet_ref="NDkxNDkxMjk5OjE1Lzg6MTQ6MA" frac_prc="15/8" us_prc="+187" last_change="2018-04-15T19:52:00"/>
+            <Seln status="A" name="Under" handicap="+9.5" seln_id="490304647" disporder="1" seln_sort="U">
+              <Price prc_type="LP" dec_prc="4.20" bet_ref="NDkwMzA0NjQ3OjE2LzU6Mzg6MA" frac_prc="16/5" us_prc="+320" last_change="2018-04-13T00:50:56"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" mkt_extra="S01L06" name="Νικητής Leg (Σετ 1, Leg 6)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100481093" inplay_avail="Y" disporder="-9930" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="SLMW" lp_avail="Y" mkt_sort_name="MKT_SORT-SLMW">
-            <Seln status="A" name="Μαξ Χοπ" seln_id="491492584" disporder="0" player_id="18902068" seln_sort="P1">
-              <Price prc_type="LP" dec_prc="1.93" bet_ref="NDkxNDkyNTg0OjkzLzEwMDo6MA" frac_prc="93/100" us_prc="-108" last_change="2018-04-15T19:52:00"/>
+          <Mkt status="A" name="Συνολικά Legs" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100150077" handicap="+10.5" inplay_avail="Y" disporder="-9000" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="TLEG" lp_avail="Y" mkt_sort_name="MKT_SORT-TLEG" mkt_close_at="2018-04-19T20:25:00">
+            <Seln status="A" name="Over" handicap="+10.5" seln_id="490304648" disporder="0" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.50" bet_ref="NDkwMzA0NjQ4OjEvMjo0Mjow" frac_prc="1/2" us_prc="-200" last_change="2018-04-13T00:50:56"/>
             </Seln>
-            <Seln status="A" name="Ρομπ Κρος" seln_id="491492585" disporder="1" player_id="18915414" seln_sort="P2">
-              <Price prc_type="LP" dec_prc="1.85" bet_ref="NDkxNDkyNTg1OjE3LzIwOjow" frac_prc="17/20" us_prc="-118" last_change="2018-04-15T19:52:00"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" mkt_extra="S01" name="Σκορ στο σετ (Σετ 1)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100477761" inplay_avail="Y" disporder="-8800" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="STSC" lp_avail="Y" mkt_sort_name="Σκορ σετ">
-            <Seln status="A" seln_id="491480181" seln_sort="2-7" name="2 - 7" disporder="207">
-              <Price prc_type="LP" dec_prc="6.25" bet_ref="NDkxNDgwMTgxOjIxLzQ6OjA" frac_prc="21/4" us_prc="+525" last_change="2018-04-15T19:52:00"/>
-            </Seln>
-            <Seln status="A" seln_id="491480183" seln_sort="3-7" name="3 - 7" disporder="307">
-              <Price prc_type="LP" dec_prc="4.85" bet_ref="NDkxNDgwMTgzOjc3LzIwOjow" frac_prc="77/20" us_prc="+385" last_change="2018-04-15T19:52:00"/>
-            </Seln>
-            <Seln status="A" seln_id="491480185" seln_sort="4-7" name="4 - 7" disporder="407">
-              <Price prc_type="LP" dec_prc="3.75" bet_ref="NDkxNDgwMTg1OjExLzQ6OjA" frac_prc="11/4" us_prc="+275" last_change="2018-04-15T19:52:00"/>
-            </Seln>
-            <Seln status="A" seln_id="491480187" seln_sort="5-7" name="5 - 7" disporder="507">
-              <Price prc_type="LP" dec_prc="6.50" bet_ref="NDkxNDgwMTg3OjExLzI6OjA" frac_prc="11/2" us_prc="+550" last_change="2018-04-15T19:52:00"/>
-            </Seln>
-            <Seln status="A" seln_id="491480189" seln_sort="6-7" name="6 - 7" disporder="607">
-              <Price prc_type="LP" dec_prc="6.20" bet_ref="NDkxNDgwMTg5OjI2LzU6OjA" frac_prc="26/5" us_prc="+520" last_change="2018-04-15T19:52:00"/>
-            </Seln>
-            <Seln status="A" seln_id="491480180" seln_sort="7-2" name="7 - 2" disporder="702">
-              <Price prc_type="LP" dec_prc="34.00" bet_ref="NDkxNDgwMTgwOjMzLzE6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-04-15T19:42:14"/>
-            </Seln>
-            <Seln status="A" seln_id="491480182" seln_sort="7-3" name="7 - 3" disporder="703">
-              <Price prc_type="LP" dec_prc="31.00" bet_ref="NDkxNDgwMTgyOjMwLzE6OjA" frac_prc="30/1" us_prc="+3000" last_change="2018-04-15T19:52:00"/>
-            </Seln>
-            <Seln status="A" seln_id="491480184" seln_sort="7-4" name="7 - 4" disporder="704">
-              <Price prc_type="LP" dec_prc="25.00" bet_ref="NDkxNDgwMTg0OjI0LzE6OjA" frac_prc="24/1" us_prc="+2400" last_change="2018-04-15T19:52:00"/>
-            </Seln>
-            <Seln status="A" seln_id="491480186" seln_sort="7-5" name="7 - 5" disporder="705">
-              <Price prc_type="LP" dec_prc="11.75" bet_ref="NDkxNDgwMTg2OjQzLzQ6OjA" frac_prc="43/4" us_prc="+1075" last_change="2018-04-15T19:52:00"/>
-            </Seln>
-            <Seln status="A" seln_id="491480188" seln_sort="7-6" name="7 - 6" disporder="706">
-              <Price prc_type="LP" dec_prc="16.00" bet_ref="NDkxNDgwMTg4OjE1LzE6OjA" frac_prc="15/1" us_prc="+1500" last_change="2018-04-15T19:52:00"/>
+            <Seln status="A" name="Under" handicap="+10.5" seln_id="490304649" disporder="1" seln_sort="U">
+              <Price prc_type="LP" dec_prc="2.45" bet_ref="NDkwMzA0NjQ5OjI5LzIwOjQyOjA" frac_prc="29/20" us_prc="+145" last_change="2018-04-13T00:50:56"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" mkt_extra="S01" name="Συνολικά Legs στο σετ (Σετ 1)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100480659" handicap="+10.5" inplay_avail="Y" disporder="-8100" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="TLES" lp_avail="Y" mkt_sort_name="MKT_SORT-TLES">
-            <Seln status="A" name="Over" handicap="+10.5" seln_id="491491304" disporder="-10" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.444" bet_ref="NDkxNDkxMzA0OjQvOTo0Mjow" frac_prc="4/9" us_prc="-225" last_change="2018-04-15T19:52:00"/>
+          <Mkt status="A" name="Συνολικά Legs" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100150078" handicap="+11.5" inplay_avail="Y" disporder="-9000" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="TLEG" lp_avail="Y" mkt_sort_name="MKT_SORT-TLEG" mkt_close_at="2018-04-19T20:25:00">
+            <Seln status="A" name="Over" handicap="+11.5" seln_id="490304650" disporder="0" seln_sort="O">
+              <Price prc_type="LP" dec_prc="2.20" bet_ref="NDkwMzA0NjUwOjYvNTo0Njow" frac_prc="6/5" us_prc="+120" last_change="2018-04-13T00:50:56"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="+10.5" seln_id="491491305" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="2.70" bet_ref="NDkxNDkxMzA1OjE3LzEwOjQyOjA" frac_prc="17/10" us_prc="+170" last_change="2018-04-15T19:52:00"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" mkt_extra="S01" name="Συνολικά Legs στο σετ (Σετ 1)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100480657" handicap="+11.5" inplay_avail="Y" disporder="-8100" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="TLES" lp_avail="Y" mkt_sort_name="MKT_SORT-TLES">
-            <Seln status="A" name="Over" handicap="+11.5" seln_id="491491302" disporder="-10" seln_sort="O">
-              <Price prc_type="LP" dec_prc="2.40" bet_ref="NDkxNDkxMzAyOjcvNTo0Njow" frac_prc="7/5" us_prc="+140" last_change="2018-04-15T19:52:00"/>
-            </Seln>
-            <Seln status="A" name="Under" handicap="+11.5" seln_id="491491303" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.55" bet_ref="NDkxNDkxMzAzOjExLzIwOjQ2OjA" frac_prc="11/20" us_prc="-182" last_change="2018-04-15T19:52:00"/>
+            <Seln status="A" name="Under" handicap="+11.5" seln_id="490304651" disporder="1" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.615" bet_ref="NDkwMzA0NjUxOjgvMTM6NDY6MA" frac_prc="8/13" us_prc="-163" last_change="2018-04-13T00:50:56"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" mkt_extra="S01" name="Συνολικά Legs στο σετ (Σετ 1)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100481094" handicap="+12.5" inplay_avail="Y" disporder="-8100" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="TLES" lp_avail="Y" mkt_sort_name="MKT_SORT-TLES">
-            <Seln status="A" name="Over" handicap="+12.5" seln_id="491492586" disporder="-10" seln_sort="O">
-              <Price prc_type="LP" dec_prc="4.75" bet_ref="NDkxNDkyNTg2OjE1LzQ6NTA6MA" frac_prc="15/4" us_prc="+375" last_change="2018-04-15T19:52:00"/>
+          <Mkt status="A" mkt_extra="S01" name="Σκορ στο σετ (Σετ 1)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100150075" inplay_avail="Y" disporder="-8800" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="STSC" lp_avail="Y" mkt_sort_name="Σκορ σετ">
+            <Seln status="A" seln_id="490304633" seln_sort="0-7" name="0 - 7" disporder="7">
+              <Price prc_type="LP" dec_prc="101.00" bet_ref="NDkwMzA0NjMzOjEwMC8xOjow" frac_prc="100/1" us_prc="+10000" last_change="2018-04-13T00:50:56"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="+12.5" seln_id="491492587" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.181" bet_ref="NDkxNDkyNTg3OjIvMTE6NTA6MA" frac_prc="2/11" us_prc="-550" last_change="2018-04-15T19:52:00"/>
+            <Seln status="A" seln_id="490304635" seln_sort="1-7" name="1 - 7" disporder="107">
+              <Price prc_type="LP" dec_prc="41.00" bet_ref="NDkwMzA0NjM1OjQwLzE6OjA" frac_prc="40/1" us_prc="+4000" last_change="2018-04-13T00:50:56"/>
             </Seln>
-          </Mkt>
-          <Mkt status="A" mkt_extra="S01" name="Μονά/Ζυγά Legs (Σετ 1)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100480663" inplay_avail="Y" disporder="2222" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="OELS" lp_avail="Y" mkt_sort_name="MKT_SORT-OELS">
-            <Seln status="A" seln_id="491491309" seln_sort="O" name="Μονά" disporder="0">
-              <Price prc_type="LP" dec_prc="1.60" bet_ref="NDkxNDkxMzA5OjMvNTo6MA" frac_prc="3/5" us_prc="-167" last_change="2018-04-15T19:52:00"/>
+            <Seln status="A" seln_id="490304637" seln_sort="2-7" name="2 - 7" disporder="207">
+              <Price prc_type="LP" dec_prc="21.50" bet_ref="NDkwMzA0NjM3OjQxLzI6OjA" frac_prc="41/2" us_prc="+2050" last_change="2018-04-13T00:50:56"/>
             </Seln>
-            <Seln status="A" seln_id="491491308" seln_sort="E" name="Ζυγά" disporder="1">
-              <Price prc_type="LP" dec_prc="2.30" bet_ref="NDkxNDkxMzA4OjEzLzEwOjow" frac_prc="13/10" us_prc="+130" last_change="2018-04-15T19:52:00"/>
+            <Seln status="A" seln_id="490304639" seln_sort="3-7" name="3 - 7" disporder="307">
+              <Price prc_type="LP" dec_prc="14.40" bet_ref="NDkwMzA0NjM5OjY3LzU6OjA" frac_prc="67/5" us_prc="+1340" last_change="2018-04-13T00:50:56"/>
+            </Seln>
+            <Seln status="A" seln_id="490304641" seln_sort="4-7" name="4 - 7" disporder="407">
+              <Price prc_type="LP" dec_prc="10.00" bet_ref="NDkwMzA0NjQxOjkvMTo6MA" frac_prc="9/1" us_prc="+900" last_change="2018-04-13T00:50:56"/>
+            </Seln>
+            <Seln status="A" seln_id="490304643" seln_sort="5-7" name="5 - 7" disporder="507">
+              <Price prc_type="LP" dec_prc="9.50" bet_ref="NDkwMzA0NjQzOjE3LzI6OjA" frac_prc="17/2" us_prc="+850" last_change="2018-04-13T00:50:56"/>
+            </Seln>
+            <Seln status="A" seln_id="490304631" seln_sort="6-6" name="6 - 6" disporder="606">
+              <Price prc_type="LP" dec_prc="4.333" bet_ref="NDkwMzA0NjMxOjEwLzM6OjA" frac_prc="10/3" us_prc="+333" last_change="2018-04-13T00:50:56"/>
+            </Seln>
+            <Seln status="A" seln_id="490304632" seln_sort="7-0" name="7 - 0" disporder="700">
+              <Price prc_type="LP" dec_prc="41.00" bet_ref="NDkwMzA0NjMyOjQwLzE6OjA" frac_prc="40/1" us_prc="+4000" last_change="2018-04-13T00:50:56"/>
+            </Seln>
+            <Seln status="A" seln_id="490304634" seln_sort="7-1" name="7 - 1" disporder="701">
+              <Price prc_type="LP" dec_prc="16.50" bet_ref="NDkwMzA0NjM0OjMxLzI6OjA" frac_prc="31/2" us_prc="+1550" last_change="2018-04-13T00:50:56"/>
+            </Seln>
+            <Seln status="A" seln_id="490304636" seln_sort="7-2" name="7 - 2" disporder="702">
+              <Price prc_type="LP" dec_prc="9.50" bet_ref="NDkwMzA0NjM2OjE3LzI6OjA" frac_prc="17/2" us_prc="+850" last_change="2018-04-13T00:50:56"/>
+            </Seln>
+            <Seln status="A" seln_id="490304638" seln_sort="7-3" name="7 - 3" disporder="703">
+              <Price prc_type="LP" dec_prc="7.50" bet_ref="NDkwMzA0NjM4OjEzLzI6OjA" frac_prc="13/2" us_prc="+650" last_change="2018-04-13T00:50:56"/>
+            </Seln>
+            <Seln status="A" seln_id="490304640" seln_sort="7-4" name="7 - 4" disporder="704">
+              <Price prc_type="LP" dec_prc="6.50" bet_ref="NDkwMzA0NjQwOjExLzI6OjA" frac_prc="11/2" us_prc="+550" last_change="2018-04-13T00:50:56"/>
+            </Seln>
+            <Seln status="A" seln_id="490304642" seln_sort="7-5" name="7 - 5" disporder="705">
+              <Price prc_type="LP" dec_prc="6.75" bet_ref="NDkwMzA0NjQyOjIzLzQ6OjA" frac_prc="23/4" us_prc="+575" last_change="2018-04-13T00:50:56"/>
             </Seln>
           </Mkt>
         </Ev>

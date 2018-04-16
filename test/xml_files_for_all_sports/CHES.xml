@@ -1,4 +1,4 @@
-<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNjQ3OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwODMzMTczOjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
   <Sport sport_code="CHES" allow_cash_out="N" name="Σκάκι" disporder="800">
     <SBClass sb_class_id="189112" disporder="0" name="Shamkir Chess">
       <SBType sb_type_id="189978" name="Νικητής Διοργάνωσης" disporder="0">

@@ -1,4 +1,4 @@
-<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNjMzOjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwODMzMTcxOjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
   <Sport sport_code="PLTC" allow_cash_out="N" name="Πολιτική" disporder="2000">
     <SBClass sb_class_id="188571" disporder="65" name="Ηνωμένο Βασίλειο">
       <SBType sb_type_id="183840" name="Γενικές εκλογές" disporder="0">

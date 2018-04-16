@@ -1,10 +1,10 @@
-<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNzQ5OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwODMzMTg2OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
   <Sport sport_code="VOLL" allow_cash_out="Y" name="Βόλεϊ" disporder="5">
     <SBClass sb_class_id="188712" disporder="0" name="Καζακστάν">
       <SBType sb_type_id="185143" name="Βισάγια Λίγκα (Γ)" disporder="0">
-        <Ev inplay_allowed="Y" status="A" name="Ντβόρετς Σκολνίκοβ (Γ) - Γκράσια (Γ)" allow_cash_out="Y" start_time="2018-04-16T09:00:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="Y" inplay_now="N" mkt_count="7" ev_id="1757928" disporder="-999">
+        <Ev inplay_allowed="Y" status="A" name="Ντβόρετς Σκολνίκοβ (Γ) - Γκράσια (Γ)" allow_cash_out="Y" start_time="2018-04-16T09:00:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="Y" inplay_now="N" mkt_count="16" ev_id="1757928" disporder="-999">
           <EvDetail br_match_id="14200373"/>
-          <Inplay inplay_period_num="0" inplay_period_name_short="PERIOD_pre_match_SHORT" clock_status="STOPPED" correct_at="2018-04-15T19:52:14" inplay_period_finished="N" score_a="0" score_b="0" inplay_period_name="Έναρξη" num_periods="5" clock_mode="NONE" inplay_period="pre_match" score_string="0-0" scoring_system="set-match" last_change="2018-04-15T18:21:11" inplay_secs="0">
+          <Inplay inplay_period_num="0" inplay_period_name_short="PERIOD_pre_match_SHORT" clock_status="STOPPED" correct_at="2018-04-16T07:14:33" inplay_period_finished="N" score_a="0" score_b="0" inplay_period_name="Έναρξη" num_periods="5" clock_mode="NONE" inplay_period="pre_match" score_string="0-0" scoring_system="set-match" last_change="2018-04-15T18:21:11" inplay_secs="0">
             <Scores/>
           </Inplay>
           <InplayDetail period_length_mins="0" period_stoppage_secs="0" score_team_B="0" score_team_A="0"/>
@@ -13,37 +13,147 @@
             <Team team_id="1900679" team_order="1" name="Γκράσια (Γ)" short_name="Γκράσια (Γ)"/>
           </Teams>
           <Mkt status="A" name="Νικητής" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100473798" inplay_avail="Y" disporder="-100" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="H2HT" lp_avail="Y" mkt_sort_name="Ένας Εναντίον Ενός">
-            <Seln status="A" name="Ντβόρετς Σκολνίκοβ (Γ)" seln_id="491466457" team_id="1899888" disporder="-1" seln_sort="P1"/>
-            <Seln status="A" name="Γκράσια (Γ)" seln_id="491466458" team_id="1900679" disporder="0" seln_sort="P2"/>
+            <Seln status="A" name="Ντβόρετς Σκολνίκοβ (Γ)" seln_id="491466457" team_id="1899888" disporder="-1" seln_sort="P1">
+              <Price prc_type="LP" dec_prc="1.444" bet_ref="NDkxNDY2NDU3OjQvOTo6MA" frac_prc="4/9" us_prc="-225" last_change="2018-04-15T21:37:41"/>
+            </Seln>
+            <Seln status="A" name="Γκράσια (Γ)" seln_id="491466458" team_id="1900679" disporder="0" seln_sort="P2">
+              <Price prc_type="LP" dec_prc="2.65" bet_ref="NDkxNDY2NDU4OjMzLzIwOjow" frac_prc="33/20" us_prc="+165" last_change="2018-04-15T21:37:41"/>
+            </Seln>
           </Mkt>
           <Mkt status="A" mkt_extra="S01" name="Νικητής Σετ (Σετ 1)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100473799" inplay_avail="Y" disporder="-90" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="STWT" lp_avail="Y" mkt_sort_name="Νικητής Σετ">
-            <Seln status="A" name="Ντβόρετς Σκολνίκοβ (Γ)" seln_id="491466459" team_id="1899888" disporder="-1" seln_sort="P1"/>
-            <Seln status="A" name="Γκράσια (Γ)" seln_id="491466460" team_id="1900679" disporder="0" seln_sort="P2"/>
+            <Seln status="A" name="Ντβόρετς Σκολνίκοβ (Γ)" seln_id="491466459" team_id="1899888" disporder="-1" seln_sort="P1">
+              <Price prc_type="LP" dec_prc="1.571" bet_ref="NDkxNDY2NDU5OjQvNzo6MA" frac_prc="4/7" us_prc="-175" last_change="2018-04-15T21:37:41"/>
+            </Seln>
+            <Seln status="A" name="Γκράσια (Γ)" seln_id="491466460" team_id="1900679" disporder="0" seln_sort="P2">
+              <Price prc_type="LP" dec_prc="2.30" bet_ref="NDkxNDY2NDYwOjEzLzEwOjow" frac_prc="13/10" us_prc="+130" last_change="2018-04-15T21:37:41"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Over/Under Συνολικοί Πόντοι" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100486895" handicap="180.5" inplay_avail="Y" disporder="-75" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FOUT" lp_avail="Y" mkt_sort_name="MKT_SORT-FOUT">
+            <Seln status="A" name="Over" handicap="180.5" seln_id="491512725" disporder="-22" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.85" bet_ref="NDkxNTEyNzI1OjE3LzIwOjcyMjow" frac_prc="17/20" us_prc="-118" last_change="2018-04-15T21:37:41"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="180.5" seln_id="491512724" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.88" bet_ref="NDkxNTEyNzI0OjIyLzI1OjcyMjow" frac_prc="22/25" us_prc="-114" last_change="2018-04-15T21:37:41"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Χάντικαπ Πόντων" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100486897" handicap="-7.5" inplay_avail="Y" disporder="-72" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FTPH" lp_avail="Y" mkt_sort_name="MKT_SORT-FTPH">
+            <Seln status="A" name="Ντβόρετς Σκολνίκοβ (Γ)" handicap="-7.5" seln_id="491512728" team_id="1899888" disporder="0" seln_sort="1">
+              <Price prc_type="LP" dec_prc="1.909" bet_ref="NDkxNTEyNzI4OjEwLzExOi0zMDow" frac_prc="10/11" us_prc="-110" last_change="2018-04-15T21:37:41"/>
+            </Seln>
+            <Seln status="A" name="Γκράσια (Γ)" handicap="+7.5" seln_id="491512729" team_id="1900679" disporder="1" seln_sort="2">
+              <Price prc_type="LP" dec_prc="1.833" bet_ref="NDkxNTEyNzI5OjUvNjotMzA6MA" frac_prc="5/6" us_prc="-120" last_change="2018-04-15T21:37:41"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Χάντικαπ Σετ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100486896" handicap="-1.5" inplay_avail="N" disporder="-20" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="TSHC" lp_avail="Y" mkt_sort_name="MKT_SORT-TSHC">
+            <Seln status="A" name="Ντβόρετς Σκολνίκοβ (Γ)" handicap="-1.5" seln_id="491512726" disporder="-1" seln_sort="1">
+              <Price prc_type="LP" dec_prc="1.93" bet_ref="NDkxNTEyNzI2OjkzLzEwMDotNjow" frac_prc="93/100" us_prc="-108" last_change="2018-04-15T21:37:41"/>
+            </Seln>
+            <Seln status="A" name="Γκράσια (Γ)" handicap="+1.5" seln_id="491512727" disporder="1" seln_sort="2">
+              <Price prc_type="LP" dec_prc="1.80" bet_ref="NDkxNTEyNzI3OjQvNTotNjow" frac_prc="4/5" us_prc="-125" last_change="2018-04-15T21:37:41"/>
+            </Seln>
           </Mkt>
           <Mkt status="A" name="Αριθμός Σετ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100473795" inplay_avail="Y" disporder="33" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="NMST" lp_avail="Y" mkt_sort_name="Αριθμός Σετ στον αγώνα">
-            <Seln status="A" seln_id="491466446" seln_sort="3-3" name="3 Σετ" disporder="3"/>
-            <Seln status="A" seln_id="491466447" seln_sort="4-4" name="4 Σετ" disporder="4"/>
-            <Seln status="A" seln_id="491466448" seln_sort="5-5" name="5 Σετ" disporder="5"/>
+            <Seln status="A" seln_id="491466446" seln_sort="3-3" name="3 Σετ" disporder="3">
+              <Price prc_type="LP" dec_prc="2.70" bet_ref="NDkxNDY2NDQ2OjE3LzEwOjow" frac_prc="17/10" us_prc="+170" last_change="2018-04-15T21:37:41"/>
+            </Seln>
+            <Seln status="A" seln_id="491466447" seln_sort="4-4" name="4 Σετ" disporder="4">
+              <Price prc_type="LP" dec_prc="2.50" bet_ref="NDkxNDY2NDQ3OjYvNDo6MA" frac_prc="6/4" us_prc="+150" last_change="2018-04-15T21:37:41"/>
+            </Seln>
+            <Seln status="A" seln_id="491466448" seln_sort="5-5" name="5 Σετ" disporder="5">
+              <Price prc_type="LP" dec_prc="2.95" bet_ref="NDkxNDY2NDQ4OjM5LzIwOjow" frac_prc="39/20" us_prc="+195" last_change="2018-04-15T21:37:41"/>
+            </Seln>
           </Mkt>
           <Mkt status="A" name="Over/Under Συνολικά Σετ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100473797" handicap="+3.5" inplay_avail="N" disporder="35" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUTS" lp_avail="Y" mkt_sort_name="MKT_SORT-OUTS">
-            <Seln status="A" name="Over" handicap="+3.5" seln_id="491466456" disporder="-22" seln_sort="O"/>
-            <Seln status="A" name="Under" handicap="+3.5" seln_id="491466455" disporder="0" seln_sort="U"/>
+            <Seln status="A" name="Over" handicap="+3.5" seln_id="491466456" disporder="-22" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.40" bet_ref="NDkxNDY2NDU2OjIvNToxNDow" frac_prc="2/5" us_prc="-250" last_change="2018-04-15T21:37:41"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="+3.5" seln_id="491466455" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="2.70" bet_ref="NDkxNDY2NDU1OjE3LzEwOjE0OjA" frac_prc="17/10" us_prc="+170" last_change="2018-04-15T21:37:41"/>
+            </Seln>
           </Mkt>
           <Mkt status="A" name="Ακριβές Σετ Σκορ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100473796" inplay_avail="Y" disporder="65" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="TCSS" lp_avail="Y" mkt_sort_name="MKT_SORT-TCSS">
-            <Seln status="A" seln_id="491466450" seln_sort="0-3" name="Ντβόρετς Σκολνίκοβ (Γ) 0 - 3 Γκράσια (Γ)" disporder="3"/>
-            <Seln status="A" seln_id="491466452" seln_sort="1-3" name="Ντβόρετς Σκολνίκοβ (Γ) 1 - 3 Γκράσια (Γ)" disporder="103"/>
-            <Seln status="A" seln_id="491466454" seln_sort="2-3" name="Ντβόρετς Σκολνίκοβ (Γ) 2 - 3 Γκράσια (Γ)" disporder="203"/>
-            <Seln status="A" seln_id="491466449" seln_sort="3-0" name="Ντβόρετς Σκολνίκοβ (Γ) 3 - 0 Γκράσια (Γ)" disporder="300"/>
-            <Seln status="A" seln_id="491466451" seln_sort="3-1" name="Ντβόρετς Σκολνίκοβ (Γ) 3 - 1 Γκράσια (Γ)" disporder="301"/>
-            <Seln status="A" seln_id="491466453" seln_sort="3-2" name="Ντβόρετς Σκολνίκοβ (Γ) 3 - 2 Γκράσια (Γ)" disporder="302"/>
+            <Seln status="A" seln_id="491466450" seln_sort="0-3" name="Ντβόρετς Σκολνίκοβ (Γ) 0 - 3 Γκράσια (Γ)" disporder="3">
+              <Price prc_type="LP" dec_prc="9.00" bet_ref="NDkxNDY2NDUwOjgvMTo6MA" frac_prc="8/1" us_prc="+800" last_change="2018-04-15T21:37:41"/>
+            </Seln>
+            <Seln status="A" seln_id="491466452" seln_sort="1-3" name="Ντβόρετς Σκολνίκοβ (Γ) 1 - 3 Γκράσια (Γ)" disporder="103">
+              <Price prc_type="LP" dec_prc="6.75" bet_ref="NDkxNDY2NDUyOjIzLzQ6OjA" frac_prc="23/4" us_prc="+575" last_change="2018-04-15T21:37:41"/>
+            </Seln>
+            <Seln status="A" seln_id="491466454" seln_sort="2-3" name="Ντβόρετς Σκολνίκοβ (Γ) 2 - 3 Γκράσια (Γ)" disporder="203">
+              <Price prc_type="LP" dec_prc="6.25" bet_ref="NDkxNDY2NDU0OjIxLzQ6OjA" frac_prc="21/4" us_prc="+525" last_change="2018-04-15T21:37:41"/>
+            </Seln>
+            <Seln status="A" seln_id="491466449" seln_sort="3-0" name="Ντβόρετς Σκολνίκοβ (Γ) 3 - 0 Γκράσια (Γ)" disporder="300">
+              <Price prc_type="LP" dec_prc="3.70" bet_ref="NDkxNDY2NDQ5OjI3LzEwOjow" frac_prc="27/10" us_prc="+270" last_change="2018-04-15T21:37:41"/>
+            </Seln>
+            <Seln status="A" seln_id="491466451" seln_sort="3-1" name="Ντβόρετς Σκολνίκοβ (Γ) 3 - 1 Γκράσια (Γ)" disporder="301">
+              <Price prc_type="LP" dec_prc="3.75" bet_ref="NDkxNDY2NDUxOjExLzQ6OjA" frac_prc="11/4" us_prc="+275" last_change="2018-04-15T21:37:41"/>
+            </Seln>
+            <Seln status="A" seln_id="491466453" seln_sort="3-2" name="Ντβόρετς Σκολνίκοβ (Γ) 3 - 2 Γκράσια (Γ)" disporder="302">
+              <Price prc_type="LP" dec_prc="5.20" bet_ref="NDkxNDY2NDUzOjIxLzU6OjA" frac_prc="21/5" us_prc="+420" last_change="2018-04-15T21:37:41"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Σετ 1 - Συνολικοί Πόντοι" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100486907" handicap="44.5" inplay_avail="Y" disporder="91" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FP1O" lp_avail="Y" mkt_sort_name="1st Period Total Points">
+            <Seln status="A" name="Over" handicap="44.5" seln_id="491512748" disporder="-1" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.55" bet_ref="NDkxNTEyNzQ4OjExLzIwOjE3ODow" frac_prc="11/20" us_prc="-182" last_change="2018-04-15T21:38:07"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="44.5" seln_id="491512749" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="2.35" bet_ref="NDkxNTEyNzQ5OjI3LzIwOjE3ODow" frac_prc="27/20" us_prc="+135" last_change="2018-04-15T21:38:07"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Σετ 1 - Συνολικοί Πόντοι" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100486908" handicap="45.5" inplay_avail="Y" disporder="91" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FP1O" lp_avail="Y" mkt_sort_name="1st Period Total Points">
+            <Seln status="A" name="Over" handicap="45.5" seln_id="491512750" disporder="-1" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.87" bet_ref="NDkxNTEyNzUwOjg3LzEwMDoxODI6MA" frac_prc="87/100" us_prc="-115" last_change="2018-04-15T21:38:07"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="45.5" seln_id="491512751" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.87" bet_ref="NDkxNTEyNzUxOjg3LzEwMDoxODI6MA" frac_prc="87/100" us_prc="-115" last_change="2018-04-15T21:38:07"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Σετ 1 - Συνολικοί Πόντοι" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100486909" handicap="46.5" inplay_avail="Y" disporder="91" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FP1O" lp_avail="Y" mkt_sort_name="1st Period Total Points">
+            <Seln status="A" name="Over" handicap="46.5" seln_id="491512752" disporder="-1" seln_sort="O">
+              <Price prc_type="LP" dec_prc="2.40" bet_ref="NDkxNTEyNzUyOjcvNToxODY6MA" frac_prc="7/5" us_prc="+140" last_change="2018-04-15T21:38:07"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="46.5" seln_id="491512753" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.533" bet_ref="NDkxNTEyNzUzOjgvMTU6MTg2OjA" frac_prc="8/15" us_prc="-188" last_change="2018-04-15T21:38:07"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Σετ 1 - Χάντικαπ Πόντων" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100486910" handicap="-4.5" inplay_avail="Y" disporder="101" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FA1P" lp_avail="Y" mkt_sort_name="1st Period Asian Handicap">
+            <Seln status="A" name="Ντβόρετς Σκολνίκοβ (Γ)" handicap="-4.5" seln_id="491512754" team_id="1899888" disporder="-1" seln_sort="1">
+              <Price prc_type="LP" dec_prc="2.80" bet_ref="NDkxNTEyNzU0OjkvNTotMTg6MA" frac_prc="9/5" us_prc="+180" last_change="2018-04-15T21:38:07"/>
+            </Seln>
+            <Seln status="A" name="Γκράσια (Γ)" handicap="+4.5" seln_id="491512755" team_id="1900679" disporder="0" seln_sort="2">
+              <Price prc_type="LP" dec_prc="1.40" bet_ref="NDkxNTEyNzU1OjIvNTotMTg6MA" frac_prc="2/5" us_prc="-250" last_change="2018-04-15T21:38:07"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Σετ 1 - Χάντικαπ Πόντων" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100486911" handicap="-3.5" inplay_avail="Y" disporder="101" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FA1P" lp_avail="Y" mkt_sort_name="1st Period Asian Handicap">
+            <Seln status="A" name="Ντβόρετς Σκολνίκοβ (Γ)" handicap="-3.5" seln_id="491512756" team_id="1899888" disporder="-1" seln_sort="1">
+              <Price prc_type="LP" dec_prc="2.35" bet_ref="NDkxNTEyNzU2OjI3LzIwOi0xNDow" frac_prc="27/20" us_prc="+135" last_change="2018-04-15T21:38:07"/>
+            </Seln>
+            <Seln status="A" name="Γκράσια (Γ)" handicap="+3.5" seln_id="491512757" team_id="1900679" disporder="0" seln_sort="2">
+              <Price prc_type="LP" dec_prc="1.55" bet_ref="NDkxNTEyNzU3OjExLzIwOi0xNDow" frac_prc="11/20" us_prc="-182" last_change="2018-04-15T21:38:07"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Σετ 1 - Χάντικαπ Πόντων" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100486912" handicap="-2.5" inplay_avail="Y" disporder="101" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FA1P" lp_avail="Y" mkt_sort_name="1st Period Asian Handicap">
+            <Seln status="A" name="Ντβόρετς Σκολνίκοβ (Γ)" handicap="-2.5" seln_id="491512758" team_id="1899888" disporder="-1" seln_sort="1">
+              <Price prc_type="LP" dec_prc="2.02" bet_ref="NDkxNTEyNzU4OjUxLzUwOi0xMDow" frac_prc="51/50" us_prc="+102" last_change="2018-04-15T21:38:07"/>
+            </Seln>
+            <Seln status="A" name="Γκράσια (Γ)" handicap="+2.5" seln_id="491512759" team_id="1900679" disporder="0" seln_sort="2">
+              <Price prc_type="LP" dec_prc="1.75" bet_ref="NDkxNTEyNzU5OjMvNDotMTA6MA" frac_prc="3/4" us_prc="-134" last_change="2018-04-15T21:38:07"/>
+            </Seln>
           </Mkt>
           <Mkt status="A" name="Σετ 1 - Μονά/Ζυγά" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100473793" inplay_avail="N" disporder="111" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="P1OE" lp_avail="Y" mkt_sort_name="MKT_SORT-P1OE">
-            <Seln status="A" seln_id="491466442" seln_sort="O" name="Μονά" disporder="0"/>
-            <Seln status="A" seln_id="491466443" seln_sort="E" name="Ζυγά" disporder="0"/>
+            <Seln status="A" seln_id="491466443" seln_sort="E" name="Ζυγά" disporder="0">
+              <Price prc_type="LP" dec_prc="1.571" bet_ref="NDkxNDY2NDQzOjQvNzo6MA" frac_prc="4/7" us_prc="-175" last_change="2018-04-15T21:37:41"/>
+            </Seln>
+            <Seln status="A" seln_id="491466442" seln_sort="O" name="Μονά" disporder="0">
+              <Price prc_type="LP" dec_prc="2.30" bet_ref="NDkxNDY2NDQyOjEzLzEwOjow" frac_prc="13/10" us_prc="+130" last_change="2018-04-15T21:37:41"/>
+            </Seln>
           </Mkt>
           <Mkt status="A" name="Μονά/Ζυγά Συνολικοί Πόντοι" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100473794" inplay_avail="N" disporder="199" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OETP" lp_avail="Y" mkt_sort_name="MKT_SORT-OETP">
-            <Seln status="A" seln_id="491466444" seln_sort="O" name="Μονά" disporder="0"/>
-            <Seln status="A" seln_id="491466445" seln_sort="E" name="Ζυγά" disporder="1"/>
+            <Seln status="A" seln_id="491466444" seln_sort="O" name="Μονά" disporder="0">
+              <Price prc_type="LP" dec_prc="1.85" bet_ref="NDkxNDY2NDQ0OjE3LzIwOjow" frac_prc="17/20" us_prc="-118" last_change="2018-04-15T21:37:41"/>
+            </Seln>
+            <Seln status="A" seln_id="491466445" seln_sort="E" name="Ζυγά" disporder="1">
+              <Price prc_type="LP" dec_prc="1.85" bet_ref="NDkxNDY2NDQ1OjE3LzIwOjow" frac_prc="17/20" us_prc="-118" last_change="2018-04-15T21:37:41"/>
+            </Seln>
           </Mkt>
         </Ev>
       </SBType>

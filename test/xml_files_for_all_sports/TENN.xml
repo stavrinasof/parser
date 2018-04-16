@@ -1,4 +1,4 @@
-<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNzQ5OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwODMzMTg2OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
   <Sport sport_code="TENN" allow_cash_out="Y" name="Τένις" disporder="3">
     <SBClass sb_class_id="189071" disporder="6" name="Μ.Λάκη">
       <SBType sb_type_id="189500" name="Ειδικά στοιχήματα" disporder="0">

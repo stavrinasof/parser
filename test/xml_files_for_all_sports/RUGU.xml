@@ -1,4 +1,4 @@
-<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNjAyOjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwODMzMTgxOjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
   <Sport sport_code="RUGU" allow_cash_out="N" name="Ράγκμπι Γιούνιον" disporder="200">
     <SBClass sb_class_id="188784" disporder="-30" name="Ευρώπη">
       <SBType sb_type_id="185512" name="Κύπελλο Πρωταθλητριών" disporder="0">

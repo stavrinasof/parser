@@ -1,18 +1,19 @@
-<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNjMzOjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwODMzMTczOjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
   <Sport sport_code="ESPO" allow_cash_out="N" name="eSports" disporder="850">
-    <SBClass sb_class_id="188700" disporder="50" name="Heroes of the Storm">
-      <SBType sb_type_id="189494" name="HGC Phase 1" disporder="0">
-        <Ev inplay_allowed="N" status="A" name="LFM eSports - Team Twelve" allow_cash_out="N" start_time="2018-04-15T23:00:00" allow_cash_out_pre_ev="N" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="N" inplay_now="N" mkt_count="1" ev_id="1753226" disporder="-100">
+    <SBClass sb_class_id="188999" disporder="40" name="Starcraft">
+      <SBType sb_type_id="189886" name="Afreeca Starleague" disporder="0">
+        <Ev inplay_allowed="N" status="A" name="Movie - Mini" allow_cash_out="N" start_time="2018-04-17T10:00:00" allow_cash_out_pre_ev="N" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="N" inplay_now="N" mkt_count="1" ev_id="1703841" disporder="-100">
+          <EvDetail br_match_id="14228333"/>
           <Teams>
-            <Team team_id="1920337" team_order="0" name="LFM eSports" short_name="LFM eSports"/>
-            <Team team_id="1920340" team_order="1" name="Team Twelve" short_name="Team Twelve"/>
+            <Team team_id="1921709" team_order="0" name="Movie" short_name="Movie"/>
+            <Team team_id="1921931" team_order="1" name="Mini" short_name="Mini"/>
           </Teams>
-          <Mkt status="A" name="Νικητής" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100320451" inplay_avail="N" disporder="1" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="H2HT" lp_avail="Y" mkt_sort_name="Ένας Εναντίον Ενός">
-            <Seln status="A" name="LFM eSports" seln_id="490935254" team_id="1920337" disporder="0" seln_sort="P1">
-              <Price prc_type="LP" dec_prc="9.00" bet_ref="NDkwOTM1MjU0OjgwMDAvMTAwMDo6MA" frac_prc="8/1" us_prc="+800" last_change="2018-04-14T13:22:00"/>
+          <Mkt status="A" name="Νικητής" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="99019950" inplay_avail="N" disporder="1" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="H2HT" lp_avail="Y" mkt_sort_name="Ένας Εναντίον Ενός">
+            <Seln status="A" name="Movie" seln_id="486261781" team_id="1921709" disporder="0" seln_sort="P1">
+              <Price prc_type="LP" dec_prc="2.25" bet_ref="NDg2MjYxNzgxOjUvNDo6MA" frac_prc="5/4" us_prc="+125" last_change="2018-04-14T04:01:06"/>
             </Seln>
-            <Seln status="A" name="Team Twelve" seln_id="490935255" team_id="1920340" disporder="1" seln_sort="P2">
-              <Price prc_type="LP" dec_prc="1.04" bet_ref="NDkwOTM1MjU1OjQwLzEwMDA6OjA" frac_prc="1/25" us_prc="-2500" last_change="2018-04-14T13:22:00"/>
+            <Seln status="A" name="Mini" seln_id="486261782" team_id="1921931" disporder="1" seln_sort="P2">
+              <Price prc_type="LP" dec_prc="1.60" bet_ref="NDg2MjYxNzgyOjMvNTo6MA" frac_prc="3/5" us_prc="-167" last_change="2018-04-14T04:01:06"/>
             </Seln>
           </Mkt>
         </Ev>

@@ -1,4 +1,4 @@
-<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNjg5OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwODMzMTg0OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
   <Sport sport_code="BOXI" allow_cash_out="N" name="Πυγμαχία" disporder="90">
     <SBClass sb_class_id="188459" disporder="0" name="Πυγμαχία">
       <SBType sb_type_id="181564" name="Αγώνες" disporder="0">

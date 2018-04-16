@@ -1,4 +1,4 @@
-<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNzAyOjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwODMzMTg1OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
   <Sport sport_code="MOTO" allow_cash_out="N" name="Μηχανοκίνητα" disporder="33">
     <SBClass sb_class_id="11356" disporder="0" name="Παγκόσμιο Πρωτάθλημα Ράλι">
       <SBType sb_type_id="187799" name="Πρωτάθλημα οδηγών" disporder="0">

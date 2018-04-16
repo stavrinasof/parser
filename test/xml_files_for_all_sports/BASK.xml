@@ -1,268 +1,269 @@
-<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNzg3OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwODMzMTg5OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
   <Sport sport_code="BASK" allow_cash_out="Y" name="Μπάσκετ" disporder="2">
-    <SBClass sb_class_id="188797" disporder="-700" name="Μπαρμπέιντος">
-      <SBType sb_type_id="188057" name="Premier League" disporder="0">
-        <Ev inplay_allowed="N" status="A" name="Μπαρμπέιντος Λέικερς - Όραντζ 3 Πάινλαντς" allow_cash_out="Y" start_time="2018-04-16T00:00:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="Y" inplay_now="N" mkt_count="27" ev_id="1756743" disporder="-498">
+    <SBClass sb_class_id="11487" disporder="-780" name="Βραζιλία">
+      <SBType sb_type_id="17775" name="NBB" disporder="-400">
+        <Ev inplay_allowed="N" status="A" name="Φλαμένγκο - Μίνας" allow_cash_out="Y" start_time="2018-04-17T23:30:00" allow_cash_out_pre_ev="Y" virtual="N" ev_timezone="Europe/London" allow_cash_out_inplay="Y" inplay_now="N" mkt_count="27" ev_id="1758344" disporder="-498">
+          <EvDetail br_match_id="14342221"/>
           <Teams>
-            <Team team_id="1912503" team_order="0" name="Μπαρμπέιντος Λέικερς" short_name="Μπαρμπέιντος Λέικερς"/>
-            <Team team_id="1902596" team_order="1" name="Όραντζ 3 Πάινλαντς" short_name="Όραντζ 3 Πάινλαντς"/>
+            <Team team_id="115926" team_order="0" name="Φλαμένγκο" short_name="Φλαμένγκο"/>
+            <Team team_id="1882895" team_order="1" name="Μίνας" short_name="Μίνας"/>
           </Teams>
-          <Mkt status="A" name="Νικητής (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100421764" inplay_avail="Y" disporder="-500" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="H2HT" lp_avail="Y" mkt_sort_name="Ένας Εναντίον Ενός">
-            <Seln status="A" name="Μπαρμπέιντος Λέικερς" seln_id="491283300" team_id="1912503" disporder="0" seln_sort="P1">
-              <Price prc_type="LP" dec_prc="1.222" bet_ref="NDkxMjgzMzAwOjIvOTo6MA" frac_prc="2/9" us_prc="-450" last_change="2018-04-15T12:09:38"/>
+          <Mkt status="A" name="Νικητής (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100485329" inplay_avail="Y" disporder="-500" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="H2HT" lp_avail="Y" mkt_sort_name="Ένας Εναντίον Ενός">
+            <Seln status="A" name="Φλαμένγκο" seln_id="491507547" team_id="115926" disporder="0" seln_sort="P1">
+              <Price prc_type="LP" dec_prc="1.062" bet_ref="NDkxNTA3NTQ3OjEvMTY6OjA" frac_prc="1/16" us_prc="-1600" last_change="2018-04-15T20:58:58"/>
             </Seln>
-            <Seln status="A" name="Όραντζ 3 Πάινλαντς" seln_id="491283301" team_id="1902596" disporder="1" seln_sort="P2">
-              <Price prc_type="LP" dec_prc="4.00" bet_ref="NDkxMjgzMzAxOjMvMTo6MA" frac_prc="3/1" us_prc="+300" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" name="Χάντικαπ (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100421812" handicap="-10.5" inplay_avail="Y" disporder="-450" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FHOT" lp_avail="Y" mkt_sort_name="Alternate Handicap">
-            <Seln status="A" name="Μπαρμπέιντος Λέικερς" handicap="-10.5" seln_id="491283414" team_id="1912503" disporder="0" seln_sort="1">
-              <Price prc_type="LP" dec_prc="2.00" bet_ref="NDkxMjgzNDE0OjEvMTotNDI6MA" frac_prc="1/1" us_prc="+100" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-            <Seln status="A" name="Όραντζ 3 Πάινλαντς" handicap="+10.5" seln_id="491283415" team_id="1902596" disporder="1" seln_sort="2">
-              <Price prc_type="LP" dec_prc="1.75" bet_ref="NDkxMjgzNDE1OjMvNDotNDI6MA" frac_prc="3/4" us_prc="-134" last_change="2018-04-15T12:09:38"/>
+            <Seln status="A" name="Μίνας" seln_id="491507548" team_id="1882895" disporder="1" seln_sort="P2">
+              <Price prc_type="LP" dec_prc="8.00" bet_ref="NDkxNTA3NTQ4OjcvMTo6MA" frac_prc="7/1" us_prc="+700" last_change="2018-04-15T20:58:58"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Χάντικαπ (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100421813" handicap="-9.5" inplay_avail="Y" disporder="-450" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FHOT" lp_avail="Y" mkt_sort_name="Alternate Handicap">
-            <Seln status="A" name="Μπαρμπέιντος Λέικερς" handicap="-9.5" seln_id="491283416" team_id="1912503" disporder="0" seln_sort="1">
-              <Price prc_type="LP" dec_prc="1.87" bet_ref="NDkxMjgzNDE2Ojg3LzEwMDotMzg6MA" frac_prc="87/100" us_prc="-115" last_change="2018-04-15T12:09:38"/>
+          <Mkt status="A" name="Χάντικαπ (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100485347" handicap="-15.5" inplay_avail="Y" disporder="-450" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FHOT" lp_avail="Y" mkt_sort_name="Alternate Handicap">
+            <Seln status="A" name="Φλαμένγκο" handicap="-15.5" seln_id="491507601" team_id="115926" disporder="0" seln_sort="1">
+              <Price prc_type="LP" dec_prc="2.00" bet_ref="NDkxNTA3NjAxOjEvMTotNjI6MA" frac_prc="1/1" us_prc="+100" last_change="2018-04-15T22:42:52"/>
             </Seln>
-            <Seln status="A" name="Όραντζ 3 Πάινλαντς" handicap="+9.5" seln_id="491283417" team_id="1902596" disporder="1" seln_sort="2">
-              <Price prc_type="LP" dec_prc="1.87" bet_ref="NDkxMjgzNDE3Ojg3LzEwMDotMzg6MA" frac_prc="87/100" us_prc="-115" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" name="Χάντικαπ (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100421814" handicap="-8.5" inplay_avail="Y" disporder="-450" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FHOT" lp_avail="Y" mkt_sort_name="Alternate Handicap">
-            <Seln status="A" name="Μπαρμπέιντος Λέικερς" handicap="-8.5" seln_id="491283418" team_id="1912503" disporder="0" seln_sort="1">
-              <Price prc_type="LP" dec_prc="1.75" bet_ref="NDkxMjgzNDE4OjMvNDotMzQ6MA" frac_prc="3/4" us_prc="-134" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-            <Seln status="A" name="Όραντζ 3 Πάινλαντς" handicap="+8.5" seln_id="491283419" team_id="1902596" disporder="1" seln_sort="2">
-              <Price prc_type="LP" dec_prc="2.00" bet_ref="NDkxMjgzNDE5OjEvMTotMzQ6MA" frac_prc="1/1" us_prc="+100" last_change="2018-04-15T12:09:38"/>
+            <Seln status="A" name="Μίνας" handicap="+15.5" seln_id="491507602" team_id="1882895" disporder="1" seln_sort="2">
+              <Price prc_type="LP" dec_prc="1.75" bet_ref="NDkxNTA3NjAyOjMvNDotNjI6MA" frac_prc="3/4" us_prc="-134" last_change="2018-04-15T22:42:52"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Συνολικοί Πόντοι (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100421819" handicap="145.5" inplay_avail="Y" disporder="-400" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FTPO" lp_avail="Y" mkt_sort_name="Total (including Overtime) (Fixed hcap)">
-            <Seln status="A" name="Over" handicap="145.5" seln_id="491283428" disporder="-1" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.80" bet_ref="NDkxMjgzNDI4OjQvNTo1ODI6MA" frac_prc="4/5" us_prc="-125" last_change="2018-04-15T12:09:38"/>
+          <Mkt status="A" name="Χάντικαπ (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100485348" handicap="-14.5" inplay_avail="Y" disporder="-450" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FHOT" lp_avail="Y" mkt_sort_name="Alternate Handicap">
+            <Seln status="A" name="Φλαμένγκο" handicap="-14.5" seln_id="491507603" team_id="115926" disporder="0" seln_sort="1">
+              <Price prc_type="LP" dec_prc="1.87" bet_ref="NDkxNTA3NjAzOjg3LzEwMDotNTg6MA" frac_prc="87/100" us_prc="-115" last_change="2018-04-15T22:42:52"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="145.5" seln_id="491283429" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.97" bet_ref="NDkxMjgzNDI5Ojk3LzEwMDo1ODI6MA" frac_prc="97/100" us_prc="-104" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" name="Συνολικοί Πόντοι (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100421820" handicap="146.5" inplay_avail="Y" disporder="-400" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FTPO" lp_avail="Y" mkt_sort_name="Total (including Overtime) (Fixed hcap)">
-            <Seln status="A" name="Over" handicap="146.5" seln_id="491283430" disporder="-1" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.87" bet_ref="NDkxMjgzNDMwOjg3LzEwMDo1ODY6MA" frac_prc="87/100" us_prc="-115" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-            <Seln status="A" name="Under" handicap="146.5" seln_id="491283431" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.87" bet_ref="NDkxMjgzNDMxOjg3LzEwMDo1ODY6MA" frac_prc="87/100" us_prc="-115" last_change="2018-04-15T12:09:38"/>
+            <Seln status="A" name="Μίνας" handicap="+14.5" seln_id="491507604" team_id="1882895" disporder="1" seln_sort="2">
+              <Price prc_type="LP" dec_prc="1.87" bet_ref="NDkxNTA3NjA0Ojg3LzEwMDotNTg6MA" frac_prc="87/100" us_prc="-115" last_change="2018-04-15T22:42:52"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Συνολικοί Πόντοι (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100421821" handicap="147.5" inplay_avail="Y" disporder="-400" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FTPO" lp_avail="Y" mkt_sort_name="Total (including Overtime) (Fixed hcap)">
-            <Seln status="A" name="Over" handicap="147.5" seln_id="491283432" disporder="-1" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.97" bet_ref="NDkxMjgzNDMyOjk3LzEwMDo1OTA6MA" frac_prc="97/100" us_prc="-104" last_change="2018-04-15T12:09:38"/>
+          <Mkt status="A" name="Χάντικαπ (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100485349" handicap="-13.5" inplay_avail="Y" disporder="-450" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FHOT" lp_avail="Y" mkt_sort_name="Alternate Handicap">
+            <Seln status="A" name="Φλαμένγκο" handicap="-13.5" seln_id="491507605" team_id="115926" disporder="0" seln_sort="1">
+              <Price prc_type="LP" dec_prc="1.75" bet_ref="NDkxNTA3NjA1OjMvNDotNTQ6MA" frac_prc="3/4" us_prc="-134" last_change="2018-04-15T22:42:52"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="147.5" seln_id="491283433" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.80" bet_ref="NDkxMjgzNDMzOjQvNTo1OTA6MA" frac_prc="4/5" us_prc="-125" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" name="1η Περίοδος - Nικητής" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100421755" inplay_avail="Y" disporder="-300" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="T1DN" lp_avail="Y" mkt_sort_name="MKT_SORT-T1DN">
-            <Seln status="A" name="Μπαρμπέιντος Λέικερς" seln_id="491283273" team_id="1912503" disporder="-1" seln_sort="H">
-              <Price prc_type="LP" dec_prc="1.40" bet_ref="NDkxMjgzMjczOjIvNTo6MA" frac_prc="2/5" us_prc="-250" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-            <Seln status="A" name="Όραντζ 3 Πάινλαντς" seln_id="491283272" team_id="1902596" disporder="0" seln_sort="A">
-              <Price prc_type="LP" dec_prc="2.75" bet_ref="NDkxMjgzMjcyOjcvNDo6MA" frac_prc="7/4" us_prc="+175" last_change="2018-04-15T12:09:38"/>
+            <Seln status="A" name="Μίνας" handicap="+13.5" seln_id="491507606" team_id="1882895" disporder="1" seln_sort="2">
+              <Price prc_type="LP" dec_prc="2.00" bet_ref="NDkxNTA3NjA2OjEvMTotNTQ6MA" frac_prc="1/1" us_prc="+100" last_change="2018-04-15T22:42:52"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="1η Περίοδος - Χάντικαπ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100421816" handicap="-2.5" inplay_avail="Y" disporder="-290" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FT1H" lp_avail="Y" mkt_sort_name="1st Period Handicap">
-            <Seln status="A" name="Μπαρμπέιντος Λέικερς" handicap="-2.5" seln_id="491283422" team_id="1912503" disporder="0" seln_sort="1">
-              <Price prc_type="LP" dec_prc="1.80" bet_ref="NDkxMjgzNDIyOjQvNTotMTA6MA" frac_prc="4/5" us_prc="-125" last_change="2018-04-15T12:09:38"/>
+          <Mkt status="A" name="Συνολικοί Πόντοι (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100489025" handicap="153.5" inplay_avail="Y" disporder="-400" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FTPO" lp_avail="Y" mkt_sort_name="Total (including Overtime) (Fixed hcap)">
+            <Seln status="A" name="Over" handicap="153.5" seln_id="491520366" disporder="-1" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.80" bet_ref="NDkxNTIwMzY2OjQvNTo2MTQ6MA" frac_prc="4/5" us_prc="-125" last_change="2018-04-15T22:42:52"/>
             </Seln>
-            <Seln status="A" name="Όραντζ 3 Πάινλαντς" handicap="+2.5" seln_id="491283423" team_id="1902596" disporder="1" seln_sort="2">
-              <Price prc_type="LP" dec_prc="1.95" bet_ref="NDkxMjgzNDIzOjE5LzIwOi0xMDow" frac_prc="19/20" us_prc="-106" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" name="1η Περίοδος - Περιθώριο νίκης" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100421775" inplay_avail="Y" disporder="-285" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="IT1W" lp_avail="Y" mkt_sort_name="MKT_SORT-IT1W">
-            <Seln status="A" seln_id="491283345" seln_sort="H3-" name="Μπαρμπέιντος Λέικερς νίκη με 3+" disporder="0">
-              <Price prc_type="LP" dec_prc="1.80" bet_ref="NDkxMjgzMzQ1OjQvNTo6MA" frac_prc="4/5" us_prc="-125" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-            <Seln status="A" seln_id="491283344" seln_sort="A3-" name="Όραντζ 3 Πάινλαντς νίκη με 3+" disporder="1">
-              <Price prc_type="LP" dec_prc="3.90" bet_ref="NDkxMjgzMzQ0OjI5LzEwOjow" frac_prc="29/10" us_prc="+290" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-            <Seln status="A" seln_id="491283347" seln_sort="O" name="Καμία ομάδα νίκη με 3+" disporder="2">
-              <Price prc_type="LP" dec_prc="3.45" bet_ref="NDkxMjgzMzQ3OjQ5LzIwOjow" frac_prc="49/20" us_prc="+245" last_change="2018-04-15T12:09:38"/>
+            <Seln status="A" name="Under" handicap="153.5" seln_id="491520367" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.95" bet_ref="NDkxNTIwMzY3OjE5LzIwOjYxNDow" frac_prc="19/20" us_prc="-106" last_change="2018-04-15T22:42:52"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="1η Περίοδος - Συνολικοί Πόντοι" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100421815" handicap="36.5" inplay_avail="Y" disporder="-280" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FP1O" lp_avail="Y" mkt_sort_name="1st Period Total Points">
-            <Seln status="A" name="Over" handicap="36.5" seln_id="491283420" disporder="-1" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.80" bet_ref="NDkxMjgzNDIwOjQvNToxNDY6MA" frac_prc="4/5" us_prc="-125" last_change="2018-04-15T12:09:38"/>
+          <Mkt status="A" name="Συνολικοί Πόντοι (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100489026" handicap="154.5" inplay_avail="Y" disporder="-400" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FTPO" lp_avail="Y" mkt_sort_name="Total (including Overtime) (Fixed hcap)">
+            <Seln status="A" name="Over" handicap="154.5" seln_id="491520368" disporder="-1" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.88" bet_ref="NDkxNTIwMzY4OjIyLzI1OjYxODow" frac_prc="22/25" us_prc="-114" last_change="2018-04-15T22:42:52"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="36.5" seln_id="491283421" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.97" bet_ref="NDkxMjgzNDIxOjk3LzEwMDoxNDY6MA" frac_prc="97/100" us_prc="-104" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" name="2η Περίοδος - Νικητής" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100421766" inplay_avail="Y" disporder="-240" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="T2DN" lp_avail="Y" mkt_sort_name="MKT_SORT-T2DN">
-            <Seln status="A" name="Μπαρμπέιντος Λέικερς" seln_id="491283305" team_id="1912503" disporder="0" seln_sort="H">
-              <Price prc_type="LP" dec_prc="1.47" bet_ref="NDkxMjgzMzA1OjQ3LzEwMDo6MA" frac_prc="47/100" us_prc="-213" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-            <Seln status="A" name="Όραντζ 3 Πάινλαντς" seln_id="491283304" team_id="1902596" disporder="1" seln_sort="A">
-              <Price prc_type="LP" dec_prc="2.55" bet_ref="NDkxMjgzMzA0OjMxLzIwOjow" frac_prc="31/20" us_prc="+155" last_change="2018-04-15T12:09:38"/>
+            <Seln status="A" name="Under" handicap="154.5" seln_id="491520369" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.85" bet_ref="NDkxNTIwMzY5OjE3LzIwOjYxODow" frac_prc="17/20" us_prc="-118" last_change="2018-04-15T22:42:52"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="2η Περίοδος - Χάντικαπ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100421817" handicap="-2.5" inplay_avail="Y" disporder="-230" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FT2H" lp_avail="Y" mkt_sort_name="2nd Period Handicap">
-            <Seln status="A" name="Μπαρμπέιντος Λέικερς" handicap="-2.5" seln_id="491283424" team_id="1912503" disporder="0" seln_sort="1">
-              <Price prc_type="LP" dec_prc="1.88" bet_ref="NDkxMjgzNDI0OjIyLzI1Oi0xMDow" frac_prc="22/25" us_prc="-114" last_change="2018-04-15T13:05:31"/>
+          <Mkt status="A" name="Συνολικοί Πόντοι (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100489027" handicap="155.5" inplay_avail="Y" disporder="-400" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FTPO" lp_avail="Y" mkt_sort_name="Total (including Overtime) (Fixed hcap)">
+            <Seln status="A" name="Over" handicap="155.5" seln_id="491520370" disporder="-1" seln_sort="O">
+              <Price prc_type="LP" dec_prc="2.00" bet_ref="NDkxNTIwMzcwOjEvMTo2MjI6MA" frac_prc="1/1" us_prc="+100" last_change="2018-04-15T22:42:52"/>
             </Seln>
-            <Seln status="A" name="Όραντζ 3 Πάινλαντς" handicap="+2.5" seln_id="491283425" team_id="1902596" disporder="1" seln_sort="2">
-              <Price prc_type="LP" dec_prc="1.85" bet_ref="NDkxMjgzNDI1OjE3LzIwOi0xMDow" frac_prc="17/20" us_prc="-118" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" name="2η Περίοδος - Περιθώριο νίκης" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100421776" inplay_avail="Y" disporder="-225" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="IT2W" lp_avail="Y" mkt_sort_name="MKT_SORT-IT2W">
-            <Seln status="A" seln_id="491283350" seln_sort="H3-" name="Μπαρμπέιντος Λέικερς νίκη με 3+" disporder="0">
-              <Price prc_type="LP" dec_prc="1.88" bet_ref="NDkxMjgzMzUwOjIyLzI1Ojow" frac_prc="22/25" us_prc="-114" last_change="2018-04-15T13:05:31"/>
-            </Seln>
-            <Seln status="A" seln_id="491283349" seln_sort="A3-" name="Όραντζ 3 Πάινλαντς νίκη με 3+" disporder="1">
-              <Price prc_type="LP" dec_prc="3.70" bet_ref="NDkxMjgzMzQ5OjI3LzEwOjow" frac_prc="27/10" us_prc="+270" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-            <Seln status="A" seln_id="491283351" seln_sort="O" name="Καμία ομάδα νίκη με 3+" disporder="2">
-              <Price prc_type="LP" dec_prc="3.40" bet_ref="NDkxMjgzMzUxOjEyLzU6OjA" frac_prc="12/5" us_prc="+240" last_change="2018-04-15T12:09:38"/>
+            <Seln status="A" name="Under" handicap="155.5" seln_id="491520371" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.75" bet_ref="NDkxNTIwMzcxOjMvNDo2MjI6MA" frac_prc="3/4" us_prc="-134" last_change="2018-04-15T22:42:52"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="2η Περίοδος - Συνολικοί Πόντοι" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100421834" handicap="35.5" inplay_avail="Y" disporder="-220" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FP2O" lp_avail="Y" mkt_sort_name="2nd Period Total Points (Over/Under)">
-            <Seln status="A" name="Over" handicap="35.5" seln_id="491283452" disporder="-1" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.80" bet_ref="NDkxMjgzNDUyOjQvNToxNDI6MA" frac_prc="4/5" us_prc="-125" last_change="2018-04-15T12:09:38"/>
+          <Mkt status="A" name="1η Περίοδος - Nικητής" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100485320" inplay_avail="Y" disporder="-300" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="T1DN" lp_avail="Y" mkt_sort_name="MKT_SORT-T1DN">
+            <Seln status="A" name="Φλαμένγκο" seln_id="491507520" team_id="115926" disporder="-1" seln_sort="H">
+              <Price prc_type="LP" dec_prc="1.26" bet_ref="NDkxNTA3NTIwOjEzLzUwOjow" frac_prc="13/50" us_prc="-385" last_change="2018-04-15T22:42:52"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="35.5" seln_id="491283453" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.95" bet_ref="NDkxMjgzNDUzOjE5LzIwOjE0Mjow" frac_prc="19/20" us_prc="-106" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" name="1ο Ημίχρονο - Νικητής" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100421754" inplay_avail="Y" disporder="-180" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="1DNB" lp_avail="Y" mkt_sort_name="Ημίχρονο - Εξαίρεση ισοπαλίας">
-            <Seln status="A" name="Μπαρμπέιντος Λέικερς" seln_id="491283271" team_id="1912503" disporder="0" seln_sort="H">
-              <Price prc_type="LP" dec_prc="1.333" bet_ref="NDkxMjgzMjcxOjEvMzo6MA" frac_prc="1/3" us_prc="-300" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-            <Seln status="A" name="Όραντζ 3 Πάινλαντς" seln_id="491283270" team_id="1902596" disporder="1" seln_sort="A">
-              <Price prc_type="LP" dec_prc="3.15" bet_ref="NDkxMjgzMjcwOjQzLzIwOjow" frac_prc="43/20" us_prc="+215" last_change="2018-04-15T12:09:38"/>
+            <Seln status="A" name="Μίνας" seln_id="491507519" team_id="1882895" disporder="0" seln_sort="A">
+              <Price prc_type="LP" dec_prc="3.55" bet_ref="NDkxNTA3NTE5OjUxLzIwOjow" frac_prc="51/20" us_prc="+255" last_change="2018-04-15T22:42:52"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="1ο Ημίχρονο - Χάντικαπ" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100421818" handicap="-5.5" inplay_avail="Y" disporder="-170" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="FAHT" lp_avail="Y" mkt_sort_name="Asian Handicap (Half-Time)">
-            <Seln status="A" name="Μπαρμπέιντος Λέικερς" handicap="-5.5" seln_id="491283426" team_id="1912503" disporder="0" seln_sort="1">
-              <Price prc_type="LP" dec_prc="1.909" bet_ref="NDkxMjgzNDI2OjEwLzExOi0yMjow" frac_prc="10/11" us_prc="-110" last_change="2018-04-15T12:09:38"/>
+          <Mkt status="A" name="1η Περίοδος - Χάντικαπ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100485346" handicap="-4.5" inplay_avail="Y" disporder="-290" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FT1H" lp_avail="Y" mkt_sort_name="1st Period Handicap">
+            <Seln status="A" name="Φλαμένγκο" handicap="-4.5" seln_id="491507599" team_id="115926" disporder="0" seln_sort="1">
+              <Price prc_type="LP" dec_prc="1.88" bet_ref="NDkxNTA3NTk5OjIyLzI1Oi0xODow" frac_prc="22/25" us_prc="-114" last_change="2018-04-15T22:42:52"/>
             </Seln>
-            <Seln status="A" name="Όραντζ 3 Πάινλαντς" handicap="+5.5" seln_id="491283427" team_id="1902596" disporder="1" seln_sort="2">
-              <Price prc_type="LP" dec_prc="1.833" bet_ref="NDkxMjgzNDI3OjUvNjotMjI6MA" frac_prc="5/6" us_prc="-120" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" name="1ο Ημίχρονο - Συνολικοί Πόντοι" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100421828" handicap="72.5" inplay_avail="Y" disporder="-160" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUH1" lp_avail="Y" mkt_sort_name="Πρώτο ημίχρονο (Πάνω/Κάτω)">
-            <Seln status="A" name="Over" handicap="72.5" seln_id="491283444" disporder="-1" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.80" bet_ref="NDkxMjgzNDQ0OjQvNToyOTA6MA" frac_prc="4/5" us_prc="-125" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-            <Seln status="A" name="Under" handicap="72.5" seln_id="491283445" disporder="0" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.93" bet_ref="NDkxMjgzNDQ1OjkzLzEwMDoyOTA6MA" frac_prc="93/100" us_prc="-108" last_change="2018-04-15T12:09:38"/>
+            <Seln status="A" name="Μίνας" handicap="+4.5" seln_id="491507600" team_id="1882895" disporder="1" seln_sort="2">
+              <Price prc_type="LP" dec_prc="1.85" bet_ref="NDkxNTA3NjAwOjE3LzIwOi0xODow" frac_prc="17/20" us_prc="-118" last_change="2018-04-15T22:42:52"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Συνολικοί Πόντοι (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100421774" inplay_avail="N" disporder="0" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="TOTP" lp_avail="Y" mkt_sort_name="MKT_SORT-TOTP">
-            <Seln status="A" seln_id="491283330" seln_sort="0-99" name="&lt;100" disporder="1">
-              <Price prc_type="LP" dec_prc="81.00" bet_ref="NDkxMjgzMzMwOjgwLzE6OjA" frac_prc="80/1" us_prc="+8000" last_change="2018-04-15T12:09:38"/>
+          <Mkt status="A" name="1η Περίοδος - Περιθώριο νίκης" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100485340" inplay_avail="Y" disporder="-285" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="IT1W" lp_avail="Y" mkt_sort_name="MKT_SORT-IT1W">
+            <Seln status="A" seln_id="491507584" seln_sort="H3-" name="Φλαμένγκο νίκη με 3+" disporder="0">
+              <Price prc_type="LP" dec_prc="1.55" bet_ref="NDkxNTA3NTg0OjExLzIwOjow" frac_prc="11/20" us_prc="-182" last_change="2018-04-15T22:42:52"/>
             </Seln>
-            <Seln status="A" seln_id="491283331" seln_sort="100-109" name="100-109" disporder="2">
-              <Price prc_type="LP" dec_prc="61.00" bet_ref="NDkxMjgzMzMxOjYwLzE6OjA" frac_prc="60/1" us_prc="+6000" last_change="2018-04-15T12:09:38"/>
+            <Seln status="A" seln_id="491507583" seln_sort="A3-" name="Μίνας νίκη με 3+" disporder="1">
+              <Price prc_type="LP" dec_prc="5.25" bet_ref="NDkxNTA3NTgzOjE3LzQ6OjA" frac_prc="17/4" us_prc="+425" last_change="2018-04-15T22:42:52"/>
             </Seln>
-            <Seln status="A" seln_id="491283333" seln_sort="110-119" name="110-119" disporder="3">
-              <Price prc_type="LP" dec_prc="19.50" bet_ref="NDkxMjgzMzMzOjM3LzI6OjA" frac_prc="37/2" us_prc="+1850" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-            <Seln status="A" seln_id="491283335" seln_sort="120-129" name="120-129" disporder="4">
-              <Price prc_type="LP" dec_prc="7.25" bet_ref="NDkxMjgzMzM1OjI1LzQ6OjA" frac_prc="25/4" us_prc="+625" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-            <Seln status="A" seln_id="491283336" seln_sort="130-139" name="130-139" disporder="5">
-              <Price prc_type="LP" dec_prc="4.00" bet_ref="NDkxMjgzMzM2OjMvMTo6MA" frac_prc="3/1" us_prc="+300" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-            <Seln status="A" seln_id="491283337" seln_sort="140-149" name="140-149" disporder="6">
-              <Price prc_type="LP" dec_prc="3.25" bet_ref="NDkxMjgzMzM3OjkvNDo6MA" frac_prc="9/4" us_prc="+225" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-            <Seln status="A" seln_id="491283338" seln_sort="150-159" name="150-159" disporder="7">
-              <Price prc_type="LP" dec_prc="3.70" bet_ref="NDkxMjgzMzM4OjI3LzEwOjow" frac_prc="27/10" us_prc="+270" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-            <Seln status="A" seln_id="491283340" seln_sort="160-169" name="160-169" disporder="8">
-              <Price prc_type="LP" dec_prc="5.75" bet_ref="NDkxMjgzMzQwOjE5LzQ6OjA" frac_prc="19/4" us_prc="+475" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-            <Seln status="A" seln_id="491283342" seln_sort="170-179" name="170-179" disporder="9">
-              <Price prc_type="LP" dec_prc="10.00" bet_ref="NDkxMjgzMzQyOjkvMTo6MA" frac_prc="9/1" us_prc="+900" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-            <Seln status="A" seln_id="491283343" seln_sort="180-" name="180+" disporder="10">
-              <Price prc_type="LP" dec_prc="29.00" bet_ref="NDkxMjgzMzQzOjI4LzE6OjA" frac_prc="28/1" us_prc="+2800" last_change="2018-04-15T12:09:38"/>
+            <Seln status="A" seln_id="491507585" seln_sort="O" name="Καμία ομάδα νίκη με 3+" disporder="2">
+              <Price prc_type="LP" dec_prc="3.75" bet_ref="NDkxNTA3NTg1OjExLzQ6OjA" frac_prc="11/4" us_prc="+275" last_change="2018-04-15T22:42:52"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Ημίχρονο / Τελικό" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100421763" inplay_avail="Y" disporder="900" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HTOT" lp_avail="Y" mkt_sort_name="Half-Time/Full-Time (incl Overtime)">
-            <Seln status="A" seln_id="491283299" seln_sort="HH" name="1/1" disporder="1">
-              <Price prc_type="LP" dec_prc="1.47" bet_ref="NDkxMjgzMjk5OjQ3LzEwMDo6MA" frac_prc="47/100" us_prc="-213" last_change="2018-04-15T12:09:38"/>
+          <Mkt status="A" name="1η Περίοδος - Συνολικοί Πόντοι" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100489024" handicap="37.5" inplay_avail="Y" disporder="-280" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FP1O" lp_avail="Y" mkt_sort_name="1st Period Total Points">
+            <Seln status="A" name="Over" handicap="37.5" seln_id="491520364" disporder="-1" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.909" bet_ref="NDkxNTIwMzY0OjEwLzExOjE1MDow" frac_prc="10/11" us_prc="-110" last_change="2018-04-15T22:42:52"/>
             </Seln>
-            <Seln status="A" seln_id="491283297" seln_sort="DH" name="X/1" disporder="2">
-              <Price prc_type="LP" dec_prc="21.00" bet_ref="NDkxMjgzMjk3OjIwLzE6OjA" frac_prc="20/1" us_prc="+2000" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-            <Seln status="A" seln_id="491283295" seln_sort="AH" name="2/1" disporder="3">
-              <Price prc_type="LP" dec_prc="4.75" bet_ref="NDkxMjgzMjk1OjE1LzQ6OjA" frac_prc="15/4" us_prc="+375" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-            <Seln status="A" seln_id="491283298" seln_sort="HA" name="1/2" disporder="4">
-              <Price prc_type="LP" dec_prc="9.75" bet_ref="NDkxMjgzMjk4OjM1LzQ6OjA" frac_prc="35/4" us_prc="+875" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-            <Seln status="A" seln_id="491283296" seln_sort="DA" name="X/2" disporder="5">
-              <Price prc_type="LP" dec_prc="41.00" bet_ref="NDkxMjgzMjk2OjQwLzE6OjA" frac_prc="40/1" us_prc="+4000" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-            <Seln status="A" seln_id="491283294" seln_sort="AA" name="2/2" disporder="6">
-              <Price prc_type="LP" dec_prc="7.50" bet_ref="NDkxMjgzMjk0OjEzLzI6OjA" frac_prc="13/2" us_prc="+650" last_change="2018-04-15T12:09:38"/>
+            <Seln status="A" name="Under" handicap="37.5" seln_id="491520365" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.833" bet_ref="NDkxNTIwMzY1OjUvNjoxNTA6MA" frac_prc="5/6" us_prc="-120" last_change="2018-04-15T22:42:52"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Συνολικοί Πόντοι Μπαρμπέιντος Λέικερς (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100421824" handicap="+76.5" inplay_avail="Y" disporder="1050" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUHO" lp_avail="Y" mkt_sort_name="Over/Under Away Total Goals (incl OT)">
-            <Seln status="A" name="Over" handicap="+76.5" seln_id="491283438" disporder="0" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.65" bet_ref="NDkxMjgzNDM4OjEzLzIwOjMwNjow" frac_prc="13/20" us_prc="-154" last_change="2018-04-15T12:09:38"/>
+          <Mkt status="A" name="2η Περίοδος - Νικητής" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100485331" inplay_avail="Y" disporder="-240" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="T2DN" lp_avail="Y" mkt_sort_name="MKT_SORT-T2DN">
+            <Seln status="A" name="Φλαμένγκο" seln_id="491507552" team_id="115926" disporder="0" seln_sort="H">
+              <Price prc_type="LP" dec_prc="1.333" bet_ref="NDkxNTA3NTUyOjEvMzo6MA" frac_prc="1/3" us_prc="-300" last_change="2018-04-15T22:42:52"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="+76.5" seln_id="491283439" disporder="1" seln_sort="U">
-              <Price prc_type="LP" dec_prc="2.08" bet_ref="NDkxMjgzNDM5OjI3LzI1OjMwNjow" frac_prc="27/25" us_prc="+108" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" name="Συνολικοί Πόντοι Μπαρμπέιντος Λέικερς (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100421825" handicap="+77.5" inplay_avail="Y" disporder="1050" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUHO" lp_avail="Y" mkt_sort_name="Over/Under Away Total Goals (incl OT)">
-            <Seln status="A" name="Over" handicap="+77.5" seln_id="491283440" disporder="0" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.75" bet_ref="NDkxMjgzNDQwOjMvNDozMTA6MA" frac_prc="3/4" us_prc="-134" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-            <Seln status="A" name="Under" handicap="+77.5" seln_id="491283441" disporder="1" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.90" bet_ref="NDkxMjgzNDQxOjkvMTA6MzEwOjA" frac_prc="9/10" us_prc="-112" last_change="2018-04-15T12:09:38"/>
+            <Seln status="A" name="Μίνας" seln_id="491507551" team_id="1882895" disporder="1" seln_sort="A">
+              <Price prc_type="LP" dec_prc="3.20" bet_ref="NDkxNTA3NTUxOjExLzU6OjA" frac_prc="11/5" us_prc="+220" last_change="2018-04-15T22:42:52"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Συνολικοί Πόντοι Μπαρμπέιντος Λέικερς (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100421826" handicap="+78.5" inplay_avail="Y" disporder="1050" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUHO" lp_avail="Y" mkt_sort_name="Over/Under Away Total Goals (incl OT)">
-            <Seln status="A" name="Over" handicap="+78.5" seln_id="491283442" disporder="0" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.93" bet_ref="NDkxMjgzNDQyOjkzLzEwMDozMTQ6MA" frac_prc="93/100" us_prc="-108" last_change="2018-04-15T12:09:38"/>
+          <Mkt status="A" name="2η Περίοδος - Χάντικαπ" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100485344" handicap="-3.5" inplay_avail="Y" disporder="-230" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FT2H" lp_avail="Y" mkt_sort_name="2nd Period Handicap">
+            <Seln status="A" name="Φλαμένγκο" handicap="-3.5" seln_id="491507595" team_id="115926" disporder="0" seln_sort="1">
+              <Price prc_type="LP" dec_prc="1.833" bet_ref="NDkxNTA3NTk1OjUvNjotMTQ6MA" frac_prc="5/6" us_prc="-120" last_change="2018-04-15T22:42:52"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="+78.5" seln_id="491283443" disporder="1" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.75" bet_ref="NDkxMjgzNDQzOjMvNDozMTQ6MA" frac_prc="3/4" us_prc="-134" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" name="Συνολικοί Πόντοι Όραντζ 3 Πάινλαντς (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100421831" handicap="+67.5" inplay_avail="Y" disporder="1100" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUAO" lp_avail="Y" mkt_sort_name="Over/Under Home Total Goals (incl OT)">
-            <Seln status="A" name="Over" handicap="+67.5" seln_id="491283446" disporder="0" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.70" bet_ref="NDkxMjgzNDQ2OjcvMTA6MjcwOjA" frac_prc="7/10" us_prc="-143" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-            <Seln status="A" name="Under" handicap="+67.5" seln_id="491283447" disporder="1" seln_sort="U">
-              <Price prc_type="LP" dec_prc="2.00" bet_ref="NDkxMjgzNDQ3OjEvMToyNzA6MA" frac_prc="1/1" us_prc="+100" last_change="2018-04-15T12:09:38"/>
+            <Seln status="A" name="Μίνας" handicap="+3.5" seln_id="491507596" team_id="1882895" disporder="1" seln_sort="2">
+              <Price prc_type="LP" dec_prc="1.909" bet_ref="NDkxNTA3NTk2OjEwLzExOi0xNDow" frac_prc="10/11" us_prc="-110" last_change="2018-04-15T22:42:52"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Συνολικοί Πόντοι Όραντζ 3 Πάινλαντς (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100421832" handicap="+68.5" inplay_avail="Y" disporder="1100" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUAO" lp_avail="Y" mkt_sort_name="Over/Under Home Total Goals (incl OT)">
-            <Seln status="A" name="Over" handicap="+68.5" seln_id="491283448" disporder="0" seln_sort="O">
-              <Price prc_type="LP" dec_prc="1.833" bet_ref="NDkxMjgzNDQ4OjUvNjoyNzQ6MA" frac_prc="5/6" us_prc="-120" last_change="2018-04-15T12:09:38"/>
+          <Mkt status="A" name="2η Περίοδος - Περιθώριο νίκης" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100485341" inplay_avail="Y" disporder="-225" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="IT2W" lp_avail="Y" mkt_sort_name="MKT_SORT-IT2W">
+            <Seln status="A" seln_id="491507587" seln_sort="H3-" name="Φλαμένγκο νίκη με 3+" disporder="0">
+              <Price prc_type="LP" dec_prc="1.666" bet_ref="NDkxNTA3NTg3OjQvNjo6MA" frac_prc="4/6" us_prc="-150" last_change="2018-04-15T22:42:52"/>
             </Seln>
-            <Seln status="A" name="Under" handicap="+68.5" seln_id="491283449" disporder="1" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.833" bet_ref="NDkxMjgzNDQ5OjUvNjoyNzQ6MA" frac_prc="5/6" us_prc="-120" last_change="2018-04-15T12:09:38"/>
+            <Seln status="A" seln_id="491507586" seln_sort="A3-" name="Μίνας νίκη με 3+" disporder="1">
+              <Price prc_type="LP" dec_prc="4.85" bet_ref="NDkxNTA3NTg2Ojc3LzIwOjow" frac_prc="77/20" us_prc="+385" last_change="2018-04-15T22:42:52"/>
             </Seln>
-          </Mkt>
-          <Mkt status="A" name="Συνολικοί Πόντοι Όραντζ 3 Πάινλαντς (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100421833" handicap="+69.5" inplay_avail="Y" disporder="1100" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUAO" lp_avail="Y" mkt_sort_name="Over/Under Home Total Goals (incl OT)">
-            <Seln status="A" name="Over" handicap="+69.5" seln_id="491283450" disporder="0" seln_sort="O">
-              <Price prc_type="LP" dec_prc="2.02" bet_ref="NDkxMjgzNDUwOjUxLzUwOjI3ODow" frac_prc="51/50" us_prc="+102" last_change="2018-04-15T12:09:38"/>
-            </Seln>
-            <Seln status="A" name="Under" handicap="+69.5" seln_id="491283451" disporder="1" seln_sort="U">
-              <Price prc_type="LP" dec_prc="1.666" bet_ref="NDkxMjgzNDUxOjQvNjoyNzg6MA" frac_prc="4/6" us_prc="-150" last_change="2018-04-15T12:09:38"/>
+            <Seln status="A" seln_id="491507588" seln_sort="O" name="Καμία ομάδα νίκη με 3+" disporder="2">
+              <Price prc_type="LP" dec_prc="3.55" bet_ref="NDkxNTA3NTg4OjUxLzIwOjow" frac_prc="51/20" us_prc="+255" last_change="2018-04-15T22:42:52"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" name="Συνολικοί Πόντοι - Μονά/Ζυγά (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100421765" inplay_avail="Y" disporder="1900" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OEOT" lp_avail="Y" mkt_sort_name="Odd/Even Total Points">
-            <Seln status="A" seln_id="491283303" seln_sort="O" name="Μονά" disporder="-1">
-              <Price prc_type="LP" dec_prc="1.85" bet_ref="NDkxMjgzMzAzOjE3LzIwOjow" frac_prc="17/20" us_prc="-118" last_change="2018-04-15T12:09:38"/>
+          <Mkt status="A" name="2η Περίοδος - Συνολικοί Πόντοι" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100489036" handicap="36.5" inplay_avail="Y" disporder="-220" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="FP2O" lp_avail="Y" mkt_sort_name="2nd Period Total Points (Over/Under)">
+            <Seln status="A" name="Over" handicap="36.5" seln_id="491520388" disporder="-1" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.95" bet_ref="NDkxNTIwMzg4OjE5LzIwOjE0Njow" frac_prc="19/20" us_prc="-106" last_change="2018-04-15T22:42:52"/>
             </Seln>
-            <Seln status="A" seln_id="491283302" seln_sort="E" name="Ζυγά" disporder="0">
-              <Price prc_type="LP" dec_prc="1.85" bet_ref="NDkxMjgzMzAyOjE3LzIwOjow" frac_prc="17/20" us_prc="-118" last_change="2018-04-15T12:09:38"/>
+            <Seln status="A" name="Under" handicap="36.5" seln_id="491520389" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.80" bet_ref="NDkxNTIwMzg5OjQvNToxNDY6MA" frac_prc="4/5" us_prc="-125" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="1ο Ημίχρονο - Νικητής" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100485319" inplay_avail="Y" disporder="-180" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="1DNB" lp_avail="Y" mkt_sort_name="Ημίχρονο - Εξαίρεση ισοπαλίας">
+            <Seln status="A" name="Φλαμένγκο" seln_id="491507518" team_id="115926" disporder="0" seln_sort="H">
+              <Price prc_type="LP" dec_prc="1.166" bet_ref="NDkxNTA3NTE4OjEvNjo6MA" frac_prc="1/6" us_prc="-600" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+            <Seln status="A" name="Μίνας" seln_id="491507517" team_id="1882895" disporder="1" seln_sort="A">
+              <Price prc_type="LP" dec_prc="4.75" bet_ref="NDkxNTA3NTE3OjE1LzQ6OjA" frac_prc="15/4" us_prc="+375" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="1ο Ημίχρονο - Χάντικαπ" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100485345" handicap="-8.5" inplay_avail="Y" disporder="-170" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="FAHT" lp_avail="Y" mkt_sort_name="Asian Handicap (Half-Time)">
+            <Seln status="A" name="Φλαμένγκο" handicap="-8.5" seln_id="491507597" team_id="115926" disporder="0" seln_sort="1">
+              <Price prc_type="LP" dec_prc="1.93" bet_ref="NDkxNTA3NTk3OjkzLzEwMDotMzQ6MA" frac_prc="93/100" us_prc="-108" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+            <Seln status="A" name="Μίνας" handicap="+8.5" seln_id="491507598" team_id="1882895" disporder="1" seln_sort="2">
+              <Price prc_type="LP" dec_prc="1.80" bet_ref="NDkxNTA3NTk4OjQvNTotMzQ6MA" frac_prc="4/5" us_prc="-125" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="1ο Ημίχρονο - Συνολικοί Πόντοι" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100489032" handicap="73.5" inplay_avail="Y" disporder="-160" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUH1" lp_avail="Y" mkt_sort_name="Πρώτο ημίχρονο (Πάνω/Κάτω)">
+            <Seln status="A" name="Over" handicap="73.5" seln_id="491520380" disporder="-1" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.833" bet_ref="NDkxNTIwMzgwOjUvNjoyOTQ6MA" frac_prc="5/6" us_prc="-120" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="73.5" seln_id="491520381" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.90" bet_ref="NDkxNTIwMzgxOjkvMTA6Mjk0OjA" frac_prc="9/10" us_prc="-112" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Συνολικοί Πόντοι (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100485339" inplay_avail="N" disporder="0" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="TOTP" lp_avail="Y" mkt_sort_name="MKT_SORT-TOTP">
+            <Seln status="A" seln_id="491507573" seln_sort="0-99" name="&lt;100" disporder="1">
+              <Price prc_type="LP" dec_prc="81.00" bet_ref="NDkxNTA3NTczOjgwLzE6OjA" frac_prc="80/1" us_prc="+8000" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+            <Seln status="A" seln_id="491507574" seln_sort="100-109" name="100-109" disporder="2">
+              <Price prc_type="LP" dec_prc="81.00" bet_ref="NDkxNTA3NTc0OjgwLzE6OjA" frac_prc="80/1" us_prc="+8000" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+            <Seln status="A" seln_id="491507575" seln_sort="110-119" name="110-119" disporder="3">
+              <Price prc_type="LP" dec_prc="51.00" bet_ref="NDkxNTA3NTc1OjUwLzE6OjA" frac_prc="50/1" us_prc="+5000" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+            <Seln status="A" seln_id="491507576" seln_sort="120-129" name="120-129" disporder="4">
+              <Price prc_type="LP" dec_prc="13.50" bet_ref="NDkxNTA3NTc2OjI1LzI6OjA" frac_prc="25/2" us_prc="+1250" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+            <Seln status="A" seln_id="491507577" seln_sort="130-139" name="130-139" disporder="5">
+              <Price prc_type="LP" dec_prc="6.20" bet_ref="NDkxNTA3NTc3OjI2LzU6OjA" frac_prc="26/5" us_prc="+520" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+            <Seln status="A" seln_id="491507578" seln_sort="140-149" name="140-149" disporder="6">
+              <Price prc_type="LP" dec_prc="3.75" bet_ref="NDkxNTA3NTc4OjExLzQ6OjA" frac_prc="11/4" us_prc="+275" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+            <Seln status="A" seln_id="491507579" seln_sort="150-159" name="150-159" disporder="7">
+              <Price prc_type="LP" dec_prc="3.30" bet_ref="NDkxNTA3NTc5OjIzLzEwOjow" frac_prc="23/10" us_prc="+230" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+            <Seln status="A" seln_id="491507580" seln_sort="160-169" name="160-169" disporder="8">
+              <Price prc_type="LP" dec_prc="4.00" bet_ref="NDkxNTA3NTgwOjMvMTo6MA" frac_prc="3/1" us_prc="+300" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+            <Seln status="A" seln_id="491507581" seln_sort="170-179" name="170-179" disporder="9">
+              <Price prc_type="LP" dec_prc="6.25" bet_ref="NDkxNTA3NTgxOjIxLzQ6OjA" frac_prc="21/4" us_prc="+525" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+            <Seln status="A" seln_id="491507582" seln_sort="180-" name="180+" disporder="10">
+              <Price prc_type="LP" dec_prc="10.00" bet_ref="NDkxNTA3NTgyOjkvMTo6MA" frac_prc="9/1" us_prc="+900" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Ημίχρονο / Τελικό" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100485328" inplay_avail="Y" disporder="900" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="HTOT" lp_avail="Y" mkt_sort_name="Half-Time/Full-Time (incl Overtime)">
+            <Seln status="A" seln_id="491507546" seln_sort="HH" name="1/1" disporder="1">
+              <Price prc_type="LP" dec_prc="1.222" bet_ref="NDkxNTA3NTQ2OjIvOTo6MA" frac_prc="2/9" us_prc="-450" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+            <Seln status="A" seln_id="491507544" seln_sort="DH" name="X/1" disporder="2">
+              <Price prc_type="LP" dec_prc="20.00" bet_ref="NDkxNTA3NTQ0OjE5LzE6OjA" frac_prc="19/1" us_prc="+1900" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+            <Seln status="A" seln_id="491507542" seln_sort="AH" name="2/1" disporder="3">
+              <Price prc_type="LP" dec_prc="5.25" bet_ref="NDkxNTA3NTQyOjE3LzQ6OjA" frac_prc="17/4" us_prc="+425" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+            <Seln status="A" seln_id="491507545" seln_sort="HA" name="1/2" disporder="4">
+              <Price prc_type="LP" dec_prc="16.00" bet_ref="NDkxNTA3NTQ1OjE1LzE6OjA" frac_prc="15/1" us_prc="+1500" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+            <Seln status="A" seln_id="491507543" seln_sort="DA" name="X/2" disporder="5">
+              <Price prc_type="LP" dec_prc="56.00" bet_ref="NDkxNTA3NTQzOjU1LzE6OjA" frac_prc="55/1" us_prc="+5500" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+            <Seln status="A" seln_id="491507541" seln_sort="AA" name="2/2" disporder="6">
+              <Price prc_type="LP" dec_prc="16.50" bet_ref="NDkxNTA3NTQxOjMxLzI6OjA" frac_prc="31/2" us_prc="+1550" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Συνολικοί Πόντοι Φλαμένγκο (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100489029" handicap="+83.5" inplay_avail="Y" disporder="1050" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUHO" lp_avail="Y" mkt_sort_name="Over/Under Away Total Goals (incl OT)">
+            <Seln status="A" name="Over" handicap="+83.5" seln_id="491520374" disporder="0" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.727" bet_ref="NDkxNTIwMzc0OjgvMTE6MzM0OjA" frac_prc="8/11" us_prc="-138" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="+83.5" seln_id="491520375" disporder="1" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.97" bet_ref="NDkxNTIwMzc1Ojk3LzEwMDozMzQ6MA" frac_prc="97/100" us_prc="-104" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Συνολικοί Πόντοι Φλαμένγκο (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100489030" handicap="+84.5" inplay_avail="Y" disporder="1050" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUHO" lp_avail="Y" mkt_sort_name="Over/Under Away Total Goals (incl OT)">
+            <Seln status="A" name="Over" handicap="+84.5" seln_id="491520376" disporder="0" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.87" bet_ref="NDkxNTIwMzc2Ojg3LzEwMDozMzg6MA" frac_prc="87/100" us_prc="-115" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="+84.5" seln_id="491520377" disporder="1" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.80" bet_ref="NDkxNTIwMzc3OjQvNTozMzg6MA" frac_prc="4/5" us_prc="-125" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Συνολικοί Πόντοι Φλαμένγκο (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100489031" handicap="+85.5" inplay_avail="Y" disporder="1050" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUHO" lp_avail="Y" mkt_sort_name="Over/Under Away Total Goals (incl OT)">
+            <Seln status="A" name="Over" handicap="+85.5" seln_id="491520378" disporder="0" seln_sort="O">
+              <Price prc_type="LP" dec_prc="2.00" bet_ref="NDkxNTIwMzc4OjEvMTozNDI6MA" frac_prc="1/1" us_prc="+100" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="+85.5" seln_id="491520379" disporder="1" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.70" bet_ref="NDkxNTIwMzc5OjcvMTA6MzQyOjA" frac_prc="7/10" us_prc="-143" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Συνολικοί Πόντοι Μίνας (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100489033" handicap="+68.5" inplay_avail="Y" disporder="1100" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUAO" lp_avail="Y" mkt_sort_name="Over/Under Home Total Goals (incl OT)">
+            <Seln status="A" name="Over" handicap="+68.5" seln_id="491520382" disporder="0" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.666" bet_ref="NDkxNTIwMzgyOjQvNjoyNzQ6MA" frac_prc="4/6" us_prc="-150" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="+68.5" seln_id="491520383" disporder="1" seln_sort="U">
+              <Price prc_type="LP" dec_prc="2.05" bet_ref="NDkxNTIwMzgzOjIxLzIwOjI3NDow" frac_prc="21/20" us_prc="+105" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Συνολικοί Πόντοι Μίνας (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100489034" handicap="+69.5" inplay_avail="Y" disporder="1100" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUAO" lp_avail="Y" mkt_sort_name="Over/Under Home Total Goals (incl OT)">
+            <Seln status="A" name="Over" handicap="+69.5" seln_id="491520384" disporder="0" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.80" bet_ref="NDkxNTIwMzg0OjQvNToyNzg6MA" frac_prc="4/5" us_prc="-125" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="+69.5" seln_id="491520385" disporder="1" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.87" bet_ref="NDkxNTIwMzg1Ojg3LzEwMDoyNzg6MA" frac_prc="87/100" us_prc="-115" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Συνολικοί Πόντοι Μίνας (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100489035" handicap="+70.5" inplay_avail="Y" disporder="1100" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OUAO" lp_avail="Y" mkt_sort_name="Over/Under Home Total Goals (incl OT)">
+            <Seln status="A" name="Over" handicap="+70.5" seln_id="491520386" disporder="0" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.95" bet_ref="NDkxNTIwMzg2OjE5LzIwOjI4Mjow" frac_prc="19/20" us_prc="-106" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="+70.5" seln_id="491520387" disporder="1" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.727" bet_ref="NDkxNTIwMzg3OjgvMTE6MjgyOjA" frac_prc="8/11" us_prc="-138" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Συνολικοί Πόντοι - Μονά/Ζυγά (περιλαμβ. Παράταση)" allow_cash_out="Y" allow_cash_out_pre_ev="Y" displayed="Y" mkt_id="100485330" inplay_avail="Y" disporder="1900" allow_cash_out_inplay="Y" sp_avail="N" mkt_sort="OEOT" lp_avail="Y" mkt_sort_name="Odd/Even Total Points">
+            <Seln status="A" seln_id="491507550" seln_sort="O" name="Μονά" disporder="-1">
+              <Price prc_type="LP" dec_prc="1.85" bet_ref="NDkxNTA3NTUwOjE3LzIwOjow" frac_prc="17/20" us_prc="-118" last_change="2018-04-15T22:42:52"/>
+            </Seln>
+            <Seln status="A" seln_id="491507549" seln_sort="E" name="Ζυγά" disporder="0">
+              <Price prc_type="LP" dec_prc="1.85" bet_ref="NDkxNTA3NTQ5OjE3LzIwOjow" frac_prc="17/20" us_prc="-118" last_change="2018-04-15T22:42:52"/>
             </Seln>
           </Mkt>
         </Ev>

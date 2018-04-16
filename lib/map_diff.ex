@@ -62,10 +62,5 @@ defmodule MapDiff do
   defp do_find_changes_and_additions(map_a_value, map_b_value, new_key_path, acc) do
     find_changes_and_additions(map_a_value, map_b_value, new_key_path, acc)
   end
-
-  def additions(a, b, changes, equal?) do
-    Enum.reduce(Map.keys(b) -- Map.keys(a), {changes, equal?}, fn key, {changes, _equal?} ->
-      {Map.put(changes, key, %{changed: :added, value: b[key]}), false}
-    end)
-  end
+  
 end

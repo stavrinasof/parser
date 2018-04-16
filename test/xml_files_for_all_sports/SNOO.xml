@@ -1,38 +1,218 @@
-<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwNTYzNjY0OjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
+<ContentAPI xmlns="http://www.geneity.co.uk/genbet/ContentAPI" status="OK" timezone="UTC" msg_stamp="ODIwODMzMTczOjQ6ZWw=" version="1.0" request="get_inplay_event_detail">
   <Sport sport_code="SNOO" allow_cash_out="N" name="Σνούκερ" disporder="265">
     <SBClass sb_class_id="188521" disporder="0" name="Διεθνή">
       <SBType sb_type_id="187611" name="Παγκόσμιο Πρωτάθλημα" disporder="0">
-        <Ev inplay_allowed="Y" status="A" name="Λιάνγκ Γουένμπο v Ζάο Ξάιτονγκ" allow_cash_out="N" start_time="2018-04-16T13:30:00" allow_cash_out_pre_ev="N" virtual="N" ev_timezone="UTC" allow_cash_out_inplay="N" inplay_now="N" mkt_count="3" ev_id="1746808" disporder="-33">
-          <Notes>Ο αγώνας θα συνεχιστεί με σκορ 7-2</Notes>
-          <EvDetail br_match_id="14325179" br_has_stats="Y"/>
-          <Inplay inplay_period_num="10" inplay_period_name_short="Delayed" clock_status="STOPPED" correct_at="2018-04-15T19:52:08" inplay_period_finished="N" score_a="7" score_b="2" inplay_period_name="Καθυστερημένο" clock_mode="FORWARD" inplay_period="delay" score_string="7-2" scoring_system="match" last_change="2018-04-15T16:22:52" inplay_secs="7947">
-            <Scores/>
-            <MatchStatus player_id="18904267" status_code="BAPO" status_text="MATCH_STATUS_BAPO"/>
-          </Inplay>
-          <InplayDetail period_length_mins="0" period_start="2018-04-15T16:22:52" period_stoppage_secs="0" score_team_B="2" score_team_A="7"/>
+        <Ev inplay_allowed="N" status="A" name="Άντριου Χίγκινσον v Ρίκι Γουάλντεν" allow_cash_out="N" start_time="2018-04-17T10:00:00" allow_cash_out_pre_ev="N" virtual="N" ev_timezone="UTC" allow_cash_out_inplay="N" inplay_now="N" mkt_count="15" ev_id="1758644" disporder="-33">
+          <EvDetail br_match_id="14349459"/>
           <Players/>
-          <Mkt status="A" name="Νικητής" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100147546" inplay_avail="Y" disporder="-9999" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="HTOH" lp_avail="Y" mkt_sort_name="Ένας Εναντίον Ενός">
-            <Seln status="A" name="Λιάνγκ Γουένμπο" seln_id="490296719" disporder="1" player_id="18901892" seln_sort="P1">
-              <Price prc_type="LP" dec_prc="1.01" bet_ref="NDkwMjk2NzE5OjEvMTAwOjow" frac_prc="1/100" us_prc="-10000" last_change="2018-04-15T16:04:56"/>
+          <Mkt status="A" name="Νικητής" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100489733" inplay_avail="Y" disporder="-9999" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="HTOH" lp_avail="Y" mkt_sort_name="Ένας Εναντίον Ενός">
+            <Seln status="A" name="Άντριου Χίγκινσον" seln_id="491522539" disporder="1" player_id="18901864" seln_sort="P1">
+              <Price prc_type="LP" dec_prc="2.75" bet_ref="NDkxNTIyNTM5OjcvNDo6MA" frac_prc="7/4" us_prc="+175" last_change="2018-04-16T04:38:57"/>
             </Seln>
-            <Seln status="A" name="Ζάο Ξάιτονγκ" seln_id="490296720" disporder="2" player_id="18904267" seln_sort="P2">
-              <Price prc_type="LP" dec_prc="14.00" bet_ref="NDkwMjk2NzIwOjEzLzE6OjA" frac_prc="13/1" us_prc="+1300" last_change="2018-04-15T16:04:56"/>
-            </Seln>
-          </Mkt>
-          <Mkt status="A" mkt_extra="F10" name="Νικητής Frame (Frame 10)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100456688" inplay_avail="Y" disporder="-8500" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="FMWN" lp_avail="Y" mkt_sort_name="Frame Winner">
-            <Seln status="A" name="Λιάνγκ Γουένμπο" seln_id="491407078" disporder="0" player_id="18901892" seln_sort="P1">
-              <Price prc_type="LP" dec_prc="1.45" bet_ref="NDkxNDA3MDc4OjQ1MC8xMDAwOjow" frac_prc="4/9" us_prc="-225" last_change="2018-04-15T19:31:04"/>
-            </Seln>
-            <Seln status="A" name="Ζάο Ξάιτονγκ" seln_id="491407079" disporder="1" player_id="18904267" seln_sort="P2">
-              <Price prc_type="LP" dec_prc="2.63" bet_ref="NDkxNDA3MDc5OjE2MzAvMTAwMDo6MA" frac_prc="13/8" us_prc="+162" last_change="2018-04-15T19:31:04"/>
+            <Seln status="A" name="Ρίκι Γουάλντεν" seln_id="491522540" disporder="2" player_id="18901325" seln_sort="P2">
+              <Price prc_type="LP" dec_prc="1.444" bet_ref="NDkxNTIyNTQwOjQvOTo6MA" frac_prc="4/9" us_prc="-225" last_change="2018-04-16T04:38:57"/>
             </Seln>
           </Mkt>
-          <Mkt status="A" mkt_extra="F11" name="Νικητής Frame (Frame 11)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100459209" inplay_avail="Y" disporder="-8500" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="FMWN" lp_avail="Y" mkt_sort_name="Frame Winner">
-            <Seln status="A" name="Λιάνγκ Γουένμπο" seln_id="491415386" disporder="0" player_id="18901892" seln_sort="P1">
-              <Price prc_type="LP" dec_prc="1.45" bet_ref="NDkxNDE1Mzg2OjQ1MC8xMDAwOjow" frac_prc="4/9" us_prc="-225" last_change="2018-04-15T19:31:11"/>
+          <Mkt status="A" name="Χάντικαπ Αγώνα" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100499787" handicap="+1.5" inplay_avail="Y" disporder="-9000" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="SNHC" lp_avail="Y" mkt_sort_name="Asian Handicap (Snooker)">
+            <Seln status="A" name="Άντριου Χίγκινσον" handicap="+1.5" seln_id="491553968" disporder="0" player_id="18901864" seln_sort="P1">
+              <Price prc_type="LP" dec_prc="2.15" bet_ref="NDkxNTUzOTY4OjIzLzIwOjY6MA" frac_prc="23/20" us_prc="+115" last_change="2018-04-16T04:38:57"/>
             </Seln>
-            <Seln status="A" name="Ζάο Ξάιτονγκ" seln_id="491415387" disporder="1" player_id="18904267" seln_sort="P2">
-              <Price prc_type="LP" dec_prc="2.63" bet_ref="NDkxNDE1Mzg3OjE2MzAvMTAwMDo6MA" frac_prc="13/8" us_prc="+162" last_change="2018-04-15T19:31:11"/>
+            <Seln status="A" name="Ρίκι Γουάλντεν" handicap="-1.5" seln_id="491553969" disporder="1" player_id="18901325" seln_sort="P2">
+              <Price prc_type="LP" dec_prc="1.65" bet_ref="NDkxNTUzOTY5OjEzLzIwOjY6MA" frac_prc="13/20" us_prc="-154" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Χάντικαπ Αγώνα" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100499788" handicap="+2.5" inplay_avail="Y" disporder="-9000" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="SNHC" lp_avail="Y" mkt_sort_name="Asian Handicap (Snooker)">
+            <Seln status="A" name="Άντριου Χίγκινσον" handicap="+2.5" seln_id="491553970" disporder="0" player_id="18901864" seln_sort="P1">
+              <Price prc_type="LP" dec_prc="1.80" bet_ref="NDkxNTUzOTcwOjQvNToxMDow" frac_prc="4/5" us_prc="-125" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" name="Ρίκι Γουάλντεν" handicap="-2.5" seln_id="491553971" disporder="1" player_id="18901325" seln_sort="P2">
+              <Price prc_type="LP" dec_prc="1.97" bet_ref="NDkxNTUzOTcxOjk3LzEwMDoxMDow" frac_prc="97/100" us_prc="-104" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Χάντικαπ Αγώνα" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100499789" handicap="+3.5" inplay_avail="Y" disporder="-9000" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="SNHC" lp_avail="Y" mkt_sort_name="Asian Handicap (Snooker)">
+            <Seln status="A" name="Άντριου Χίγκινσον" handicap="+3.5" seln_id="491553972" disporder="0" player_id="18901864" seln_sort="P1">
+              <Price prc_type="LP" dec_prc="1.50" bet_ref="NDkxNTUzOTcyOjEvMjoxNDow" frac_prc="1/2" us_prc="-200" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" name="Ρίκι Γουάλντεν" handicap="-3.5" seln_id="491553973" disporder="1" player_id="18901325" seln_sort="P2">
+              <Price prc_type="LP" dec_prc="2.50" bet_ref="NDkxNTUzOTczOjYvNDoxNDow" frac_prc="6/4" us_prc="+150" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Συνολικά Frames (Over/Under)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100499790" handicap="+15.5" inplay_avail="Y" disporder="-8800" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="TFOU" lp_avail="Y" mkt_sort_name="Total Frames (Over/Under)">
+            <Seln status="A" name="Over" handicap="+15.5" seln_id="491553975" disporder="-22" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.47" bet_ref="NDkxNTUzOTc1OjQ3LzEwMDo2Mjow" frac_prc="47/100" us_prc="-213" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="+15.5" seln_id="491553974" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="2.60" bet_ref="NDkxNTUzOTc0OjgvNTo2Mjow" frac_prc="8/5" us_prc="+160" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Συνολικά Frames (Over/Under)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100499791" handicap="+16.5" inplay_avail="Y" disporder="-8800" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="TFOU" lp_avail="Y" mkt_sort_name="Total Frames (Over/Under)">
+            <Seln status="A" name="Over" handicap="+16.5" seln_id="491553977" disporder="-22" seln_sort="O">
+              <Price prc_type="LP" dec_prc="1.88" bet_ref="NDkxNTUzOTc3OjIyLzI1OjY2OjA" frac_prc="22/25" us_prc="-114" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="+16.5" seln_id="491553976" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.85" bet_ref="NDkxNTUzOTc2OjE3LzIwOjY2OjA" frac_prc="17/20" us_prc="-118" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Συνολικά Frames (Over/Under)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100499792" handicap="+17.5" inplay_avail="Y" disporder="-8800" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="TFOU" lp_avail="Y" mkt_sort_name="Total Frames (Over/Under)">
+            <Seln status="A" name="Over" handicap="+17.5" seln_id="491553979" disporder="-22" seln_sort="O">
+              <Price prc_type="LP" dec_prc="2.75" bet_ref="NDkxNTUzOTc5OjcvNDo3MDow" frac_prc="7/4" us_prc="+175" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" name="Under" handicap="+17.5" seln_id="491553978" disporder="0" seln_sort="U">
+              <Price prc_type="LP" dec_prc="1.40" bet_ref="NDkxNTUzOTc4OjIvNTo3MDow" frac_prc="2/5" us_prc="-250" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" mkt_extra="F01" name="Νικητής Frame (Frame 1)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100489735" inplay_avail="Y" disporder="-8500" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="FMWN" lp_avail="Y" mkt_sort_name="Frame Winner">
+            <Seln status="A" name="Άντριου Χίγκινσον" seln_id="491522544" disporder="0" player_id="18901864" seln_sort="P1">
+              <Price prc_type="LP" dec_prc="2.05" bet_ref="NDkxNTIyNTQ0OjIxLzIwOjow" frac_prc="21/20" us_prc="+105" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" name="Ρίκι Γουάλντεν" seln_id="491522545" disporder="1" player_id="18901325" seln_sort="P2">
+              <Price prc_type="LP" dec_prc="1.727" bet_ref="NDkxNTIyNTQ1OjgvMTE6OjA" frac_prc="8/11" us_prc="-138" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Ακριβές σκορ" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100489740" inplay_avail="Y" disporder="-7000" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="SNCS" lp_avail="Y" mkt_sort_name="Snooker Correct Score">
+            <Seln status="A" seln_id="491522610" seln_sort="0-10" name="0 - 10" disporder="10">
+              <Price prc_type="LP" dec_prc="201.00" bet_ref="NDkxNTIyNjEwOjIwMC8xOjow" frac_prc="200/1" us_prc="+20000" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522611" seln_sort="1-10" name="00:00 - 09:59" disporder="110">
+              <Price prc_type="LP" dec_prc="61.00" bet_ref="NDkxNTIyNjExOjYwLzE6OjA" frac_prc="60/1" us_prc="+6000" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522612" seln_sort="2-10" name="2 - 10" disporder="210">
+              <Price prc_type="LP" dec_prc="27.50" bet_ref="NDkxNTIyNjEyOjUzLzI6OjA" frac_prc="53/2" us_prc="+2650" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522613" seln_sort="3-10" name="3 - 10" disporder="310">
+              <Price prc_type="LP" dec_prc="16.50" bet_ref="NDkxNTIyNjEzOjMxLzI6OjA" frac_prc="31/2" us_prc="+1550" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522614" seln_sort="4-10" name="4 - 10" disporder="410">
+              <Price prc_type="LP" dec_prc="11.50" bet_ref="NDkxNTIyNjE0OjIxLzI6OjA" frac_prc="21/2" us_prc="+1050" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522615" seln_sort="5-10" name="5 - 10" disporder="510">
+              <Price prc_type="LP" dec_prc="9.00" bet_ref="NDkxNTIyNjE1OjgvMTo6MA" frac_prc="8/1" us_prc="+800" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522616" seln_sort="6-10" name="6 - 10" disporder="610">
+              <Price prc_type="LP" dec_prc="8.50" bet_ref="NDkxNTIyNjE2OjE1LzI6OjA" frac_prc="15/2" us_prc="+750" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522617" seln_sort="7-10" name="7 - 10" disporder="710">
+              <Price prc_type="LP" dec_prc="8.00" bet_ref="NDkxNTIyNjE3OjcvMTo6MA" frac_prc="7/1" us_prc="+700" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522618" seln_sort="8-10" name="8 - 10" disporder="810">
+              <Price prc_type="LP" dec_prc="8.50" bet_ref="NDkxNTIyNjE4OjE1LzI6OjA" frac_prc="15/2" us_prc="+750" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522619" seln_sort="9-10" name="9 - 10" disporder="910">
+              <Price prc_type="LP" dec_prc="9.75" bet_ref="NDkxNTIyNjE5OjM1LzQ6OjA" frac_prc="35/4" us_prc="+875" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522620" seln_sort="10-0" name="10 - 0" disporder="1000">
+              <Price prc_type="LP" dec_prc="401.00" bet_ref="NDkxNTIyNjIwOjQwMC8xOjow" frac_prc="400/1" us_prc="+40000" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522621" seln_sort="10-1" name="10 - 1" disporder="1001">
+              <Price prc_type="LP" dec_prc="251.00" bet_ref="NDkxNTIyNjIxOjI1MC8xOjow" frac_prc="250/1" us_prc="+25000" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522622" seln_sort="10-2" name="10 - 2" disporder="1002">
+              <Price prc_type="LP" dec_prc="126.00" bet_ref="NDkxNTIyNjIyOjEyNS8xOjow" frac_prc="125/1" us_prc="+12500" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522623" seln_sort="10-3" name="10 - 3" disporder="1003">
+              <Price prc_type="LP" dec_prc="56.00" bet_ref="NDkxNTIyNjIzOjU1LzE6OjA" frac_prc="55/1" us_prc="+5500" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522624" seln_sort="10-4" name="10 - 4" disporder="1004">
+              <Price prc_type="LP" dec_prc="34.00" bet_ref="NDkxNTIyNjI0OjMzLzE6OjA" frac_prc="33/1" us_prc="+3300" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522625" seln_sort="10-5" name="10 - 5" disporder="1005">
+              <Price prc_type="LP" dec_prc="23.00" bet_ref="NDkxNTIyNjI1OjIyLzE6OjA" frac_prc="22/1" us_prc="+2200" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522626" seln_sort="10-6" name="10 - 6" disporder="1006">
+              <Price prc_type="LP" dec_prc="17.25" bet_ref="NDkxNTIyNjI2OjY1LzQ6OjA" frac_prc="65/4" us_prc="+1625" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522627" seln_sort="10-7" name="10 - 7" disporder="1007">
+              <Price prc_type="LP" dec_prc="14.25" bet_ref="NDkxNTIyNjI3OjUzLzQ6OjA" frac_prc="53/4" us_prc="+1325" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522628" seln_sort="10-8" name="10 - 8" disporder="1008">
+              <Price prc_type="LP" dec_prc="12.50" bet_ref="NDkxNTIyNjI4OjIzLzI6OjA" frac_prc="23/2" us_prc="+1150" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522629" seln_sort="10-9" name="10 - 9" disporder="1009">
+              <Price prc_type="LP" dec_prc="11.50" bet_ref="NDkxNTIyNjI5OjIxLzI6OjA" frac_prc="21/2" us_prc="+1050" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" name="Να κριθεί σε Frame απόφασης" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100489742" inplay_avail="Y" disporder="-4500" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="SNDF" lp_avail="Y" mkt_sort_name="Deciding Frame (Snooker)">
+            <Seln status="A" seln_id="491522632" seln_sort="Y" name="Ναι" disporder="0">
+              <Price prc_type="LP" dec_prc="5.00" bet_ref="NDkxNTIyNjMyOjQvMTo6MA" frac_prc="4/1" us_prc="+400" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522633" seln_sort="N" name="Όχι" disporder="1">
+              <Price prc_type="LP" dec_prc="1.15" bet_ref="NDkxNTIyNjMzOjMvMjA6OjA" frac_prc="3/20" us_prc="-667" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" mkt_extra="R01T08" name="Νικητής Περιόδου (Frames 1 - 8)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100489739" inplay_avail="N" disporder="29" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="SEWN" lp_avail="Y" mkt_sort_name="Session Winner">
+            <Seln status="A" name="Άντριου Χίγκινσον" seln_id="491522607" disporder="0" player_id="18901864" seln_sort="P1">
+              <Price prc_type="LP" dec_prc="3.45" bet_ref="NDkxNTIyNjA3OjQ5LzIwOjow" frac_prc="49/20" us_prc="+245" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522608" seln_sort="D" name="Ισοπαλία" disporder="1">
+              <Price prc_type="LP" dec_prc="3.55" bet_ref="NDkxNTIyNjA4OjUxLzIwOjow" frac_prc="51/20" us_prc="+255" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" name="Ρίκι Γουάλντεν" seln_id="491522609" disporder="2" player_id="18901325" seln_sort="P2">
+              <Price prc_type="LP" dec_prc="2.00" bet_ref="NDkxNTIyNjA5OjEvMTo6MA" frac_prc="1/1" us_prc="+100" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" mkt_extra="R01T04" name="Νικητής Τμήματος (Frames 1 - 4)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100489737" inplay_avail="N" disporder="33" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="MSWN" lp_avail="Y" mkt_sort_name="Mini Session Winner">
+            <Seln status="A" name="Άντριου Χίγκινσον" seln_id="491522560" disporder="0" player_id="18901864" seln_sort="P1">
+              <Price prc_type="LP" dec_prc="3.75" bet_ref="NDkxNTIyNTYwOjExLzQ6OjA" frac_prc="11/4" us_prc="+275" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522561" seln_sort="D" name="Ισοπαλία" disporder="1">
+              <Price prc_type="LP" dec_prc="2.60" bet_ref="NDkxNTIyNTYxOjgvNTo6MA" frac_prc="8/5" us_prc="+160" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" name="Ρίκι Γουάλντεν" seln_id="491522562" disporder="2" player_id="18901325" seln_sort="P2">
+              <Price prc_type="LP" dec_prc="2.40" bet_ref="NDkxNTIyNTYyOjcvNTo6MA" frac_prc="7/5" us_prc="+140" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" mkt_extra="R01T08" name="Σκορ Περιόδου (Frames 1 - 8)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100489738" inplay_avail="N" disporder="44" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="SESC" lp_avail="Y" mkt_sort_name="Session Score">
+            <Seln status="A" seln_id="491522606" seln_sort="0-8" name="0 - 8" disporder="8">
+              <Price prc_type="LP" dec_prc="76.00" bet_ref="NDkxNTIyNjA2Ojc1LzE6OjA" frac_prc="75/1" us_prc="+7500" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522605" seln_sort="1-7" name="1 - 7" disporder="107">
+              <Price prc_type="LP" dec_prc="14.40" bet_ref="NDkxNTIyNjA1OjY3LzU6OjA" frac_prc="67/5" us_prc="+1340" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522603" seln_sort="2-6" name="2 - 6" disporder="206">
+              <Price prc_type="LP" dec_prc="5.40" bet_ref="NDkxNTIyNjAzOjIyLzU6OjA" frac_prc="22/5" us_prc="+440" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522600" seln_sort="3-5" name="3 - 5" disporder="305">
+              <Price prc_type="LP" dec_prc="3.40" bet_ref="NDkxNTIyNjAwOjEyLzU6OjA" frac_prc="12/5" us_prc="+240" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522586" seln_sort="4-4" name="4 - 4" disporder="404">
+              <Price prc_type="LP" dec_prc="3.55" bet_ref="NDkxNTIyNTg2OjUxLzIwOjow" frac_prc="51/20" us_prc="+255" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522576" seln_sort="5-3" name="5 - 3" disporder="503">
+              <Price prc_type="LP" dec_prc="4.85" bet_ref="NDkxNTIyNTc2Ojc3LzIwOjow" frac_prc="77/20" us_prc="+385" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522579" seln_sort="6-2" name="6 - 2" disporder="602">
+              <Price prc_type="LP" dec_prc="11.50" bet_ref="NDkxNTIyNTc5OjIxLzI6OjA" frac_prc="21/2" us_prc="+1050" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522581" seln_sort="7-1" name="7 - 1" disporder="701">
+              <Price prc_type="LP" dec_prc="41.00" bet_ref="NDkxNTIyNTgxOjQwLzE6OjA" frac_prc="40/1" us_prc="+4000" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522582" seln_sort="8-0" name="8 - 0" disporder="800">
+              <Price prc_type="LP" dec_prc="251.00" bet_ref="NDkxNTIyNTgyOjI1MC8xOjow" frac_prc="250/1" us_prc="+25000" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" mkt_extra="R01T04" name="Σκορ Τμήματος (Frames 1 - 4)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100489736" inplay_avail="N" disporder="55" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="MSSC" lp_avail="Y" mkt_sort_name="Mini Session Score">
+            <Seln status="A" seln_id="491522559" seln_sort="0-4" name="0 - 4" disporder="4">
+              <Price prc_type="LP" dec_prc="9.00" bet_ref="NDkxNTIyNTU5OjgvMTo6MA" frac_prc="8/1" us_prc="+800" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522558" seln_sort="1-3" name="1 - 3" disporder="103">
+              <Price prc_type="LP" dec_prc="2.90" bet_ref="NDkxNTIyNTU4OjE5LzEwOjow" frac_prc="19/10" us_prc="+190" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522553" seln_sort="2-2" name="2 - 2" disporder="202">
+              <Price prc_type="LP" dec_prc="2.60" bet_ref="NDkxNTIyNTUzOjgvNTo6MA" frac_prc="8/5" us_prc="+160" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522550" seln_sort="3-1" name="3 - 1" disporder="301">
+              <Price prc_type="LP" dec_prc="4.20" bet_ref="NDkxNTIyNTUwOjE2LzU6OjA" frac_prc="16/5" us_prc="+320" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" seln_id="491522551" seln_sort="4-0" name="4 - 0" disporder="400">
+              <Price prc_type="LP" dec_prc="18.50" bet_ref="NDkxNTIyNTUxOjM1LzI6OjA" frac_prc="35/2" us_prc="+1750" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+          </Mkt>
+          <Mkt status="A" mkt_extra="F03" name="Πρώτος στα 3 Frames (3 Frames)" allow_cash_out="N" allow_cash_out_pre_ev="N" displayed="Y" mkt_id="100489741" inplay_avail="N" disporder="99" allow_cash_out_inplay="N" sp_avail="N" mkt_sort="SNRT" lp_avail="Y" mkt_sort_name="Race to X Frames (Snooker)">
+            <Seln status="A" name="Άντριου Χίγκινσον" seln_id="491522630" disporder="0" player_id="18901864" seln_sort="P1">
+              <Price prc_type="LP" dec_prc="2.25" bet_ref="NDkxNTIyNjMwOjUvNDo6MA" frac_prc="5/4" us_prc="+125" last_change="2018-04-16T04:38:57"/>
+            </Seln>
+            <Seln status="A" name="Ρίκι Γουάλντεν" seln_id="491522631" disporder="1" player_id="18901325" seln_sort="P2">
+              <Price prc_type="LP" dec_prc="1.60" bet_ref="NDkxNTIyNjMxOjMvNTo6MA" frac_prc="3/5" us_prc="-167" last_change="2018-04-16T04:38:57"/>
             </Seln>
           </Mkt>
         </Ev>
