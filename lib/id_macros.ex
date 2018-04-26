@@ -11,9 +11,10 @@ defmodule ID_Macros do
     {'Participant', 'full_name'},
     {'Score', 'name'},
     {'MatchStatus', 'status_code'},
-    {'Price', 'prc_type'},
+    # {'Price', 'prc_type'},
     {'InplayDetail', 'period_start'},
-    {'MatchStat', 'name'}
+    {'MatchStat', 'name'},
+    {'Stat', 'name'}
   ]
 
   defmacro not_in_list() do
@@ -32,11 +33,12 @@ defmodule ID_Macros do
     @ids
     |> Enum.map(fn {tagname, attrname} ->
       quote do
-        def do_find_id_from_attributes({unquote(attrname), unquote(attrvalue)}, unquote(tagname)) do
-          a = to_string(unquote(tagname))
-          {a, to_string(unquote(attrvalue))}
+        def do_find_id_from_attributes({:attribute, unquote(attrname), [], [], unquote(attrvalue)}, unquote(tagname)) do
+          a = unquote(tagname)
+          {a, unquote(attrvalue)}
         end
       end
     end)
   end
 end
+
