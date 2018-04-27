@@ -10,6 +10,7 @@ defmodule Benchmark do
     map1_attr = XmlToMapOrderInAttr.naive_map xml
     map1_key = XmlToMapOrderInKey.naive_map xml 
     map1_ch = XmlToMapOrderInAttr.naive_map xml
+    {:ok, map1_saxy} =  XmlToMap.Saxy.parse xml
     Benchee.run(%{
       "No order"    => fn -> XmlToMap.naive_map xml end,
       "No order, chars insted of strings" => fn -> XmlToMapChars.naive_map xml end,
@@ -25,6 +26,9 @@ defmodule Benchmark do
                                    MapDiffOrderInKey.diffs(map1_key, map2) end, 
       "order with list" => fn -> XmlToMapListed.naive_map xml end,
       "Sax parser" => fn -> XmlToMapSax.saxmap xml end,
+      "SAXY parser" => fn -> XmlToMap.Saxy.parse xml end,
+      "MAPDIFF ,SAXY parser" => fn -> {:ok, map2_saxy}=XmlToMap.Saxy.parse xml2
+                                MapDiffSaxy.diff(map1_saxy, map2_saxy) end,
     },
       formatters: [
         Benchee.Formatters.HTML,

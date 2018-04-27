@@ -16,6 +16,7 @@
   "metrics": {:hex, :metrics, "1.0.1", "25f094dea2cda98213cecc3aeff09e940299d950904393b2a29d191c346a8486", [:rebar3], [], "hexpm"},
   "mimerl": {:hex, :mimerl, "1.0.2", "993f9b0e084083405ed8252b99460c4f0563e41729ab42d9074fd5e52439be88", [:rebar3], [], "hexpm"},
   "numbers": {:hex, :numbers, "1.0.0", "f1e224920ac347953faff00ecac1ee3f4b9e5103018eb3fc5d1999d53ae6418c", [:mix], [], "hexpm"},
+  "saxy": {:hex, :saxy, "0.6.0", "cdb2f2fcd8133d1f3f8b0cf6a131ee1ca348dca613de266e9a239db850c4a093", [:mix], [], "hexpm"},
   "ssl_verify_fun": {:hex, :ssl_verify_fun, "1.1.1", "28a4d65b7f59893bc2c7de786dec1e1555bd742d336043fe644ae956c3497fbe", [:make, :rebar], [], "hexpm"},
   "sweet_xml": {:hex, :sweet_xml, "0.6.5", "dd9cde443212b505d1b5f9758feb2000e66a14d3c449f04c572f3048c66e6697", [:mix], [], "hexpm"},
   "tensor": {:hex, :tensor, "1.2.0", "ac966af5318c3a780e3a0b15f7df51a52e5ef89ebde9d51b9b83de18ae55e9de", [:mix], [{:numbers, "~> 1.0", [hex: :numbers, repo: "hexpm", optional: false]}], "hexpm"},
