@@ -10,7 +10,6 @@ defmodule XmlToMapSax do
     |>elem(1)
     |>Enum.reduce([],fn {_,m}, acc ->[m|acc] end )
     |>Map.new
-    # |>elem(1)
 
   end
 
@@ -36,31 +35,30 @@ defmodule XmlToMapSax do
     end
   end
 
-  def parse_element({:characters, characters} ,acc_tuples) ,do: [{:characters,{'chars',characters}}|acc_tuples]
+  def parse_element({:characters, characters} ,acc_tuples) ,do: [{:characters,{:chars,characters}}|acc_tuples]
   def parse_element({:ignorableWhitespace, _} ,acc_tuples) ,do: acc_tuples
   def parse_element({:endElement, [], tagname, []},acc_tuples) when tagname in @upperclasses or tagname=='ContentAPI' do
     acc_tuples
   end
   def parse_element({:endElement, [], tagname, []},[{tagname,_map_inner}|_]=acc_tuples) ,do: acc_tuples
   def parse_element({:endElement, [], tagname, []},acc_tuples) do
-    {tuples_inner,[ele_tuple|rest_tuples]}= Enum.split_while(acc_tuples, fn x -> elem(x,0) ==tagname   end)
-    map_inner=
-      tuples_inner |>IO.inspect
-      |> Enum.reduce([],fn {_,tuple} , acc -> [tuple|acc] end)
+    {tuples_inner,[element_tuple|rest_tuples]}= Enum.split_while(acc_tuples, fn {x,_} ->  x !=tagname   end)
+    ttuple=
+      tuples_inner
+      |>Enum.reduce([],fn {_,tuple} , acc -> [tuple|acc] end)
       |>Map.new
-      IO.inspect(map_inner,label: "#{tagname}")
+      |>fix_new_tuple(element_tuple,tagname)
 
-      {tagname,value}=ele_tuple
-      case value do
-        [] ->
-          ttuple={tagname,{tagname,map_inner}}|>IO.inspect(label: "1")
-          [ttuple|rest_tuples]
-        {key,attrmap} ->
-          ttuple={key,{key,Map.merge(attrmap,map_inner)}}|>IO.inspect
-          [ttuple|rest_tuples]
-      end
+      [ttuple|rest_tuples]
+
   end
 
+  def fix_new_tuple(map_inner,{tagname,[]},tagname) do
+    {tagname,{tagname,map_inner}}
+  end
+  def fix_new_tuple(map_inner,{tagname,{key,attrmap}},tagname) when is_map(attrmap) do
+    {tagname,{key,Map.merge(attrmap,map_inner)}}
+  end
 
   def find_id_from_attributes(tagname, []), do: tagname
   def find_id_from_attributes(tagname, list) do
